@@ -1,0 +1,12 @@
+.DS_Store
+.vercel/
+node_modules/
+*.log
+
+# Keep original/raw media locally; production uses the optimized derivatives.
+assets/colour-chart-legacy.jpg
+assets/colour-ring/physical-swatch-10.png
+assets/colour-ring/physical-swatch-loop.jpg
+assets/factory-video.mp4
+assets/factory-video-03s-120s.mp4
+assets/packaging-studio/*.png

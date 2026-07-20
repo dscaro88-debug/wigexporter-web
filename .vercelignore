@@ -1,0 +1,7 @@
+.DS_Store
+.git/
+.vercel/
+node_modules/
+ops/
+START_WIGEXPORTER_PREVIEW.command
+AGENTS.md

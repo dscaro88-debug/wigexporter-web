@@ -1,0 +1,121 @@
+/* Homepage-only composition refinements. */
+
+.stock-section {
+  padding-inline: clamp(24px, 4vw, 72px);
+}
+
+.stock-section .sample-strip {
+  grid-template-columns: minmax(0, 58fr) minmax(360px, 42fr);
+  min-height: 0;
+  aspect-ratio: 2.26 / 1;
+  overflow: hidden;
+}
+
+.stock-section .sample-visual,
+.stock-section .sample-copy {
+  min-width: 0;
+}
+
+.stock-section .sample-visual {
+  height: 100%;
+}
+
+.stock-section .sample-visual > a {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+.stock-section .sample-visual img {
+  transition: transform .55s ease, filter .55s ease;
+}
+
+.stock-section .sample-visual > a:hover img {
+  transform: scale(1.018);
+  filter: contrast(1.025);
+}
+
+.stock-section .section-heading h2 a,
+.stock-section .sample-copy h3 a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .13em;
+}
+
+.stock-section .section-heading h2 a:hover,
+.stock-section .sample-copy h3 a:hover {
+  text-decoration: underline;
+}
+
+.stock-section .sample-copy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(48px, 4.4vw, 82px) clamp(34px, 3.8vw, 72px);
+}
+
+.stock-section .sample-copy h3 {
+  font-size: clamp(36px, 2.7vw, 48px);
+  overflow-wrap: break-word;
+}
+
+.stock-section .sample-copy > p:not(.eyebrow) {
+  max-width: 36rem;
+}
+
+.stock-section .tick-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 22px;
+}
+
+.stock-section .tick-list li {
+  min-width: 0;
+}
+
+@media (max-width: 1100px) {
+  .stock-section .sample-strip {
+    grid-template-columns: 1fr;
+    aspect-ratio: auto;
+  }
+
+  .stock-section .sample-visual {
+    height: auto;
+    aspect-ratio: 1941 / 1481;
+  }
+
+  .stock-section .sample-visual > a {
+    height: 100%;
+  }
+
+  .stock-section .sample-copy {
+    padding: 56px 48px 62px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stock-section .sample-visual img {
+    transition: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .stock-section {
+    padding-inline: 20px;
+  }
+
+  .stock-section .sample-visual {
+    height: auto;
+  }
+
+  .stock-section .sample-copy {
+    padding: 45px 24px 50px;
+  }
+
+  .stock-section .sample-copy h3 {
+    font-size: 36px;
+  }
+
+  .stock-section .tick-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.dshair.wigexporter.preview</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>-m</string>
+    <string>http.server</string>
+    <string>4199</string>
+    <string>--bind</string>
+    <string>127.0.0.1</string>
+    <string>--directory</string>
+    <string>/Users/kkkk/Library/Application Support/DSHair/WigExporterPreview</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/kkkk/Library/Application Support/DSHair/WigExporterPreview</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>ThrottleInterval</key>
+  <integer>5</integer>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/wigexporter-preview.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/wigexporter-preview-error.log</string>
+</dict>
+</plist>

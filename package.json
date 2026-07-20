@@ -1,0 +1,10 @@
+{
+  "name": "wigexporter-b2b-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-content.mjs && node scripts/generate-products.mjs && node scripts/generate-colour-packaging.mjs",
+    "preview": "python3 -m http.server 4199",
+    "verify": "node scripts/verify-site.mjs"
+  }
+}

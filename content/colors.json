@@ -1,0 +1,58 @@
+{
+  "id": "ds-hair-colour-chart-2",
+  "name": "DS HAIR Colour Chart 2",
+  "notice": "Screen colour is for initial selection only. Final shade approval should use a physical colour ring or confirmed sample. Where the source chart has no published shade code, Ref numbers are temporary website identifiers only.",
+  "groups": [
+    {
+      "name": "Dark & Brown",
+      "colours": [
+        {"code": "#1", "name": "Jet Black", "image": "assets/color-chart-2/01_Jet_Black_1.jpg"},
+        {"code": "#1B", "name": "Off Black", "image": "assets/color-chart-2/02_Off_Black_1B.jpg"},
+        {"code": "#2", "name": "Dark Brown", "image": "assets/color-chart-2/03_Dark_Brown_2.jpg"},
+        {"code": "#3", "name": "Walnut Brown", "image": "assets/color-chart-2/04_Walnut_Brown_3.jpg"},
+        {"code": "#4", "name": "Chocolate Brown", "image": "assets/color-chart-2/05_Chocolate_Brown_4.jpg"},
+        {"code": "#2/6", "name": "Dark Brown / Chestnut Brown", "image": "assets/color-chart-2/06_Dark_Brown_Chestnut_Brown_2_6.jpg"},
+        {"code": "#6", "name": "Chestnut Brown", "image": "assets/color-chart-2/07_Chestnut_Brown_6.jpg"},
+        {"code": "#8", "name": "Almond Brown", "image": "assets/color-chart-2/08_Almond_Brown_8.jpg"},
+        {"code": "#10", "name": "Ash Brown", "image": "assets/color-chart-2/09_Ash_Brown_10.jpg"},
+        {"code": "#2/18", "name": "Dark Brown / Dirty Blonde", "image": "assets/color-chart-2/10_Dark_Brown_Dirty_Blonde_2_18.jpg"},
+        {"code": "#530", "name": "Dark Maple Brown", "image": "assets/color-chart-2/11_Dark_Maple_Brown_530.jpg"},
+        {"code": "#3/60", "name": "Walnut Brown / Ash Blonde", "image": "assets/color-chart-2/12_Walnut_Brown_Ash_Blonde_3_60.jpg"}
+      ]
+    },
+    {
+      "name": "Dimensional Blends",
+      "colours": [
+        {"code": "Ref 13", "name": "Dark Honey Cocoa", "image": "assets/color-chart-2/13_Dark_Honey_Cocoa.jpg"},
+        {"code": "Ref 14", "name": "Mochachino Chocolate / Dark Honey", "image": "assets/color-chart-2/14_Mochachino_Chocolate_Dark_Honey.jpg"},
+        {"code": "Ref 15", "name": "Dirty Brunette", "image": "assets/color-chart-2/15_Dirty_Brunette.jpg"},
+        {"code": "Ref 16", "name": "Honey Comb", "image": "assets/color-chart-2/16_Honey_Comb.jpg"},
+        {"code": "#8/18/60", "name": "Vanilla Latte", "image": "assets/color-chart-2/17_Vanilla_Latte_8_18_60.jpg"},
+        {"code": "#10/88", "name": "Pearl Blonde", "image": "assets/color-chart-2/18_Pearl_Blonde_10_88.jpg"}
+      ]
+    },
+    {
+      "name": "Red & Warm",
+      "colours": [
+        {"code": "#510", "name": "Mulberry Wine", "image": "assets/color-chart-2/19_Mulberry_Wine_510.jpg"},
+        {"code": "#570", "name": "Spiced Crimson", "image": "assets/color-chart-2/20_Spiced_Crimson_570.jpg"},
+        {"code": "#21/27", "name": "Ash Bronde / Strawberry Blonde", "image": "assets/color-chart-2/21_Ash_Bronde_Strawberry_Blonde_21_27.jpg"}
+      ]
+    },
+    {
+      "name": "Blonde & Balayage",
+      "colours": [
+        {"code": "#8/60", "name": "Ash Brown / Ash Blonde", "image": "assets/color-chart-2/22_Ash_Brown_Ash_Blonde_8_60.jpg"},
+        {"code": "#8/20/24/60", "name": "Ash Brown / Honey Blonde", "image": "assets/color-chart-2/23_Ash_Brown_Honey_Blonde_8_20_24_60.jpg"},
+        {"code": "#18/46", "name": "Caramel Blonde", "image": "assets/color-chart-2/24_Caramel_Blonde_18_46.jpg"},
+        {"code": "Ref 25", "name": "White Mocha", "image": "assets/color-chart-2/25_White_Mocha.jpg"},
+        {"code": "#613", "name": "Beach Blonde", "image": "assets/color-chart-2/26_Beach_Blonde_613.jpg"},
+        {"code": "#6/18/8/60", "name": "Bronzed Caramel", "image": "assets/color-chart-2/27_Bronzed_Caramel_6_18_8_60.jpg"},
+        {"code": "#P10/16/60", "name": "Butter Blonde", "image": "assets/color-chart-2/28_Butter_Blonde_P10_16_60.jpg"},
+        {"code": "Ref 29", "name": "Golden Hour Blonde", "image": "assets/color-chart-2/29_Golden_Hour_Blonde.jpg"},
+        {"code": "#18", "name": "Dirty Blonde", "image": "assets/color-chart-2/30_Dirty_Blonde_18.jpg"},
+        {"code": "#80", "name": "Platinum Blonde", "image": "assets/color-chart-2/31_Platinum_Blonde_80.jpg"}
+      ]
+    }
+  ]
+}

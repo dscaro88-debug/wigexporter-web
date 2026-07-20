@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "genius-weft-human-hair-extensions",
+    "code": "DS-EXT-GW01",
+    "brand": "DS HAIR",
+    "category": "Human Hair Extensions",
+    "categoryUrl": "human-hair-extensions.html",
+    "title": "Genius Weft Human Hair Extensions",
+    "metaTitle": "Wholesale Genius Weft Human Hair Extensions | DS HAIR",
+    "description": "Source DS HAIR Genius Weft human hair extensions for salon, distributor and private-label programmes, with sample, colour and packaging development by specification.",
+    "summary": "A slim weft format for professional extension ranges. This DS HAIR reference is presented for B2B product evaluation, colour development, sampling and private-label planning—not consumer checkout.",
+    "images": [
+      {
+        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-01.jpg",
+        "alt": "DS HAIR Genius Weft extension range showing blonde and brunette shades"
+      },
+      {
+        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-02.jpg",
+        "alt": "Genius Weft hair extensions held to show the weft construction and colour blend"
+      },
+      {
+        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-03.jpg",
+        "alt": "Close-up of the seam and blonde hair on DS HAIR Genius Weft extensions"
+      },
+      {
+        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-04.jpg",
+        "alt": "Blonde Genius Weft hair extensions showing smooth length and tonal blend"
+      }
+    ],
+    "confirmedFacts": [
+      ["Product format", "Genius Weft"],
+      ["Material family", "Human hair"],
+      ["Reference length", "22 in / 56 cm"],
+      ["Reference pack", "50 g"],
+      ["Reference texture", "Straight"],
+      ["Display colour", "Blonde blend"],
+      ["Sales channel", "B2B wholesale / OEM enquiry"]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Requested length",
+        "note": "22 in is the photographed reference. Other lengths are development requests to confirm.",
+        "options": [
+          {"value": "16 in / 41 cm", "status": "request"},
+          {"value": "18 in / 46 cm", "status": "request"},
+          {"value": "20 in / 51 cm", "status": "request"},
+          {"value": "22 in / 56 cm", "status": "reference"},
+          {"value": "24 in / 61 cm", "status": "request"},
+          {"value": "26 in / 66 cm", "status": "request"},
+          {"value": "28 in / 71 cm", "status": "request"}
+        ]
+      },
+      {
+        "key": "weight",
+        "label": "Requested pack weight",
+        "note": "50 g is the current reference. A 100 g programme requires feasibility and quotation confirmation.",
+        "options": [
+          {"value": "50 g", "status": "reference"},
+          {"value": "100 g", "status": "request"}
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "Requested texture",
+        "note": "Straight is the photographed reference. Wave and curl patterns require a matching sample.",
+        "options": [
+          {"value": "Straight", "status": "reference"},
+          {"value": "Body Wave", "status": "request"},
+          {"value": "Loose Wave", "status": "request"},
+          {"value": "Deep Wave", "status": "request"},
+          {"value": "Curly", "status": "request"},
+          {"value": "Kinky Straight", "status": "request"}
+        ]
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "note": "Packaging formats are project options. Materials, dimensions, MOQ, artwork and lead time are confirmed after the brief.",
+        "options": [
+          {"value": "Standard export packing", "status": "request"},
+          {"value": "Logo label + backing card", "status": "request"},
+          {"value": "Private-label retail set", "status": "request"},
+          {"value": "Custom packaging brief", "status": "request"}
+        ]
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      ["Seam profile", "Review the physical weft edge, flexibility and finish against the intended salon method."],
+      ["Hair & ends", "Assess feel, movement, colour and end density on the approved sample—not from photography alone."],
+      ["Colour reference", "Match the selected shade to a physical reference before repeat orders."],
+      ["Pack presentation", "Confirm weight, label, packaging and supporting information for the target channel."]
+    ],
+    "customisation": [
+      "Colour direction and physical shade reference",
+      "Length and pack-weight programme",
+      "Label and packaging development",
+      "Salon or distributor range planning"
+    ],
+    "relatedProducts": [
+      {
+        "title": "Tape-In Hair Extensions",
+        "eyebrow": "PANEL METHOD",
+        "image": "assets/tape-in.jpg",
+        "imageAlt": "Tape-in human hair extensions for a B2B range brief",
+        "summary": "Review panel size, tape system, pack weight and colour architecture for a salon-led range.",
+        "href": "contact.html?product=Tape-In%20Hair%20Extensions"
+      },
+      {
+        "title": "K-Tip Hair Extensions",
+        "eyebrow": "KERATIN BOND",
+        "image": "assets/k-tip.jpg",
+        "imageAlt": "K-tip human hair extensions for a B2B range brief",
+        "summary": "Define bond format, strand weight, colour system and stylist workflow before sampling.",
+        "href": "contact.html?product=K-Tip%20Hair%20Extensions"
+      },
+      {
+        "title": "Seam Clip-In Extensions",
+        "eyebrow": "READY-TO-WEAR",
+        "image": "assets/clip-in.jpg",
+        "imageAlt": "Seam clip-in human hair extension set",
+        "summary": "Plan piece count, total weight, clip construction, colour and retail presentation.",
+        "href": "contact.html?product=Seam%20Clip-In%20Extensions"
+      }
+    ],
+    "methodComparison": {
+      "columns": ["Genius Weft", "Hand-Tied Weft", "Machine Weft", "Tape-In"],
+      "rows": [
+        ["Construction format", "Continuous weft reference", "Tied weft construction", "Machine-sewn weft", "Adhesive panel method"],
+        ["Key buying question", "How does the seam handle the intended installation?", "Where can the weft be cut or folded?", "What seam profile and flexibility suit the range?", "Which panel and replacement tape system is required?"],
+        ["Sample focus", "Seam, hair distribution, colour and pack format", "Seam integrity, return hair and installation handling", "Seam bulk, shedding control and flexibility", "Panel finish, adhesive compatibility and removal workflow"],
+        ["Best used in a brief for", "A slim weft development direction", "A tied-weft salon programme", "A conventional sewn-weft programme", "A panel-based salon system"]
+      ],
+      "notice": "This is a buyer comparison framework, not a performance guarantee. Construction and handling must be verified on the selected sample."
+    },
+    "serviceComparison": [
+      ["Starting point", "Written product code and buying brief", "A photo or broad catalogue name"],
+      ["Colour decision", "Physical colour reference recommended", "Screen colour treated as final"],
+      ["Sample record", "Approval points and changes documented", "No shared repeat-order benchmark"],
+      ["Packaging", "Separate artwork, label and packing brief", "Packaging discussed only after the product order"],
+      ["Repeat order", "Return to the approved specification", "Rebuild the requirement from chat history"]
+    ],
+    "knowledge": [
+      {
+        "title": "What is a Genius Weft?",
+        "body": "Genius Weft is a continuous weft development format used in professional extension ranges. The photographed DS HAIR reference shows the general construction direction; seam profile, cut handling and installation performance must still be reviewed on the requested sample."
+      },
+      {
+        "title": "How should a buyer choose length and weight?",
+        "body": "Length and gram weight should be selected around the intended service, natural-hair density, desired result and number of rows. A 50 g reference is useful for construction review, but it is not automatically a complete-head recommendation."
+      },
+      {
+        "title": "Why use a physical colour reference?",
+        "body": "Hair colour changes with lighting, screens and fibre direction. Use Colour Chart 2 to shortlist shades, then approve a physical colour ring or product sample before production and repeat orders."
+      },
+      {
+        "title": "How should textures be developed?",
+        "body": "Straight, Body Wave and curl patterns should be treated as separate approved references. Confirm pattern definition, finish, handling and care expectations on a sample instead of assuming one texture specification transfers to another."
+      },
+      {
+        "title": "What should be fixed before quotation?",
+        "body": "Product construction, material direction, length, pack weight, colour reference, texture, packaging, estimated quantity and target market should be written into one brief. MOQ, price and lead time can then be quoted against the same document."
+      }
+    ],
+    "unconfirmed": [
+      "Hair grade and hair origin",
+      "Double-drawn percentage",
+      "Cut-anywhere / non-unravelling performance",
+      "Availability of the requested length, weight, texture and Colour Chart 2 shade",
+      "MOQ, price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Can I order a Genius Weft sample before a wholesale programme?",
+        "Yes. Share the target market, preferred length, colour direction and evaluation goal. Sample availability, cost and timing are confirmed against the requested specification."
+      ],
+      [
+        "Can DS HAIR develop private-label packaging?",
+        "Label and packaging requirements can be reviewed as part of a B2B programme. Feasibility, minimum quantities and lead time are confirmed after the packaging brief."
+      ],
+      [
+        "Is every specification shown available for immediate order?",
+        "No. The page shows a 22-inch, 50-gram blonde reference. Final material, colour, length, pack format, MOQ, price and lead time must be confirmed in a written quotation."
+      ],
+      [
+        "Can I request Genius Weft from 16 to 28 inches or in a 100-gram pack?",
+        "You can include 16 to 28 inches and 50 or 100 grams in the buying brief. Only the 22-inch, 50-gram reference is currently documented on this page; all other combinations require written feasibility, sample and quotation confirmation."
+      ],
+      [
+        "How should I select a colour from DS HAIR Colour Chart 2?",
+        "Use the online chart to shortlist a colour code, then compare a physical colour ring or confirmed product sample under suitable lighting. Screen colour should not be treated as final approval."
+      ],
+      [
+        "Can Body Wave or Curly textures use the same specification as Straight hair?",
+        "No. Each texture should be treated as a separate development reference. Pattern definition, finish, handling and care expectations should be reviewed on the requested sample."
+      ]
+    ]
+  }
+]
