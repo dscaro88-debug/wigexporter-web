@@ -13,9 +13,30 @@ function optionStatus(status) {
   return status === 'reference' ? 'REFERENCE SHOWN' : 'REQUEST TO CONFIRM';
 }
 
+function productVisual(product) {
+  if (!product.images.length) return '';
+  return `<div class="product-gallery${product.images.length === 1 ? ' is-single' : ''}">
+    ${product.images.map((image, index) => `<figure class="${index === 0 ? 'product-gallery-main' : ''}"><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}"${index > 0 ? ' loading="lazy"' : ''}>${index === 0 && product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>`).join('')}
+  </div>`;
+}
+
+function productTypeChooser(product) {
+  if (!product.productTypes) return '';
+  return `<section class="clip-type-section">
+    <div class="product-section-heading"><p class="eyebrow">CHOOSE YOUR CLIP-IN PRODUCT</p><h2>Four product types. Four different customer needs.</h2><p>Start with the product type before choosing length or colour. Seamless is one option within the complete Human Hair Clip-In range.</p></div>
+    <div class="clip-type-grid">${product.productTypes.map((item) => `<article class="clip-type-card${item.image ? ' has-image' : ''}">${item.image ? `<figure><img src="${item.image}" alt="${esc(item.imageAlt)}" loading="lazy"></figure>` : ''}<div><span>${esc(item.label)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>Best for</dt><dd>${esc(item.bestFor)}</dd></div><div><dt>Specify</dt><dd>${esc(item.brief)}</dd></div></dl><a href="#build-your-brief">BUILD THIS PRODUCT →</a></div></article>`).join('')}</div>
+  </section>`;
+}
+
+function setMapSection(product) {
+  if (!product.setMaps) return '';
+  return `<section class="set-map-section"><div class="product-section-heading"><p class="eyebrow">VERIFIED SET MAPS</p><h2>Know exactly what is inside each full set.</h2><p>These piece maps come from the existing DS HAIR product record. Final grams, construction, length and colour are confirmed with the selected sample.</p></div><div class="set-map-grid">${product.setMaps.map((set) => `<article><div><span>${esc(set.title)}</span><p>${esc(set.summary)}</p></div><table><thead><tr><th>Quantity</th><th>Weft width</th><th>Clip layout</th></tr></thead><tbody>${set.rows.map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></article>`).join('')}</div></section>`;
+}
+
 function configurationBuilder(product) {
   const chart = chartFor(product.colourChart);
-  return `<section class="spec-builder" data-spec-builder data-product-code="${esc(product.code)}">
+  const productIdentity = product.code || product.title;
+  return `<section class="spec-builder" id="build-your-brief" data-spec-builder data-product-code="${esc(productIdentity)}">
     <div class="spec-builder-heading"><div><p class="eyebrow">BUILD YOUR BUYING BRIEF</p><h2>Select the specification you want us to review.</h2></div><p>These controls prepare an enquiry; they do not indicate live stock. Final feasibility, MOQ, price and lead time are confirmed in writing.</p></div>
     <div class="spec-builder-layout">
       <div class="spec-fields">
@@ -23,10 +44,10 @@ function configurationBuilder(product) {
       </div>
       <aside class="spec-summary" aria-live="polite">
         <p class="eyebrow">YOUR REQUESTED SPECIFICATION</p>
-        <h3>${esc(product.code)}</h3>
+        <h3>${esc(product.referenceLabel || product.title)}</h3>
         <dl>${product.configuration.map((group) => `<div><dt>${esc(group.label)}</dt><dd data-summary="${esc(group.key)}">${esc(group.options.find((option) => option.status === 'reference')?.value || 'Select an option')}</dd></div>`).join('')}<div><dt>Colour</dt><dd data-summary="colour">Select a Colour Chart 2 shade</dd></div></dl>
         <p class="spec-summary-status">Reference selections are photographed or documented. Other selections remain requests until confirmed.</p>
-        <a class="button button-dark" data-spec-enquiry href="contact.html?product=${encodeURIComponent(product.code)}">SEND THIS SPECIFICATION</a>
+        <a class="button button-dark" data-spec-enquiry href="contact.html?product=${encodeURIComponent(productIdentity)}">SEND THIS SPECIFICATION</a>
       </aside>
     </div>
     ${chart ? `<div class="colour-chart" data-colour-chart>
@@ -39,7 +60,24 @@ function configurationBuilder(product) {
 
 function comparisonTable(product) {
   const comparison = product.methodComparison;
-  return `<section class="method-comparison"><div class="product-section-heading"><p class="eyebrow">SIMILAR PRODUCT COMPARISON</p><h2>Choose the method by the buying decision.</h2><p>${esc(comparison.notice)}</p></div><p class="comparison-scroll-hint">Scroll horizontally to compare methods →</p><div class="comparison-scroll" role="region" aria-label="Hair extension method comparison" tabindex="0"><table><thead><tr><th scope="col">Buyer question</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
+  return `<section class="method-comparison"><div class="product-section-heading"><p class="eyebrow">${esc(comparison.eyebrow || 'SIMILAR PRODUCT COMPARISON')}</p><h2>${esc(comparison.title || 'Choose the method by the buying decision.')}</h2><p>${esc(comparison.intro || comparison.notice)}</p></div><p class="comparison-scroll-hint">Scroll horizontally to compare methods →</p><div class="comparison-scroll" role="region" aria-label="Hair extension method comparison" tabindex="0"><table><thead><tr><th scope="col">Buyer question</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="comparison-notice">${esc(comparison.notice)}</p></section>`;
+}
+
+function decisionFramework(product) {
+  const section = product.decisionFramework;
+  if (!section) return '';
+  return `<section class="product-decisions"><div class="product-section-heading"><p class="eyebrow">PRODUCT SELECTION LOGIC</p><h2>${esc(section.title)}</h2><p>${esc(section.intro)}</p></div><div class="decision-grid">${section.items.map((item) => `<article><span>${esc(item.label)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
+}
+
+function specificationAnatomy(product) {
+  if (!product.specificationAnatomy) return '';
+  return `<section class="spec-anatomy"><div><p class="eyebrow">THE COMPLETE PRODUCT DEFINITION</p><h2>Six layers make one repeatable specification.</h2><p>A catalogue name is not enough. These six layers must agree before sample approval and quotation.</p></div><ol>${product.specificationAnatomy.map(([number, title, body]) => `<li><span>${esc(number)}</span><div><h3>${esc(title)}</h3><p>${esc(body)}</p></div></li>`).join('')}</ol></section>`;
+}
+
+function constructionComparison(product) {
+  const comparison = product.constructionComparison;
+  if (!comparison) return '';
+  return `<section class="construction-comparison"><div class="product-section-heading"><p class="eyebrow">CONSTRUCTION KNOWLEDGE</p><h2>${esc(comparison.title || 'Compare constructions before approving a sample.')}</h2><p>${esc(comparison.notice)}</p></div><div class="comparison-scroll" role="region" aria-label="Clip-in construction comparison" tabindex="0"><table><thead><tr><th scope="col">Decision point</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
 }
 
 function serviceComparison(product) {
@@ -56,16 +94,17 @@ function relatedProducts(product) {
 
 for (const product of products) {
   const url = `https://wigexporter.com/${product.slug}.html`;
+  const productIdentity = product.code || product.title;
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.title,
-    sku: product.code,
+    ...(product.code ? { sku: product.code } : {}),
     brand: { '@type': 'Brand', '@id': 'https://wigexporter.com/#brand', name: product.brand },
     manufacturer: { '@type': 'Organization', '@id': 'https://wigexporter.com/#organization', name: 'DS HAIR', url: 'https://wigexporter.com/' },
     category: product.category,
     description: product.description,
-    image: product.images.map((image) => `https://wigexporter.com/${image.src}`),
+    ...(product.images.length ? { image: product.images.map((image) => `https://wigexporter.com/${image.src}`) } : {}),
     additionalProperty: product.confirmedFacts.map(([name, value]) => ({
       '@type': 'PropertyValue',
       name,
@@ -93,12 +132,12 @@ for (const product of products) {
   <meta property="og:description" content="${esc(product.description)}">
   <meta property="og:type" content="product">
   <meta property="og:url" content="${url}">
-  <meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">
+  ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20260720-5">
   <link rel="stylesheet" href="content.css?v=20260720-5">
-  <link rel="stylesheet" href="product.css?v=20260719-2">
+  <link rel="stylesheet" href="product.css?v=20260722-2">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -106,26 +145,30 @@ for (const product of products) {
   <header class="site-header"><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button><nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"></nav><a class="wordmark" href="index.html" aria-label="DS HAIR home"><strong>DS HAIR</strong><span>WIGEXPORTER · GLOBAL B2B</span></a><div class="header-tools"><a class="trade-link" href="trade-account.html">TRADE ACCOUNT</a><a class="quote-link" href="contact.html">REQUEST QUOTE</a></div></header>
   <main id="main">
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><a href="products.html">Collections</a><span>›</span><a href="${product.categoryUrl}">${esc(product.category)}</a><span>›</span><span>${esc(product.title)}</span></nav>
-    <section class="product-hero">
-      <div class="product-gallery">
-        ${product.images.map((image, index) => `<figure class="${index === 0 ? 'product-gallery-main' : ''}"><img src="${image.src}" alt="${esc(image.alt)}"${index > 0 ? ' loading="lazy"' : ''}></figure>`).join('')}
-      </div>
+    <section class="product-hero${product.images.length ? '' : ' product-hero-text-only'}">
+      ${productVisual(product)}
       <div class="product-summary">
+        ${product.draftNotice ? `<p class="draft-notice">${esc(product.draftNotice)}</p>` : ''}
         <p class="eyebrow">${esc(product.brand)} · ${esc(product.category)}</p>
         <h1>${esc(product.title)}</h1>
-        <p class="product-code">PRODUCT CODE · ${esc(product.code)}</p>
+        <p class="product-code">${product.code ? `PRODUCT CODE · ${esc(product.code)}` : esc(product.referenceLabel || 'SPECIFICATION-BASED PRODUCT · NO SKU')}</p>
         <p class="product-dek">${esc(product.summary)}</p>
         <dl class="quick-specs">${product.confirmedFacts.map(([name, value]) => `<div><dt>${esc(name)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>
-        <div class="product-actions"><a class="button button-dark" href="contact.html?product=${encodeURIComponent(product.code)}">REQUEST SPECIFICATION</a><a class="button button-light" href="sample.html?product=${encodeURIComponent(product.code)}">DISCUSS A SAMPLE</a></div>
+        <div class="product-actions"><a class="button button-dark" href="contact.html?product=${encodeURIComponent(productIdentity)}">REQUEST SPECIFICATION</a><a class="button button-light" href="sample.html?product=${encodeURIComponent(productIdentity)}">DISCUSS A SAMPLE</a></div>
         <p class="accuracy-note">Commercial terms and unconfirmed technical details are provided only after specification review.</p>
       </div>
     </section>
+    ${productTypeChooser(product)}
+    ${decisionFramework(product)}
+    ${setMapSection(product)}
+    ${specificationAnatomy(product)}
     ${configurationBuilder(product)}
     <section class="product-answer"><p class="eyebrow">BUYER ANSWER</p><h2>What is this product for?</h2><p>${esc(product.summary)}</p></section>
     <section class="product-section">
       <div class="product-section-heading"><p class="eyebrow">EVALUATION POINTS</p><h2>What your team should verify.</h2><p>Use a representative sample to turn visual impressions into an approved, repeatable product reference.</p></div>
       <div class="buyer-checks">${product.buyerChecks.map(([name, text], index) => `<article><span>0${index + 1}</span><h3>${esc(name)}</h3><p>${esc(text)}</p></article>`).join('')}</div>
     </section>
+    ${constructionComparison(product)}
     ${comparisonTable(product)}
     ${serviceComparison(product)}
     <section class="product-specification">
@@ -145,7 +188,7 @@ for (const product of products) {
     ${knowledgeSection(product)}
     ${relatedProducts(product)}
     <section class="faq-section"><div><p class="eyebrow">BUYER QUESTIONS</p><h2>Before you request a quote</h2></div><div class="faq-list">${product.faqs.map(([name, text]) => `<details><summary>${esc(name)}</summary><p>${esc(text)}</p></details>`).join('')}</div></section>
-    <section class="final-cta"><p class="eyebrow">REFERENCE · ${esc(product.code)}</p><h2>Request the DS HAIR Genius Weft specification.</h2><p>Include your target market, preferred length, pack weight, colour direction and estimated quantity so the sourcing team can respond with the right next step.</p><a class="button button-light" href="contact.html?product=${encodeURIComponent(product.code)}">SEND YOUR BUYING BRIEF</a></section>
+    <section class="final-cta"><p class="eyebrow">${product.code ? `REFERENCE · ${esc(product.code)}` : 'PRODUCT BRIEF · NO SKU'}</p><h2>${esc(product.ctaTitle || `Request the DS HAIR ${product.title} specification.`)}</h2><p>${esc(product.ctaText || 'Include your target market, preferred construction, length, weight, colour direction and estimated quantity so the sourcing team can respond with the right next step.')}</p><a class="button button-light" href="contact.html?product=${encodeURIComponent(productIdentity)}">SEND YOUR BUYING BRIEF</a></section>
   </main>
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>

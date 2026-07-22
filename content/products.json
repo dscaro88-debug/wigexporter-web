@@ -1,7 +1,7 @@
 [
   {
     "slug": "genius-weft-human-hair-extensions",
-    "code": "DS-EXT-GW01",
+    "code": "DS-EXT-GW",
     "brand": "DS HAIR",
     "category": "Human Hair Extensions",
     "categoryUrl": "human-hair-extensions.html",
@@ -11,30 +11,51 @@
     "summary": "A slim weft format for professional extension ranges. This DS HAIR reference is presented for B2B product evaluation, colour development, sampling and private-label planning—not consumer checkout.",
     "images": [
       {
-        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-01.jpg",
+        "src": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-01.jpg",
         "alt": "DS HAIR Genius Weft extension range showing blonde and brunette shades"
       },
       {
-        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-02.jpg",
+        "src": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-02.jpg",
         "alt": "Genius Weft hair extensions held to show the weft construction and colour blend"
       },
       {
-        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-03.jpg",
+        "src": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-03.jpg",
         "alt": "Close-up of the seam and blonde hair on DS HAIR Genius Weft extensions"
       },
       {
-        "src": "assets/products/ds-ext-gw01/ds-hair-genius-weft-04.jpg",
+        "src": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-04.jpg",
         "alt": "Blonde Genius Weft hair extensions showing smooth length and tonal blend"
       }
     ],
     "confirmedFacts": [
-      ["Product format", "Genius Weft"],
-      ["Material family", "Human hair"],
-      ["Reference length", "22 in / 56 cm"],
-      ["Reference pack", "50 g"],
-      ["Reference texture", "Straight"],
-      ["Display colour", "Blonde blend"],
-      ["Sales channel", "B2B wholesale / OEM enquiry"]
+      [
+        "Product format",
+        "Genius Weft"
+      ],
+      [
+        "Material family",
+        "Human hair"
+      ],
+      [
+        "Reference length",
+        "22 in / 56 cm"
+      ],
+      [
+        "Reference pack",
+        "50 g"
+      ],
+      [
+        "Reference texture",
+        "Straight"
+      ],
+      [
+        "Display colour",
+        "Blonde blend"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
     ],
     "configuration": [
       {
@@ -42,13 +63,34 @@
         "label": "Requested length",
         "note": "22 in is the photographed reference. Other lengths are development requests to confirm.",
         "options": [
-          {"value": "16 in / 41 cm", "status": "request"},
-          {"value": "18 in / 46 cm", "status": "request"},
-          {"value": "20 in / 51 cm", "status": "request"},
-          {"value": "22 in / 56 cm", "status": "reference"},
-          {"value": "24 in / 61 cm", "status": "request"},
-          {"value": "26 in / 66 cm", "status": "request"},
-          {"value": "28 in / 71 cm", "status": "request"}
+          {
+            "value": "16 in / 41 cm",
+            "status": "request"
+          },
+          {
+            "value": "18 in / 46 cm",
+            "status": "request"
+          },
+          {
+            "value": "20 in / 51 cm",
+            "status": "request"
+          },
+          {
+            "value": "22 in / 56 cm",
+            "status": "reference"
+          },
+          {
+            "value": "24 in / 61 cm",
+            "status": "request"
+          },
+          {
+            "value": "26 in / 66 cm",
+            "status": "request"
+          },
+          {
+            "value": "28 in / 71 cm",
+            "status": "request"
+          }
         ]
       },
       {
@@ -56,8 +98,14 @@
         "label": "Requested pack weight",
         "note": "50 g is the current reference. A 100 g programme requires feasibility and quotation confirmation.",
         "options": [
-          {"value": "50 g", "status": "reference"},
-          {"value": "100 g", "status": "request"}
+          {
+            "value": "50 g",
+            "status": "reference"
+          },
+          {
+            "value": "100 g",
+            "status": "request"
+          }
         ]
       },
       {
@@ -65,12 +113,30 @@
         "label": "Requested texture",
         "note": "Straight is the photographed reference. Wave and curl patterns require a matching sample.",
         "options": [
-          {"value": "Straight", "status": "reference"},
-          {"value": "Body Wave", "status": "request"},
-          {"value": "Loose Wave", "status": "request"},
-          {"value": "Deep Wave", "status": "request"},
-          {"value": "Curly", "status": "request"},
-          {"value": "Kinky Straight", "status": "request"}
+          {
+            "value": "Straight",
+            "status": "reference"
+          },
+          {
+            "value": "Body Wave",
+            "status": "request"
+          },
+          {
+            "value": "Loose Wave",
+            "status": "request"
+          },
+          {
+            "value": "Deep Wave",
+            "status": "request"
+          },
+          {
+            "value": "Curly",
+            "status": "request"
+          },
+          {
+            "value": "Kinky Straight",
+            "status": "request"
+          }
         ]
       },
       {
@@ -78,19 +144,43 @@
         "label": "Packaging direction",
         "note": "Packaging formats are project options. Materials, dimensions, MOQ, artwork and lead time are confirmed after the brief.",
         "options": [
-          {"value": "Standard export packing", "status": "request"},
-          {"value": "Logo label + backing card", "status": "request"},
-          {"value": "Private-label retail set", "status": "request"},
-          {"value": "Custom packaging brief", "status": "request"}
+          {
+            "value": "Standard export packing",
+            "status": "request"
+          },
+          {
+            "value": "Logo label + backing card",
+            "status": "request"
+          },
+          {
+            "value": "Private-label retail set",
+            "status": "request"
+          },
+          {
+            "value": "Custom packaging brief",
+            "status": "request"
+          }
         ]
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Seam profile", "Review the physical weft edge, flexibility and finish against the intended salon method."],
-      ["Hair & ends", "Assess feel, movement, colour and end density on the approved sample—not from photography alone."],
-      ["Colour reference", "Match the selected shade to a physical reference before repeat orders."],
-      ["Pack presentation", "Confirm weight, label, packaging and supporting information for the target channel."]
+      [
+        "Seam profile",
+        "Review the physical weft edge, flexibility and finish against the intended salon method."
+      ],
+      [
+        "Hair & ends",
+        "Assess feel, movement, colour and end density on the approved sample—not from photography alone."
+      ],
+      [
+        "Colour reference",
+        "Match the selected shade to a physical reference before repeat orders."
+      ],
+      [
+        "Pack presentation",
+        "Confirm weight, label, packaging and supporting information for the target channel."
+      ]
     ],
     "customisation": [
       "Colour direction and physical shade reference",
@@ -125,21 +215,70 @@
       }
     ],
     "methodComparison": {
-      "columns": ["Genius Weft", "Hand-Tied Weft", "Machine Weft", "Tape-In"],
+      "columns": [
+        "Genius Weft",
+        "Hand-Tied Weft",
+        "Machine Weft",
+        "Tape-In"
+      ],
       "rows": [
-        ["Construction format", "Continuous weft reference", "Tied weft construction", "Machine-sewn weft", "Adhesive panel method"],
-        ["Key buying question", "How does the seam handle the intended installation?", "Where can the weft be cut or folded?", "What seam profile and flexibility suit the range?", "Which panel and replacement tape system is required?"],
-        ["Sample focus", "Seam, hair distribution, colour and pack format", "Seam integrity, return hair and installation handling", "Seam bulk, shedding control and flexibility", "Panel finish, adhesive compatibility and removal workflow"],
-        ["Best used in a brief for", "A slim weft development direction", "A tied-weft salon programme", "A conventional sewn-weft programme", "A panel-based salon system"]
+        [
+          "Construction format",
+          "Continuous weft reference",
+          "Tied weft construction",
+          "Machine-sewn weft",
+          "Adhesive panel method"
+        ],
+        [
+          "Key buying question",
+          "How does the seam handle the intended installation?",
+          "Where can the weft be cut or folded?",
+          "What seam profile and flexibility suit the range?",
+          "Which panel and replacement tape system is required?"
+        ],
+        [
+          "Sample focus",
+          "Seam, hair distribution, colour and pack format",
+          "Seam integrity, return hair and installation handling",
+          "Seam bulk, shedding control and flexibility",
+          "Panel finish, adhesive compatibility and removal workflow"
+        ],
+        [
+          "Best used in a brief for",
+          "A slim weft development direction",
+          "A tied-weft salon programme",
+          "A conventional sewn-weft programme",
+          "A panel-based salon system"
+        ]
       ],
       "notice": "This is a buyer comparison framework, not a performance guarantee. Construction and handling must be verified on the selected sample."
     },
     "serviceComparison": [
-      ["Starting point", "Written product code and buying brief", "A photo or broad catalogue name"],
-      ["Colour decision", "Physical colour reference recommended", "Screen colour treated as final"],
-      ["Sample record", "Approval points and changes documented", "No shared repeat-order benchmark"],
-      ["Packaging", "Separate artwork, label and packing brief", "Packaging discussed only after the product order"],
-      ["Repeat order", "Return to the approved specification", "Rebuild the requirement from chat history"]
+      [
+        "Starting point",
+        "Written product code and buying brief",
+        "A photo or broad catalogue name"
+      ],
+      [
+        "Colour decision",
+        "Physical colour reference recommended",
+        "Screen colour treated as final"
+      ],
+      [
+        "Sample record",
+        "Approval points and changes documented",
+        "No shared repeat-order benchmark"
+      ],
+      [
+        "Packaging",
+        "Separate artwork, label and packing brief",
+        "Packaging discussed only after the product order"
+      ],
+      [
+        "Repeat order",
+        "Return to the approved specification",
+        "Rebuild the requirement from chat history"
+      ]
     ],
     "knowledge": [
       {
@@ -196,5 +335,1818 @@
         "No. Each texture should be treated as a separate development reference. Pattern definition, finish, handling and care expectations should be reviewed on the requested sample."
       ]
     ]
+  },
+  {
+    "slug": "clip-in-human-hair-extensions",
+    "brand": "DS HAIR",
+    "category": "Human Hair Extensions",
+    "categoryUrl": "human-hair-extensions.html",
+    "title": "Human Hair Clip-In Extensions",
+    "referenceLabel": "CLASSIC · SEAMLESS · ONE-PIECE · SINGLE CLIP-INS",
+    "metaTitle": "Wholesale Human Hair Clip-In Extensions | DS HAIR",
+    "description": "Develop wholesale human hair clip-in extensions in classic, seamless, one-piece and single clip-in formats, with 7-piece and 8-piece set maps, length, weight, colour and packaging confirmed to your B2B brief.",
+    "summary": "A complete clip-in range for salons, distributors and private-label brands. Choose the construction and product format first, then confirm the set map, length, total grams, colour and packaging as one repeatable specification.",
+    "images": [
+      {
+        "src": "assets/products/human-hair-extensions/clip-in/one-piece-volumizer-blonde.webp",
+        "alt": "Blonde human hair one-piece clip-in volumizer showing the clip attachment and finished length"
+      }
+    ],
+    "imageStatusNote": "REAL PRODUCT REFERENCE · ONE-PIECE CLIP-IN VOLUMIZER",
+    "confirmedFacts": [
+      [
+        "Product family",
+        "Human hair clip-in extensions"
+      ],
+      [
+        "Product types",
+        "Classic / Seamless / One-piece / Single"
+      ],
+      [
+        "Material family",
+        "Human hair"
+      ],
+      [
+        "Set formats",
+        "7 pcs / set · 8 pcs / set · single piece"
+      ],
+      [
+        "Product code",
+        "Not used for this product family"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ],
+      [
+        "Order basis",
+        "Approved product type + full specification"
+      ]
+    ],
+    "productTypes": [
+      {
+        "label": "FULL SET",
+        "title": "Classic Clip-In Sets",
+        "body": "A traditional sewn-weft construction for buyers who want a structured full set and familiar salon retail format.",
+        "bestFor": "Medium to thick hair; fuller volume programmes",
+        "brief": "Choose 7 pcs or 8 pcs, then confirm each weft width, clip count and grams."
+      },
+      {
+        "label": "FLAT PROFILE",
+        "title": "Seamless Clip-In Sets",
+        "body": "A thin PU-style top designed to sit flatter at the root. Seamless is one construction inside the range—not the whole Clip-In category.",
+        "bestFor": "Fine to medium hair; discreet root profile",
+        "brief": "Confirm PU thickness, edge finish, clip attachment, set map and weight distribution."
+      },
+      {
+        "label": "FAST VOLUME",
+        "title": "One-Piece / Volumizer",
+        "body": "One wider clip-in weft for fast back-of-head volume and length. The photographed blonde product is a real one-piece reference.",
+        "bestFor": "Quick fitting; targeted back coverage",
+        "brief": "Confirm finished width, clip count, total grams, length and tester-piece requirement.",
+        "image": "assets/products/human-hair-extensions/clip-in/one-piece-volumizer-blonde.webp",
+        "imageAlt": "Blonde one-piece human hair clip-in volumizer"
+      },
+      {
+        "label": "TARGETED FILL",
+        "title": "Single Clip-Ins / Fill-In Pieces",
+        "body": "Individual wefts for side fill, replacement, colour accents or a buyer-defined mix-and-match programme.",
+        "bestFor": "Targeted volume; replacement or add-on pieces",
+        "brief": "Specify placement zone, width, clip count, grams, length and colour for each piece."
+      }
+    ],
+    "setMaps": [
+      {
+        "title": "7 pcs / set",
+        "summary": "A verified DS HAIR legacy set map with seven coordinated wefts.",
+        "rows": [
+          [
+            "1 piece",
+            "8 in",
+            "4 clips"
+          ],
+          [
+            "2 pieces",
+            "6 in each",
+            "3 clips per piece"
+          ],
+          [
+            "2 pieces",
+            "4 in each",
+            "2 clips per piece"
+          ],
+          [
+            "2 pieces",
+            "1.5 in each",
+            "1 clip per piece"
+          ]
+        ]
+      },
+      {
+        "title": "8 pcs / set",
+        "summary": "A verified DS HAIR legacy set map with one additional two-clip side piece.",
+        "rows": [
+          [
+            "1 piece",
+            "8 in",
+            "4 clips"
+          ],
+          [
+            "2 pieces",
+            "6 in each",
+            "3 clips per piece"
+          ],
+          [
+            "2 pieces",
+            "4 in each",
+            "2 clips per piece"
+          ],
+          [
+            "1 piece",
+            "3 in",
+            "2 clips"
+          ],
+          [
+            "2 pieces",
+            "1.5 in each",
+            "1 clip per piece"
+          ]
+        ]
+      }
+    ],
+    "configuration": [
+      {
+        "key": "format",
+        "label": "Product format",
+        "note": "Choose the selling format first. Full sets then use the verified 7-piece or 8-piece map; individual products require their own width and clip layout.",
+        "options": [
+          {
+            "value": "7 pcs / set",
+            "status": "request"
+          },
+          {
+            "value": "8 pcs / set",
+            "status": "request"
+          },
+          {
+            "value": "One-piece / volumizer",
+            "status": "request"
+          },
+          {
+            "value": "Single clip-in",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "length",
+        "label": "Requested length",
+        "note": "Lengths shown are buying-request options, not live-stock claims. Final availability is confirmed with the selected construction and weight.",
+        "options": [
+          {
+            "value": "14 in / 36 cm",
+            "status": "request"
+          },
+          {
+            "value": "16 in / 41 cm",
+            "status": "request"
+          },
+          {
+            "value": "18 in / 46 cm",
+            "status": "request"
+          },
+          {
+            "value": "20 in / 51 cm",
+            "status": "request"
+          },
+          {
+            "value": "22 in / 56 cm",
+            "status": "request"
+          },
+          {
+            "value": "24 in / 61 cm",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "weight",
+        "label": "Target total hair weight",
+        "note": "Weight refers to the requested total hair weight per set or piece. The final gram weight and tolerance must be approved in writing.",
+        "options": [
+          {
+            "value": "100 g",
+            "status": "request"
+          },
+          {
+            "value": "120 g",
+            "status": "request"
+          },
+          {
+            "value": "140 g",
+            "status": "request"
+          },
+          {
+            "value": "160 g",
+            "status": "request"
+          },
+          {
+            "value": "180 g",
+            "status": "request"
+          },
+          {
+            "value": "200 g",
+            "status": "request"
+          },
+          {
+            "value": "Custom weight",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "build",
+        "label": "Clip-in construction",
+        "note": "Classic and seamless are different product constructions. Select the intended structure before confirming set weight, clip hardware and wearer profile.",
+        "options": [
+          {
+            "value": "Classic sewn weft",
+            "status": "request"
+          },
+          {
+            "value": "Seamless PU weft",
+            "status": "request"
+          },
+          {
+            "value": "One-piece wide weft",
+            "status": "request"
+          },
+          {
+            "value": "Match supplied sample",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "wearer",
+        "label": "Target wearer / result",
+        "note": "This selection guides set architecture and weight distribution. It is not a universal suitability guarantee; the final product should be tested on the intended wearer profile.",
+        "options": [
+          {
+            "value": "Fine hair · discreet volume",
+            "status": "request"
+          },
+          {
+            "value": "Medium hair · length + volume",
+            "status": "request"
+          },
+          {
+            "value": "Thick hair · fuller coverage",
+            "status": "request"
+          },
+          {
+            "value": "Targeted side / crown fill",
+            "status": "request"
+          }
+        ]
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "decisionFramework": {
+      "title": "Choose the product in the same order your customer does.",
+      "intro": "Start with the natural-hair profile and desired result, then choose construction, coverage and grams. This prevents a buyer from treating every clip-in set as the same product.",
+      "items": [
+        {
+          "label": "01 · NATURAL HAIR",
+          "title": "Match the wearer profile",
+          "body": "Fine hair usually needs a flatter, lighter root profile; medium and thick hair may need more coverage and grams to blend naturally."
+        },
+        {
+          "label": "02 · DESIRED RESULT",
+          "title": "Choose coverage before piece count",
+          "body": "Decide whether the customer needs a full transformation, discreet volume, fast back coverage or targeted side fill."
+        },
+        {
+          "label": "03 · FINISHED PRODUCT",
+          "title": "Lock construction and specification",
+          "body": "Approve the product type, set map, grams, length, colour, texture, clip hardware and packaging together as one repeatable product."
+        }
+      ]
+    },
+    "specificationAnatomy": [
+      [
+        "01",
+        "Wearer & result",
+        "Fine, medium or thick natural hair; volume, length, side fill or full coverage."
+      ],
+      [
+        "02",
+        "Clip-in construction",
+        "Classic sewn weft, seamless PU, one-piece or individual fill-in; including edge finish and clip attachment."
+      ],
+      [
+        "03",
+        "Set or piece map",
+        "7 pcs, 8 pcs, one-piece or single; width and clip count for every individual weft."
+      ],
+      [
+        "04",
+        "Weight architecture",
+        "Total hair grams, grams by piece, weight tolerance and end-density target."
+      ],
+      [
+        "05",
+        "Hair specification",
+        "Length, texture, Remy direction, colour reference, drawing level and finish."
+      ],
+      [
+        "06",
+        "Commercial presentation",
+        "Quantity, label, backing card or storage format, artwork, barcode and market requirements."
+      ]
+    ],
+    "constructionComparison": {
+      "title": "Classic and seamless are two different product constructions.",
+      "columns": [
+        "Classic Sewn Clip-In",
+        "Seamless PU Clip-In"
+      ],
+      "rows": [
+        [
+          "Top construction",
+          "Fabric or stitched weft base",
+          "Thin PU or silicone-like seamless base"
+        ],
+        [
+          "Profile at the root",
+          "More structured seam; bulk depends on weft build",
+          "Designed to sit flatter with less visible seam bulk"
+        ],
+        [
+          "Key development risk",
+          "Stitching quality, seam bulk, return hair and shedding control",
+          "PU flexibility, edge finish, hair retention and clip attachment"
+        ],
+        [
+          "Colour consideration",
+          "Thread, fabric and clip colour must coordinate with the hair shade",
+          "Base colour and translucency must coordinate with the hair shade"
+        ],
+        [
+          "What a buyer must approve",
+          "Physical sewn-weft sample plus full set map and weight distribution",
+          "Physical seam sample plus full set map and weight distribution"
+        ]
+      ],
+      "notice": "Seamless and classic are construction choices, not automatic quality grades. The correct decision depends on the target wearer, set architecture and approved physical sample."
+    },
+    "buyerChecks": [
+      [
+        "Top construction",
+        "For classic sets, review stitching, seam bulk and return hair. For seamless sets, check PU thickness, flexibility and edge finish."
+      ],
+      [
+        "Hair retention",
+        "Review stitching, insertion or bonding according to the selected construction, then test shedding before and after controlled washing and styling."
+      ],
+      [
+        "Clip system",
+        "Approve clip size, tooth profile, silicone strip if required, coating colour, opening force and attachment security."
+      ],
+      [
+        "Set balance",
+        "Confirm every weft width, clip count and gram allocation; then test placement, comfort, blending and end density as a complete set."
+      ]
+    ],
+    "customisation": [
+      "Classic, seamless, one-piece and single-piece range architecture",
+      "7-piece and 8-piece set maps or buyer-defined piece combinations",
+      "Length, total weight and grams-by-piece programme",
+      "Piece width, clip layout, colour and private-label packaging specification"
+    ],
+    "relatedProducts": [
+      {
+        "title": "Tape-In Hair Extensions",
+        "eyebrow": "PANEL METHOD",
+        "image": "assets/tape-in.jpg",
+        "imageAlt": "Tape-in human hair extensions for a B2B range brief",
+        "summary": "Specify panel size, grams per piece, adhesive system, colour and pack format.",
+        "href": "contact.html?product=Tape-In%20Hair%20Extensions"
+      },
+      {
+        "title": "K-Tip Hair Extensions",
+        "eyebrow": "KERATIN BOND",
+        "image": "assets/k-tip.jpg",
+        "imageAlt": "K-tip human hair extensions for a B2B range brief",
+        "summary": "Specify strand weight, tip shape, colour system and stylist workflow.",
+        "href": "contact.html?product=K-Tip%20Hair%20Extensions"
+      },
+      {
+        "title": "Genius Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/genius-weft.jpg",
+        "imageAlt": "Genius Weft human hair extensions for wholesale development",
+        "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
+        "href": "genius-weft-human-hair-extensions.html"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "7 pcs / set",
+        "8 pcs / set",
+        "Single clip-in",
+        "Custom set"
+      ],
+      "rows": [
+        [
+          "Product format",
+          "Seven coordinated weft pieces",
+          "Eight coordinated weft pieces",
+          "One targeted weft piece",
+          "Buyer-defined piece combination"
+        ],
+        [
+          "Key buying question",
+          "Does the width and clip layout cover the intended zones?",
+          "What does the additional piece add to the placement plan?",
+          "Which zone, width and clip count is required?",
+          "What exact set map must production repeat?"
+        ],
+        [
+          "Weight decision",
+          "Confirm total weight and weight by piece",
+          "Confirm total weight and weight by piece",
+          "Confirm the individual piece weight",
+          "Confirm total and per-piece weight"
+        ],
+        [
+          "Sample focus",
+          "Placement, balance, seams, clips and colour",
+          "Placement, balance, seams, clips and colour",
+          "Targeted coverage, security and blending",
+          "Repeatability against the written set map"
+        ]
+      ],
+      "notice": "Piece count alone is not a full product specification. Construction, widths, clip layout, total weight, grams by piece and colour must be confirmed on the selected sample.",
+      "eyebrow": "SET ARCHITECTURE",
+      "title": "Four formats—four different buying briefs.",
+      "intro": "Select the architecture by coverage goal and placement map. Do not use piece count as a shortcut for volume, comfort or quality."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written product name and buying brief",
+        "A photo or broad catalogue name"
+      ],
+      [
+        "Set definition",
+        "Piece map, widths, clip count and weight recorded",
+        "Only total piece count discussed"
+      ],
+      [
+        "Colour decision",
+        "Physical colour reference recommended",
+        "Screen colour treated as final"
+      ],
+      [
+        "Sample record",
+        "Approval points and changes documented",
+        "No shared repeat-order benchmark"
+      ],
+      [
+        "Repeat order",
+        "Return to the approved specification",
+        "Rebuild the requirement from chat history"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What types of human hair clip-ins are available?",
+        "body": "The range can be developed as classic sewn-weft sets, seamless PU sets, one-piece volumizers or individual fill-in pieces. Each type serves a different wearer profile and coverage goal."
+      },
+      {
+        "title": "Why is piece count not enough?",
+        "body": "Two seven-piece sets can behave very differently when their widths, clip counts, total grams and grams-by-piece are different. A repeatable product requires a written set map, not only 7 pcs/set on the package."
+      },
+      {
+        "title": "How should weight be engineered?",
+        "body": "Start with the target wearer and desired result, then set total hair grams and distribute them across the wefts. The same total weight can feel and blend differently depending on where the grams sit in the set."
+      },
+      {
+        "title": "How do classic and seamless clip-ins differ?",
+        "body": "Classic clip-ins use a sewn or fabric weft with a more structured top. Seamless clip-ins use a thinner PU-style top designed for a flatter root profile. The correct choice depends on wearer density, target result and sample approval."
+      },
+      {
+        "title": "What controls a reliable reorder?",
+        "body": "Keep one approved sample and one written specification covering the set map, grams by piece, PU construction, hair details, colour reference, clip hardware, tolerances, packaging and QC checkpoints."
+      }
+    ],
+    "unconfirmed": [
+      "Hair grade, origin, Remy direction and drawing level",
+      "Piece widths, clip count and weight distribution for each set format",
+      "Exact length and total-weight combinations available",
+      "Classic or seamless construction details, top colour, attachment method and clip specification",
+      "MOQ, price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Do Clip-In Hair Extensions have a product code?",
+        "No. This product family is identified by its product name and confirmed specification: classic, seamless, one-piece or single clip-in, followed by the set map, length, weight distribution, colour and packaging."
+      ],
+      [
+        "Can I request a 7-piece or 8-piece sample?",
+        "Yes. Share the preferred format, length, target total weight, construction and colour direction. Sample feasibility, cost and timing are confirmed against that brief."
+      ],
+      [
+        "Does 7 pcs/set or 8 pcs/set define the full product?",
+        "No. The full specification also needs the construction, each piece width, clip layout, total hair weight, grams by piece, length, texture, colour reference and repeat-order tolerances."
+      ],
+      [
+        "Can DS HAIR develop a single clip-in piece?",
+        "A single-piece request can be reviewed. State the intended placement, width, clip count, target weight, length and colour so the construction can be evaluated."
+      ],
+      [
+        "Are all lengths and weights shown ready to order?",
+        "No. They are buying-request options for preparing a brief. A length and gram value is not confirmed until it is tied to the chosen product type, set map, hair specification and written quotation."
+      ],
+      [
+        "Can I request private-label packaging?",
+        "Yes. Label, backing card, storage and retail-pack requirements can be reviewed with the product brief. Feasibility and minimum quantities are confirmed separately."
+      ]
+    ],
+    "ctaTitle": "Build a Human Hair Clip-In range your customers can understand and buy.",
+    "ctaText": "Tell us whether you need classic, seamless, one-piece or single clip-ins, then add the set format, wearer profile, preferred length, total grams, colour direction, packaging and estimated quantity."
+  },
+  {
+    "slug": "synthetic-clip-in-chignon-hairpiece",
+    "code": "DS-HPC-SY-001",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#hairpieces",
+    "title": "Clip-In Chignon Synthetic Hairpiece",
+    "metaTitle": "Wholesale Clip-In Chignon Synthetic Hairpiece | DS HAIR",
+    "description": "Source a wholesale clip-in chignon synthetic hairpiece with soft looped volume, a contoured claw-clip attachment, colour matching and private-label support.",
+    "summary": "A softly waved synthetic chignon reference for professional buyers developing quick updo, bun and occasion-hair ranges. The photographed reference uses a contoured claw clip; production fibre, colour, hardware and commercial terms are confirmed against the approved sample and written specification.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "alt": "Clip-in chignon synthetic hairpiece showing a loose looped updo shape"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-02.jpg",
+        "alt": "Back of synthetic chignon hairpiece showing the contoured claw clip attachment"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-03.jpg",
+        "alt": "Close-up of softly waved synthetic fibre and looped chignon construction"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-04.jpg",
+        "alt": "Close-up of the claw clip attachment on a synthetic chignon hairpiece"
+      }
+    ],
+    "confirmedFacts": [
+      [
+        "Product format",
+        "Clip-in chignon hairpiece"
+      ],
+      [
+        "Fibre family",
+        "Synthetic hair"
+      ],
+      [
+        "Reference length",
+        "5–6 in / 13–15 cm"
+      ],
+      [
+        "Reference texture",
+        "Soft loose wave"
+      ],
+      [
+        "Attachment",
+        "Contoured claw clip"
+      ],
+      [
+        "Display colour",
+        "Warm brown and honey blend"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Length direction",
+        "options": [
+          {
+            "value": "5–6 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
+        ],
+        "note": "The photographed reference is approximately 5–6 inches. Confirm the production measurement method and tolerance on the sample."
+      },
+      {
+        "key": "texture",
+        "label": "Texture direction",
+        "options": [
+          {
+            "value": "Soft loose wave",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined wave",
+            "status": "request"
+          }
+        ],
+        "note": "Loop size, wave memory, shine and fibre hand should be approved together."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {
+            "value": "Contoured claw clip",
+            "status": "reference"
+          },
+          {
+            "value": "Custom clip brief",
+            "status": "request"
+          }
+        ],
+        "note": "Clip dimensions, colour, spring force, tooth finish and holding performance require written confirmation."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
+        ],
+        "note": "Backing card, net, storage form, barcode and care information can be reviewed with the product brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      [
+        "Clip hold and comfort",
+        "Check opening force, tooth finish, spring recovery, head contact and security during normal movement."
+      ],
+      [
+        "Looped construction",
+        "Review how the waved fibre is arranged, anchored and distributed so the chignon keeps coverage without exposed hardware."
+      ],
+      [
+        "Fibre performance",
+        "Compare shine, hand, tangling, wave recovery and controlled heat response against the written fibre specification."
+      ],
+      [
+        "Colour matching",
+        "Approve the base, highlight and lowlight proportions under neutral light using a physical colour reference."
+      ],
+      [
+        "Repeatability",
+        "Keep a sealed sample and record dimensions, grams, clip specification, colour blend and packing method for reorders."
+      ]
+    ],
+    "customisation": [
+      [
+        "Colour blend",
+        "Review solid shades, rooted effects and blended colour ratios against DS HAIR Colour Chart 2 or a buyer-supplied physical sample."
+      ],
+      [
+        "Fibre specification",
+        "Define fibre family, finish, wave memory, care language and any required heat-styling claim before quotation."
+      ],
+      [
+        "Clip hardware",
+        "Confirm clip dimensions, contour, base colour, tooth finish and spring performance against the approved sample."
+      ],
+      [
+        "Private-label presentation",
+        "Develop labels, backing cards, care instructions, barcodes and retail-ready packing after artwork and quantity review."
+      ]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "SYNTHETIC HAIRPIECES",
+        "title": "Synthetic Ponytail Development",
+        "summary": "Compare wrap, drawstring and clip attachment directions for a coordinated updo range.",
+        "href": "contact.html?product=synthetic-ponytail",
+        "image": "assets/ponytail.jpg",
+        "imageAlt": "Synthetic ponytail product development reference"
+      },
+      {
+        "eyebrow": "COVERAGE PRODUCTS",
+        "title": "Clip-In Topper Development",
+        "summary": "Define base, coverage, fibre, colour and attachment for lightweight topper concepts.",
+        "href": "contact.html?product=synthetic-clip-in-topper",
+        "image": "assets/topper.jpg",
+        "imageAlt": "Clip-in topper product development reference"
+      },
+      {
+        "eyebrow": "FULL-HEAD PRODUCTS",
+        "title": "Synthetic Wig Development",
+        "summary": "Build a synthetic wig brief around cap construction, style, fibre, colour and target channel.",
+        "href": "contact.html?product=synthetic-wig",
+        "image": "assets/wig-cap.jpg",
+        "imageAlt": "Synthetic wig product development reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "Claw-Clip Chignon",
+        "Elastic Bun Wrap",
+        "Drawstring Updo",
+        "Full Ponytail"
+      ],
+      "rows": [
+        [
+          "Product format",
+          "Pre-shaped looped chignon",
+          "Flexible fibre wrap",
+          "Gathered updo piece",
+          "Length-led ponytail piece"
+        ],
+        [
+          "Attachment",
+          "Contoured claw clip",
+          "Elastic base",
+          "Drawstring and combs",
+          "Wrap, clip or drawstring"
+        ],
+        [
+          "Key buyer check",
+          "Clip hold and hardware coverage",
+          "Elastic recovery and bun fit",
+          "Cord security and base coverage",
+          "Weight distribution and attachment comfort"
+        ],
+        [
+          "Sample focus",
+          "Silhouette, loop memory, shine and clip performance",
+          "Wrap volume, fibre spread and recovery",
+          "Base size, tightening and finished shape",
+          "Length, fall, attachment and movement"
+        ]
+      ],
+      "notice": "Attachment type changes the fit, comfort and finished silhouette. Approve the product as a complete system rather than evaluating fibre or hardware in isolation.",
+      "eyebrow": "FORMAT COMPARISON",
+      "title": "Choose the updo format by wearer and use case.",
+      "intro": "A claw-clip chignon offers a fast, pre-shaped result, while wraps, drawstrings and ponytails create different fitting and styling expectations."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written wearer, channel and style brief",
+        "Reference photo only"
+      ],
+      [
+        "Fibre decision",
+        "Fibre family, finish and care claims recorded",
+        "Synthetic fibre treated as one generic material"
+      ],
+      [
+        "Attachment",
+        "Clip dimensions and performance approved",
+        "Clip type named without measurable details"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend ratio documented",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and written QC points retained",
+        "Requirement rebuilt from messages"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What is a clip-in chignon hairpiece?",
+        "body": "It is a pre-shaped synthetic updo that attaches over the wearer's own bun or gathered hair. This reference uses a contoured claw clip to create a fast, softly looped chignon silhouette."
+      },
+      {
+        "title": "What should wholesale buyers check on the claw clip?",
+        "body": "Review opening force, tooth edges, spring recovery, contour, base colour, comfort and holding performance. The fibre should cover the hardware in the intended wearing positions."
+      },
+      {
+        "title": "How should the synthetic fibre be specified?",
+        "body": "Record fibre family, diameter, shine, hand, wave memory, heat-care claim and test method. Heat resistance must never be inferred from appearance or a generic synthetic description."
+      },
+      {
+        "title": "How is chignon colour matching approved?",
+        "body": "Use a physical shade reference under neutral light and record base, highlight and lowlight ratios. Multi-tonal blends often integrate more naturally than a single screen-selected colour."
+      },
+      {
+        "title": "What supports a reliable private-label reorder?",
+        "body": "Retain the approved sample and a specification covering fibre, finished dimensions, weight, clip hardware, loop arrangement, colour blend, care language, packaging and QC tolerances."
+      }
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, care protocol and maximum styling temperature",
+      "Exact finished weight, dimensions and manufacturing tolerances",
+      "Claw clip dimensions, material, colour options and spring specification",
+      "Production colour range and blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Is this clip-in chignon available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target market, quantity range, colour direction and packaging requirement so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "What attachment does this synthetic chignon use?",
+        "The photographed reference uses a contoured claw clip. Production clip dimensions, colour, material and holding performance are confirmed against the approved sample."
+      ],
+      [
+        "Can buyers request custom colours?",
+        "Colour development can be reviewed against DS HAIR Colour Chart 2 or a buyer-supplied physical sample. Available shades, blend ratios and minimum quantities require written confirmation."
+      ],
+      [
+        "Can this synthetic hairpiece be heat styled?",
+        "Do not assume a styling temperature from the reference image. The production fibre, care protocol and maximum tested temperature must be confirmed in writing before any heat-friendly claim is used."
+      ],
+      [
+        "What should be included in a sample request?",
+        "State the target wearer, finished silhouette, colour, attachment preference, packaging direction, expected quantity and any required fibre or care performance."
+      ]
+    ],
+    "ctaTitle": "Develop a clip-in chignon range with a repeatable specification.",
+    "ctaText": "Send the target market, colour direction, attachment requirement, packaging brief and estimated quantity. DS HAIR will identify the sample and specification details needed before quotation."
+  },
+  {
+    "slug": "synthetic-22-inch-straight-clip-in-hairpiece",
+    "code": "DS-HPC-SY-002",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#hairpieces",
+    "title": "22-Inch Straight Clip-In Synthetic Hairpiece",
+    "metaTitle": "Wholesale 22-Inch Straight Clip-In Synthetic Hairpiece | DS HAIR",
+    "description": "Source a wholesale 22-inch straight clip-in synthetic hairpiece with a one-piece base, seven pressure clips, heat-friendly fibre direction and private-label support.",
+    "summary": "A long, straight one-piece clip-in reference for professional buyers developing instant-length and volume ranges. The source reference documents a 22-inch length, an 11 × 6.5-inch base, seven pressure-sensitive clips and a 3.7 oz finished weight. DS HAIR production fibre, heat protocol, colours, tolerances and commercial terms remain subject to sample approval and written specification.",
+    "imageStatusNote": "The main image shows the buyer-confirmed product structure. Lifestyle images use newly generated models; the face-free installation reference is retained directly.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-00-product-structure.jpg",
+        "alt": "Product structure view of a 22-inch straight one-piece synthetic clip-in hairpiece showing the wide base and clip layout",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-01.png",
+        "alt": "Model wearing a long straight honey-blonde clip-in synthetic hairpiece"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-02.png",
+        "alt": "Installation view of a one-piece straight synthetic clip-in hairpiece"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-03.jpg",
+        "alt": "Back installation view showing the wide clip-in hairpiece base"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-04.png",
+        "alt": "Back view showing the finished 22-inch straight clip-in hairpiece blend"
+      }
+    ],
+    "confirmedFacts": [
+      [
+        "Product format",
+        "One-piece clip-in hairpiece reference"
+      ],
+      [
+        "Fibre family",
+        "Heat-friendly synthetic hair reference"
+      ],
+      [
+        "Reference length",
+        "22 in / 56 cm"
+      ],
+      [
+        "Reference base",
+        "11 × 6.5 in / 28 × 16.5 cm"
+      ],
+      [
+        "Reference attachment",
+        "7 pressure-sensitive clips"
+      ],
+      [
+        "Reference weight",
+        "3.7 oz / approx. 105 g"
+      ],
+      [
+        "Reference texture",
+        "Straight precision layers"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Length direction",
+        "options": [
+          {
+            "value": "22 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
+        ],
+        "note": "The source reference states 22 inches. Confirm the production measurement method and tolerance on the approved DS HAIR sample."
+      },
+      {
+        "key": "base",
+        "label": "Base direction",
+        "options": [
+          {
+            "value": "11 × 6.5 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom base brief",
+            "status": "request"
+          }
+        ],
+        "note": "Base width, depth, edge finish and curvature must work together with the clip layout and target wearer."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {
+            "value": "7 pressure clips",
+            "status": "reference"
+          },
+          {
+            "value": "Custom clip layout",
+            "status": "request"
+          }
+        ],
+        "note": "Confirm clip count, spacing, dimensions, coating, opening force and stitching on the approved sample."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
+        ],
+        "note": "Backing card, storage support, barcode, care wording and retail carton can be reviewed with the order brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      [
+        "Base fit and coverage",
+        "Confirm the 11 × 6.5-inch reference footprint against the target head area, hair density and desired coverage."
+      ],
+      [
+        "Seven-clip layout",
+        "Check clip spacing, opening force, comfort, edge lift and security during normal movement."
+      ],
+      [
+        "Fibre and heat response",
+        "Approve shine, hand, tangling, straightness recovery and a tested heat-care protocol on the actual production fibre."
+      ],
+      [
+        "Weight distribution",
+        "Review whether the approximately 105 g reference weight feels balanced across the full base and clip layout."
+      ],
+      [
+        "Colour integration",
+        "Approve root, mid-length and end blending under neutral light using a physical shade reference."
+      ]
+    ],
+    "customisation": [
+      [
+        "Length and weight",
+        "Review target length, total grams and density distribution against wearer comfort and channel price point."
+      ],
+      [
+        "Base and clip map",
+        "Specify base dimensions, edge construction, clip count, clip colour and placement for the intended use."
+      ],
+      [
+        "Fibre and shade",
+        "Define synthetic fibre family, finish, heat-care language and colour blend against an approved physical sample."
+      ],
+      [
+        "Private-label packaging",
+        "Develop labels, backing cards, storage supports, care instructions, barcodes and retail-ready cartons after quantity review."
+      ]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "SYNTHETIC HAIRPIECES",
+        "title": "Clip-In Chignon Development",
+        "summary": "Add a quick updo reference with a claw-clip attachment and softly looped volume.",
+        "href": "synthetic-clip-in-chignon-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "imageAlt": "Synthetic clip-in chignon hairpiece reference"
+      },
+      {
+        "eyebrow": "VOLUME PRODUCTS",
+        "title": "Clip-In Topper Development",
+        "summary": "Define base, coverage, fibre, colour and attachment for a lightweight topper concept.",
+        "href": "contact.html?product=synthetic-clip-in-topper",
+        "image": "assets/topper.jpg",
+        "imageAlt": "Clip-in topper development reference"
+      },
+      {
+        "eyebrow": "FULL-HEAD PRODUCTS",
+        "title": "Synthetic Wig Development",
+        "summary": "Build a synthetic wig brief around cap construction, style, fibre, colour and target channel.",
+        "href": "contact.html?product=synthetic-wig",
+        "image": "assets/wig-cap.jpg",
+        "imageAlt": "Synthetic wig development reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "One-Piece Clip-In",
+        "Multi-Piece Clip-In",
+        "Clip-In Topper",
+        "Ponytail"
+      ],
+      "rows": [
+        [
+          "Primary purpose",
+          "Fast length and back coverage",
+          "Distributed length and volume",
+          "Top-area coverage",
+          "Length from a gathered base"
+        ],
+        [
+          "Attachment",
+          "Wide base with multiple clips",
+          "Several wefts with clips",
+          "Top base with perimeter clips",
+          "Wrap, clip or drawstring"
+        ],
+        [
+          "Key buyer check",
+          "Base fit and weight distribution",
+          "Piece map and placement",
+          "Base visibility and scalp effect",
+          "Attachment security"
+        ],
+        [
+          "Sample focus",
+          "Blend, comfort, clip map and fall",
+          "Set map, grams and layer balance",
+          "Coverage, parting and attachment",
+          "Fall, movement and base coverage"
+        ]
+      ],
+      "notice": "The attachment format changes placement, comfort and the buying brief. Approve the complete construction, not fibre appearance alone.",
+      "eyebrow": "FORMAT COMPARISON",
+      "title": "Choose the clip-in format by coverage and application.",
+      "intro": "A one-piece design prioritises fast application, while multi-piece sets, toppers and ponytails solve different coverage needs."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written wearer, coverage and channel brief",
+        "Reference photo only"
+      ],
+      [
+        "Construction",
+        "Base dimensions, edge and clip map recorded",
+        "One-piece named without measurable details"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly claim copied without testing"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend recorded",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What is a one-piece clip-in hairpiece?",
+        "body": "It is a wide hair section designed to add length and back-of-head coverage in one placement. This source reference uses seven pressure-sensitive clips across an 11 × 6.5-inch base."
+      },
+      {
+        "title": "What should buyers verify on the base?",
+        "body": "Check curvature, edge finish, stitching, visibility, flexibility and how the base distributes weight. Dimensions alone do not establish fit or comfort."
+      },
+      {
+        "title": "How should the clip layout be approved?",
+        "body": "Record clip count, spacing, size, coating, opening force and attachment method, then test security and edge lift on the intended wearer profile."
+      },
+      {
+        "title": "Can heat-friendly synthetic hair be styled?",
+        "body": "Only within the tested care protocol for the actual production fibre. The source reference recommends 275–300°F, but DS HAIR must validate its own sample before publishing a maximum temperature."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, length, grams, base, clip map, colour, care wording, packaging and QC tolerances."
+      }
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat test method and maximum styling temperature",
+      "Production base construction, clip specification and dimensional tolerances",
+      "Production weight tolerance and density distribution",
+      "Production shade range, rooted effects and blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Is this 22-inch synthetic clip-in available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "How many clips are on the reference product?",
+        "The source reference documents seven pressure-sensitive clips across a one-piece base. DS HAIR production clip dimensions, spacing and holding performance require sample approval."
+      ],
+      [
+        "What are the reference dimensions and weight?",
+        "The source product page states a 22-inch length, an 11 × 6.5-inch base and a 3.7 oz finished weight. Production tolerances are confirmed in writing."
+      ],
+      [
+        "Can this synthetic hairpiece be heat styled?",
+        "The source reference recommends 275–300°F. That range is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."
+      ]
+    ],
+    "ctaTitle": "Develop a long straight clip-in range with a repeatable specification.",
+    "ctaText": "Send the target wearer, length, grams, base size, clip map, colour direction, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
+  },
+  {
+    "slug": "synthetic-21-inch-soft-curls-claw-clip-ponytail",
+    "code": "DS-HPC-SY-003",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#hairpieces",
+    "title": "21-Inch Soft Curls Claw Clip Synthetic Ponytail",
+    "metaTitle": "Wholesale 21-Inch Soft Curls Claw Clip Ponytail | DS HAIR",
+    "description": "Source a wholesale 21-inch soft-curls synthetic ponytail with a secure claw-clip attachment, heat-friendly fibre direction and private-label development support.",
+    "summary": "A long, soft-curl claw-clip ponytail reference for professional buyers developing quick-application synthetic hairpiece ranges. The source page documents a 21-inch style, flowing curls, a secure claw-clip attachment and a heat-friendly synthetic fibre direction. DS HAIR production fibre, finished weight, clip specification, colour range, heat protocol, tolerances and commercial terms remain subject to sample approval and written specification.",
+    "imageStatusNote": "Publishing images use the face-free product reference and audited detail crops. Source lifestyle photos with identifiable faces are retained for traceability only and are not published.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-01.jpg",
+        "alt": "Full product view of a 21-inch soft-curls synthetic claw-clip ponytail"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-02.jpg",
+        "alt": "Close-up of the claw-clip attachment and drawstring base"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-03.jpg",
+        "alt": "Close-up of the soft flowing curl texture on the synthetic ponytail"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-04.jpg",
+        "alt": "Detailed view of the synthetic ponytail attachment opening and claw clip"
+      }
+    ],
+    "confirmedFacts": [
+      [
+        "Product format",
+        "Claw-clip ponytail reference"
+      ],
+      [
+        "Fibre family",
+        "Heat-friendly synthetic hair reference"
+      ],
+      [
+        "Reference length",
+        "21 in / 53 cm"
+      ],
+      [
+        "Reference attachment",
+        "Secure claw clip"
+      ],
+      [
+        "Reference texture",
+        "Soft flowing curls"
+      ],
+      [
+        "Reference use",
+        "Quick day-to-evening styling"
+      ],
+      [
+        "Reference colour shown",
+        "R4 Midnight Brown lifestyle / platinum-blonde product view"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Length direction",
+        "options": [
+          {
+            "value": "21 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
+        ],
+        "note": "The source page states 21 inches. Confirm the production measurement method, curl-state length and tolerance on the approved DS HAIR sample."
+      },
+      {
+        "key": "texture",
+        "label": "Curl direction",
+        "options": [
+          {
+            "value": "Soft flowing curls",
+            "status": "reference"
+          },
+          {
+            "value": "Custom wave or curl brief",
+            "status": "request"
+          }
+        ],
+        "note": "Approve curl diameter, pattern placement, end finish and recovery after handling on the actual sample."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {
+            "value": "Claw clip reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom clip brief",
+            "status": "request"
+          }
+        ],
+        "note": "Confirm clip dimensions, curve, spring force, tooth finish, colour and stitching against the intended wearer profile."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
+        ],
+        "note": "Storage support, backing card, care wording, barcode and retail carton can be developed after the quantity and channel brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      [
+        "Claw-clip security",
+        "Test tooth geometry, spring force, attachment stitching and hold during normal head movement."
+      ],
+      [
+        "Length and fall",
+        "Measure the finished 21-inch reference consistently and approve where the curls finish on the target wearer."
+      ],
+      [
+        "Curl pattern",
+        "Review curl diameter, distribution, separation, end finish and pattern recovery after packing and brushing."
+      ],
+      [
+        "Fibre and heat response",
+        "Approve shine, hand, tangling and a tested heat-care protocol on the actual DS HAIR production fibre."
+      ],
+      [
+        "Colour integration",
+        "Approve root, mid-length and curl-end blending under neutral light with a physical shade reference."
+      ]
+    ],
+    "customisation": [
+      [
+        "Length and volume",
+        "Define finished length, total grams and fullness around the upper, middle and curled end sections."
+      ],
+      [
+        "Curl architecture",
+        "Specify curl diameter, pattern position, separation and end finish for the intended channel."
+      ],
+      [
+        "Clip and base",
+        "Confirm claw-clip dimensions, colour, tooth profile, spring force, inner base and attachment method."
+      ],
+      [
+        "Private-label packaging",
+        "Develop labels, backing cards, storage supports, care instructions, barcodes and retail-ready cartons after quantity review."
+      ]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "STRAIGHT LENGTH",
+        "title": "22-Inch Straight Clip-In Hairpiece",
+        "summary": "Compare a wide one-piece clip-in format for instant straight length and back coverage.",
+        "href": "synthetic-22-inch-straight-clip-in-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-01.png",
+        "imageAlt": "Long straight synthetic clip-in hairpiece reference"
+      },
+      {
+        "eyebrow": "UPDO VOLUME",
+        "title": "Clip-In Chignon Development",
+        "summary": "Add a compact updo reference with a claw-clip attachment and softly looped volume.",
+        "href": "synthetic-clip-in-chignon-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "imageAlt": "Synthetic clip-in chignon hairpiece reference"
+      },
+      {
+        "eyebrow": "CUSTOM RANGE",
+        "title": "Synthetic Hairpiece Development",
+        "summary": "Build a broader hairpiece brief around attachment, fibre, texture, colour and packaging.",
+        "href": "contact.html?product=synthetic-hairpiece-development",
+        "image": "assets/ponytail.jpg",
+        "imageAlt": "Synthetic ponytail and hairpiece development reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "Claw-Clip Ponytail",
+        "Wrap Ponytail",
+        "Drawstring Ponytail",
+        "Clip-In Chignon"
+      ],
+      "rows": [
+        [
+          "Primary result",
+          "Fast length with a lifted base",
+          "Wrapped finish around a natural ponytail",
+          "Adjustable gathered-base length",
+          "Compact updo volume"
+        ],
+        [
+          "Attachment",
+          "Contoured claw clip",
+          "Wrap panel with securing element",
+          "Drawstring and comb or clip",
+          "Claw clip or compact attachment"
+        ],
+        [
+          "Key buyer check",
+          "Clip security and base coverage",
+          "Wrap length and closure finish",
+          "Cord, comb and base comfort",
+          "Attachment visibility and silhouette"
+        ],
+        [
+          "Sample focus",
+          "Hold, curl fall, weight and blend",
+          "Wrap control and natural-hair coverage",
+          "Adjustment, comfort and movement",
+          "Shape retention and attachment hold"
+        ]
+      ],
+      "notice": "Attachment design changes security, comfort and how natural hair is concealed. Approve the complete base and clip system, not the curl appearance alone.",
+      "eyebrow": "ATTACHMENT COMPARISON",
+      "title": "Choose a ponytail format by hold, coverage and application.",
+      "intro": "A claw clip prioritises fast application; wrap and drawstring systems create different fit, concealment and handling requirements."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written wearer, attachment and channel brief",
+        "Reference photo only"
+      ],
+      [
+        "Construction",
+        "Clip dimensions, base and stitching recorded",
+        "Claw clip named without measurable details"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly wording copied without testing"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend recorded",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What is a claw-clip ponytail hairpiece?",
+        "body": "It is a removable ponytail built around a clip that grips a secured natural ponytail or bun. The source reference combines a 21-inch curled fall with a claw-clip attachment."
+      },
+      {
+        "title": "What should buyers verify on the clip?",
+        "body": "Check curve, tooth geometry, spring force, coating, colour, attachment stitching and how the base conceals the wearer’s natural hair."
+      },
+      {
+        "title": "How should soft curls be approved?",
+        "body": "Record curl diameter, pattern placement, end finish, fibre shine and recovery after packing, brushing and the approved care routine."
+      },
+      {
+        "title": "Can heat-friendly synthetic hair be restyled?",
+        "body": "Only within the tested protocol for the actual production fibre. The source describes heat-friendly styling, but DS HAIR must validate its own sample before publishing a temperature limit."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, length, grams, curl pattern, clip, base, colour, care wording, packaging and QC tolerances."
+      }
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat test method and maximum styling temperature",
+      "Finished weight, density distribution and production tolerances",
+      "Claw-clip dimensions, material, colour, spring force and tooth specification",
+      "Production shade range, rooted effects and blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Is this 21-inch soft-curl ponytail available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "How does the reference ponytail attach?",
+        "The source product uses a secure claw clip. DS HAIR production clip dimensions, spring force, tooth finish and holding performance require sample approval."
+      ],
+      [
+        "What length and texture are documented?",
+        "The source page states a 21-inch length with soft, flowing curls. Finished measurement tolerance and curl-state measurement are confirmed on the production sample."
+      ],
+      [
+        "Can this synthetic ponytail be heat styled?",
+        "The source describes heat-friendly synthetic hair. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."
+      ]
+    ],
+    "ctaTitle": "Develop a soft-curl claw-clip ponytail range with a repeatable specification.",
+    "ctaText": "Send the target wearer, length, grams, curl direction, clip requirement, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
+  },
+  {
+    "slug": "synthetic-21-inch-straight-claw-clip-ponytail",
+    "code": "DS-HPC-SY-004",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#hairpieces",
+    "title": "21-Inch Straight Claw Clip Synthetic Ponytail",
+    "metaTitle": "Wholesale 21-Inch Straight Claw Clip Ponytail | DS HAIR",
+    "description": "Source a wholesale 21-inch straight synthetic ponytail with a secure claw-clip attachment, heat-friendly fibre direction and private-label development support.",
+    "summary": "A long, straight claw-clip ponytail reference for professional buyers developing quick-application synthetic hairpiece ranges. The source page documents a 21-inch sleek style, secure claw-clip attachment and heat-friendly synthetic fibre direction. DS HAIR production fibre, finished weight, clip specification, colour range, heat protocol, tolerances and commercial terms remain subject to sample approval and written specification.",
+    "imageStatusNote": "Publishing images use the face-free product reference and original DS HAIR concept lifestyle images. Source lifestyle photos with identifiable faces are retained for traceability only and are not published.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-01.jpg",
+        "alt": "Full product view of a 21-inch straight synthetic claw-clip ponytail reference"
+      },
+      {
+      "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-02.jpg",
+        "alt": "Original lifestyle concept showing a long straight claw-clip ponytail from the front"
+      },
+      {
+      "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-03.jpg",
+        "alt": "Original lifestyle concept showing the straight 21-inch ponytail fall from the back"
+      }
+    ],
+    "confirmedFacts": [
+      [
+        "Product format",
+        "Claw-clip ponytail reference"
+      ],
+      [
+        "Fibre family",
+        "Heat-friendly synthetic hair reference"
+      ],
+      [
+        "Reference length",
+        "21 in / 53 cm"
+      ],
+      [
+        "Reference attachment",
+        "Secure claw clip"
+      ],
+      [
+        "Reference texture",
+        "Sleek straight finish"
+      ],
+      [
+        "Reference use",
+        "Fast day-to-evening styling"
+      ],
+      [
+        "Source colour direction",
+        "Warm blended brown / blonde reference; production shade unconfirmed"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Length direction",
+        "options": [
+          {
+            "value": "21 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
+        ],
+        "note": "The source page states 21 inches. Confirm the production measurement method, straight-state length and tolerance on the approved DS HAIR sample."
+      },
+      {
+        "key": "texture",
+        "label": "Finish direction",
+        "options": [
+          {
+            "value": "Sleek straight reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom straight or styled finish",
+            "status": "request"
+          }
+        ],
+        "note": "Approve strand alignment, layer placement, end density, shine and recovery after handling on the actual sample."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {
+            "value": "Claw clip reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom clip brief",
+            "status": "request"
+          }
+        ],
+        "note": "Confirm clip dimensions, curve, spring force, tooth finish, colour and stitching against the intended wearer profile."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
+        ],
+        "note": "Storage support, backing card, care wording, barcode and retail carton can be developed after the quantity and channel brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      [
+        "Claw-clip security",
+        "Test tooth geometry, spring force, attachment stitching and hold during normal head movement."
+      ],
+      [
+        "Length and fall",
+        "Measure the finished 21-inch reference consistently and approve where the straight ends finish on the target wearer."
+      ],
+      [
+        "Straight finish",
+        "Review strand alignment, layer distribution, end density, flyaways and recovery after packing and brushing."
+      ],
+      [
+        "Fibre and heat response",
+        "Approve shine, hand, tangling and a tested heat-care protocol on the actual DS HAIR production fibre."
+      ],
+      [
+        "Colour integration",
+        "Approve root, mid-length and end blending under neutral light with a physical shade reference."
+      ]
+    ],
+    "customisation": [
+      [
+        "Length and volume",
+        "Define finished length, total grams and fullness around the upper, middle and end sections."
+      ],
+      [
+        "Straight finish",
+        "Specify layer placement, end density, strand alignment, movement and target shine for the intended channel."
+      ],
+      [
+        "Clip and base",
+        "Confirm claw-clip dimensions, colour, tooth profile, spring force, inner base and attachment method."
+      ],
+      [
+        "Private-label packaging",
+        "Develop labels, backing cards, storage supports, care instructions, barcodes and retail-ready cartons after quantity review."
+      ]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "SOFT CURLS",
+        "title": "21-Inch Soft Curls Claw Clip Ponytail",
+        "summary": "Compare the same quick-application format with a long soft-curl texture direction.",
+        "href": "synthetic-21-inch-soft-curls-claw-clip-ponytail.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-01.jpg",
+        "imageAlt": "Soft-curl synthetic claw-clip ponytail reference"
+      },
+      {
+        "eyebrow": "STRAIGHT LENGTH",
+        "title": "22-Inch Straight Clip-In Hairpiece",
+        "summary": "Compare a wide one-piece clip-in format for instant straight length and back coverage.",
+        "href": "synthetic-22-inch-straight-clip-in-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-01.png",
+        "imageAlt": "Long straight synthetic clip-in hairpiece reference"
+      },
+      {
+        "eyebrow": "UPDO VOLUME",
+        "title": "Clip-In Chignon Development",
+        "summary": "Add a compact updo reference with a claw-clip attachment and softly looped volume.",
+        "href": "synthetic-clip-in-chignon-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "imageAlt": "Synthetic clip-in chignon hairpiece reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "Claw-Clip Ponytail",
+        "Wrap Ponytail",
+        "Drawstring Ponytail",
+        "Clip-In Chignon"
+      ],
+      "rows": [
+        [
+          "Primary result",
+          "Fast length with a lifted base",
+          "Wrapped finish around a natural ponytail",
+          "Adjustable gathered-base length",
+          "Compact updo volume"
+        ],
+        [
+          "Attachment",
+          "Contoured claw clip",
+          "Wrap panel with securing element",
+          "Drawstring and comb or clip",
+          "Claw clip or compact attachment"
+        ],
+        [
+          "Key buyer check",
+          "Clip security and base coverage",
+          "Wrap length and closure finish",
+          "Cord, comb and base comfort",
+          "Attachment visibility and silhouette"
+        ],
+        [
+          "Sample focus",
+          "Hold, straight fall, weight and blend",
+          "Wrap control and natural-hair coverage",
+          "Adjustment, comfort and movement",
+          "Shape retention and attachment hold"
+        ]
+      ],
+      "notice": "Attachment design changes security, comfort and how natural hair is concealed. Approve the complete base, clip and straight-fall specification, not the silhouette alone.",
+      "eyebrow": "ATTACHMENT COMPARISON",
+      "title": "Choose a ponytail format by hold, coverage and application.",
+      "intro": "A claw clip prioritises fast application; wrap and drawstring systems create different fit, concealment and handling requirements."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written wearer, attachment and channel brief",
+        "Reference photo only"
+      ],
+      [
+        "Construction",
+        "Clip dimensions, base and stitching recorded",
+        "Claw clip named without measurable details"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly wording copied without testing"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend recorded",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What is a straight claw-clip ponytail hairpiece?",
+        "body": "It is a removable ponytail built around a clip that grips a secured natural ponytail or bun. The source reference combines a 21-inch straight fall with a claw-clip attachment."
+      },
+      {
+        "title": "What should buyers verify on the clip?",
+        "body": "Check curve, tooth geometry, spring force, coating, colour, attachment stitching and how the base conceals the wearer’s natural hair."
+      },
+      {
+        "title": "How should a straight finish be approved?",
+        "body": "Record strand alignment, layer placement, end density, fibre shine, movement and recovery after packing, brushing and the approved care routine."
+      },
+      {
+        "title": "Can heat-friendly synthetic hair be restyled?",
+        "body": "Only within the tested protocol for the actual production fibre. The source describes flat-ironing, curling and blow-drying, but DS HAIR must validate its own sample before publishing a temperature limit."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, length, grams, straight finish, clip, base, colour, care wording, packaging and QC tolerances."
+      }
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat test method and maximum styling temperature",
+      "Finished weight, density distribution and production tolerances",
+      "Claw-clip dimensions, material, colour, spring force and tooth specification",
+      "Production shade range, rooted effects and blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Is this 21-inch straight ponytail available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "How does the reference ponytail attach?",
+        "The source product uses a secure claw clip. DS HAIR production clip dimensions, spring force, tooth finish and holding performance require sample approval."
+      ],
+      [
+        "What length and texture are documented?",
+        "The source page states a 21-inch length with a sleek straight finish. Finished measurement tolerance and end-density specification are confirmed on the production sample."
+      ],
+      [
+        "Can this synthetic ponytail be heat styled?",
+        "The source describes heat-friendly synthetic hair that may be flat-ironed, curled or blown out. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."
+      ]
+    ],
+    "ctaTitle": "Develop a straight claw-clip ponytail range with a repeatable specification.",
+    "ctaText": "Send the target wearer, length, grams, straight-finish direction, clip requirement, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
   }
 ]
