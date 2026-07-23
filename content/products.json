@@ -1848,14 +1848,15 @@
     "images": [
       {
         "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-01.jpg",
-        "alt": "Full product view of a 21-inch straight synthetic claw-clip ponytail reference"
+        "alt": "Full product view of a 21-inch straight synthetic claw-clip ponytail reference",
+        "fit": "contain"
       },
       {
-      "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-02.jpg",
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-02.png",
         "alt": "Original lifestyle concept showing a long straight claw-clip ponytail from the front"
       },
       {
-      "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-03.jpg",
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-03.png",
         "alt": "Original lifestyle concept showing the straight 21-inch ponytail fall from the back"
       }
     ],
