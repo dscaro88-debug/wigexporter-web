@@ -5,8 +5,6 @@ node_modules/
 ops/
 reports/
 assets/products/_review/
-assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-02.jpg
-assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-03.jpg
 scripts/audit-product-images.py
 scripts/build-product-contact-sheets.py
 scripts/verify-product-catalog.mjs
