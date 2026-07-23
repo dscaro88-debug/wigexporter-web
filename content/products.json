@@ -2149,5 +2149,317 @@
     ],
     "ctaTitle": "Develop a straight claw-clip ponytail range with a repeatable specification.",
     "ctaText": "Send the target wearer, length, grams, straight-finish direction, clip requirement, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
+  },
+  {
+    "slug": "synthetic-26-inch-elastic-band-braiding-ponytail",
+    "code": "DS-HPC-SY-005",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#hairpieces",
+    "title": "26-Inch Elastic-Band Braiding Synthetic Ponytail",
+    "metaTitle": "Wholesale 26-Inch Braiding Synthetic Ponytail Hairpiece | DS HAIR",
+    "description": "Source a wholesale 26-inch synthetic braiding ponytail hairpiece with an elastic-band attachment, concealing wrap section and private-label development support.",
+    "summary": "A 26-inch elastic-band ponytail reference for professional buyers developing braid-ready synthetic hairpiece ranges. The source page documents a long straight fibre section that can be braided with the wearer's hair or twisted into a braided updo, plus a shorter wrap section that conceals the attachment. DS HAIR production fibre, finished weight, elastic specification, colour range, heat protocol, tolerances and commercial terms remain subject to sample approval and written specification.",
+    "imageStatusNote": "Publishing images are limited to two face-free references: the product construction and a braided back view. Source photos containing an identifiable face are retained for traceability only and are not published.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-005/ds-hpc-sy-005-01-product.jpg",
+        "alt": "Face-free product view of a 26-inch elastic-band synthetic braiding ponytail",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-005/ds-hpc-sy-005-02-back.jpg",
+        "alt": "Back view showing a long synthetic ponytail braided with natural hair"
+      }
+    ],
+    "confirmedFacts": [
+      ["Product format", "Elastic-band braiding ponytail reference"],
+      ["Fibre family", "Heat-friendly synthetic hair reference"],
+      ["Reference length", "26 in / 66 cm"],
+      ["Reference attachment", "Elastic band"],
+      ["Concealing detail", "Shorter wrap-around hair section"],
+      ["Reference styling", "Braid with natural hair or twist into a braided updo"],
+      ["Source shade range", "13 reference shades; DS HAIR production colours require confirmation"],
+      ["Sales channel", "B2B wholesale / OEM enquiry"]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Length direction",
+        "options": [
+          {"value": "26 in reference", "status": "reference"},
+          {"value": "Buyer-defined", "status": "request"}
+        ],
+        "note": "The source page states 26 inches. Confirm the finished measurement method and tolerance on the approved DS HAIR sample."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {"value": "Elastic-band reference", "status": "reference"},
+          {"value": "Custom attachment brief", "status": "request"}
+        ],
+        "note": "Approve the elastic dimensions, recovery, seam, holding performance and wrap-section coverage on the target wearer."
+      },
+      {
+        "key": "finish",
+        "label": "Styling direction",
+        "options": [
+          {"value": "Braid-ready straight reference", "status": "reference"},
+          {"value": "Custom texture", "status": "request"}
+        ],
+        "note": "Approve fibre alignment, braid handling, end density, shine and recovery after styling and unpacking."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {"value": "DS HAIR reference", "status": "reference"},
+          {"value": "Private label", "status": "request"},
+          {"value": "Buyer-supplied artwork", "status": "request"}
+        ],
+        "note": "Backing card, storage support, braid instructions, care wording, barcode and carton are reviewed after the quantity and channel brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      ["Elastic-band security", "Test band dimensions, stretch recovery, seam security and hold during braiding and normal movement."],
+      ["Length and usable braid", "Measure the finished 26-inch reference and confirm how much length remains after the intended braid pattern."],
+      ["Wrap-section coverage", "Verify that the shorter section conceals the band and connection point from the intended viewing angles."],
+      ["Fibre and braid response", "Approve hand, shine, tangling, braid grip, end behaviour and the tested care protocol on the production fibre."],
+      ["Colour integration", "Approve the blend with the wearer's hair under neutral light using a physical shade reference."]
+    ],
+    "customisation": [
+      ["Length and volume", "Define finished length, total grams, fibre distribution and desired braid fullness."],
+      ["Attachment and wrap", "Confirm band size, recovery, seam, wrap-section length, density and securing method."],
+      ["Fibre and finish", "Specify braid grip, shine, heat-care requirement, end density and post-styling recovery."],
+      ["Private-label packaging", "Develop backing cards, storage supports, braid instructions, care copy, barcodes and retail cartons after quantity review."]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "SOFT CURLS",
+        "title": "21-Inch Soft Curls Claw Clip Ponytail",
+        "summary": "Compare a quick-application claw-clip format with a long soft-curl finish.",
+        "href": "synthetic-21-inch-soft-curls-claw-clip-ponytail.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-01.jpg",
+        "imageAlt": "Soft-curl synthetic claw-clip ponytail reference"
+      },
+      {
+        "eyebrow": "STRAIGHT FALL",
+        "title": "21-Inch Straight Claw Clip Ponytail",
+        "summary": "Compare a long straight fall built around a secure claw-clip attachment.",
+        "href": "synthetic-21-inch-straight-claw-clip-ponytail.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-01.jpg",
+        "imageAlt": "Straight synthetic claw-clip ponytail reference"
+      },
+      {
+        "eyebrow": "UPDO VOLUME",
+        "title": "Clip-In Chignon Development",
+        "summary": "Add a compact synthetic updo reference with a contoured claw-clip attachment.",
+        "href": "synthetic-clip-in-chignon-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "imageAlt": "Synthetic clip-in chignon hairpiece reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": ["Elastic-Band Braiding Ponytail", "Claw-Clip Ponytail", "Drawstring Ponytail", "Clip-In Chignon"],
+      "rows": [
+        ["Primary result", "Integrated braid length", "Fast loose length", "Adjustable gathered-base length", "Compact updo volume"],
+        ["Reference attachment", "Elastic band plus wrap section", "Claw clip", "Drawstring base", "Contoured claw clip"],
+        ["Natural-hair integration", "Braided together", "Natural ponytail concealed inside clip", "Natural ponytail enclosed in base", "Natural hair secured under updo"],
+        ["Best brief detail", "Braid pattern, usable length and band recovery", "Clip geometry and fall", "Base diameter and drawstring security", "Updo silhouette and clip hold"]
+      ],
+      "notice": "The formats are development directions, not interchangeable stock claims. Confirm the construction against an approved sample."
+    },
+    "serviceComparison": [
+      ["Starting point", "Written braid, wearer and channel brief", "Reference photo only"],
+      ["Attachment", "Band dimensions, recovery, seam and wrap recorded", "Elastic band named without measurable details"],
+      ["Fibre claim", "Fibre family and tested care protocol approved", "Heat-friendly wording copied without testing"],
+      ["Colour approval", "Physical reference and blend recorded", "Screen colour treated as final"],
+      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+    ],
+    "knowledge": [
+      {"title": "What is an elastic-band braiding ponytail?", "body": "It is a removable length piece attached around a secured natural ponytail with an elastic band, then braided together with the wearer's hair."},
+      {"title": "Why is there a shorter hair section?", "body": "The source reference uses a shorter section to wrap around and conceal the elastic attachment after the main length is secured."},
+      {"title": "What should buyers test on the band?", "body": "Check dimensions, stretch recovery, seam security, comfort, grip and whether the wrapped finish stays concealed during normal movement."},
+      {"title": "Can heat-friendly synthetic hair be restyled?", "body": "Only within the tested protocol for the actual production fibre. Source wording does not establish a DS HAIR temperature limit."},
+      {"title": "What supports reliable reorders?", "body": "Retain an approved sample and written specification covering fibre, length, grams, band, wrap section, colour, care wording, packaging and QC tolerances."}
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
+      "Finished weight, density distribution, usable braided length and production tolerances",
+      "Elastic-band dimensions, stretch recovery, seam and wrap-section specification",
+      "Production shade range and colour-blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      ["Is this 26-inch braiding ponytail available for wholesale and private label?", "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."],
+      ["How does the reference ponytail attach?", "The source product wraps an elastic band around a secured natural ponytail, then uses a shorter hair section to conceal the connection point."],
+      ["What length and styling use are documented?", "The source page states a 26-inch length designed to braid with natural hair or twist into a braided updo. Production measurement and tolerance require sample approval."],
+      ["Can this synthetic ponytail be heat styled?", "The source describes heat-friendly synthetic hair. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."],
+      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."]
+    ],
+    "ctaTitle": "Develop an elastic-band braiding ponytail range with a repeatable specification.",
+    "ctaText": "Send the target wearer, braid direction, finished length, grams, band requirement, wrap-section detail, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
+  },
+  {
+    "slug": "synthetic-layered-clip-in-crown-topper",
+    "code": "DS-TOP-SY-CI-001",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#clip-in-toppers",
+    "title": "Layered Synthetic Clip-In Crown Topper",
+    "metaTitle": "Wholesale Layered Synthetic Clip-In Crown Topper | DS HAIR",
+    "description": "Develop a wholesale layered synthetic clip-in crown topper for top-area coverage, crown volume, colour matching and private-label programmes.",
+    "summary": "A lightweight clip-in crown-topper direction for professional buyers developing top-area coverage and layered-volume ranges. The cited reference documents front, crown, side and back lengths plus a heat-styleable synthetic direction; DS HAIR production construction, fibre, clip map and commercial terms require sample approval.",
+    "imageStatusNote": "Original AI-developed catalogue references; not physical-sample photography. Confirm the complete production specification against an approved sample.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-01.jpg",
+        "alt": "Layered synthetic clip-in crown topper displayed on a salon mannequin"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-02.jpg",
+        "alt": "Top view of a medium-brown layered synthetic crown topper concept"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-03.jpg",
+        "alt": "Underside concept showing an oval topper base and four perimeter clips"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-04.jpg",
+        "alt": "Close-up concept of the parting and layered synthetic fibre"
+      }
+    ],
+    "confirmedFacts": [
+      ["Product format", "Clip-in crown topper reference"],
+      ["Fibre direction", "Heat-friendly synthetic reference; sample test required"],
+      ["Reference front length", "8 in / 20 cm"],
+      ["Reference crown length", "11.5 in / 29 cm"],
+      ["Reference side length", "9 in / 23 cm"],
+      ["Reference back length", "11.5 in / 29 cm"],
+      ["Primary use", "Top-area coverage and crown volume"],
+      ["Sales channel", "B2B wholesale / OEM enquiry"]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Layered length direction",
+        "options": [
+          {"value": "8–11.5 in reference", "status": "reference"},
+          {"value": "Buyer-defined layers", "status": "request"}
+        ],
+        "note": "The cited reference states front 8 inches, crown and back 11.5 inches, and sides 9 inches. Confirm production measurement points and tolerances."
+      },
+      {
+        "key": "base",
+        "label": "Base direction",
+        "options": [
+          {"value": "Lightweight crown base concept", "status": "reference"},
+          {"value": "Buyer-defined base brief", "status": "request"}
+        ],
+        "note": "Base dimensions, materials, parting construction and edge finish remain unconfirmed until sample approval."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {"value": "Perimeter pressure clips", "status": "reference"},
+          {"value": "Custom clip map", "status": "request"}
+        ],
+        "note": "The four-clip publishing image is an AI-developed concept. Confirm clip count, placement, coating and holding performance on the production sample."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {"value": "DS HAIR reference", "status": "reference"},
+          {"value": "Private label", "status": "request"}
+        ],
+        "note": "Retail card, support form, hair net, care language and barcode can be reviewed after the product specification is approved."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      ["Coverage and blend", "Check the target coverage zone, edge visibility, density transition and blend into the wearer's own layered haircut."],
+      ["Base and parting", "Review base dimensions, flexibility, parting realism, ventilation and comfort under neutral lighting."],
+      ["Clip security", "Test opening force, coating, placement, edge contact and security during normal head movement."],
+      ["Fibre performance", "Approve shine, hand, tangling, layer memory and a documented heat-care protocol for the selected production fibre."],
+      ["Repeatability", "Retain an approved sample and written tolerances for length map, base, density, clips, colour and packaging."]
+    ],
+    "customisation": [
+      "Base dimensions, parting direction and coverage zone",
+      "Layer map, density and finished length profile",
+      "Synthetic fibre family, finish and tested care protocol",
+      "Clip count, placement, coating and colour",
+      "Colour matching, rooted effects and blended shades",
+      "Private-label card, care guide, barcode and retail packaging"
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "SYNTHETIC HAIRPIECES",
+        "title": "22-Inch One-Piece Clip-In",
+        "summary": "Compare a length-led one-piece clip-in with a coverage-led crown topper.",
+        "href": "synthetic-22-inch-straight-clip-in-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-00-product-structure.jpg",
+        "imageAlt": "Synthetic one-piece clip-in hairpiece reference"
+      },
+      {
+        "eyebrow": "UPDO HAIRPIECES",
+        "title": "Clip-In Chignon Development",
+        "summary": "Add a compact synthetic updo direction with a contoured claw-clip attachment.",
+        "href": "synthetic-clip-in-chignon-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "imageAlt": "Synthetic clip-in chignon hairpiece reference"
+      },
+      {
+        "eyebrow": "FULL-HEAD PRODUCTS",
+        "title": "Synthetic Wig Development",
+        "summary": "Compare partial top coverage with a full-head synthetic wig brief.",
+        "href": "contact.html?product=synthetic-wig",
+        "image": "assets/wig-cap.jpg",
+        "imageAlt": "Synthetic wig cap development reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": ["Clip-In Crown Topper", "One-Piece Clip-In", "Ponytail", "Full Synthetic Wig"],
+      "rows": [
+        ["Primary purpose", "Top coverage and crown volume", "Back length and volume", "Gathered-base length", "Full-head coverage"],
+        ["Attachment", "Perimeter pressure clips", "Wide weft with multiple clips", "Wrap, claw clip or elastic", "Full cap"],
+        ["Key buyer check", "Base visibility and density blend", "Weight distribution and width", "Base security and fall", "Cap fit and hairline"],
+        ["Sample focus", "Coverage, parting, clips and comfort", "Blend, clip map and movement", "Attachment and movement", "Cap, hairline and overall fit"]
+      ],
+      "notice": "These formats solve different wearer needs. Approve the topper as a complete coverage system rather than selecting it from fibre appearance alone."
+    },
+    "serviceComparison": [
+      ["Starting point", "Written wearer, coverage and channel brief", "Reference image only"],
+      ["Construction", "Base, density, parting and clip map recorded", "Topper named without measurable construction"],
+      ["Fibre claim", "Fibre family and tested care protocol approved", "Heat-friendly wording copied without testing"],
+      ["Colour approval", "Physical reference and blend recorded", "Screen colour treated as final"],
+      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+    ],
+    "knowledge": [
+      {"title": "What is a synthetic clip-in crown topper?", "body": "It is a partial hairpiece designed to add coverage or volume over the top and crown while leaving the wearer's own perimeter hair visible."},
+      {"title": "Who is a layered topper designed for?", "body": "A layered direction can blend with bob-length or longer layered hair when the base, density and finished length map match the intended wearer."},
+      {"title": "What should buyers approve on the base?", "body": "Record dimensions, materials, flexibility, ventilation, parting construction, edge finish and the exact coverage zone."},
+      {"title": "How should clip placement be tested?", "body": "Evaluate hold, comfort, coating, opening force and whether the clips sit inside strong natural hair around the target coverage area."},
+      {"title": "What supports a reliable private-label reorder?", "body": "Retain the approved sample plus written tolerances for fibre, base, density, length map, clips, colour, care language and packaging."}
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
+      "Base dimensions, materials, parting construction, density and ventilation",
+      "Clip count, placement, coating, dimensions and holding performance",
+      "Finished weight, layer map, production shade range and colour-blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      ["Is this synthetic clip-in topper available for wholesale and private label?", "It is presented as a B2B development reference. Share the target wearer, coverage need, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."],
+      ["What lengths are documented on the reference?", "The cited page states front 8 inches, crown and back 11.5 inches, and sides 9 inches. DS HAIR production measurement points and tolerances require sample approval."],
+      ["Does this page confirm a four-clip production base?", "No. The four-clip underside image is an original development concept. The final clip count, map, base and hardware must be approved on a physical sample."],
+      ["Can this synthetic topper be heat styled?", "The source describes a heat-styleable synthetic direction. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."],
+      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."]
+    ],
+    "ctaTitle": "Develop a layered clip-in crown topper with a repeatable specification.",
+    "ctaText": "Send the target wearer, coverage zone, base requirement, layer map, colour reference, fibre and heat-care requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
   }
 ]

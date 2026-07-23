@@ -52,7 +52,8 @@ function catalogSection(item) {
         'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
         'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',
         'DS-HPC-SY-003': 'synthetic-21-inch-soft-curls-claw-clip-ponytail.html',
-        'DS-HPC-SY-004': 'synthetic-21-inch-straight-claw-clip-ponytail.html'
+        'DS-HPC-SY-004': 'synthetic-21-inch-straight-claw-clip-ponytail.html',
+        'DS-HPC-SY-005': 'synthetic-26-inch-elastic-band-braiding-ponytail.html'
       };
       const productPage = productPages[product.code] || `contact.html?product=${encodeURIComponent(product.code)}`;
       const action = productPages[product.code] ? 'VIEW PRODUCT REFERENCE' : 'REQUEST VERIFIED SPECIFICATION';

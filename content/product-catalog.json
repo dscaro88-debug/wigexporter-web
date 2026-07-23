@@ -555,6 +555,19 @@
       "specificationStatus": "partially_verified_reference",
       "publicationStatus": "draft_ready",
       "notes": "The 21-inch length, straight finish, claw-clip attachment and heat-friendly synthetic fibre direction come from the source product page. DS HAIR production fibre, weight, clip specification, heat protocol, colour range and commercial terms require sample and written confirmation."
+    },
+    {
+      "code": "DS-HPC-SY-005",
+      "name": "26-Inch Elastic-Band Braiding Synthetic Ponytail",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Hairpieces",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-005",
+      "approvedImageCount": 2,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "hold",
+      "notes": "The 26-inch length, elastic-band attachment, shorter wrap-around section, braiding/updo use and heat-friendly synthetic fibre direction come from the source page. Face-bearing source images are excluded. DS HAIR production specifications and commercial terms require sample and written confirmation."
     }
   ]
 }
