@@ -65,7 +65,6 @@ async function ensureTaxonomyFolders() {
     "human-hair-wigs-toppers/human-hair-toppers",
     "human-hair-wigs-toppers/ponytails",
     "synthetic-wigs-hairpieces/synthetic-wigs",
-    "synthetic-wigs-hairpieces/ponytails",
     "synthetic-wigs-hairpieces/hairpieces",
     "synthetic-wigs-hairpieces/bangs-fringes",
     "synthetic-wigs-hairpieces/clip-in-toppers",

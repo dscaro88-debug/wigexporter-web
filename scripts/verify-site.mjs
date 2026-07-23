@@ -127,7 +127,7 @@ for (const formFile of ['index.html', 'trade-account.html', 'contact.html']) {
 for (const [file, anchors] of Object.entries({
   'human-hair-extensions.html': ['clip-in', 'tape-in', 'k-tip', 'genius-weft', 'machine-weft', 'hand-tied-weft'],
   'human-hair-wigs-toppers.html': ['human-hair-wigs', 'lace-wigs', 'human-hair-toppers', 'ponytails'],
-  'synthetic-wigs-hairpieces.html': ['synthetic-wigs', 'ponytails', 'hairpieces', 'bangs-fringes', 'clip-in-toppers'],
+  'synthetic-wigs-hairpieces.html': ['synthetic-wigs', 'hairpieces', 'bangs-fringes', 'clip-in-toppers'],
   'salon-supplies.html': ['kits', 'single-products']
 })) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
