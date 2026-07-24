@@ -568,6 +568,19 @@
       "specificationStatus": "partially_verified_reference",
       "publicationStatus": "hold",
       "notes": "The 26-inch length, elastic-band attachment, shorter wrap-around section, braiding/updo use and heat-friendly synthetic fibre direction come from the source page. Face-bearing source images are excluded. DS HAIR production specifications and commercial terms require sample and written confirmation."
+    },
+    {
+      "code": "DS-HPC-SY-006",
+      "name": "12-Inch Coily Drawstring Synthetic Ponytail",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Hairpieces",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-006",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "The 12-inch length, coily texture, pocket base, drawstring/cinch attachment and heat-friendly synthetic direction come from the official source page. MOQ 30 pcs/color, US$1.98–2.28/pc and 3–21 day lead time were user-confirmed for DS-HPC-SY-006. Production fibre, finished weight, base dimensions, colour set, heat protocol, packing and tolerances require sample and written confirmation."
     }
   ]
 }
