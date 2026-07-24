@@ -29,6 +29,17 @@ if(nav){
     <a class="nav-link${active('about.html')}" href="about.html">About Us</a>
     <a class="nav-link${active('contact.html')}" href="contact.html">Contact</a>`;
 }
+const scrollToHashTarget=()=>{
+  if(!location.hash)return;
+  const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if(!target)return;
+  requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+};
+if(location.hash){
+  scrollToHashTarget();
+  window.addEventListener('load',scrollToHashTarget,{once:true});
+}
+window.addEventListener('hashchange',scrollToHashTarget);
 const toggle=document.querySelector('.menu-toggle');
 if(toggle&&!toggle.getAttribute('aria-label'))toggle.setAttribute('aria-label','Open navigation');
 if(toggle&&nav){toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));toggle.setAttribute('aria-label',open?'Open navigation':'Close navigation');nav.classList.toggle('open',!open)});}

@@ -26,7 +26,7 @@
 .catalog-products>.section-heading{margin-bottom:58px}
 .catalog-group+.catalog-group{margin-top:70px}
 .catalog-group-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;padding-bottom:18px;border-bottom:1px solid var(--line)}
-.catalog-group-heading h3{font:400 clamp(32px,3vw,46px)/1 var(--display);margin:0}
+.catalog-group-heading h3{font:400 clamp(32px,3vw,46px)/1 var(--display);margin:0;scroll-margin-top:28px}
 .catalog-group-heading span{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
 .catalog-product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;margin-top:2px}
 .catalog-product-card{display:flex;min-width:0;flex-direction:column;background:#fff}

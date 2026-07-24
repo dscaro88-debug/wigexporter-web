@@ -197,7 +197,7 @@ for (const product of products) {
   <script src="script.js?v=20260720-5"></script>
 </body>
 </html>`;
-  fs.writeFileSync(path.join(root, `${product.slug}.html`), html);
+  fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
 }
 
 console.log(`Generated ${products.length} product page.`);

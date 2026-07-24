@@ -10,10 +10,15 @@ const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
 const slugify = (value) => String(value).toLowerCase().replaceAll('&', 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function productScope(item) {
+  const catalogGroupSlugs = new Set(catalogProductsFor(item).map((product) => slugify(product.category)));
+  const scopeId = (label) => {
+    const slug = slugify(label);
+    return catalogGroupSlugs.has(slug) ? `scope-${slug}` : slug;
+  };
   if (item.productGroups?.length) {
-    return `<div class="scope-groups">${item.productGroups.map((group) => `<section id="${slugify(group.title)}"><h3>${esc(group.title)}</h3><ul>${group.items.map((product) => `<li id="${slugify(product)}">${esc(product)}</li>`).join('')}</ul></section>`).join('')}</div>`;
+    return `<div class="scope-groups">${item.productGroups.map((group) => `<section id="${scopeId(group.title)}"><h3>${esc(group.title)}</h3><ul>${group.items.map((product) => `<li id="${scopeId(product)}">${esc(product)}</li>`).join('')}</ul></section>`).join('')}</div>`;
   }
-  return `<ul class="scope-list">${item.products.map((product) => `<li id="${slugify(product)}">${esc(product)}</li>`).join('')}</ul>`;
+  return `<ul class="scope-list">${item.products.map((product) => `<li id="${scopeId(product)}">${esc(product)}</li>`).join('')}</ul>`;
 }
 
 function firstApprovedImage(product) {
@@ -46,14 +51,18 @@ function catalogSection(item) {
   const groups = [...new Set(products.map((product) => product.category))];
   return `<section class="catalog-products">
     <div class="section-heading"><div><p class="eyebrow">SELECTED PRODUCT REFERENCES</p><h2>Review products with approved local imagery.</h2></div><p>Images have passed visual review. Product specifications, availability, MOQ, price and lead time remain subject to written confirmation.</p></div>
-    ${groups.map((group) => `<section class="catalog-group" aria-labelledby="${slugify(item.slug)}-${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(item.slug)}-${slugify(group)}">${esc(group)}</h3><span>${products.filter((product) => product.category === group).length} references</span></div><div class="catalog-product-grid">${products.filter((product) => product.category === group).map((product) => {
+    ${groups.map((group) => `<section class="catalog-group" aria-labelledby="${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(group)}">${esc(group)}</h3><span>${products.filter((product) => product.category === group).length} references</span></div><div class="catalog-product-grid">${products.filter((product) => product.category === group).map((product) => {
       const productPages = {
         'DS-EXT-GW': 'genius-weft-human-hair-extensions.html',
         'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
         'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',
         'DS-HPC-SY-003': 'synthetic-21-inch-soft-curls-claw-clip-ponytail.html',
         'DS-HPC-SY-004': 'synthetic-21-inch-straight-claw-clip-ponytail.html',
-        'DS-HPC-SY-005': 'synthetic-26-inch-elastic-band-braiding-ponytail.html'
+        'DS-HPC-SY-005': 'synthetic-26-inch-elastic-band-braiding-ponytail.html',
+        'DS-HPC-SY-006': 'synthetic-12-inch-coily-drawstring-ponytail.html',
+        'DS-HPC-SY-007': 'synthetic-elastic-band-hair-bun-scrunchie.html',
+        'DS-TOP-SY-CI-001': 'synthetic-layered-clip-in-crown-topper.html',
+        'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html'
       };
       const productPage = productPages[product.code] || `contact.html?product=${encodeURIComponent(product.code)}`;
       const action = productPages[product.code] ? 'VIEW PRODUCT REFERENCE' : 'REQUEST VERIFIED SPECIFICATION';
@@ -81,7 +90,7 @@ function head({ title, description, slug, type = 'website', image }) {
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20260720-5">
-  <link rel="stylesheet" href="content.css?v=20260721-1">
+  <link rel="stylesheet" href="content.css?v=20260723-2">
 </head>`;
 }
 
@@ -93,7 +102,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260720-5"></script>
+  <script src="script.js?v=20260723-2"></script>
 </body>
 </html>`;
 }

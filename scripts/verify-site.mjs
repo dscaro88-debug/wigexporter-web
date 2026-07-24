@@ -134,6 +134,16 @@ for (const [file, anchors] of Object.entries({
   for (const anchor of anchors) if (!html.includes(`id="${anchor}"`)) errors.push(`${file}: missing taxonomy anchor #${anchor}`);
 }
 
+const syntheticCollectionHtml = fs.readFileSync(path.join(root, 'synthetic-wigs-hairpieces.html'), 'utf8');
+for (const anchor of ['hairpieces', 'clip-in-toppers']) {
+  const matches = syntheticCollectionHtml.match(new RegExp(`id="${anchor}"`, 'g')) || [];
+  if (matches.length !== 1) errors.push(`synthetic-wigs-hairpieces.html: expected one catalog anchor #${anchor}, found ${matches.length}`);
+  if (!syntheticCollectionHtml.includes(`<h3 id="${anchor}">`)) errors.push(`synthetic-wigs-hairpieces.html: #${anchor} must identify its catalog heading`);
+  if (!syntheticCollectionHtml.includes(`id="scope-${anchor}"`)) errors.push(`synthetic-wigs-hairpieces.html: missing separate scope anchor #scope-${anchor}`);
+}
+const navigationScript = fs.readFileSync(path.join(root, 'script.js'), 'utf8');
+if (!navigationScript.includes('scrollToHashTarget')) errors.push('script.js: missing post-render hash navigation handler');
+
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 for (const file of htmlFiles) {
   const url = file === 'index.html' ? 'https://wigexporter.com/' : `https://wigexporter.com/${file}`;

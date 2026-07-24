@@ -388,6 +388,32 @@
       "notes": "The 21-inch length, soft-curl style, claw-clip attachment and heat-friendly synthetic fibre direction come from the source product page. DS HAIR production fibre, weight, heat protocol, colour range and commercial terms require sample and written confirmation."
     },
     {
+      "code": "DS-TOP-SY-CI-001",
+      "name": "Layered Synthetic Clip-In Crown Topper",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Clip-in Toppers",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Reference lengths and use case come from the cited source page. Three original publishing images are AI-developed catalogue references, not physical-sample photography. The incorrect lace-base concept was removed; underside construction requires a real buyer-approved synthetic-topper reference. DS HAIR fibre, heat protocol, colour range, weight and commercial terms require sample and written confirmation."
+    },
+    {
+      "code": "DS-TOP-SY-CI-002",
+      "name": "Beach-Wave Synthetic Clip-In Crown Topper",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Clip-in Toppers",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-002",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Reference format, fibre direction, lengths, weight and use case come from the cited source page. Three original AI-developed catalogue images show exterior appearance only and are not physical-sample photography. DS HAIR underside, base, clip count, clip layout, heat limit, colour match and packing require sample and written confirmation. User-confirmed commercial terms are US$2.55–2.95, MOQ 30 pcs/color and lead time 3–21 days."
+    },
+    {
       "code": "DS-SAL-S-001",
       "name": "Silicone-lined Nano Rings",
       "section": "Salon Supplies",
@@ -568,6 +594,32 @@
       "specificationStatus": "partially_verified_reference",
       "publicationStatus": "hold",
       "notes": "The 26-inch length, elastic-band attachment, shorter wrap-around section, braiding/updo use and heat-friendly synthetic fibre direction come from the source page. Face-bearing source images are excluded. DS HAIR production specifications and commercial terms require sample and written confirmation."
+    },
+    {
+      "code": "DS-HPC-SY-006",
+      "name": "12-Inch Coily Drawstring Synthetic Ponytail",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Hairpieces",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-006",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "The 12-inch length, coily texture, pocket base, drawstring/cinch attachment and heat-friendly synthetic direction come from the official source page. MOQ 30 pcs/color, US$1.98–2.28/pc and 3–21 day lead time were user-confirmed for DS-HPC-SY-006. Production fibre, finished weight, base dimensions, colour set, heat protocol, packing and tolerances require sample and written confirmation."
+    },
+    {
+      "code": "DS-HPC-SY-007",
+      "name": "Elastic-Band Synthetic Hair Bun Scrunchie",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Hairpieces",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-007",
+      "approvedImageCount": 4,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "The hair-bun/scrunchie format, synthetic direction and source URL were buyer-supplied. The elastic-band attachment and 7 cm / 2.75 in reference text are visible in the supplied images. MOQ 60 pcs/color, US$0.98–1.25/pc and 3–21 day lead time were user-confirmed for DS-HPC-SY-007. Production dimensions, fibre, weight, shade matching, heat protocol, packing and tolerances require sample and written confirmation."
     }
   ]
 }
