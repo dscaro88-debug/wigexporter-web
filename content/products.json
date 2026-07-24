@@ -2303,6 +2303,166 @@
     "ctaText": "Send the target wearer, braid direction, finished length, grams, band requirement, wrap-section detail, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
   },
   {
+    "slug": "synthetic-12-inch-coily-drawstring-ponytail",
+    "code": "DS-HPC-SY-006",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#hairpieces",
+    "title": "12-Inch Coily Drawstring Synthetic Ponytail",
+    "metaTitle": "Wholesale 12-Inch Coily Drawstring Ponytail | DS HAIR",
+    "description": "Source a wholesale 12-inch coily synthetic drawstring ponytail with a pocket base, quick cinch attachment, confirmed MOQ, price range and lead time.",
+    "summary": "A compact coily drawstring ponytail for professional buyers developing quick-application synthetic hairpiece ranges. The official source documents a 12-inch coily texture, pocket-style base, drawstring/cinch attachment and heat-friendly synthetic direction. For DS-HPC-SY-006, MOQ is 30 pcs/color, the unit-price range is US$1.98–2.28 and lead time is 3–21 days. Production fibre, weight, base dimensions, colour set, heat protocol, packing and tolerances remain subject to sample approval and written specification.",
+    "imageStatusNote": "Three reviewed product-only images: two original DS HAIR catalogue concepts derived from the face-free construction reference, plus one face-free official structure reference. Source model and installation images containing an identifiable face are retained for traceability only and are not published.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-006/ds-hpc-sy-006-01.png",
+        "alt": "Finished exterior view of a compact 12-inch coily synthetic drawstring ponytail",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-006/ds-hpc-sy-006-02.png",
+        "alt": "Pocket base and drawstring cinch detail on a coily synthetic ponytail",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-006/ds-hpc-sy-006-03.jpg",
+        "alt": "Face-free structure reference showing the pocket base, combs and drawstring closure",
+        "fit": "contain"
+      }
+    ],
+    "confirmedFacts": [
+      ["Product format", "Pocket-base drawstring / cinch ponytail reference"],
+      ["Fibre family", "Heat-friendly synthetic hair direction; production fibre to approve"],
+      ["Reference length", "12 in / approx. 30.5 cm"],
+      ["Reference attachment", "Pocket base with drawstring / cinch closure"],
+      ["Reference texture", "Dense coily curls"],
+      ["MOQ", "30 pcs/color"],
+      ["Unit price", "US$1.98–2.28/pc"],
+      ["Lead time", "3–21 days"],
+      ["Sales channel", "B2B wholesale / OEM enquiry"]
+    ],
+    "configuration": [
+      {
+        "key": "length",
+        "label": "Length direction",
+        "options": [
+          {"value": "12 in reference", "status": "reference"},
+          {"value": "Buyer-defined", "status": "request"}
+        ],
+        "note": "The source page states 12 inches. Confirm the finished measurement method, stretched length and production tolerance on the approved DS HAIR sample."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {"value": "Pocket + drawstring reference", "status": "reference"},
+          {"value": "Custom attachment brief", "status": "request"}
+        ],
+        "note": "Approve pocket dimensions, comb layout, cord, stopper, stitching, concealment and holding performance on the target wearer."
+      },
+      {
+        "key": "texture",
+        "label": "Texture direction",
+        "options": [
+          {"value": "Dense coily curl reference", "status": "reference"},
+          {"value": "Custom curl pattern", "status": "request"}
+        ],
+        "note": "Approve curl diameter, definition, density, frizz limit, fibre shine and recovery after packing and care."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {"value": "DS HAIR reference", "status": "reference"},
+          {"value": "Private label", "status": "request"},
+          {"value": "Buyer-supplied artwork", "status": "request"}
+        ],
+        "note": "Backing card, curl protection, attachment instructions, care wording, barcode and carton are reviewed after the quantity and channel brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      ["Pocket and cinch security", "Test pocket dimensions, comb placement, drawstring movement, stopper hold, stitching and concealment during normal wear."],
+      ["Coily texture repeatability", "Approve curl diameter, spring, density distribution, frizz limit and shape recovery after packing, washing and the approved care routine."],
+      ["Length and finished volume", "Measure the 12-inch reference consistently and record stretched length, overall grams, silhouette and production tolerances."],
+      ["Fibre and heat protocol", "Approve hand, shine, tangling and the exact tested care or heat protocol for the selected production fibre."],
+      ["Colour integration", "Approve the blend with the intended wearer under neutral light using a physical shade or representative product sample."]
+    ],
+    "customisation": [
+      ["Length and volume", "Define finished length, stretched length, total grams, density distribution and desired ponytail silhouette."],
+      ["Pocket and drawstring", "Confirm pocket dimensions, comb map, cord, stopper, stitching, base colour and concealment."],
+      ["Fibre and curl pattern", "Specify curl diameter, definition, shine, frizz limit, hand and tested care protocol."],
+      ["Colour matching", "Approve physical shades, blends and rooted effects against a representative product sample."],
+      ["Private-label packaging", "Develop backing cards, curl protection, instructions, care copy, barcodes and retail cartons after quantity review."]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "STRAIGHT FALL",
+        "title": "21-Inch Straight Claw Clip Ponytail",
+        "summary": "Compare a longer straight fall built around a secure claw-clip attachment.",
+        "href": "synthetic-21-inch-straight-claw-clip-ponytail.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-004/ds-hpc-sy-004-01.jpg",
+        "imageAlt": "Straight synthetic claw-clip ponytail reference"
+      },
+      {
+        "eyebrow": "SOFT CURLS",
+        "title": "21-Inch Soft Curls Claw Clip Ponytail",
+        "summary": "Compare a longer soft-curl fall built around a quick claw-clip attachment.",
+        "href": "synthetic-21-inch-soft-curls-claw-clip-ponytail.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-003/ds-hpc-sy-003-01.jpg",
+        "imageAlt": "Soft-curl synthetic claw-clip ponytail reference"
+      },
+      {
+        "eyebrow": "UPDO VOLUME",
+        "title": "Clip-In Chignon Development",
+        "summary": "Add a compact synthetic updo reference with a contoured claw-clip attachment.",
+        "href": "synthetic-clip-in-chignon-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-001/ds-hpc-sy-001-01.jpg",
+        "imageAlt": "Synthetic clip-in chignon hairpiece reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": ["Coily Drawstring Ponytail", "Claw-Clip Ponytail", "Elastic-Band Braiding Ponytail", "Clip-In Chignon"],
+      "rows": [
+        ["Primary result", "Compact coily volume", "Fast loose length", "Integrated braid length", "Compact updo volume"],
+        ["Reference attachment", "Pocket base + drawstring", "Claw clip", "Elastic band + wrap section", "Contoured claw clip"],
+        ["Natural-hair integration", "Natural ponytail enclosed in pocket", "Natural ponytail concealed inside clip", "Braided together", "Natural hair secured under updo"],
+        ["Best brief detail", "Pocket size, cinch hold and curl repeatability", "Clip geometry and fall", "Braid pattern and band recovery", "Updo silhouette and clip hold"]
+      ],
+      "notice": "These are separate development directions. Confirm the chosen construction against an approved sample; do not treat attachment types as interchangeable."
+    },
+    "serviceComparison": [
+      ["Starting point", "Written wearer, curl, attachment and channel brief", "Reference photo only"],
+      ["Attachment", "Pocket, comb map, cord, stopper and hold recorded", "Drawstring named without measurable construction"],
+      ["Texture control", "Curl diameter, density, frizz limit and recovery approved", "Coily appearance judged from one screen image"],
+      ["Commercial terms", "MOQ, price range and lead time recorded with the SKU", "Commercial values separated from the product record"],
+      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+    ],
+    "knowledge": [
+      {"title": "What is a coily drawstring ponytail?", "body": "It is a removable textured hairpiece with a pocket-style base placed over a secured natural ponytail or bun, then tightened with a drawstring or cinch closure."},
+      {"title": "What should buyers verify on the pocket base?", "body": "Record pocket dimensions, comb count and placement, cord material, stopper, stitching, base colour, concealment and holding performance."},
+      {"title": "How should coily texture be approved?", "body": "Approve curl diameter, definition, density, frizz limit, fibre shine and shape recovery after packing, washing and the selected care routine."},
+      {"title": "Are the commercial terms confirmed?", "body": "For DS-HPC-SY-006, MOQ is 30 pcs/color, unit price is US$1.98–2.28/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written order specification."},
+      {"title": "What supports reliable reorders?", "body": "Retain an approved sample and written specification covering fibre, length, grams, pocket, comb map, drawstring, curl pattern, colour, care wording, packaging and QC tolerances."}
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
+      "Finished weight, density distribution, stretched length and production tolerances",
+      "Pocket dimensions, comb count and placement, cord, stopper and stitching specification",
+      "Production shade range, blends and rooted-effect availability",
+      "Packing method, unit packaging dimensions and carton details"
+    ],
+    "faqs": [
+      ["Is this 12-inch coily drawstring ponytail available for wholesale and private label?", "Yes, it is presented as a B2B development reference. Share the target market, colour direction, fibre requirement and packaging brief so the confirmed commercial terms can be applied to the correct specification."],
+      ["What are the MOQ, price and lead time for DS-HPC-SY-006?", "MOQ is 30 pcs/color, the unit-price range is US$1.98–2.28/pc and lead time is 3–21 days. Final totals and schedule are confirmed on the written order specification."],
+      ["How does the reference ponytail attach?", "The source product uses a pocket base that fits over a secured natural ponytail or bun, then tightens with a drawstring/cinch closure. Production pocket and hardware details require sample approval."],
+      ["What length and texture are documented?", "The source page states a 12-inch length with a dense coily curl texture. Finished measurement, grams, curl tolerance and production fibre require sample approval."],
+      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available colour options and packaging details require written confirmation."]
+    ],
+    "ctaTitle": "Develop a coily drawstring ponytail range with a repeatable specification.",
+    "ctaText": "Send the target wearer, finished length, grams, curl pattern, pocket and drawstring requirement, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample and quotation path."
+  },
+  {
     "slug": "synthetic-layered-clip-in-crown-topper",
     "code": "DS-TOP-SY-CI-001",
     "brand": "DS HAIR",
@@ -2321,10 +2481,6 @@
       {
         "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-02.jpg",
         "alt": "Top view of a medium-brown layered synthetic crown topper concept"
-      },
-      {
-        "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-03.jpg",
-        "alt": "Underside concept showing an oval topper base and four perimeter clips"
       },
       {
         "src": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-04.jpg",
