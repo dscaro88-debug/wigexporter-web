@@ -61,6 +61,7 @@ function catalogSection(item) {
         'DS-HPC-SY-005': 'synthetic-26-inch-elastic-band-braiding-ponytail.html',
         'DS-HPC-SY-006': 'synthetic-12-inch-coily-drawstring-ponytail.html',
         'DS-HPC-SY-007': 'synthetic-elastic-band-hair-bun-scrunchie.html',
+        'DS-HPC-SY-008': 'synthetic-25-inch-straight-wrap-around-ponytail.html',
         'DS-TOP-SY-CI-001': 'synthetic-layered-clip-in-crown-topper.html',
         'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html'
       };
