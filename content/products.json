@@ -212,6 +212,14 @@
         "imageAlt": "Seam clip-in human hair extension set",
         "summary": "Plan piece count, total weight, clip construction, colour and retail presentation.",
         "href": "contact.html?product=Seam%20Clip-In%20Extensions"
+      },
+      {
+        "title": "Machine Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-01.png",
+        "imageAlt": "Machine weft human hair extensions for wholesale development",
+        "summary": "Review track type, grams per pack, width, length, colour and private-label presentation.",
+        "href": "machine-weft-human-hair-extensions.html"
       }
     ],
     "methodComparison": {
@@ -817,6 +825,14 @@
         "imageAlt": "Genius Weft human hair extensions for wholesale development",
         "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
         "href": "genius-weft-human-hair-extensions.html"
+      },
+      {
+        "title": "Machine Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-01.png",
+        "imageAlt": "Machine weft human hair extensions for wholesale development",
+        "summary": "Review track type, grams per pack, width, length, colour and private-label presentation.",
+        "href": "machine-weft-human-hair-extensions.html"
       }
     ],
     "methodComparison": {
@@ -1419,6 +1435,14 @@
         "imageAlt": "Genius Weft human hair extensions for wholesale development",
         "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
         "href": "genius-weft-human-hair-extensions.html"
+      },
+      {
+        "title": "Machine Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-01.png",
+        "imageAlt": "Machine weft human hair extensions for wholesale development",
+        "summary": "Review track type, grams per pack, width, length, colour and private-label presentation.",
+        "href": "machine-weft-human-hair-extensions.html"
       }
     ],
     "methodComparison": {
@@ -1573,40 +1597,125 @@
         "whatsappMessage": "Hi DS HAIR, I'm interested in wholesale Human Hair K-Tip Extensions. Please send trade pricing, MOQ and sample information."
       },
       "trustBadges": [
-        { "label": "MOQ & Samples", "sublabel": "Negotiable" },
-        { "label": "Private Label", "sublabel": "OEM packaging" },
-        { "label": "Global Shipping", "sublabel": "3–5 days express" },
-        { "label": "19 Years", "sublabel": "Industry experience" }
+        {
+          "label": "MOQ & Samples",
+          "sublabel": "Negotiable"
+        },
+        {
+          "label": "Private Label",
+          "sublabel": "OEM packaging"
+        },
+        {
+          "label": "Global Shipping",
+          "sublabel": "3–5 days express"
+        },
+        {
+          "label": "19 Years",
+          "sublabel": "Industry experience"
+        }
       ],
       "serviceBar": [
-        { "label": "Quality Guarantee", "sublabel": "Sample approval before production" },
-        { "label": "Reorder Support", "sublabel": "Return to approved specification" },
-        { "label": "Colour Matching", "sublabel": "Physical references available" },
-        { "label": "Flexible Lead Times", "sublabel": "Express or scheduled" }
+        {
+          "label": "Quality Guarantee",
+          "sublabel": "Sample approval before production"
+        },
+        {
+          "label": "Reorder Support",
+          "sublabel": "Return to approved specification"
+        },
+        {
+          "label": "Colour Matching",
+          "sublabel": "Physical references available"
+        },
+        {
+          "label": "Flexible Lead Times",
+          "sublabel": "Express or scheduled"
+        }
       ]
     },
     "images": [
-      { "src": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg", "alt": "Multi-shade K-tip keratin fusion bonds on a white background", "fit": "contain" },
-      { "src": "assets/products/human-hair-extensions/k-tip/rising-flat-vtip.jpg", "alt": "Flat and V-tip K-tip bonds for a discreet, fine-hair finish", "fit": "contain" },
-      { "src": "assets/products/human-hair-extensions/k-tip/niche-blonde.jpg", "alt": "Finished blonde K-tip fusion installation viewed from behind", "fit": "contain" },
-      { "src": "assets/products/human-hair-extensions/k-tip/how-it-works.jpg", "alt": "Four-step K-tip keratin fusion application process", "fit": "contain" },
-      { "src": "assets/products/human-hair-extensions/k-tip/bond-detail.jpg", "alt": "Close-up of V-tip keratin bond colour options", "fit": "contain" },
-      { "src": "assets/products/human-hair-extensions/k-tip/niche-application.jpg", "alt": "K-tip strands applied strand-by-strand in a salon setting", "fit": "contain" },
-      { "src": "assets/products/human-hair-extensions/k-tip/heat-fusion.jpg", "alt": "Keratin bond melted with a professional fusion tool", "fit": "contain" }
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg",
+        "alt": "Multi-shade K-tip keratin fusion bonds on a white background",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/rising-flat-vtip.jpg",
+        "alt": "Flat and V-tip K-tip bonds for a discreet, fine-hair finish",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/niche-blonde.jpg",
+        "alt": "Finished blonde K-tip fusion installation viewed from behind",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/how-it-works.jpg",
+        "alt": "Four-step K-tip keratin fusion application process",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/bond-detail.jpg",
+        "alt": "Close-up of V-tip keratin bond colour options",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/niche-application.jpg",
+        "alt": "K-tip strands applied strand-by-strand in a salon setting",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/k-tip/heat-fusion.jpg",
+        "alt": "Keratin bond melted with a professional fusion tool",
+        "fit": "contain"
+      }
     ],
     "imageStatusNote": "MARKET REFERENCE IMAGERY · REPLACE WITH DS HAIR PHOTOS BEFORE LIVE TRADING",
     "confirmedFacts": [
-      ["Product family", "Human hair K-tip (keratin fusion) extensions"],
-      ["Tip formats", "K-Tip (fusion) · I-Tip · U-Tip · V-Tip"],
-      ["Material detail", "100% Remy human hair · virgin available"],
-      ["Bond material", "Italian keratin · clear / white / brown / black"],
-      ["Strand weight", "0.5 g · 0.8 g · 1.0 g (custom)"],
-      ["Pack formats", "25 / 50 / 100 strands per pack"],
-      ["Length range", "12 in – 26 in (request)"],
-      ["Colour system", "31 shades · Colour Chart 2 · custom ombre/balayage"],
-      ["Product code", "Not used for this method family"],
-      ["Sales channel", "B2B wholesale / OEM enquiry"],
-      ["Order basis", "Approved bond type + full specification"]
+      [
+        "Product family",
+        "Human hair K-tip (keratin fusion) extensions"
+      ],
+      [
+        "Tip formats",
+        "K-Tip (fusion) · I-Tip · U-Tip · V-Tip"
+      ],
+      [
+        "Material detail",
+        "100% Remy human hair · virgin available"
+      ],
+      [
+        "Bond material",
+        "Italian keratin · clear / white / brown / black"
+      ],
+      [
+        "Strand weight",
+        "0.5 g · 0.8 g · 1.0 g (custom)"
+      ],
+      [
+        "Pack formats",
+        "25 / 50 / 100 strands per pack"
+      ],
+      [
+        "Length range",
+        "12 in – 26 in (request)"
+      ],
+      [
+        "Colour system",
+        "31 shades · Colour Chart 2 · custom ombre/balayage"
+      ],
+      [
+        "Product code",
+        "Not used for this method family"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ],
+      [
+        "Order basis",
+        "Approved bond type + full specification"
+      ]
     ],
     "productTypes": [
       {
@@ -1647,18 +1756,54 @@
       "title": "Choose the product in the same order your customer does.",
       "intro": "Start with the natural-hair profile and desired wear time, then choose bond format, strand weight and colour. This prevents a buyer from treating every K-tip strand as the same product.",
       "items": [
-        { "label": "01 · NATURAL HAIR", "title": "Match the wearer profile", "body": "Fine hair needs a flatter, lighter bond and lighter strand weight; medium and thick hair can carry standard 1.0 g fusion bonds for a lasting blend." },
-        { "label": "02 · WEAR & RESULT", "title": "Choose bond format and length", "body": "Decide whether the client wants 3–6 month fusion wear, a flat invisible bond, or a textured/curly result before locking strand weight." },
-        { "label": "03 · FINISHED PRODUCT", "title": "Lock specification", "body": "Approve the tip format, strand weight, bond colour, length, texture, hair grade, colour and packaging together as one repeatable product." }
+        {
+          "label": "01 · NATURAL HAIR",
+          "title": "Match the wearer profile",
+          "body": "Fine hair needs a flatter, lighter bond and lighter strand weight; medium and thick hair can carry standard 1.0 g fusion bonds for a lasting blend."
+        },
+        {
+          "label": "02 · WEAR & RESULT",
+          "title": "Choose bond format and length",
+          "body": "Decide whether the client wants 3–6 month fusion wear, a flat invisible bond, or a textured/curly result before locking strand weight."
+        },
+        {
+          "label": "03 · FINISHED PRODUCT",
+          "title": "Lock specification",
+          "body": "Approve the tip format, strand weight, bond colour, length, texture, hair grade, colour and packaging together as one repeatable product."
+        }
       ]
     },
     "specificationAnatomy": [
-      ["01", "Wearer & result", "Fine, medium or thick natural hair; length, volume, texture match or full coverage."],
-      ["02", "Bond format", "K-tip, I-tip, U-tip or V-tip; keratin colour, size and flatness."],
-      ["03", "Strand architecture", "Strand weight, strands per pack, total grams and end-density target."],
-      ["04", "Hair specification", "Length, texture, Remy direction, virgin grade, colour reference, drawing level."],
-      ["05", "Application method", "Heat fusion (K/U/V-tip) or cold micro-link (I-tip); tool and stylist workflow."],
-      ["06", "Commercial presentation", "Quantity, label, backing card, artwork, barcode and market requirements."]
+      [
+        "01",
+        "Wearer & result",
+        "Fine, medium or thick natural hair; length, volume, texture match or full coverage."
+      ],
+      [
+        "02",
+        "Bond format",
+        "K-tip, I-tip, U-tip or V-tip; keratin colour, size and flatness."
+      ],
+      [
+        "03",
+        "Strand architecture",
+        "Strand weight, strands per pack, total grams and end-density target."
+      ],
+      [
+        "04",
+        "Hair specification",
+        "Length, texture, Remy direction, virgin grade, colour reference, drawing level."
+      ],
+      [
+        "05",
+        "Application method",
+        "Heat fusion (K/U/V-tip) or cold micro-link (I-tip); tool and stylist workflow."
+      ],
+      [
+        "06",
+        "Commercial presentation",
+        "Quantity, label, backing card, artwork, barcode and market requirements."
+      ]
     ],
     "configuration": [
       {
@@ -1666,11 +1811,26 @@
         "label": "Tip / bond format",
         "note": "Choose the bond format first. K-tip, U-tip and V-tip are heat-fused; I-tip is applied cold with a micro-link. This drives the tool, strand weight and wearer profile.",
         "options": [
-          { "value": "K-Tip (round fusion)", "status": "request" },
-          { "value": "V-Tip (flat fusion)", "status": "request" },
-          { "value": "U-Tip (flat fusion)", "status": "request" },
-          { "value": "I-Tip (cold micro-link)", "status": "request" },
-          { "value": "Match supplied sample", "status": "request" }
+          {
+            "value": "K-Tip (round fusion)",
+            "status": "request"
+          },
+          {
+            "value": "V-Tip (flat fusion)",
+            "status": "request"
+          },
+          {
+            "value": "U-Tip (flat fusion)",
+            "status": "request"
+          },
+          {
+            "value": "I-Tip (cold micro-link)",
+            "status": "request"
+          },
+          {
+            "value": "Match supplied sample",
+            "status": "request"
+          }
         ]
       },
       {
@@ -1678,10 +1838,22 @@
         "label": "Strand weight",
         "note": "Weight refers to the hair weight per individual strand. Total pack weight depends on strand count.",
         "options": [
-          { "value": "0.5 g", "status": "request" },
-          { "value": "0.8 g", "status": "request" },
-          { "value": "1.0 g", "status": "request" },
-          { "value": "Custom weight", "status": "request" }
+          {
+            "value": "0.5 g",
+            "status": "request"
+          },
+          {
+            "value": "0.8 g",
+            "status": "request"
+          },
+          {
+            "value": "1.0 g",
+            "status": "request"
+          },
+          {
+            "value": "Custom weight",
+            "status": "request"
+          }
         ]
       },
       {
@@ -1689,14 +1861,38 @@
         "label": "Requested length",
         "note": "Lengths shown are buying-request options, not live-stock claims. Final availability is confirmed with the selected bond format and hair grade.",
         "options": [
-          { "value": "12 in / 30 cm", "status": "request" },
-          { "value": "14 in / 36 cm", "status": "request" },
-          { "value": "16 in / 41 cm", "status": "request" },
-          { "value": "18 in / 46 cm", "status": "request" },
-          { "value": "20 in / 51 cm", "status": "request" },
-          { "value": "22 in / 56 cm", "status": "request" },
-          { "value": "24 in / 61 cm", "status": "request" },
-          { "value": "26 in / 66 cm", "status": "request" }
+          {
+            "value": "12 in / 30 cm",
+            "status": "request"
+          },
+          {
+            "value": "14 in / 36 cm",
+            "status": "request"
+          },
+          {
+            "value": "16 in / 41 cm",
+            "status": "request"
+          },
+          {
+            "value": "18 in / 46 cm",
+            "status": "request"
+          },
+          {
+            "value": "20 in / 51 cm",
+            "status": "request"
+          },
+          {
+            "value": "22 in / 56 cm",
+            "status": "request"
+          },
+          {
+            "value": "24 in / 61 cm",
+            "status": "request"
+          },
+          {
+            "value": "26 in / 66 cm",
+            "status": "request"
+          }
         ]
       },
       {
@@ -1704,11 +1900,26 @@
         "label": "Requested texture",
         "note": "Straight is the most common reference. Wave, curl and textured patterns require a matching physical sample.",
         "options": [
-          { "value": "Straight", "status": "request" },
-          { "value": "Body Wave", "status": "request" },
-          { "value": "Deep Wave", "status": "request" },
-          { "value": "Yaki / Kinky", "status": "request" },
-          { "value": "Afro Curl", "status": "request" }
+          {
+            "value": "Straight",
+            "status": "request"
+          },
+          {
+            "value": "Body Wave",
+            "status": "request"
+          },
+          {
+            "value": "Deep Wave",
+            "status": "request"
+          },
+          {
+            "value": "Yaki / Kinky",
+            "status": "request"
+          },
+          {
+            "value": "Afro Curl",
+            "status": "request"
+          }
         ]
       },
       {
@@ -1716,10 +1927,22 @@
         "label": "Colour system",
         "note": "Solid, rooted, ombre and balayage are separate development references. Use Colour Chart 2 to shortlist, then approve a physical reference.",
         "options": [
-          { "value": "Solid shades (Chart 2)", "status": "request" },
-          { "value": "Rooted / ombre", "status": "request" },
-          { "value": "Balayage custom", "status": "request" },
-          { "value": "Platinum #613", "status": "request" }
+          {
+            "value": "Solid shades (Chart 2)",
+            "status": "request"
+          },
+          {
+            "value": "Rooted / ombre",
+            "status": "request"
+          },
+          {
+            "value": "Balayage custom",
+            "status": "request"
+          },
+          {
+            "value": "Platinum #613",
+            "status": "request"
+          }
         ]
       },
       {
@@ -1727,40 +1950,122 @@
         "label": "Target wearer / result",
         "note": "This selection guides strand count and bond choice. It is not a universal suitability guarantee; the final product should be tested on the intended wearer profile.",
         "options": [
-          { "value": "Fine hair · discreet bond", "status": "request" },
-          { "value": "Medium hair · length + volume", "status": "request" },
-          { "value": "Thick hair · full coverage", "status": "request" },
-          { "value": "Textured / curly hair", "status": "request" }
+          {
+            "value": "Fine hair · discreet bond",
+            "status": "request"
+          },
+          {
+            "value": "Medium hair · length + volume",
+            "status": "request"
+          },
+          {
+            "value": "Thick hair · full coverage",
+            "status": "request"
+          },
+          {
+            "value": "Textured / curly hair",
+            "status": "request"
+          }
         ]
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Bond & keratin", "Review keratin quality, bond size, colour match to root, melt behaviour and residue after removal."],
-      ["Hair retention", "Test shedding before and after controlled washing, styling and re-tip cycles."],
-      ["Strand consistency", "Confirm every strand weight, length and end density across the pack."],
-      ["Application result", "Check scalp comfort, bond visibility, movement and blend with natural hair on the intended wearer."]
+      [
+        "Bond & keratin",
+        "Review keratin quality, bond size, colour match to root, melt behaviour and residue after removal."
+      ],
+      [
+        "Hair retention",
+        "Test shedding before and after controlled washing, styling and re-tip cycles."
+      ],
+      [
+        "Strand consistency",
+        "Confirm every strand weight, length and end density across the pack."
+      ],
+      [
+        "Application result",
+        "Check scalp comfort, bond visibility, movement and blend with natural hair on the intended wearer."
+      ]
     ],
     "constructionComparison": {
       "title": "Standard round K-tip and flat V-tip are two different bond constructions.",
-      "columns": ["Standard Round K-Tip", "Flat / V-Tip"],
+      "columns": [
+        "Standard Round K-Tip",
+        "Flat / V-Tip"
+      ],
       "rows": [
-        ["Bond shape", "Round keratin tip", "Flattened, lower-profile keratin tip"],
-        ["Profile at the root", "Small rounded bond; strong hold", "Designed to sit flatter with less visible bond"],
-        ["Key development risk", "Bond size consistency, melt control and residue", "Flatness, translucency and edge durability"],
-        ["Colour consideration", "Bond colour should match root shade", "Bond should be translucent or closely matched to scalp"],
-        ["What a buyer must approve", "Physical strand sample plus melt/removal test", "Physical strand sample plus root-seam visibility test"]
+        [
+          "Bond shape",
+          "Round keratin tip",
+          "Flattened, lower-profile keratin tip"
+        ],
+        [
+          "Profile at the root",
+          "Small rounded bond; strong hold",
+          "Designed to sit flatter with less visible bond"
+        ],
+        [
+          "Key development risk",
+          "Bond size consistency, melt control and residue",
+          "Flatness, translucency and edge durability"
+        ],
+        [
+          "Colour consideration",
+          "Bond colour should match root shade",
+          "Bond should be translucent or closely matched to scalp"
+        ],
+        [
+          "What a buyer must approve",
+          "Physical strand sample plus melt/removal test",
+          "Physical strand sample plus root-seam visibility test"
+        ]
       ],
       "notice": "Round and flat are bond choices, not automatic quality grades. The correct decision depends on the target wearer, strand weight and approved physical sample."
     },
     "methodComparison": {
-      "columns": ["K-Tip (Fusion)", "I-Tip (Micro-link)", "U-Tip (Fusion)", "V-Tip (Flat)"],
+      "columns": [
+        "K-Tip (Fusion)",
+        "I-Tip (Micro-link)",
+        "U-Tip (Fusion)",
+        "V-Tip (Flat)"
+      ],
       "rows": [
-        ["Application method", "Heat-fused keratin bond", "Cold micro-link / silicone ring", "Heat-fused flat keratin bond", "Heat-fused flat keratin bond"],
-        ["Tool required", "Fusion heat connector", "Micro-link pliers", "Fusion heat connector", "Fusion heat connector"],
-        ["Best for", "Most natural, longest wear", "No-heat, reusable strand", "Fine hair, flat bond", "Fine hair, most discreet bond"],
-        ["Reusability", "Re-tip after removal", "Reusable with new ring", "Re-tip after removal", "Re-tip after removal"],
-        ["Key buyer risk", "Bond size, melt control", "Ring slip, bead visibility", "Bond flatness, residue", "Flatness, translucency"]
+        [
+          "Application method",
+          "Heat-fused keratin bond",
+          "Cold micro-link / silicone ring",
+          "Heat-fused flat keratin bond",
+          "Heat-fused flat keratin bond"
+        ],
+        [
+          "Tool required",
+          "Fusion heat connector",
+          "Micro-link pliers",
+          "Fusion heat connector",
+          "Fusion heat connector"
+        ],
+        [
+          "Best for",
+          "Most natural, longest wear",
+          "No-heat, reusable strand",
+          "Fine hair, flat bond",
+          "Fine hair, most discreet bond"
+        ],
+        [
+          "Reusability",
+          "Re-tip after removal",
+          "Reusable with new ring",
+          "Re-tip after removal",
+          "Re-tip after removal"
+        ],
+        [
+          "Key buyer risk",
+          "Bond size, melt control",
+          "Ring slip, bead visibility",
+          "Bond flatness, residue",
+          "Flatness, translucency"
+        ]
       ],
       "notice": "K-tip, I-tip, U-tip and V-tip are different bond formats with different tools and wearer profiles. Select the format by application method, hair density and approved physical sample—not by name alone.",
       "eyebrow": "TIP FORMAT COMPARISON",
@@ -1768,11 +2073,31 @@
       "intro": "Select the tip format by application method and wearer density. Do not treat every strand as the same product."
     },
     "serviceComparison": [
-      ["Starting point", "Written product name and buying brief", "A photo or broad catalogue name"],
-      ["Bond definition", "Tip format, strand weight and bond colour recorded", "Only 'K-tip' named"],
-      ["Colour decision", "Physical colour reference recommended", "Screen colour treated as final"],
-      ["Sample record", "Approval points and changes documented", "No shared repeat-order benchmark"],
-      ["Repeat order", "Return to the approved specification", "Rebuild the requirement from chat history"]
+      [
+        "Starting point",
+        "Written product name and buying brief",
+        "A photo or broad catalogue name"
+      ],
+      [
+        "Bond definition",
+        "Tip format, strand weight and bond colour recorded",
+        "Only 'K-tip' named"
+      ],
+      [
+        "Colour decision",
+        "Physical colour reference recommended",
+        "Screen colour treated as final"
+      ],
+      [
+        "Sample record",
+        "Approval points and changes documented",
+        "No shared repeat-order benchmark"
+      ],
+      [
+        "Repeat order",
+        "Return to the approved specification",
+        "Rebuild the requirement from chat history"
+      ]
     ],
     "customisation": [
       "K-tip, I-tip, U-tip and V-tip range architecture",
@@ -1806,15 +2131,41 @@
         "imageAlt": "Genius Weft human hair extensions for wholesale development",
         "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
         "href": "genius-weft-human-hair-extensions.html"
+      },
+      {
+        "title": "Machine Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-01.png",
+        "imageAlt": "Machine weft human hair extensions for wholesale development",
+        "summary": "Review track type, grams per pack, width, length, colour and private-label presentation.",
+        "href": "machine-weft-human-hair-extensions.html"
       }
     ],
     "knowledge": [
-      { "title": "What types of K-tip extensions are available?", "body": "The range can be developed as K-tip (round fusion), V-tip (flat fusion), U-tip (flat fusion) or I-tip (cold micro-link). Each format serves a different application method, tool and wearer profile." },
-      { "title": "How many K-tip strands does a client need?", "body": "Fine hair may need 80–100 strands for a full look, medium hair 120–160 strands and thick hair 180–220 strands. Two strands are applied per small section; the total depends on desired density and length." },
-      { "title": "How do K-tip and I-tip differ?", "body": "K-tip uses a heat-fused keratin bond applied with a fusion connector. I-tip is a cold method attached with a silicone-lined micro-link ring and pliers. I-tip is reusable; K-tip is re-tipped after removal." },
-      { "title": "Why choose flat V-tip for fine hair?", "body": "A flattened, lower-profile keratin bond sits closer to the scalp and shows less through thin hair. Translucent or scalp-matched bond colour further reduces visibility at the root." },
-      { "title": "How long do K-tip extensions last?", "body": "With professional application and care, K-tip fusion extensions typically wear 3–6 months before move-up or re-tip. Lifespan depends on hair grade, aftercare and the wearer's natural growth." },
-      { "title": "What controls a reliable reorder?", "body": "Keep one approved sample and one written specification covering tip format, strand weight, bond colour, hair details, length, texture, colour reference, tolerances, packaging and QC checkpoints." }
+      {
+        "title": "What types of K-tip extensions are available?",
+        "body": "The range can be developed as K-tip (round fusion), V-tip (flat fusion), U-tip (flat fusion) or I-tip (cold micro-link). Each format serves a different application method, tool and wearer profile."
+      },
+      {
+        "title": "How many K-tip strands does a client need?",
+        "body": "Fine hair may need 80–100 strands for a full look, medium hair 120–160 strands and thick hair 180–220 strands. Two strands are applied per small section; the total depends on desired density and length."
+      },
+      {
+        "title": "How do K-tip and I-tip differ?",
+        "body": "K-tip uses a heat-fused keratin bond applied with a fusion connector. I-tip is a cold method attached with a silicone-lined micro-link ring and pliers. I-tip is reusable; K-tip is re-tipped after removal."
+      },
+      {
+        "title": "Why choose flat V-tip for fine hair?",
+        "body": "A flattened, lower-profile keratin bond sits closer to the scalp and shows less through thin hair. Translucent or scalp-matched bond colour further reduces visibility at the root."
+      },
+      {
+        "title": "How long do K-tip extensions last?",
+        "body": "With professional application and care, K-tip fusion extensions typically wear 3–6 months before move-up or re-tip. Lifespan depends on hair grade, aftercare and the wearer's natural growth."
+      },
+      {
+        "title": "What controls a reliable reorder?",
+        "body": "Keep one approved sample and one written specification covering tip format, strand weight, bond colour, hair details, length, texture, colour reference, tolerances, packaging and QC checkpoints."
+      }
     ],
     "unconfirmed": [
       "Hair grade, origin, Remy direction and drawing level",
@@ -1824,16 +2175,603 @@
       "MOQ, price, production lead time and packaging dimensions"
     ],
     "faqs": [
-      ["Do K-Tip Hair Extensions have a product code?", "No. This method family is identified by its bond format and confirmed specification: K-tip, I-tip, U-tip or V-tip, followed by strand weight, length, hair grade, colour and packaging."],
-      ["What is the difference between K-tip, I-tip, U-tip and V-tip?", "K-tip and U-tip are heat-fused keratin bonds (round and flat); V-tip is a flat fusion bond for fine hair; I-tip is a cold micro-link applied with a ring and pliers. Each uses a different tool and suits a different wearer profile."],
-      ["Can I request a K-tip sample?", "Yes. Share the preferred tip format, strand weight, length, hair grade, colour direction and pack count. Sample feasibility, cost and timing are confirmed against that brief."],
-      ["How many strands make a full head?", "Approximately 80–100 strands for fine hair, 120–160 for medium hair and 180–220 for thick hair. Final count depends on density, length and desired result."],
-      ["Can DS HAIR develop flat V-tip or textured K-tip?", "Yes. State the target bond flatness and translucency, or the texture (Yaki, deep wave, Afro curl), so the construction can be evaluated."],
-      ["Are all lengths and weights shown ready to order?", "No. They are buying-request options for preparing a brief. A strand weight and length value is not confirmed until it is tied to the chosen tip format, hair specification and written quotation."],
-      ["Can I request private-label packaging?", "Yes. Label, backing card, storage box, re-tip kit and retail-pack requirements can be reviewed with the product brief. Feasibility and minimum quantities are confirmed separately."]
+      [
+        "Do K-Tip Hair Extensions have a product code?",
+        "No. This method family is identified by its bond format and confirmed specification: K-tip, I-tip, U-tip or V-tip, followed by strand weight, length, hair grade, colour and packaging."
+      ],
+      [
+        "What is the difference between K-tip, I-tip, U-tip and V-tip?",
+        "K-tip and U-tip are heat-fused keratin bonds (round and flat); V-tip is a flat fusion bond for fine hair; I-tip is a cold micro-link applied with a ring and pliers. Each uses a different tool and suits a different wearer profile."
+      ],
+      [
+        "Can I request a K-tip sample?",
+        "Yes. Share the preferred tip format, strand weight, length, hair grade, colour direction and pack count. Sample feasibility, cost and timing are confirmed against that brief."
+      ],
+      [
+        "How many strands make a full head?",
+        "Approximately 80–100 strands for fine hair, 120–160 for medium hair and 180–220 for thick hair. Final count depends on density, length and desired result."
+      ],
+      [
+        "Can DS HAIR develop flat V-tip or textured K-tip?",
+        "Yes. State the target bond flatness and translucency, or the texture (Yaki, deep wave, Afro curl), so the construction can be evaluated."
+      ],
+      [
+        "Are all lengths and weights shown ready to order?",
+        "No. They are buying-request options for preparing a brief. A strand weight and length value is not confirmed until it is tied to the chosen tip format, hair specification and written quotation."
+      ],
+      [
+        "Can I request private-label packaging?",
+        "Yes. Label, backing card, storage box, re-tip kit and retail-pack requirements can be reviewed with the product brief. Feasibility and minimum quantities are confirmed separately."
+      ]
     ],
     "ctaTitle": "Build a Human Hair K-Tip range your salon clients will rebook for.",
     "ctaText": "Tell us whether you need K-tip, V-tip, U-tip or I-tip, then add the strand weight, length, hair grade, colour direction, bond preference, packaging and estimated quantity."
+  },
+  {
+    "slug": "machine-weft-human-hair-extensions",
+    "brand": "DS HAIR",
+    "category": "Human Hair Extensions",
+    "categoryUrl": "human-hair-extensions.html",
+    "title": "Human Hair Machine Weft Extensions",
+    "referenceLabel": "100% REMY HUMAN HAIR · MACHINE-SEWN WEFTS · CUTTABLE & REUSABLE",
+    "metaTitle": "Wholesale Human Hair Machine Weft Extensions | DS HAIR",
+    "description": "Develop wholesale human hair machine weft extensions in standard, skinny double-drawn and textured formats, with grams per pack, width, length, texture, colour and private-label packaging confirmed to your B2B brief.",
+    "summary": "The most cost-effective, durable weft construction. DS HAIR machine weft delivers a machine-sewn reinforced track that can be cut to width and reused across installs, with full control over grams, length, colour and packaging for salons, distributors and private-label brands.",
+    "images": [
+      {
+        "src": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-hero.png",
+        "alt": "Salon colour selection consultation with machine weft hair extension bundles on a marble counter",
+        "fit": "cover"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-01.jpg",
+        "alt": "Blonde and brown machine weft bundles arranged for colour matching",
+        "fit": "cover"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-02.jpg",
+        "alt": "Ash-blonde double-drawn machine weft bundles showing full end density",
+        "fit": "cover"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-03.jpg",
+        "alt": "Rooted blonde machine weft extensions in five neat bundles",
+        "fit": "cover"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-04.jpg",
+        "alt": "Multiple weft tracks with reinforced seams laid out for wholesale inspection",
+        "fit": "cover"
+      }
+    ],
+    "imageStatusNote": "DS HAIR MACHINE WEFT PHOTO SET · HERO + 4 PRODUCT ANGLES",
+    "confirmedFacts": [
+      [
+        "Product family",
+        "Human hair machine weft extensions"
+      ],
+      [
+        "Construction",
+        "Machine-sewn reinforced track; can be cut to width"
+      ],
+      [
+        "Material detail",
+        "100% Remy human hair · virgin available"
+      ],
+      [
+        "Grams per pack",
+        "50 g · 70 g · 100 g · 120 g (custom)"
+      ],
+      [
+        "Width per pack",
+        "Approx. 28–40 in (request)"
+      ],
+      [
+        "Length range",
+        "12 in – 32 in (request)"
+      ],
+      [
+        "Colour system",
+        "31 shades · Colour Chart 2 · ombre/balayage"
+      ],
+      [
+        "Product code",
+        "Not used for this method family"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ],
+      [
+        "Order basis",
+        "Approved track type + full specification"
+      ]
+    ],
+    "productTypes": [
+      {
+        "tier": "CLASSIC BESTSELLERS",
+        "title": "Standard Machine Weft — 100 g Bulk Pack",
+        "body": "The most cost-effective, durable weft and the highest-volume wholesale format. A machine-sewn reinforced track carries more hair per pack and can be cut to the exact width, then sewn in, taped or micro-linked and reused across installs. This is the first machine-weft product most salons stock and the safest volume driver.",
+        "includes": "Standard machine-sewn weft · 100 g per pack · double/reinforced track · virgin Remy hair",
+        "typicalSpec": "18–24 in · 50/70/100/120 g per pack · approx. 28–40 in width · straight & body wave",
+        "guidance": "Approx. 2–3 packs for added volume, 4–6 packs for a full head; sew-in, tape or micro-link bead",
+        "whyStock": "Lowest cost per gram, strongest durability, easiest to cut and reinstall",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-01.jpg",
+        "imageAlt": "Blonde and brown machine weft bundles arranged for colour matching"
+      },
+      {
+        "tier": "RISING TRENDS",
+        "title": "Skinny Double-Drawn & Ombre Machine Weft",
+        "body": "The fastest-growing segment as clients want a flatter, less bulky track and fuller ends. A skinny machine weft uses tighter stitching for a lower-profile seam, double-drawn hair gives even density end-to-end, and pre-blended ombre or balayage wefts command a premium with strong social appeal.",
+        "includes": "Skinny machine weft · double-drawn · pre-blended ombre/balayage · 70–100 g",
+        "typicalSpec": "16–24 in · 50–100 g per pack · approx. 28–36 in width · rooted & ombre shades",
+        "guidance": "Confirm track thinness, end density (single vs double drawn) and root-to-end colour accuracy",
+        "whyStock": "Premium price positioning, lower direct competition, strong salon social content",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-02.jpg",
+        "imageAlt": "Ash-blonde double-drawn machine weft bundles showing full end density"
+      },
+      {
+        "tier": "NICHE OPPORTUNITIES",
+        "title": "Textured & Extra-Long Machine Weft (Yaki / Afro / 28–32 in)",
+        "body": "A specialist, high-margin segment covering Yaki, deep-wave, Afro-curl and kinky textures for textured-hair markets, plus 28–32 in extra-long wefts for special-occasion and influencer clients. Low competition, high unit value, ideal for made-to-order programmes.",
+        "includes": "Yaki · deep wave · Afro curl · 28–32 in extra-long · #613 platinum",
+        "typicalSpec": "18–32 in · 50–120 g per pack · custom texture · custom colour",
+        "guidance": "Confirm texture definition, pattern memory, blend with natural hair and custom lead time",
+        "whyStock": "Higher margin, lower competition, strong bridal / ethnic / social demand",
+        "image": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft/ds-ext-mw-03.jpg",
+        "imageAlt": "Rooted blonde machine weft extensions in five neat bundles"
+      }
+    ],
+    "decisionFramework": {
+      "title": "Choose the weft in the same order your customer does.",
+      "intro": "Start with the desired result and wear method, then choose track type, grams and colour. This prevents a buyer from treating every machine weft as the same product.",
+      "items": [
+        {
+          "label": "01 · DESIRED RESULT",
+          "title": "Match the finish",
+          "body": "Decide whether the client wants maximum volume at low cost, a flatter discreet seam, or a textured/long statement look before locking track type."
+        },
+        {
+          "label": "02 · WEAR METHOD",
+          "title": "Choose install type",
+          "body": "Machine weft is sewn in, taped or micro-linked. Confirm the install method because it drives track width, grams and pack count."
+        },
+        {
+          "label": "03 · FINISHED PRODUCT",
+          "title": "Lock specification",
+          "body": "Approve track type, grams per pack, width, length, texture, hair grade, colour and packaging together as one repeatable product."
+        }
+      ]
+    },
+    "specificationAnatomy": [
+      [
+        "01",
+        "Desired result",
+        "Volume, length, texture match or full-head coverage; sew-in, tape or micro-link install."
+      ],
+      [
+        "02",
+        "Track construction",
+        "Standard, skinny or double/triple machine weft; stitch density and seam profile."
+      ],
+      [
+        "03",
+        "Pack architecture",
+        "Grams per pack, width per pack, total grams and end-density (single vs double drawn)."
+      ],
+      [
+        "04",
+        "Hair specification",
+        "Length, texture, Remy direction, virgin grade, colour reference, drawing level."
+      ],
+      [
+        "05",
+        "Install method",
+        "Sew-in weave, wig cap, tape or micro-link bead; stylist workflow."
+      ],
+      [
+        "06",
+        "Commercial presentation",
+        "Quantity, label, backing card, artwork, barcode and market requirements."
+      ]
+    ],
+    "configuration": [
+      {
+        "key": "track",
+        "label": "Track type",
+        "note": "Choose the track construction first. Standard machine weft is the most durable and cost-effective; skinny uses tighter stitching for a flatter seam; double/triple weft adds density. This drives grams, width and install method.",
+        "options": [
+          {
+            "value": "Standard machine weft",
+            "status": "request"
+          },
+          {
+            "value": "Skinny machine weft",
+            "status": "request"
+          },
+          {
+            "value": "Double weft",
+            "status": "request"
+          },
+          {
+            "value": "Triple weft",
+            "status": "request"
+          },
+          {
+            "value": "Match supplied sample",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "weight",
+        "label": "Grams per pack",
+        "note": "Grams refer to the hair weight of one weft pack. Total project weight depends on pack count and width.",
+        "options": [
+          {
+            "value": "50 g",
+            "status": "request"
+          },
+          {
+            "value": "70 g",
+            "status": "request"
+          },
+          {
+            "value": "100 g",
+            "status": "request"
+          },
+          {
+            "value": "120 g",
+            "status": "request"
+          },
+          {
+            "value": "Custom weight",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "length",
+        "label": "Requested length",
+        "note": "Lengths shown are buying-request options, not live-stock claims. Final availability is confirmed with the selected track type and hair grade.",
+        "options": [
+          {
+            "value": "12 in / 30 cm",
+            "status": "request"
+          },
+          {
+            "value": "14 in / 36 cm",
+            "status": "request"
+          },
+          {
+            "value": "16 in / 41 cm",
+            "status": "request"
+          },
+          {
+            "value": "18 in / 46 cm",
+            "status": "request"
+          },
+          {
+            "value": "20 in / 51 cm",
+            "status": "request"
+          },
+          {
+            "value": "22 in / 56 cm",
+            "status": "request"
+          },
+          {
+            "value": "24 in / 61 cm",
+            "status": "request"
+          },
+          {
+            "value": "28–32 in / 71–81 cm",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "Requested texture",
+        "note": "Straight is the most common reference. Wave, curl and textured patterns require a matching physical sample.",
+        "options": [
+          {
+            "value": "Straight",
+            "status": "request"
+          },
+          {
+            "value": "Body Wave",
+            "status": "request"
+          },
+          {
+            "value": "Deep Wave",
+            "status": "request"
+          },
+          {
+            "value": "Yaki / Kinky",
+            "status": "request"
+          },
+          {
+            "value": "Afro Curl",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "colour",
+        "label": "Colour system",
+        "note": "Solid, rooted, ombre and balayage are separate development references. Use Colour Chart 2 to shortlist, then approve a physical reference.",
+        "options": [
+          {
+            "value": "Solid shades (Chart 2)",
+            "status": "request"
+          },
+          {
+            "value": "Rooted / ombre",
+            "status": "request"
+          },
+          {
+            "value": "Balayage custom",
+            "status": "request"
+          },
+          {
+            "value": "Platinum #613",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "wearer",
+        "label": "Target wearer / result",
+        "note": "This selection guides pack count and track choice. It is not a universal suitability guarantee; the final product should be tested on the intended wearer profile.",
+        "options": [
+          {
+            "value": "Volume · cost focus",
+            "status": "request"
+          },
+          {
+            "value": "Flat, discreet seam",
+            "status": "request"
+          },
+          {
+            "value": "Full-head coverage",
+            "status": "request"
+          },
+          {
+            "value": "Textured / curly hair",
+            "status": "request"
+          }
+        ]
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      [
+        "Seam & stitch",
+        "Review track evenness, stitch density, loose threads and whether the seam lies flat after install."
+      ],
+      [
+        "Hair retention",
+        "Test shedding before and after controlled washing, brushing and reinstall cycles."
+      ],
+      [
+        "Pack consistency",
+        "Confirm grams per pack, width and end density across every pack in the batch."
+      ],
+      [
+        "Install result",
+        "Check comfort, seam visibility, movement and blend with natural hair on the intended wearer."
+      ]
+    ],
+    "constructionComparison": {
+      "title": "Machine weft and hand-tied weft are two different seam constructions.",
+      "columns": [
+        "Machine Weft",
+        "Hand-Tied Weft"
+      ],
+      "rows": [
+        [
+          "Seam construction",
+          "Machine-sewn reinforced track",
+          "Hand-sewn single row of hair"
+        ],
+        [
+          "Profile at the root",
+          "Thicker, more supportive track",
+          "Ultra-thin, lies flat and invisible"
+        ],
+        [
+          "Can it be cut?",
+          "Yes — cut to the required width",
+          "No — cutting causes shedding"
+        ],
+        [
+          "Durability & reuse",
+          "Very high; survives multiple reinstalls",
+          "Moderate; one careful install"
+        ],
+        [
+          "What a buyer must approve",
+          "Track width, grams, stitch density, hair grade",
+          "Thinness, hair count per inch, blend"
+        ]
+      ],
+      "notice": "Machine and hand-tied are construction choices, not automatic quality grades. The correct decision depends on the target wearer, install method and approved physical sample."
+    },
+    "methodComparison": {
+      "columns": [
+        "Machine Weft",
+        "Hand-Tied Weft",
+        "Genius Weft"
+      ],
+      "rows": [
+        [
+          "Construction",
+          "Machine-sewn reinforced track",
+          "Hand-sewn single row",
+          "Single-line machine weft"
+        ],
+        [
+          "Seam thickness",
+          "Thicker, more supportive",
+          "Ultra-thin, seamless",
+          "Thin, seamless"
+        ],
+        [
+          "Can be cut?",
+          "Yes, cut to width",
+          "No (sheds if cut)",
+          "Yes, cut anywhere"
+        ],
+        [
+          "Durability",
+          "Very high, reusable",
+          "Moderate",
+          "High"
+        ],
+        [
+          "Best for",
+          "Volume, cost, durability",
+          "Seamless fine-hair finish",
+          "Thin + cuttable hybrid"
+        ],
+        [
+          "Key buyer risk",
+          "Track bulk at the root",
+          "Shedding if cut, higher cost",
+          "Seam consistency, supply"
+        ]
+      ],
+      "notice": "Machine weft, hand-tied weft and genius weft are different constructions with different seams, costs and install rules. Select by desired result, budget and approved physical sample — not by name alone.",
+      "eyebrow": "WEFT FORMAT COMPARISON",
+      "title": "Three weft constructions — three different buying briefs.",
+      "intro": "Select the weft by seam profile, cuttability and budget. Do not treat every weft as the same product."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written product name and buying brief",
+        "A photo or broad catalogue name"
+      ],
+      [
+        "Track definition",
+        "Track type, grams, width and stitch density recorded",
+        "Only 'machine weft' named"
+      ],
+      [
+        "Colour decision",
+        "Physical colour reference recommended",
+        "Screen colour treated as final"
+      ],
+      [
+        "Sample record",
+        "Approval points and changes documented",
+        "No shared repeat-order benchmark"
+      ],
+      [
+        "Repeat order",
+        "Return to the approved specification",
+        "Rebuild the requirement from chat history"
+      ]
+    ],
+    "customisation": [
+      "Standard, skinny, double and triple machine-weft track architecture",
+      "50 / 70 / 100 / 120 g packs or buyer-defined grams",
+      "Approx. 28–40 in pack width or buyer-defined width",
+      "Solid, rooted, ombre, balayage and textured colour programmes",
+      "Single-drawn or double-drawn end density",
+      "Private-label backing cards, storage boxes and retail packs"
+    ],
+    "relatedProducts": [
+      {
+        "title": "Genius Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-01.jpg",
+        "imageAlt": "Genius Weft human hair extensions for wholesale development",
+        "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
+        "href": "genius-weft-human-hair-extensions.html"
+      },
+      {
+        "title": "Clip-In Hair Extensions",
+        "eyebrow": "CLIP-IN METHOD",
+        "image": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
+        "imageAlt": "Clip-in human hair extension sets for wholesale development",
+        "summary": "Specify set format, construction, length, weight and colour for a no-glue daily-wear range.",
+        "href": "clip-in-human-hair-extensions.html"
+      },
+      {
+        "title": "Tape-In Hair Extensions",
+        "eyebrow": "TAPE-IN METHOD",
+        "image": "assets/products/human-hair-extensions/tape-in/classic-sandwich-tape-in.jpg",
+        "imageAlt": "Tape-in human hair extensions for a B2B range brief",
+        "summary": "Specify panel size, grams per piece, adhesive system, colour and pack format.",
+        "href": "tape-in-human-hair-extensions.html"
+      }
+    ],
+    "knowledge": [
+      {
+        "title": "What types of machine weft are available?",
+        "body": "The range can be developed as standard machine weft, skinny machine weft, double or triple weft, and in textured or extra-long formats. Each serves a different price point, seam profile and wearer result."
+      },
+      {
+        "title": "Can machine weft be cut to size?",
+        "body": "Yes. A machine-sewn track can be cut to the exact width needed and resealed at the cut end, then sewn in, taped or micro-linked. This is a key advantage over hand-tied weft, which sheds if cut."
+      },
+      {
+        "title": "How many grams make a full head?",
+        "body": "A full head often uses 100–200 g total depending on desired volume and length. Approx. 2–3 packs (50–100 g each) add volume; 4–6 packs build a full-head look. Final count depends on width, density and result."
+      },
+      {
+        "title": "Machine weft vs hand-tied weft?",
+        "body": "Machine weft has a thicker, machine-sewn track that is durable, cuttable and lower cost. Hand-tied weft is ultra-thin and seamless but cannot be cut and costs more. Genius weft offers a thin, cuttable hybrid."
+      },
+      {
+        "title": "How long does machine weft last?",
+        "body": "With professional install and care, a machine weft can be reused across multiple installs (move-up or reinstall) thanks to its reinforced track. Lifespan depends on hair grade, aftercare and the wearer's natural growth."
+      },
+      {
+        "title": "What controls a reliable reorder?",
+        "body": "Keep one approved sample and one written specification covering track type, grams per pack, width, hair details, length, texture, colour reference, tolerances, packaging and QC checkpoints."
+      }
+    ],
+    "unconfirmed": [
+      "Hair grade, origin, Remy direction and drawing level",
+      "Exact grams, width and total project weight",
+      "Exact length and track-format combinations available",
+      "Stitch density, seam profile and cut-seal method",
+      "MOQ, price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Do Machine Weft Hair Extensions have a product code?",
+        "No. This method family is identified by its track construction and confirmed specification: standard, skinny, double or triple machine weft, followed by grams per pack, width, length, hair grade, colour and packaging."
+      ],
+      [
+        "What is the difference between machine weft, hand-tied weft and genius weft?",
+        "Machine weft is a machine-sewn reinforced track that is durable, cuttable and cost-effective. Hand-tied weft is an ultra-thin hand-sewn row that cannot be cut. Genius weft is a single-line machine weft that is thin like hand-tied yet can be cut."
+      ],
+      [
+        "Can machine weft be cut to the size I need?",
+        "Yes. The machine-sewn track can be cut to width and resealed, then sewn in, taped or micro-linked. Hand-tied weft should not be cut because it sheds at the cut edge."
+      ],
+      [
+        "How many grams make a full head?",
+        "Approximately 100–200 g total depending on volume and length. About 2–3 packs (50–100 g each) add volume; 4–6 packs build a full head. Final count depends on width, density and desired result."
+      ],
+      [
+        "Can I request a machine weft sample?",
+        "Yes. Share the preferred track type, grams per pack, width, length, hair grade, colour direction and pack count. Sample feasibility, cost and timing are confirmed against that brief."
+      ],
+      [
+        "Can DS HAIR develop skinny, ombre or textured machine weft?",
+        "Yes. State the target track thinness and stitch density, or the texture (Yaki, deep wave, Afro curl) and colour blend, so the construction can be evaluated."
+      ],
+      [
+        "Are all lengths and weights shown ready to order?",
+        "No. They are buying-request options for preparing a brief. A grams and length value is not confirmed until it is tied to the chosen track type, hair specification and written quotation."
+      ]
+    ],
+    "ctaTitle": "Build a Human Hair Machine Weft range your salon clients will reorder.",
+    "ctaText": "Tell us whether you need standard, skinny, double or triple weft, then add the grams per pack, width, length, hair grade, colour direction, packaging and estimated quantity."
   },
   {
     "slug": "synthetic-clip-in-chignon-hairpiece",

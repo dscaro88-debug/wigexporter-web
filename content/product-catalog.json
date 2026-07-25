@@ -109,10 +109,10 @@
       "group": "Human Hair Extensions",
       "category": "Machine Weft",
       "assetFolder": "assets/products/human-hair-extensions/ds-ext-mw-machine-weft",
-      "approvedImageCount": 0,
-      "imageStatus": "assets_needed",
+      "approvedImageCount": 5,
+      "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold"
+      "publicationStatus": "draft_ready"
     },
     {
       "code": "DS-EXT-HTW",
