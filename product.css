@@ -91,6 +91,26 @@
 .product-section-heading{display:grid;grid-template-columns:.5fr 1fr 1fr;gap:5vw;align-items:end;margin-bottom:45px}
 .product-section-heading h2,.product-specification h2,.product-customisation h2{font:400 clamp(40px,4vw,62px)/1.02 var(--display);margin:0}
 .product-section-heading>p:last-child{color:var(--muted)}
+.construction-comparison .product-section-heading,
+.product-decisions .product-section-heading,
+.method-comparison .product-section-heading,
+.product-knowledge .product-section-heading,
+.related-products .product-section-heading{grid-template-columns:.5fr 1fr;gap:5vw;align-items:start}
+.construction-comparison .product-section-heading .eyebrow,
+.product-decisions .product-section-heading .eyebrow,
+.method-comparison .product-section-heading .eyebrow,
+.product-knowledge .product-section-heading .eyebrow,
+.related-products .product-section-heading .eyebrow{grid-column:1}
+.construction-comparison .product-section-heading h2,
+.product-decisions .product-section-heading h2,
+.method-comparison .product-section-heading h2,
+.product-knowledge .product-section-heading h2,
+.related-products .product-section-heading h2{grid-column:2;max-width:860px}
+.construction-comparison .product-section-heading>p:last-child,
+.product-decisions .product-section-heading>p:last-child,
+.method-comparison .product-section-heading>p:last-child,
+.product-knowledge .product-section-heading>p:last-child,
+.related-products .product-section-heading>p:last-child{grid-column:2;max-width:620px;margin-top:16px}
 .buyer-checks{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .buyer-checks article{padding:35px 28px;border-right:1px solid var(--line)}
 .buyer-checks article:last-child{border:0}
@@ -175,10 +195,12 @@
 .product-specification ul{padding:0;list-style:none;border-top:1px solid rgba(20,20,20,.18)}
 .product-specification li{padding:11px 0;border-bottom:1px solid rgba(20,20,20,.18);font-size:13px}
 .product-specification li:before{content:"To confirm";font-size:8px;letter-spacing:.1em;text-transform:uppercase;margin-right:15px;color:#766553}
-.product-customisation{padding:90px 6vw;background:#fff;display:grid;grid-template-columns:1fr 1fr;gap:7vw;align-items:end}
-.product-customisation ul{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.product-customisation{padding:90px 6vw;background:#fff;display:grid;grid-template-columns:.65fr 1fr;gap:7vw;align-items:start}
+.product-customisation>div:first-child{position:sticky;top:80px}
+.product-customisation>div:first-child h2{max-width:520px}
+.product-customisation ul{list-style:none;padding:0;margin:0 0 30px;border-top:1px solid var(--line)}
 .product-customisation li{padding:16px 0;border-bottom:1px solid var(--line)}
-.product-customisation .button{grid-column:2;justify-self:start}
+.product-customisation .button{grid-column:2;justify-self:start;margin-top:0}
 .knowledge-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .knowledge-grid.is-count-5{grid-template-columns:repeat(5,1fr)}
 .knowledge-grid.is-count-4{grid-template-columns:repeat(4,1fr)}
@@ -207,6 +229,19 @@
   .product-summary{position:static}
   .product-section-heading{grid-template-columns:1fr 1fr}
   .product-section-heading>p:last-child{grid-column:1/-1}
+  .construction-comparison .product-section-heading,
+  .product-decisions .product-section-heading,
+  .method-comparison .product-section-heading,
+  .product-knowledge .product-section-heading,
+  .related-products .product-section-heading{grid-template-columns:1fr 1fr}
+  .construction-comparison .product-section-heading>p:last-child,
+  .product-decisions .product-section-heading>p:last-child,
+  .method-comparison .product-section-heading>p:last-child,
+  .product-knowledge .product-section-heading>p:last-child,
+  .related-products .product-section-heading>p:last-child{grid-column:1/-1}
+  .product-customisation{grid-template-columns:1fr;gap:35px}
+  .product-customisation>div:first-child{position:static}
+  .product-customisation .button{grid-column:auto}
   .comparison-scroll-hint{display:block}
   .buyer-checks{grid-template-columns:1fr 1fr}
   .buyer-checks article:nth-child(2){border-right:0}
@@ -266,6 +301,21 @@
   .set-map-grid article{padding:28px 20px}
   .product-section-heading{grid-template-columns:1fr;gap:18px}
   .product-section-heading>p:last-child{grid-column:auto}
+  .construction-comparison .product-section-heading,
+  .product-decisions .product-section-heading,
+  .method-comparison .product-section-heading,
+  .product-knowledge .product-section-heading,
+  .related-products .product-section-heading{grid-template-columns:1fr}
+  .construction-comparison .product-section-heading h2,
+  .construction-comparison .product-section-heading>p:last-child,
+  .product-decisions .product-section-heading h2,
+  .product-decisions .product-section-heading>p:last-child,
+  .method-comparison .product-section-heading h2,
+  .method-comparison .product-section-heading>p:last-child,
+  .product-knowledge .product-section-heading h2,
+  .product-knowledge .product-section-heading>p:last-child,
+  .related-products .product-section-heading h2,
+  .related-products .product-section-heading>p:last-child{grid-column:auto;max-width:none}
   .buyer-checks{grid-template-columns:1fr}
   .buyer-checks article{border-right:0;border-bottom:1px solid var(--line)}
   .product-specification{padding:70px 22px;grid-template-columns:1fr;gap:45px}
