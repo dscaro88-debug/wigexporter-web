@@ -45,36 +45,44 @@ function catalogProductsFor(item) {
     .filter((product) => product.image);
 }
 
+function catalogProductCard(product) {
+  const productPages = {
+    'DS-EXT-CI': 'clip-in-human-hair-extensions.html',
+    'DS-EXT-TI': 'tape-in-human-hair-extensions.html',
+    'DS-EXT-KT': 'k-tip-human-hair-extensions.html',
+    'DS-EXT-GW': 'genius-weft-human-hair-extensions.html',
+    'DS-EXT-MW': 'machine-weft-human-hair-extensions.html',
+    'DS-EXT-NH': 'nano-ring-human-hair-extensions.html',
+    'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
+    'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',
+    'DS-HPC-SY-003': 'synthetic-21-inch-soft-curls-claw-clip-ponytail.html',
+    'DS-HPC-SY-004': 'synthetic-21-inch-straight-claw-clip-ponytail.html',
+    'DS-HPC-SY-005': 'synthetic-26-inch-elastic-band-braiding-ponytail.html',
+    'DS-HPC-SY-006': 'synthetic-12-inch-coily-drawstring-ponytail.html',
+    'DS-HPC-SY-007': 'synthetic-elastic-band-hair-bun-scrunchie.html',
+    'DS-HPC-SY-008': 'synthetic-25-inch-straight-wrap-around-ponytail.html',
+    'DS-TOP-SY-CI-001': 'synthetic-layered-clip-in-crown-topper.html',
+    'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html'
+  };
+  const productPage = productPages[product.code] || `contact.html?product=${encodeURIComponent(product.code)}`;
+  const action = productPages[product.code] ? 'VIEW PRODUCT REFERENCE' : 'REQUEST VERIFIED SPECIFICATION';
+  const status = product.imageStatus === 'limited' ? 'LIMITED IMAGE REFERENCE' : `${product.approvedImageCount} APPROVED IMAGES`;
+  return `<a class="catalog-product-card" href="${productPage}"><img src="${product.image}" alt="${esc(product.name)} product reference" loading="lazy"><div><span>${esc(product.code)}</span><h4>${esc(product.name)}</h4><p>${esc(status)} · B2B ENQUIRY</p><strong>${action} →</strong></div></a>`;
+}
+
+function catalogGroupCard(group, products) {
+  const groupProducts = products.filter((product) => product.category === group);
+  return `<article class="catalog-method-card" aria-labelledby="${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(group)}">${esc(group)}</h3><span>${groupProducts.length} reference${groupProducts.length === 1 ? '' : 's'}</span></div><div class="catalog-product-grid">${groupProducts.map(catalogProductCard).join('')}</div></article>`;
+}
+
 function catalogSection(item) {
   const products = catalogProductsFor(item);
   if (!products.length) return '';
   const groups = [...new Set(products.map((product) => product.category))];
-  return `<section class="catalog-products">
+  const isMethodGrid = groups.length > 1 && groups.every((group) => products.filter((product) => product.category === group).length === 1);
+  return `<section class="catalog-products${isMethodGrid ? ' catalog-products--method-grid' : ''}">
     <div class="section-heading"><div><p class="eyebrow">SELECTED PRODUCT REFERENCES</p><h2>Review products with approved local imagery.</h2></div><p>Images have passed visual review. Product specifications, availability, MOQ, price and lead time remain subject to written confirmation.</p></div>
-    ${groups.map((group) => `<section class="catalog-group" aria-labelledby="${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(group)}">${esc(group)}</h3><span>${products.filter((product) => product.category === group).length} references</span></div><div class="catalog-product-grid">${products.filter((product) => product.category === group).map((product) => {
-      const productPages = {
-        'DS-EXT-CI': 'clip-in-human-hair-extensions.html',
-        'DS-EXT-TI': 'tape-in-human-hair-extensions.html',
-        'DS-EXT-KT': 'k-tip-human-hair-extensions.html',
-        'DS-EXT-GW': 'genius-weft-human-hair-extensions.html',
-        'DS-EXT-MW': 'machine-weft-human-hair-extensions.html',
-        'DS-EXT-NH': 'nano-ring-human-hair-extensions.html',
-        'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
-        'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',
-        'DS-HPC-SY-003': 'synthetic-21-inch-soft-curls-claw-clip-ponytail.html',
-        'DS-HPC-SY-004': 'synthetic-21-inch-straight-claw-clip-ponytail.html',
-        'DS-HPC-SY-005': 'synthetic-26-inch-elastic-band-braiding-ponytail.html',
-        'DS-HPC-SY-006': 'synthetic-12-inch-coily-drawstring-ponytail.html',
-        'DS-HPC-SY-007': 'synthetic-elastic-band-hair-bun-scrunchie.html',
-        'DS-HPC-SY-008': 'synthetic-25-inch-straight-wrap-around-ponytail.html',
-        'DS-TOP-SY-CI-001': 'synthetic-layered-clip-in-crown-topper.html',
-        'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html'
-      };
-      const productPage = productPages[product.code] || `contact.html?product=${encodeURIComponent(product.code)}`;
-      const action = productPages[product.code] ? 'VIEW PRODUCT REFERENCE' : 'REQUEST VERIFIED SPECIFICATION';
-      const status = product.imageStatus === 'limited' ? 'LIMITED IMAGE REFERENCE' : `${product.approvedImageCount} APPROVED IMAGES`;
-      return `<a class="catalog-product-card" href="${productPage}"><img src="${product.image}" alt="${esc(product.name)} product reference" loading="lazy"><div><span>${esc(product.code)}</span><h4>${esc(product.name)}</h4><p>${esc(status)} · B2B ENQUIRY</p><strong>${action} →</strong></div></a>`;
-    }).join('')}</div></section>`).join('')}
+    ${isMethodGrid ? `<div class="catalog-method-grid">${groups.map((group) => catalogGroupCard(group, products)).join('')}</div>` : groups.map((group) => `<section class="catalog-group" aria-labelledby="${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(group)}">${esc(group)}</h3><span>${products.filter((product) => product.category === group).length} references</span></div><div class="catalog-product-grid">${products.filter((product) => product.category === group).map(catalogProductCard).join('')}</div></section>`).join('')}
   </section>`;
 }
 
@@ -95,8 +103,8 @@ function head({ title, description, slug, type = 'website', image }) {
   <meta property="og:image" content="https://wigexporter.com/${image}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-15">
-  <link rel="stylesheet" href="content.css?v=20260725-15">
+  <link rel="stylesheet" href="styles.css?v=20260725-16">
+  <link rel="stylesheet" href="content.css?v=20260725-16">
 </head>`;
 }
 
@@ -108,7 +116,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260725-15"></script>
+  <script src="script.js?v=20260725-16"></script>
 </body>
 </html>`;
 }
