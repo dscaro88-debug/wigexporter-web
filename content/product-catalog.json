@@ -115,6 +115,18 @@
       "publicationStatus": "draft_ready"
     },
     {
+      "code": "DS-EXT-NH",
+      "name": "Nano Ring Human Hair Extensions",
+      "section": "Human Hair",
+      "group": "Human Hair Extensions",
+      "category": "Nano Ring",
+      "assetFolder": "assets/products/human-hair-extensions/ds-ext-nh-nano-ring",
+      "approvedImageCount": 5,
+      "imageStatus": "approved_set",
+      "specificationStatus": "specification_unverified",
+      "publicationStatus": "draft_ready"
+    },
+    {
       "code": "DS-EXT-HTW",
       "name": "Hand-tied Weft Human Hair Extensions",
       "section": "Human Hair",
