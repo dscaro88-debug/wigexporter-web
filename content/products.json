@@ -3176,57 +3176,45 @@
       "rows": [
         [
           "Mechanism",
-          [
-            "0.9mm aluminium ring crimped over strand + own hair",
-            "1.2mm ring crimped over strand + own hair",
-            "Keratin glue melted with heat",
-            "Adhesive panel sandwiched to own hair"
-          ]
+          "0.9mm aluminium ring crimped over strand + own hair",
+          "1.2mm ring crimped over strand + own hair",
+          "Keratin glue melted with heat",
+          "Adhesive panel sandwiched to own hair"
         ],
         [
           "Glue / heat",
-          [
-            "None",
-            "None",
-            "Heat required",
-            "Adhesive only"
-          ]
+          "None",
+          "None",
+          "Heat required",
+          "Adhesive only"
         ],
         [
           "Ring size",
-          [
-            "0.9mm (smallest)",
-            "1.2mm",
-            "N/A",
-            "N/A"
-          ]
+          "0.9mm (smallest)",
+          "1.2mm",
+          "N/A",
+          "N/A"
         ],
         [
           "Damage risk",
-          [
-            "Lowest (no glue/heat)",
-            "Low",
-            "Medium (heat)",
-            "Low–medium (adhesive)"
-          ]
+          "Lowest (no glue/heat)",
+          "Low",
+          "Medium (heat)",
+          "Low–medium (adhesive)"
         ],
         [
           "Reusability",
-          [
-            "Yes — ring removed, strand reused",
-            "Yes — ring removed, strand reused",
-            "No — tip consumed",
-            "No — panel consumed"
-          ]
+          "Yes — ring removed, strand reused",
+          "Yes — ring removed, strand reused",
+          "No — tip consumed",
+          "No — panel consumed"
         ],
         [
           "Best for",
-          [
-            "Fine / thinning hair",
-            "Normal hair",
-            "All hair, high density",
-            "Quick volume, no tools"
-          ]
+          "Fine / thinning hair",
+          "Normal hair",
+          "All hair, high density",
+          "Quick volume, no tools"
         ]
       ]
     },
@@ -3245,48 +3233,38 @@
       "rows": [
         [
           "Nano ring",
-          [
-            "Ring plier",
-            "Lowest",
-            "Yes (every 6–8 wks)",
-            "Yes"
-          ]
+          "Ring plier",
+          "Lowest",
+          "Yes (every 6–8 wks)",
+          "Yes"
         ],
         [
           "Micro ring",
-          [
-            "Ring plier",
-            "Low",
-            "Yes",
-            "Yes"
-          ]
+          "Ring plier",
+          "Low",
+          "Yes",
+          "Yes"
         ],
         [
           "Micro link / loop",
-          [
-            "Link tool",
-            "Low",
-            "Yes",
-            "Yes"
-          ]
+          "Link tool",
+          "Low",
+          "Yes",
+          "Yes"
         ],
         [
           "Keratin K-tip",
-          [
-            "Fusion iron",
-            "Medium",
-            "No (refit)",
-            "No"
-          ]
+          "Fusion iron",
+          "Medium",
+          "No (refit)",
+          "No"
         ],
         [
           "Tape-in",
-          [
-            "Hands / remover",
-            "Low–medium",
-            "Yes",
-            "No"
-          ]
+          "Hands / remover",
+          "Low–medium",
+          "Yes",
+          "No"
         ]
       ]
     },

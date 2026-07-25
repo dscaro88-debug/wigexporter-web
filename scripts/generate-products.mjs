@@ -70,7 +70,7 @@ function productTypeChooser(product) {
 
 function setMapSection(product) {
   if (!product.setMaps) return '';
-  return `<section class="set-map-section"><div class="product-section-heading"><p class="eyebrow">VERIFIED SET MAPS</p><h2>Know exactly what is inside each full set.</h2><p>These piece maps come from the existing DS HAIR product record. Final grams, construction, length and colour are confirmed with the selected sample.</p></div><div class="set-map-grid">${product.setMaps.map((set) => `<article><div><span>${esc(set.title)}</span><p>${esc(set.summary)}</p></div><table><thead><tr><th>Quantity</th><th>Weft width</th><th>Clip layout</th></tr></thead><tbody>${set.rows.map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></article>`).join('')}</div></section>`;
+  return `<section class="set-map-section"><div class="product-section-heading"><p class="eyebrow">VERIFIED SET MAPS</p><h2>Know exactly what is inside each full set.</h2><p>These piece maps come from the existing DS HAIR product record. Final grams, construction, length and colour are confirmed with the selected sample.</p></div><div class="set-map-grid is-count-${product.setMaps.length}">${product.setMaps.map((set) => `<article><div><span>${esc(set.title)}</span><p>${esc(set.summary)}</p></div><table><thead><tr><th>Quantity</th><th>Weft width</th><th>Clip layout</th></tr></thead><tbody>${set.rows.map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></article>`).join('')}</div></section>`;
 }
 
 function configurationBuilder(product) {
@@ -182,9 +182,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-12">
-  <link rel="stylesheet" href="content.css?v=20260725-12">
-  <link rel="stylesheet" href="product.css?v=20260725-12">
+  <link rel="stylesheet" href="styles.css?v=20260725-13">
+  <link rel="stylesheet" href="content.css?v=20260725-13">
+  <link rel="stylesheet" href="product.css?v=20260725-13">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -243,8 +243,8 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260725-12"></script>
-  <script src="script.js?v=20260725-12"></script>
+  <script src="product-config.js?v=20260725-13"></script>
+  <script src="script.js?v=20260725-13"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));

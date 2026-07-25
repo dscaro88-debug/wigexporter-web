@@ -131,7 +131,12 @@
 .clip-type-card dd{margin:0;font-size:11px;line-height:1.55}
 .clip-type-card a{font-size:9px;letter-spacing:.12em;font-weight:700;color:#fff}
 .set-map-section{padding:105px 6vw;background:#ece6dc}
-.set-map-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.set-map-grid{display:grid;gap:24px}
+.set-map-grid.is-count-1{grid-template-columns:1fr;max-width:560px;margin:0 auto}
+.set-map-grid.is-count-2{grid-template-columns:repeat(2,1fr)}
+.set-map-grid.is-count-3{grid-template-columns:repeat(3,1fr)}
+.set-map-grid.is-count-4{grid-template-columns:repeat(2,1fr)}
+.set-map-grid.is-count-5,.set-map-grid.is-count-6{grid-template-columns:repeat(3,1fr)}
 .set-map-grid article{background:#fff;padding:42px}
 .set-map-grid article>div>span{font:400 38px var(--display)}
 .set-map-grid article>div>p{font-size:12px;line-height:1.65;color:var(--muted);margin:12px 0 28px}
@@ -201,8 +206,8 @@
 .knowledge-grid h3{font:400 24px/1.08 var(--display);margin:18px 0 13px}
 .knowledge-grid p{font-size:12px;line-height:1.7;color:var(--muted)}
 .related-products{background:#f4f0e9}
-.related-product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
-.related-product-card{background:#fff}
+.related-product-grid{display:flex;flex-wrap:wrap;gap:3px;justify-content:center}
+.related-product-card{flex:0 0 calc(33.333% - 2px);min-width:300px;max-width:calc(33.333% - 2px);background:#fff}
 .related-product-card img{height:390px;object-fit:cover}
 .related-product-card>div{padding:30px}
 .related-product-card span{font-size:8px;letter-spacing:.12em;color:var(--muted)}
@@ -270,7 +275,7 @@
   .decision-grid article{padding:32px 5px}
   .spec-anatomy{padding:52px 22px}
   .clip-type-section,.set-map-section{padding:52px 22px}
-  .clip-type-grid,.set-map-grid{grid-template-columns:1fr}
+  .clip-type-grid,.set-map-grid,.set-map-grid[class*="is-count-"]{grid-template-columns:1fr}
   .clip-type-card,.clip-type-card.has-image{min-height:0;display:block;grid-column:auto}
   .clip-type-card figure{width:100%;height:320px}
   .clip-type-card>div{padding:32px 24px}
@@ -291,6 +296,6 @@
   .service-comparison-table>div>span:nth-child(3):before{content:"UNSTRUCTURED RISK"}
   .knowledge-grid,.knowledge-grid[class*="is-count-"]{grid-template-columns:1fr}
   .knowledge-grid article{border-right:0}
-  .related-product-grid{grid-template-columns:1fr}
-  .related-product-card img{height:330px}
+  .related-product-grid{flex-direction:column;gap:12px}
+  .related-product-card{flex:0 0 auto;min-width:0;max-width:none;width:100%}
 }
