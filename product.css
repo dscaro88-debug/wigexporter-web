@@ -43,7 +43,7 @@
 .product-service-bar div:last-child{border-right:0}
 .product-service-bar strong{display:block;font:400 21px var(--display);margin-bottom:5px}
 .product-service-bar span{font-size:11px;color:rgba(255,255,255,.62)}
-.spec-builder{padding:105px 6vw;background:#f4f0e9}
+.spec-builder{padding:72px 6vw;background:#f4f0e9}
 .spec-builder-heading{display:grid;grid-template-columns:1.25fr .75fr;gap:8vw;align-items:end;margin-bottom:55px}
 .spec-builder-heading h2{font:400 clamp(42px,4.5vw,66px)/1 var(--display);margin:16px 0 0;max-width:800px}
 .spec-builder-heading>p{color:var(--muted);line-height:1.75;margin:0}
@@ -67,7 +67,7 @@
 .spec-summary dd[data-status="request"]{color:#e1c7a7}
 .spec-summary-status{font-size:10px;color:rgba(255,255,255,.58);line-height:1.6;margin:22px 0}
 .spec-summary .button{width:100%}
-.colour-chart{margin-top:105px;padding-top:95px;border-top:1px solid var(--line)}
+.colour-chart{margin-top:72px;padding-top:60px;border-top:1px solid var(--line)}
 .colour-chart-heading{display:grid;grid-template-columns:1.1fr .9fr;gap:8vw;align-items:end}
 .colour-chart-heading h2{font:400 clamp(40px,4vw,60px)/1 var(--display);margin:16px 0 0}
 .colour-chart-heading>div:last-child p{font-size:12px;color:var(--muted);line-height:1.7}
@@ -84,54 +84,41 @@
 .colour-card:hover img{transform:scale(1.025)}
 .colour-card.is-selected{outline:3px solid #171717;outline-offset:-3px}
 .colour-card.is-selected:after{content:"SELECTED";position:absolute;top:10px;right:10px;background:#171717;color:#fff;padding:6px 8px;font-size:7px;letter-spacing:.1em}
-.product-answer{padding:62px 6vw;background:#171717;color:#fff;display:grid;grid-template-columns:.4fr .8fr 1.2fr;gap:5vw;align-items:center}
+.product-answer{padding:60px 6vw;background:#171717;color:#fff;display:grid;grid-template-columns:.4fr .8fr 1.2fr;gap:5vw;align-items:center}
 .product-answer h2{font:400 36px/1.05 var(--display);margin:0}
 .product-answer>p:last-child{color:rgba(255,255,255,.68);line-height:1.75}
-.product-section{padding:100px 6vw}
-.product-section-heading{display:grid;grid-template-columns:.5fr 1fr 1fr;gap:5vw;align-items:end;margin-bottom:45px}
-.product-section-heading h2,.product-specification h2,.product-customisation h2{font:400 clamp(40px,4vw,62px)/1.02 var(--display);margin:0}
-.product-section-heading>p:last-child{color:var(--muted)}
+.product-section{padding:72px 6vw}
+.product-section-heading{max-width:960px;margin-bottom:34px}
+.product-section-heading .eyebrow{display:block;margin-bottom:12px}
+.product-section-heading h2,.product-specification h2,.product-customisation h2{font:400 clamp(34px,3.6vw,56px)/1.04 var(--display);margin:0 0 14px;max-width:760px}
+.product-section-heading>p:last-child{color:var(--muted);max-width:620px;margin:0;line-height:1.7}
 .construction-comparison .product-section-heading,
 .product-decisions .product-section-heading,
 .method-comparison .product-section-heading,
 .product-knowledge .product-section-heading,
-.related-products .product-section-heading{grid-template-columns:.5fr 1fr;gap:5vw;align-items:start}
-.construction-comparison .product-section-heading .eyebrow,
-.product-decisions .product-section-heading .eyebrow,
-.method-comparison .product-section-heading .eyebrow,
-.product-knowledge .product-section-heading .eyebrow,
-.related-products .product-section-heading .eyebrow{grid-column:1}
-.construction-comparison .product-section-heading h2,
-.product-decisions .product-section-heading h2,
-.method-comparison .product-section-heading h2,
-.product-knowledge .product-section-heading h2,
-.related-products .product-section-heading h2{grid-column:2;max-width:860px}
-.construction-comparison .product-section-heading>p:last-child,
-.product-decisions .product-section-heading>p:last-child,
-.method-comparison .product-section-heading>p:last-child,
-.product-knowledge .product-section-heading>p:last-child,
-.related-products .product-section-heading>p:last-child{grid-column:2;max-width:620px;margin-top:16px}
+.related-products .product-section-heading{display:block}
+.clip-type-section .product-section-heading>p:last-child{color:rgba(255,255,255,.6)}
 .buyer-checks{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .buyer-checks article{padding:35px 28px;border-right:1px solid var(--line)}
 .buyer-checks article:last-child{border:0}
 .buyer-checks span{font:400 30px var(--display);color:#9f876c}
 .buyer-checks h3{font:400 25px var(--display);margin:20px 0 10px}
 .buyer-checks p{font-size:13px;line-height:1.65;color:var(--muted)}
-.product-decisions{padding:105px 6vw;background:#fff}
+.product-decisions{padding:72px 6vw;background:#fff}
 .decision-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .decision-grid article{padding:42px 34px;border-right:1px solid var(--line)}
 .decision-grid article:last-child{border-right:0}
 .decision-grid span{font-size:9px;font-weight:700;letter-spacing:.14em;color:#8b7258}
 .decision-grid h3{font:400 29px/1.08 var(--display);margin:22px 0 15px}
 .decision-grid p{font-size:13px;line-height:1.72;color:var(--muted)}
-.clip-type-section{padding:105px 6vw;background:#171717;color:#fff}
+.clip-type-section{padding:72px 6vw;background:#171717;color:#fff}
 .clip-type-section .product-section-heading>p:last-child{color:rgba(255,255,255,.6)}
 .clip-type-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.18)}
 .clip-type-grid.is-three-tiers{grid-template-columns:repeat(3,1fr)}
 .clip-type-grid.is-three-tiers .clip-type-card.has-image{flex-direction:column}
 .clip-type-grid.is-three-tiers .clip-type-card.has-image figure{width:100%;height:260px}
 .clip-type-grid.is-three-tiers .clip-type-card h3{font-size:clamp(24px,2.2vw,34px)}
-.clip-type-card{min-height:440px;background:#171717;display:flex}
+.clip-type-card{min-height:380px;background:#171717;display:flex}
 .clip-type-card>div{padding:44px;display:flex;flex-direction:column;flex:1}
 .clip-type-card figure{margin:0;width:44%;background:#fff;overflow:hidden}
 .clip-type-card figure img{width:100%;height:100%;object-fit:contain}
@@ -159,10 +146,10 @@
 .spec-anatomy li>span{font:400 23px var(--display);color:#8c7359}
 .spec-anatomy h3{font:400 23px var(--display);margin:0 0 7px}
 .spec-anatomy li p{font-size:12px;line-height:1.6;color:#5e5953;margin:0}
-.method-comparison,.product-knowledge,.related-products{padding:100px 6vw;background:#fff}
+.method-comparison,.product-knowledge,.related-products{padding:72px 6vw;background:#fff}
 .method-comparison{background:#ece6dc}
 .comparison-notice{font-size:10px;line-height:1.6;color:var(--muted);max-width:900px;margin:18px 0 0}
-.construction-comparison{padding:100px 6vw;background:#f7f4ef}
+.construction-comparison{padding:72px 6vw;background:#f7f4ef}
 .construction-comparison table{width:100%;min-width:760px;border-collapse:collapse;background:#fff}
 .construction-comparison th,.construction-comparison td{padding:22px 20px;border:1px solid var(--line);vertical-align:top;text-align:left;font-size:12px;line-height:1.65}
 .construction-comparison thead th{background:#171717;color:#fff;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
@@ -174,7 +161,7 @@
 .comparison-scroll th,.comparison-scroll td{padding:22px 20px;border:1px solid var(--line);vertical-align:top;text-align:left;font-size:12px;line-height:1.6}
 .comparison-scroll thead th{background:#171717;color:#fff;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
 .comparison-scroll tbody th{width:175px;font:400 18px var(--display)}
-.service-comparison{padding:100px 6vw;background:#171717;color:#fff;display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw}
+.service-comparison{padding:72px 6vw;background:#171717;color:#fff;display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw}
 .service-comparison>div:first-child h2{font:400 clamp(40px,4vw,60px)/1.02 var(--display);margin:16px 0 22px}
 .service-comparison>div:first-child>p:last-child{color:rgba(255,255,255,.58);line-height:1.7}
 .service-comparison-table{border-top:1px solid rgba(255,255,255,.2)}
@@ -183,7 +170,7 @@
 .service-comparison-table>div>span:last-child{color:rgba(255,255,255,.5)}
 .service-comparison-table .service-comparison-head{font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5)}
 .service-comparison-table .service-comparison-head strong{font:inherit}
-.product-specification{padding:95px 6vw;background:#ddd4c7;display:grid;grid-template-columns:.85fr 1.15fr;gap:10vw;align-items:start}
+.product-specification{padding:72px 6vw;background:#ddd4c7;display:grid;grid-template-columns:.85fr 1.15fr;gap:10vw;align-items:start}
 .product-specification>div:first-child{position:sticky;top:80px}
 .product-specification>div:first-child>p:last-child{color:#5e5953;max-width:520px}
 .product-specification h3{font:400 25px var(--display);margin:0 0 14px}
@@ -195,7 +182,7 @@
 .product-specification ul{padding:0;list-style:none;border-top:1px solid rgba(20,20,20,.18)}
 .product-specification li{padding:11px 0;border-bottom:1px solid rgba(20,20,20,.18);font-size:13px}
 .product-specification li:before{content:"To confirm";font-size:8px;letter-spacing:.1em;text-transform:uppercase;margin-right:15px;color:#766553}
-.product-customisation{padding:90px 6vw;background:#fff;display:grid;grid-template-columns:.65fr 1fr;gap:7vw;align-items:start}
+.product-customisation{padding:72px 6vw;background:#fff;display:grid;grid-template-columns:.65fr 1fr;gap:7vw;align-items:start}
 .product-customisation>div:first-child{position:sticky;top:80px}
 .product-customisation>div:first-child h2{max-width:520px}
 .product-customisation ul{list-style:none;padding:0;margin:0 0 30px;border-top:1px solid var(--line)}
@@ -229,16 +216,6 @@
   .product-summary{position:static}
   .product-section-heading{grid-template-columns:1fr 1fr}
   .product-section-heading>p:last-child{grid-column:1/-1}
-  .construction-comparison .product-section-heading,
-  .product-decisions .product-section-heading,
-  .method-comparison .product-section-heading,
-  .product-knowledge .product-section-heading,
-  .related-products .product-section-heading{grid-template-columns:1fr 1fr}
-  .construction-comparison .product-section-heading>p:last-child,
-  .product-decisions .product-section-heading>p:last-child,
-  .method-comparison .product-section-heading>p:last-child,
-  .product-knowledge .product-section-heading>p:last-child,
-  .related-products .product-section-heading>p:last-child{grid-column:1/-1}
   .product-customisation{grid-template-columns:1fr;gap:35px}
   .product-customisation>div:first-child{position:static}
   .product-customisation .button{grid-column:auto}
@@ -288,42 +265,25 @@
   .colour-grid{grid-template-columns:1fr 1fr}
   .colour-card>span{min-height:68px}
   .product-answer{padding:50px 22px;grid-template-columns:1fr;gap:15px}
-  .product-section{padding:70px 22px}
-  .product-decisions,.construction-comparison{padding:70px 22px}
+  .product-section{padding:52px 22px}
+  .product-decisions,.construction-comparison{padding:52px 22px}
   .decision-grid article{padding:32px 5px}
-  .spec-anatomy{padding:70px 22px}
-  .clip-type-section,.set-map-section{padding:70px 22px}
+  .spec-anatomy{padding:52px 22px}
+  .clip-type-section,.set-map-section{padding:52px 22px}
   .clip-type-grid,.set-map-grid{grid-template-columns:1fr}
   .clip-type-card,.clip-type-card.has-image{min-height:0;display:block;grid-column:auto}
   .clip-type-card figure{width:100%;height:320px}
   .clip-type-card>div{padding:32px 24px}
   .clip-type-card dl{margin:32px 0 25px}
   .set-map-grid article{padding:28px 20px}
-  .product-section-heading{grid-template-columns:1fr;gap:18px}
-  .product-section-heading>p:last-child{grid-column:auto}
-  .construction-comparison .product-section-heading,
-  .product-decisions .product-section-heading,
-  .method-comparison .product-section-heading,
-  .product-knowledge .product-section-heading,
-  .related-products .product-section-heading{grid-template-columns:1fr}
-  .construction-comparison .product-section-heading h2,
-  .construction-comparison .product-section-heading>p:last-child,
-  .product-decisions .product-section-heading h2,
-  .product-decisions .product-section-heading>p:last-child,
-  .method-comparison .product-section-heading h2,
-  .method-comparison .product-section-heading>p:last-child,
-  .product-knowledge .product-section-heading h2,
-  .product-knowledge .product-section-heading>p:last-child,
-  .related-products .product-section-heading h2,
-  .related-products .product-section-heading>p:last-child{grid-column:auto;max-width:none}
   .buyer-checks{grid-template-columns:1fr}
   .buyer-checks article{border-right:0;border-bottom:1px solid var(--line)}
-  .product-specification{padding:70px 22px;grid-template-columns:1fr;gap:45px}
+  .product-specification{padding:52px 22px;grid-template-columns:1fr;gap:45px}
   .product-specification>div:first-child{position:static}
-  .product-customisation{padding:70px 22px;grid-template-columns:1fr;gap:35px}
+  .product-customisation{padding:52px 22px;grid-template-columns:1fr;gap:35px}
   .product-customisation .button{grid-column:auto}
-  .method-comparison,.product-knowledge,.related-products{padding:70px 22px}
-  .service-comparison{padding:70px 22px;gap:40px}
+  .method-comparison,.product-knowledge,.related-products{padding:52px 22px}
+  .service-comparison{padding:52px 22px;gap:40px}
   .service-comparison-table>div{grid-template-columns:1fr;gap:8px}
   .service-comparison-table .service-comparison-head{display:none}
   .service-comparison-table>div>span:before{display:block;margin-bottom:4px;font-size:7px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.42)}
