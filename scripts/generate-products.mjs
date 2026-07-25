@@ -20,6 +20,46 @@ function productVisual(product) {
   </div>`;
 }
 
+function whatsappLink(number, message) {
+  const clean = String(number).replace(/\D/g, '');
+  if (!clean) return null;
+  return `https://wa.me/${clean}?text=${encodeURIComponent(message || '')}`;
+}
+
+function conversionModule(product) {
+  const defaults = {
+    tradeCard: {
+      title: 'Trade Pricing & Samples',
+      subtitle: 'Wholesale pricing and sample support for registered trade partners',
+      primaryCta: 'Apply for Trade Account',
+      primaryHref: 'trade-account.html',
+      secondaryCta: 'Enquire via WhatsApp',
+      whatsappNumber: '8613516946001',
+      whatsappMessage: `Hi DS HAIR, I'm interested in wholesale ${product.title}. Please send trade pricing and sample information.`
+    },
+    trustBadges: [
+      { label: 'MOQ & Samples', sublabel: 'Negotiable' },
+      { label: 'Private Label', sublabel: 'OEM packaging' },
+      { label: 'Global Shipping', sublabel: '3–5 days express' },
+      { label: '19 Years', sublabel: 'Industry experience' }
+    ],
+    serviceBar: [
+      { label: 'Quality Guarantee', sublabel: 'Sample approval before production' },
+      { label: 'Reorder Support', sublabel: 'Return to approved specification' },
+      { label: 'Colour Matching', sublabel: 'Physical references available' },
+      { label: 'Flexible Lead Times', sublabel: 'Express or scheduled' }
+    ]
+  };
+  const c = { ...defaults, ...product.conversion };
+  c.tradeCard = { ...defaults.tradeCard, ...c.tradeCard };
+  const wa = whatsappLink(c.tradeCard.whatsappNumber, c.tradeCard.whatsappMessage);
+  return {
+    tradeCard: `<div class="trade-card"><div class="trade-card-title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M20.2 9.6c.1 1.5-.4 3-1.4 4.2l-6.8 7.8-6.8-7.8c-1-1.2-1.5-2.7-1.4-4.2.2-2.8 2.5-5.1 5.3-5.3 1.5-.1 3 .4 4.2 1.4l.7.6.7-.6c1.2-1 2.7-1.5 4.2-1.4 2.8.2 5.1 2.5 5.3 5.3Z"/></svg><div><strong>${esc(c.tradeCard.title)}</strong><span>${esc(c.tradeCard.subtitle)}</span></div></div><div class="trade-card-actions"><a class="button button-dark" href="${esc(c.tradeCard.primaryHref)}">${esc(c.tradeCard.primaryCta)}</a>${wa ? `<a class="button button-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener">${esc(c.tradeCard.secondaryCta)}</a>` : ''}</div></div>`,
+    trustBadges: `<ul class="product-trust-badges">${c.trustBadges.map((badge) => `<li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg><span><strong>${esc(badge.label)}</strong>${esc(badge.sublabel)}</span></li>`).join('')}</ul>`,
+    serviceBar: `<section class="product-service-bar" aria-label="Trade services">${c.serviceBar.map((item) => `<div><strong>${esc(item.label)}</strong><span>${esc(item.sublabel)}</span></div>`).join('')}</section>`
+  };
+}
+
 function productTypeChooser(product) {
   if (!product.productTypes) return '';
   return `<section class="clip-type-section">
@@ -95,6 +135,11 @@ function relatedProducts(product) {
 for (const product of products) {
   const url = `https://wigexporter.com/${product.slug}.html`;
   const productIdentity = product.code || product.title;
+  const conversion = conversionModule(product);
+  const wa = whatsappLink(
+    product.conversion?.tradeCard?.whatsappNumber || '8613516946001',
+    product.conversion?.tradeCard?.whatsappMessage || `Hi DS HAIR, I'm interested in wholesale ${product.title}. Please send trade pricing and sample information.`
+  );
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -135,9 +180,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-4">
-  <link rel="stylesheet" href="content.css?v=20260725-4">
-  <link rel="stylesheet" href="product.css?v=20260725-4">
+  <link rel="stylesheet" href="styles.css?v=20260725-5">
+  <link rel="stylesheet" href="content.css?v=20260725-5">
+  <link rel="stylesheet" href="product.css?v=20260725-5">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -152,12 +197,15 @@ for (const product of products) {
         <p class="eyebrow">${esc(product.brand)} · ${esc(product.category)}</p>
         <h1>${esc(product.title)}</h1>
         <p class="product-code">${product.code ? `PRODUCT CODE · ${esc(product.code)}` : esc(product.referenceLabel || 'SPECIFICATION-BASED PRODUCT · NO SKU')}</p>
+        ${conversion.tradeCard}
         <p class="product-dek">${esc(product.summary)}</p>
         <dl class="quick-specs">${product.confirmedFacts.map(([name, value]) => `<div><dt>${esc(name)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>
-        <div class="product-actions"><a class="button button-dark" href="contact.html?product=${encodeURIComponent(productIdentity)}">REQUEST SPECIFICATION</a><a class="button button-light" href="sample.html?product=${encodeURIComponent(productIdentity)}">DISCUSS A SAMPLE</a></div>
+        ${conversion.trustBadges}
+        <div class="product-actions"><a class="button button-dark" href="contact.html?product=${encodeURIComponent(productIdentity)}">REQUEST QUOTE</a><a class="button button-light" href="sample.html?product=${encodeURIComponent(productIdentity)}">DISCUSS A SAMPLE</a>${wa ? `<a class="button button-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener">Enquire via WhatsApp</a>` : ''}</div>
         <p class="accuracy-note">Commercial terms and unconfirmed technical details are provided only after specification review.</p>
       </div>
     </section>
+    ${conversion.serviceBar}
     ${productTypeChooser(product)}
     ${decisionFramework(product)}
     ${setMapSection(product)}
@@ -193,8 +241,8 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260719-1"></script>
-  <script src="script.js?v=20260725-4"></script>
+  <script src="product-config.js?v=20260725-5"></script>
+  <script src="script.js?v=20260725-5"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));

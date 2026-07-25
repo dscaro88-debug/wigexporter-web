@@ -91,8 +91,8 @@ function head({ title, description, slug, type = 'website', image }) {
   <meta property="og:image" content="https://wigexporter.com/${image}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-4">
-  <link rel="stylesheet" href="content.css?v=20260725-4">
+  <link rel="stylesheet" href="styles.css?v=20260725-5">
+  <link rel="stylesheet" href="content.css?v=20260725-5">
 </head>`;
 }
 
@@ -104,7 +104,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260725-4"></script>
+  <script src="script.js?v=20260725-5"></script>
 </body>
 </html>`;
 }

@@ -346,6 +346,29 @@
     "metaTitle": "Wholesale Human Hair Clip-In Extensions | DS HAIR",
     "description": "Develop wholesale human hair clip-in extensions in classic, seamless, one-piece and single clip-in formats, with 7-piece and 8-piece set maps, length, weight, colour and packaging confirmed to your B2B brief.",
     "summary": "A complete clip-in range for salons, distributors and private-label brands. Choose the construction and product format first, then confirm the set map, length, total grams, colour and packaging as one repeatable specification.",
+    "conversion": {
+      "tradeCard": {
+        "title": "Trade Pricing & Samples",
+        "subtitle": "Wholesale pricing and sample support for registered trade partners",
+        "primaryCta": "Apply for Trade Account",
+        "primaryHref": "trade-account.html",
+        "secondaryCta": "Enquire via WhatsApp",
+        "whatsappNumber": "8613516946001",
+        "whatsappMessage": "Hi DS HAIR, I'm interested in wholesale Human Hair Clip-In Extensions. Please send trade pricing and sample information."
+      },
+      "trustBadges": [
+        { "label": "MOQ & Samples", "sublabel": "Negotiable" },
+        { "label": "Private Label", "sublabel": "OEM packaging" },
+        { "label": "Global Shipping", "sublabel": "3–5 days express" },
+        { "label": "19 Years", "sublabel": "Industry experience" }
+      ],
+      "serviceBar": [
+        { "label": "Quality Guarantee", "sublabel": "Sample approval before production" },
+        { "label": "Reorder Support", "sublabel": "Return to approved specification" },
+        { "label": "Colour Matching", "sublabel": "Physical references available" },
+        { "label": "Flexible Lead Times", "sublabel": "Express or scheduled" }
+      ]
+    },
     "images": [
       {
         "src": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
