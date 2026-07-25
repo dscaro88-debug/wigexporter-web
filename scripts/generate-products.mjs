@@ -180,9 +180,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-5">
-  <link rel="stylesheet" href="content.css?v=20260725-5">
-  <link rel="stylesheet" href="product.css?v=20260725-5">
+  <link rel="stylesheet" href="styles.css?v=20260725-6">
+  <link rel="stylesheet" href="content.css?v=20260725-6">
+  <link rel="stylesheet" href="product.css?v=20260725-6">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -241,8 +241,8 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260725-5"></script>
-  <script src="script.js?v=20260725-5"></script>
+  <script src="product-config.js?v=20260725-6"></script>
+  <script src="script.js?v=20260725-6"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));

@@ -23,7 +23,8 @@
 .quick-specs div:nth-child(even){padding-left:12px}
 .quick-specs dt{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .quick-specs dd{margin:6px 0 0;font-size:13px;text-align:left}
-.product-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.product-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.product-actions .button{flex:1 1 auto;min-width:0;padding:0 14px;font-size:9px;letter-spacing:.11em;min-height:44px;white-space:nowrap}
 .accuracy-note{font-size:10px;color:var(--muted);margin-top:18px}
 .trade-card{background:#fff;border:1px solid var(--line);padding:18px 20px;margin:20px 0 10px;border-radius:0}
 .trade-card-title{display:flex;gap:14px;align-items:center;margin-bottom:14px}
