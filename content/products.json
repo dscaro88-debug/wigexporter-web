@@ -8,7 +8,7 @@
     "title": "Genius Weft Human Hair Extensions",
     "metaTitle": "Wholesale Genius Weft Human Hair Extensions | DS HAIR",
     "description": "Source DS HAIR Genius Weft human hair extensions for salon, distributor and private-label programmes, with sample, colour and packaging development by specification.",
-    "summary": "A slim weft format for professional extension ranges. This DS HAIR reference is presented for B2B product evaluation, colour development, sampling and private-label planning—not consumer checkout.",
+    "summary": "A slim weft format for professional extension ranges. This DS HAIR reference is presented for B2B product evaluation, colour development, sampling and private-label planning\u2014not consumer checkout.",
     "images": [
       {
         "src": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-01.jpg",
@@ -171,7 +171,7 @@
       ],
       [
         "Hair & ends",
-        "Assess feel, movement, colour and end density on the approved sample—not from photography alone."
+        "Assess feel, movement, colour and end density on the approved sample\u2014not from photography alone."
       ],
       [
         "Colour reference",
@@ -192,10 +192,10 @@
       {
         "title": "Tape-In Hair Extensions",
         "eyebrow": "PANEL METHOD",
-        "image": "assets/tape-in.jpg",
+        "image": "assets/products/human-hair-extensions/tape-in/classic-sandwich-tape-in.jpg",
         "imageAlt": "Tape-in human hair extensions for a B2B range brief",
         "summary": "Review panel size, tape system, pack weight and colour architecture for a salon-led range.",
-        "href": "contact.html?product=Tape-In%20Hair%20Extensions"
+        "href": "tape-in-human-hair-extensions.html"
       },
       {
         "title": "K-Tip Hair Extensions",
@@ -342,7 +342,7 @@
     "category": "Human Hair Extensions",
     "categoryUrl": "human-hair-extensions.html",
     "title": "Human Hair Clip-In Extensions",
-    "referenceLabel": "100% REMY HUMAN HAIR · CLASSIC · SEAMLESS · ONE-PIECE · SINGLE CLIP-INS",
+    "referenceLabel": "100% REMY HUMAN HAIR \u00b7 CLASSIC \u00b7 SEAMLESS \u00b7 ONE-PIECE \u00b7 SINGLE CLIP-INS",
     "metaTitle": "Wholesale Human Hair Clip-In Extensions | DS HAIR",
     "description": "Develop wholesale human hair clip-in extensions in classic, seamless, one-piece and single clip-in formats, with 7-piece and 8-piece set maps, length, weight, colour and packaging confirmed to your B2B brief.",
     "summary": "A complete clip-in range for salons, distributors and private-label brands. Choose the construction and product format first, then confirm the set map, length, total grams, colour and packaging as one repeatable specification.",
@@ -357,16 +357,40 @@
         "whatsappMessage": "Hi DS HAIR, I'm interested in wholesale Human Hair Clip-In Extensions. Please send trade pricing and sample information."
       },
       "trustBadges": [
-        { "label": "MOQ & Samples", "sublabel": "Negotiable" },
-        { "label": "Private Label", "sublabel": "OEM packaging" },
-        { "label": "Global Shipping", "sublabel": "3–5 days express" },
-        { "label": "19 Years", "sublabel": "Industry experience" }
+        {
+          "label": "MOQ & Samples",
+          "sublabel": "Negotiable"
+        },
+        {
+          "label": "Private Label",
+          "sublabel": "OEM packaging"
+        },
+        {
+          "label": "Global Shipping",
+          "sublabel": "3\u20135 days express"
+        },
+        {
+          "label": "19 Years",
+          "sublabel": "Industry experience"
+        }
       ],
       "serviceBar": [
-        { "label": "Quality Guarantee", "sublabel": "Sample approval before production" },
-        { "label": "Reorder Support", "sublabel": "Return to approved specification" },
-        { "label": "Colour Matching", "sublabel": "Physical references available" },
-        { "label": "Flexible Lead Times", "sublabel": "Express or scheduled" }
+        {
+          "label": "Quality Guarantee",
+          "sublabel": "Sample approval before production"
+        },
+        {
+          "label": "Reorder Support",
+          "sublabel": "Return to approved specification"
+        },
+        {
+          "label": "Colour Matching",
+          "sublabel": "Physical references available"
+        },
+        {
+          "label": "Flexible Lead Times",
+          "sublabel": "Express or scheduled"
+        }
       ]
     },
     "images": [
@@ -386,7 +410,7 @@
         "fit": "contain"
       }
     ],
-    "imageStatusNote": "MARKET REFERENCE IMAGERY · REPLACE WITH DS HAIR PHOTOS BEFORE LIVE TRADING",
+    "imageStatusNote": "MARKET REFERENCE IMAGERY \u00b7 REPLACE WITH DS HAIR PHOTOS BEFORE LIVE TRADING",
     "confirmedFacts": [
       [
         "Product family",
@@ -402,15 +426,15 @@
       ],
       [
         "Set formats",
-        "7 pcs / set · 8 pcs / set · single piece"
+        "7 pcs / set \u00b7 8 pcs / set \u00b7 single piece"
       ],
       [
         "Colour system",
-        "31 shades · Colour Chart 2"
+        "31 shades \u00b7 Colour Chart 2"
       ],
       [
         "Length range",
-        "14 in – 24 in (request)"
+        "14 in \u2013 24 in (request)"
       ],
       [
         "Product code",
@@ -430,9 +454,9 @@
         "tier": "CLASSIC BESTSELLERS",
         "title": "Classic Sets, One-Piece Volumizers & Singles",
         "body": "The workhorse of any salon retail programme. Classic sewn-weft clip-in sets remain the highest-volume format because they deliver a familiar full-head transformation in a recognisable piece-count package. One-piece volumizers and single fill-in pieces extend the same line into fast add-on sales.",
-        "includes": "7 pcs/set · 8 pcs/set · one-piece volumizer · single clip-in/fill-in",
-        "typicalSpec": "14–24 in · 120–220 g total · fabric/stitched weft base · silicone-lined clips",
-        "guidance": "Fine hair 100–140 g; medium hair 160–180 g; thick hair 200 g+",
+        "includes": "7 pcs/set \u00b7 8 pcs/set \u00b7 one-piece volumizer \u00b7 single clip-in/fill-in",
+        "typicalSpec": "14\u201324 in \u00b7 120\u2013220 g total \u00b7 fabric/stitched weft base \u00b7 silicone-lined clips",
+        "guidance": "Fine hair 100\u2013140 g; medium hair 160\u2013180 g; thick hair 200 g+",
         "whyStock": "Broadest client base, strongest repeat order pattern, easiest colour-matching conversation",
         "image": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
         "imageAlt": "Classic 7-piece and 8-piece human hair clip-in extension sets"
@@ -441,8 +465,8 @@
         "tier": "RISING TRENDS",
         "title": "Seamless & Invisible Clip-Ins",
         "body": "The fastest-growing segment as fine-to-medium hair clients move away from bulky seams. Seamless construction replaces the traditional fabric top with a thin PU or silicone-style base, reducing visible bulk at the root and supporting a higher retail price point.",
-        "includes": "Seamless clip-in sets · invisible PU clip-ins · flat-weft clip-ins",
-        "typicalSpec": "14–22 in · 100–180 g · 0.8–1.2 mm PU top · edge-sealed · colour-matched base",
+        "includes": "Seamless clip-in sets \u00b7 invisible PU clip-ins \u00b7 flat-weft clip-ins",
+        "typicalSpec": "14\u201322 in \u00b7 100\u2013180 g \u00b7 0.8\u20131.2 mm PU top \u00b7 edge-sealed \u00b7 colour-matched base",
         "guidance": "PU flexibility, edge finish, hair retention and clip attachment security",
         "whyStock": "Premium positioning, strong social-media appeal, less price-sensitive buyer",
         "image": "assets/products/human-hair-extensions/clip-in/trend-invisible-seamless.jpg",
@@ -451,9 +475,9 @@
       {
         "tier": "NICHE OPPORTUNITIES",
         "title": "Flip-In Halo / Wire Crown Extensions",
-        "body": "A one-piece, wire-secured method for clients who want zero clips, zero tension and instant volume. The weft sits on the crown like a halo with the wearer’s own hair pulled over to conceal the wire. Strong opportunity in sensitive-scalp, medical hair-loss and low-manipulation segments.",
-        "includes": "Flip-in halo · wire crown · no-clip volumizer · convertible clip/halo piece",
-        "typicalSpec": "14–24 in · 80–150 g · 25–30 cm weft width · transparent adjustable wire",
+        "body": "A one-piece, wire-secured method for clients who want zero clips, zero tension and instant volume. The weft sits on the crown like a halo with the wearer\u2019s own hair pulled over to conceal the wire. Strong opportunity in sensitive-scalp, medical hair-loss and low-manipulation segments.",
+        "includes": "Flip-in halo \u00b7 wire crown \u00b7 no-clip volumizer \u00b7 convertible clip/halo piece",
+        "typicalSpec": "14\u201324 in \u00b7 80\u2013150 g \u00b7 25\u201330 cm weft width \u00b7 transparent adjustable wire",
         "guidance": "Wire strength/adjustability, weft weight balance, comfort under the occipital bone",
         "whyStock": "Lower competition, high margin, clear differentiator for fine or fragile-hair clients",
         "image": "assets/products/human-hair-extensions/clip-in/niche-flip-in-halo.png",
@@ -638,15 +662,15 @@
         "note": "This selection guides set architecture and weight distribution. It is not a universal suitability guarantee; the final product should be tested on the intended wearer profile.",
         "options": [
           {
-            "value": "Fine hair · discreet volume",
+            "value": "Fine hair \u00b7 discreet volume",
             "status": "request"
           },
           {
-            "value": "Medium hair · length + volume",
+            "value": "Medium hair \u00b7 length + volume",
             "status": "request"
           },
           {
-            "value": "Thick hair · fuller coverage",
+            "value": "Thick hair \u00b7 fuller coverage",
             "status": "request"
           },
           {
@@ -662,17 +686,17 @@
       "intro": "Start with the natural-hair profile and desired result, then choose construction, coverage and grams. This prevents a buyer from treating every clip-in set as the same product.",
       "items": [
         {
-          "label": "01 · NATURAL HAIR",
+          "label": "01 \u00b7 NATURAL HAIR",
           "title": "Match the wearer profile",
           "body": "Fine hair usually needs a flatter, lighter root profile; medium and thick hair may need more coverage and grams to blend naturally."
         },
         {
-          "label": "02 · DESIRED RESULT",
+          "label": "02 \u00b7 DESIRED RESULT",
           "title": "Choose coverage before piece count",
           "body": "Decide whether the customer needs a full transformation, discreet volume, fast back coverage or targeted side fill."
         },
         {
-          "label": "03 · FINISHED PRODUCT",
+          "label": "03 \u00b7 FINISHED PRODUCT",
           "title": "Lock construction and specification",
           "body": "Approve the product type, set map, grams, length, colour, texture, clip hardware and packaging together as one repeatable product."
         }
@@ -773,10 +797,10 @@
       {
         "title": "Tape-In Hair Extensions",
         "eyebrow": "PANEL METHOD",
-        "image": "assets/tape-in.jpg",
+        "image": "assets/products/human-hair-extensions/tape-in/classic-sandwich-tape-in.jpg",
         "imageAlt": "Tape-in human hair extensions for a B2B range brief",
         "summary": "Specify panel size, grams per piece, adhesive system, colour and pack format.",
-        "href": "contact.html?product=Tape-In%20Hair%20Extensions"
+        "href": "tape-in-human-hair-extensions.html"
       },
       {
         "title": "K-Tip Hair Extensions",
@@ -834,7 +858,7 @@
       ],
       "notice": "Piece count alone is not a full product specification. Construction, widths, clip layout, total weight, grams by piece and colour must be confirmed on the selected sample.",
       "eyebrow": "SET ARCHITECTURE",
-      "title": "Four formats—four different buying briefs.",
+      "title": "Four formats\u2014four different buying briefs.",
       "intro": "Select the architecture by coverage goal and placement map. Do not use piece count as a shortcut for volume, comfort or quality."
     },
     "serviceComparison": [
@@ -871,7 +895,7 @@
       },
       {
         "title": "How do you match gram weight to hair density?",
-        "body": "For fine or thin hair, suggest 100–140 g sets to avoid traction and visible bulk. For medium-density hair, 160–180 g usually blends well. For thick or voluminous hair, 200 g or more is needed for a natural end result."
+        "body": "For fine or thin hair, suggest 100\u2013140 g sets to avoid traction and visible bulk. For medium-density hair, 160\u2013180 g usually blends well. For thick or voluminous hair, 200 g or more is needed for a natural end result."
       },
       {
         "title": "Where should colour be matched?",
@@ -927,6 +951,608 @@
     "ctaText": "Tell us whether you need classic, seamless, one-piece or single clip-ins, then add the set format, wearer profile, preferred length, total grams, colour direction, packaging and estimated quantity."
   },
   {
+    "slug": "tape-in-human-hair-extensions",
+    "brand": "DS HAIR",
+    "category": "Human Hair Extensions",
+    "categoryUrl": "human-hair-extensions.html",
+    "title": "Human Hair Tape-In Extensions",
+    "referenceLabel": "100% REMY HUMAN HAIR \u00b7 SANDWICH \u00b7 INVISIBLE \u00b7 COLOUR / OMBRE",
+    "metaTitle": "Wholesale Human Hair Tape-In Extensions | DS HAIR",
+    "description": "Develop wholesale human hair tape-in extensions in classic sandwich, invisible ultra-thin and colour/ombre formats, with panel size, grams per piece, adhesive system, length, colour and pack format confirmed to your B2B brief.",
+    "summary": "A complete tape-in range for salons, distributors and private-label brands. Choose the adhesive profile and panel format first, then confirm the piece count, grams per piece, length, colour and packaging as one repeatable specification.",
+    "conversion": {
+      "tradeCard": {
+        "title": "Trade Pricing & Samples",
+        "subtitle": "Wholesale pricing and sample support for registered trade partners",
+        "primaryCta": "Apply for Trade Account",
+        "primaryHref": "trade-account.html",
+        "secondaryCta": "Enquire via WhatsApp",
+        "whatsappNumber": "8613516946001",
+        "whatsappMessage": "Hi DS HAIR, I'm interested in wholesale Human Hair Tape-In Extensions. Please send trade pricing, MOQ and sample information."
+      },
+      "trustBadges": [
+        {
+          "label": "MOQ & Samples",
+          "sublabel": "Negotiable"
+        },
+        {
+          "label": "Private Label",
+          "sublabel": "OEM packaging"
+        },
+        {
+          "label": "Global Shipping",
+          "sublabel": "3\u20135 days express"
+        },
+        {
+          "label": "19 Years",
+          "sublabel": "Industry experience"
+        }
+      ],
+      "serviceBar": [
+        {
+          "label": "Quality Guarantee",
+          "sublabel": "Sample approval before production"
+        },
+        {
+          "label": "Reorder Support",
+          "sublabel": "Return to approved specification"
+        },
+        {
+          "label": "Colour Matching",
+          "sublabel": "Physical references available"
+        },
+        {
+          "label": "Flexible Lead Times",
+          "sublabel": "Express or scheduled"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "assets/products/human-hair-extensions/tape-in/classic-sandwich-tape-in.jpg",
+        "alt": "Classic sandwich tape-in human hair extensions",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/tape-in/trend-invisible-tape-in.jpg",
+        "alt": "Invisible ultra-thin tape-in extensions versus regular PU tape",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/tape-in/niche-ombre-tape-in.png",
+        "alt": "Fashion balayage and ombre tape-in hair extensions",
+        "fit": "contain"
+      }
+    ],
+    "imageStatusNote": "MARKET REFERENCE IMAGERY \u00b7 REPLACE WITH DS HAIR PHOTOS BEFORE LIVE TRADING",
+    "confirmedFacts": [
+      [
+        "Product family",
+        "Human hair tape-in extensions"
+      ],
+      [
+        "Product types",
+        "Classic sandwich \u00b7 invisible ultra-thin \u00b7 colour/ombre"
+      ],
+      [
+        "Material detail",
+        "100% Remy human hair"
+      ],
+      [
+        "Panel formats",
+        "20 pcs / 40 pcs / 60 pcs pack \u00b7 custom piece count"
+      ],
+      [
+        "Colour system",
+        "31 shades \u00b7 Colour Chart 2 \u00b7 custom ombre/balayage"
+      ],
+      [
+        "Length range",
+        "14 in \u2013 24 in (request)"
+      ],
+      [
+        "Product code",
+        "Not used for this product family"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ],
+      [
+        "Order basis",
+        "Approved product type + full specification"
+      ]
+    ],
+    "productTypes": [
+      {
+        "tier": "CLASSIC BESTSELLERS",
+        "title": "Classic Sandwich Tape-In Wefts",
+        "body": "The salon standard and highest-volume format. Two adhesive panels sandwich a fine section of natural hair for a flat, secure hold. This is the first tape-in product most stylists learn and the safest volume driver for wholesale programmes.",
+        "includes": "Classic PU tape wefts \u00b7 4 cm standard width \u00b7 20/40/60 pcs pack",
+        "typicalSpec": "14\u201324 in \u00b7 2.5\u20133.5 g per piece \u00b7 4 cm panel width \u00b7 medical-grade acrylic adhesive",
+        "guidance": "Fine hair 40\u201350 pcs; medium hair 50\u201360 pcs; thick hair 60\u201380 pcs for full coverage",
+        "whyStock": "Largest salon audience, predictable reorder cycle, easiest to train stylists on",
+        "image": "assets/products/human-hair-extensions/tape-in/classic-sandwich-tape-in.jpg",
+        "imageAlt": "Classic sandwich tape-in human hair extensions"
+      },
+      {
+        "tier": "RISING TRENDS",
+        "title": "Invisible & Re-Tapeable Tape-Ins",
+        "body": "The fastest-growing segment as clients demand a flatter root profile and longer wear cycles. Ultra-thin PU or matte-finish bases reduce visible seams, while re-tapeable panels let salons refresh the adhesive and reuse the hair.",
+        "includes": "Invisible ultra-thin tape \u00b7 matte-finish base \u00b7 re-tapeable wefts \u00b7 replacement tape tabs",
+        "typicalSpec": "14\u201322 in \u00b7 2.0\u20133.0 g per piece \u00b7 <0.5 mm base \u00b7 clear/beige seamless adhesive",
+        "guidance": "Confirm base translucency, adhesive strength across wash cycles, and re-tape durability",
+        "whyStock": "Premium price positioning, social-media appeal, supports recurring maintenance-product sales",
+        "image": "assets/products/human-hair-extensions/tape-in/trend-invisible-tape-in.jpg",
+        "imageAlt": "Invisible ultra-thin tape-in extensions versus regular PU tape"
+      },
+      {
+        "tier": "NICHE OPPORTUNITIES",
+        "title": "Colour, Ombre & Sensitive-Scalp Tapes",
+        "body": "A smaller but high-margin segment covering fashion balayage, root-to-tip ombre, low-adhesive sensitive-scalp panels and starter kits for new wearers. These products differentiate a range beyond classic solid colours.",
+        "includes": "Balayage/ombre tape-ins \u00b7 low-adhesive sensitive panels \u00b7 fashion colour accents \u00b7 DIY starter kit",
+        "typicalSpec": "14\u201322 in \u00b7 2.0\u20133.0 g per piece \u00b7 custom colour transitions \u00b7 hypoallergenic adhesive option",
+        "guidance": "Colour matching at root and end, adhesive gentleness for sensitive scalps, kit packaging",
+        "whyStock": "Higher margin, lower direct competition, strong social and bridal/special-occasion demand",
+        "image": "assets/products/human-hair-extensions/tape-in/niche-ombre-tape-in.png",
+        "imageAlt": "Fashion balayage and ombre tape-in hair extensions"
+      }
+    ],
+    "setMaps": [
+      {
+        "title": "20 pcs / pack",
+        "summary": "A half-head or maintenance pack, typically 10 sandwiches for targeted volume or side coverage.",
+        "rows": [
+          [
+            "20 pieces",
+            "4 cm width",
+            "2.5\u20133.5 g per piece"
+          ],
+          [
+            "Forms 10 sandwiches",
+            "Fine\u2013medium hair",
+            "Targeted volume or refresh"
+          ]
+        ]
+      },
+      {
+        "title": "40 pcs / pack",
+        "summary": "A full-head starter pack, typically 20 sandwiches for a standard full coverage installation.",
+        "rows": [
+          [
+            "40 pieces",
+            "4 cm width",
+            "2.5\u20133.5 g per piece"
+          ],
+          [
+            "Forms 20 sandwiches",
+            "Medium hair",
+            "Standard full-head coverage"
+          ]
+        ]
+      },
+      {
+        "title": "60 pcs / pack",
+        "summary": "An extra-full pack, typically 30 sandwiches for thick hair or clients wanting maximum density.",
+        "rows": [
+          [
+            "60 pieces",
+            "4 cm width",
+            "2.5\u20133.5 g per piece"
+          ],
+          [
+            "Forms 30 sandwiches",
+            "Thick hair",
+            "Maximum density coverage"
+          ]
+        ]
+      }
+    ],
+    "configuration": [
+      {
+        "key": "format",
+        "label": "Pack format",
+        "note": "Choose the selling unit first. Piece count refers to individual tape panels; two panels form one sandwich.",
+        "options": [
+          {
+            "value": "20 pcs / pack",
+            "status": "request"
+          },
+          {
+            "value": "40 pcs / pack",
+            "status": "request"
+          },
+          {
+            "value": "60 pcs / pack",
+            "status": "request"
+          },
+          {
+            "value": "Custom piece count",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "length",
+        "label": "Requested length",
+        "note": "Lengths shown are buying-request options, not live-stock claims. Final availability is confirmed with the selected construction and weight.",
+        "options": [
+          {
+            "value": "14 in / 36 cm",
+            "status": "request"
+          },
+          {
+            "value": "16 in / 41 cm",
+            "status": "request"
+          },
+          {
+            "value": "18 in / 46 cm",
+            "status": "request"
+          },
+          {
+            "value": "20 in / 51 cm",
+            "status": "request"
+          },
+          {
+            "value": "22 in / 56 cm",
+            "status": "request"
+          },
+          {
+            "value": "24 in / 61 cm",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "weight",
+        "label": "Grams per piece",
+        "note": "Weight refers to the hair weight per individual panel. Total pack weight depends on piece count.",
+        "options": [
+          {
+            "value": "2.0 g",
+            "status": "request"
+          },
+          {
+            "value": "2.5 g",
+            "status": "request"
+          },
+          {
+            "value": "3.0 g",
+            "status": "request"
+          },
+          {
+            "value": "3.5 g",
+            "status": "request"
+          },
+          {
+            "value": "Custom grams",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "build",
+        "label": "Tape construction",
+        "note": "Classic, invisible and re-tapeable are different constructions. Select the intended adhesive profile and base thickness before confirming colour and packaging.",
+        "options": [
+          {
+            "value": "Classic PU sandwich tape",
+            "status": "request"
+          },
+          {
+            "value": "Invisible ultra-thin tape",
+            "status": "request"
+          },
+          {
+            "value": "Re-tapeable panel",
+            "status": "request"
+          },
+          {
+            "value": "Sensitive-scalp low-adhesive tape",
+            "status": "request"
+          },
+          {
+            "value": "Match supplied sample",
+            "status": "request"
+          }
+        ]
+      },
+      {
+        "key": "wearer",
+        "label": "Target wearer / result",
+        "note": "This selection guides piece count and adhesive choice. It is not a universal suitability guarantee; the final product should be tested on the intended wearer profile.",
+        "options": [
+          {
+            "value": "Fine hair \u00b7 discreet volume",
+            "status": "request"
+          },
+          {
+            "value": "Medium hair \u00b7 length + volume",
+            "status": "request"
+          },
+          {
+            "value": "Thick hair \u00b7 fuller coverage",
+            "status": "request"
+          },
+          {
+            "value": "Fashion colour / ombre accent",
+            "status": "request"
+          }
+        ]
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "decisionFramework": {
+      "title": "Choose the product in the same order your customer does.",
+      "intro": "Start with the natural-hair profile and desired coverage, then choose adhesive profile, piece count and grams. This prevents a buyer from treating every tape-in pack as the same product.",
+      "items": [
+        {
+          "label": "01 \u00b7 NATURAL HAIR",
+          "title": "Match the wearer profile",
+          "body": "Fine hair usually needs lighter, fewer pieces and gentler adhesive; medium and thick hair need more pieces and stronger hold for a lasting blend."
+        },
+        {
+          "label": "02 \u00b7 DESIRED COVERAGE",
+          "title": "Choose pack size by coverage",
+          "body": "Decide whether the customer needs a half-head refresh, standard full-head coverage or extra density before locking piece count."
+        },
+        {
+          "label": "03 \u00b7 FINISHED PRODUCT",
+          "title": "Lock construction and specification",
+          "body": "Approve the tape type, piece count, grams per piece, length, colour, adhesive system and packaging together as one repeatable product."
+        }
+      ]
+    },
+    "specificationAnatomy": [
+      [
+        "01",
+        "Wearer & result",
+        "Fine, medium or thick natural hair; volume, length, side fill or full coverage."
+      ],
+      [
+        "02",
+        "Tape construction",
+        "Classic PU, invisible ultra-thin, re-tapeable or sensitive-scalp tape; base colour and thickness."
+      ],
+      [
+        "03",
+        "Pack architecture",
+        "Piece count, panel width, grams per piece and total pack weight."
+      ],
+      [
+        "04",
+        "Adhesive system",
+        "Medical-grade acrylic, re-tapeable tabs or low-adhesive sensitive formula; hold duration and replacement schedule."
+      ],
+      [
+        "05",
+        "Hair specification",
+        "Length, texture, Remy direction, colour reference, drawing level and finish."
+      ],
+      [
+        "06",
+        "Commercial presentation",
+        "Quantity, label, backing card or storage format, artwork, barcode and market requirements."
+      ]
+    ],
+    "constructionComparison": {
+      "title": "Classic sandwich and invisible tape are two different product constructions.",
+      "columns": [
+        "Classic PU Sandwich Tape",
+        "Invisible Ultra-Thin Tape"
+      ],
+      "rows": [
+        [
+          "Top construction",
+          "Standard PU base with exposed adhesive",
+          "Thinner, often translucent or colour-matched base"
+        ],
+        [
+          "Profile at the root",
+          "Slightly thicker seam; strong hold",
+          "Designed to sit flatter with less visible edge"
+        ],
+        [
+          "Key development risk",
+          "Adhesive strength, residue control and hair retention",
+          "Base translucency, edge lift and wash-cycle durability"
+        ],
+        [
+          "Colour consideration",
+          "Base colour must blend with hair shade",
+          "Base should be translucent or closely matched to scalp"
+        ],
+        [
+          "What a buyer must approve",
+          "Physical panel sample plus adhesive hold test",
+          "Physical panel sample plus root-seam visibility test"
+        ]
+      ],
+      "notice": "Invisible and classic are construction choices, not automatic quality grades. The correct decision depends on the target wearer, adhesive performance and approved physical sample."
+    },
+    "buyerChecks": [
+      [
+        "Base & adhesive",
+        "Review PU thickness, base colour/translucency, adhesive tack, residue and wash-cycle performance."
+      ],
+      [
+        "Hair retention",
+        "Test shedding before and after controlled washing, styling and tape replacement cycles."
+      ],
+      [
+        "Panel consistency",
+        "Confirm every panel width, hair weight and end density across the pack."
+      ],
+      [
+        "Comfort & removal",
+        "Check scalp tension during wear and clean removal with the recommended solvent."
+      ]
+    ],
+    "customisation": [
+      "Classic, invisible, re-tapeable and sensitive-scalp range architecture",
+      "20-, 40-, 60-piece packs or buyer-defined piece counts",
+      "Panel width, grams per piece, length and colour programme",
+      "Solid, balayage, ombre and fashion-colour transitions",
+      "Private-label backing cards, storage boxes and replacement tape tabs"
+    ],
+    "relatedProducts": [
+      {
+        "title": "Clip-In Hair Extensions",
+        "eyebrow": "CLIP-IN METHOD",
+        "image": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
+        "imageAlt": "Clip-in human hair extension sets for wholesale development",
+        "summary": "Specify set format, construction, length, weight and colour for a no-glue daily-wear range.",
+        "href": "clip-in-human-hair-extensions.html"
+      },
+      {
+        "title": "K-Tip Hair Extensions",
+        "eyebrow": "KERATIN BOND",
+        "image": "assets/k-tip.jpg",
+        "imageAlt": "K-tip human hair extensions for a B2B range brief",
+        "summary": "Specify strand weight, tip shape, colour system and stylist workflow.",
+        "href": "contact.html?product=K-Tip%20Hair%20Extensions"
+      },
+      {
+        "title": "Genius Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/genius-weft.jpg",
+        "imageAlt": "Genius Weft human hair extensions for wholesale development",
+        "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
+        "href": "genius-weft-human-hair-extensions.html"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "Classic Sandwich",
+        "Invisible Ultra-Thin",
+        "Colour / Ombre",
+        "Custom Panel"
+      ],
+      "rows": [
+        [
+          "Product format",
+          "Standard 4 cm PU panels",
+          "Thinner, often translucent base",
+          "Pre-blended colour transitions",
+          "Buyer-defined width/grams"
+        ],
+        [
+          "Key buying question",
+          "Does panel count and adhesive suit the wearer?",
+          "How flat and invisible is the root seam?",
+          "Are root and end colours matched to the client?",
+          "What exact panel spec must production repeat?"
+        ],
+        [
+          "Weight decision",
+          "Confirm grams per piece and pack count",
+          "Confirm grams per piece and re-tape cycle",
+          "Confirm grams per piece and colour placement",
+          "Confirm total and per-panel weight"
+        ],
+        [
+          "Sample focus",
+          "Panel hold, residue and hair retention",
+          "Root visibility and wash durability",
+          "Colour accuracy and blend",
+          "Repeatability against written spec"
+        ]
+      ],
+      "notice": "Construction, panel width, adhesive system, total pieces, grams per piece and colour must be confirmed on the selected sample.",
+      "eyebrow": "TAPE-IN FORMATS",
+      "title": "Four adhesive profiles\u2014four different buying briefs.",
+      "intro": "Select the tape profile by wearer density, target result and maintenance model. Do not use piece count as a shortcut for hold, comfort or quality."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written product name and buying brief",
+        "A photo or broad catalogue name"
+      ],
+      [
+        "Set definition",
+        "Piece map, widths, clip count and weight recorded",
+        "Only total piece count discussed"
+      ],
+      [
+        "Colour decision",
+        "Physical colour reference recommended",
+        "Screen colour treated as final"
+      ],
+      [
+        "Sample record",
+        "Approval points and changes documented",
+        "No shared repeat-order benchmark"
+      ],
+      [
+        "Repeat order",
+        "Return to the approved specification",
+        "Rebuild the requirement from chat history"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What types of human hair tape-ins are available?",
+        "body": "The range can be developed as classic sandwich panels, invisible ultra-thin panels, re-tapeable panels, sensitive-scalp panels or fashion colour/ombre panels. Each type serves a different wearer profile and salon workflow."
+      },
+      {
+        "title": "How many tape-in pieces does a client need?",
+        "body": "Fine hair may need 40\u201350 pieces for a full look, medium hair 50\u201360 pieces and thick hair 60\u201380 pieces. Two pieces form one sandwich, so a 40-piece pack creates 20 sandwiches."
+      },
+      {
+        "title": "How do classic and invisible tape-ins differ?",
+        "body": "Classic tape-ins use a standard PU base with medical-grade adhesive. Invisible tape-ins use a thinner, often translucent base to reduce the visible seam at the root. Hold, residue and re-tapeability must be tested for each."
+      },
+      {
+        "title": "What controls a reliable reorder?",
+        "body": "Keep one approved sample and one written specification covering panel width, grams per piece, adhesive type, base colour, hair details, colour reference, tolerances, packaging and QC checkpoints."
+      },
+      {
+        "title": "Can tape-in hair be reused?",
+        "body": "Yes, if the panels are designed as re-tapeable. Stylists remove the panels, clean residue and apply new adhesive tabs. Re-tapeable panels can extend the useful life of the hair and create recurring sales of replacement tape."
+      },
+      {
+        "title": "What should a buyer check before approving colour?",
+        "body": "Match the base/root colour to the client\u2019s natural hair and confirm any balayage or ombre transition against a physical reference. Screen colours are not reliable for final approval."
+      }
+    ],
+    "unconfirmed": [
+      "Hair grade, origin, Remy direction and drawing level",
+      "Panel width, piece count and grams per piece for each pack format",
+      "Exact length and gram combinations available",
+      "Adhesive formulation, hold duration, residue and re-tape specifications",
+      "MOQ, price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Do Tape-In Hair Extensions have a product code?",
+        "No. This product family is identified by its product name and confirmed specification: classic, invisible, re-tapeable or colour/ombre tape-in, followed by the panel format, length, grams, colour and packaging."
+      ],
+      [
+        "Can I request a sample pack?",
+        "Yes. Share the preferred tape type, piece count, length, target grams per piece, colour direction and any adhesive requirements. Sample feasibility, cost and timing are confirmed against that brief."
+      ],
+      [
+        "Does 40 pcs/pack define the full product?",
+        "No. The full specification also needs the construction, panel width, grams per piece, adhesive system, length, texture, colour reference and repeat-order tolerances."
+      ],
+      [
+        "Can DS HAIR develop invisible or re-tapeable tape-ins?",
+        "Yes. State the target base thickness, transparency level, adhesive strength and whether replacement tape tabs are required so the construction can be evaluated."
+      ],
+      [
+        "Are all lengths and weights shown ready to order?",
+        "No. They are buying-request options for preparing a brief. A length and gram value is not confirmed until it is tied to the chosen product type, panel spec, hair specification and written quotation."
+      ],
+      [
+        "Can I request private-label packaging?",
+        "Yes. Label, backing card, storage box and retail-pack requirements can be reviewed with the product brief. Feasibility and minimum quantities are confirmed separately."
+      ]
+    ],
+    "ctaTitle": "Build a Human Hair Tape-In range your customers can trust and reorder.",
+    "ctaText": "Tell us whether you need classic sandwich, invisible ultra-thin, re-tapeable or colour/ombre tape-ins, then add the piece count, target grams per piece, length, colour direction, adhesive preference, packaging and estimated quantity."
+  },
+  {
     "slug": "synthetic-clip-in-chignon-hairpiece",
     "code": "DS-HPC-SY-001",
     "brand": "DS HAIR",
@@ -965,7 +1591,7 @@
       ],
       [
         "Reference length",
-        "5–6 in / 13–15 cm"
+        "5\u20136 in / 13\u201315 cm"
       ],
       [
         "Reference texture",
@@ -990,7 +1616,7 @@
         "label": "Length direction",
         "options": [
           {
-            "value": "5–6 in reference",
+            "value": "5\u20136 in reference",
             "status": "reference"
           },
           {
@@ -998,7 +1624,7 @@
             "status": "request"
           }
         ],
-        "note": "The photographed reference is approximately 5–6 inches. Confirm the production measurement method and tolerance on the sample."
+        "note": "The photographed reference is approximately 5\u20136 inches. Confirm the production measurement method and tolerance on the sample."
       },
       {
         "key": "texture",
@@ -1249,7 +1875,7 @@
     "title": "22-Inch Straight Clip-In Synthetic Hairpiece",
     "metaTitle": "Wholesale 22-Inch Straight Clip-In Synthetic Hairpiece | DS HAIR",
     "description": "Source a wholesale 22-inch straight clip-in synthetic hairpiece with a one-piece base, seven pressure clips, heat-friendly fibre direction and private-label support.",
-    "summary": "A long, straight one-piece clip-in reference for professional buyers developing instant-length and volume ranges. The source reference documents a 22-inch length, an 11 × 6.5-inch base, seven pressure-sensitive clips and a 3.7 oz finished weight. DS HAIR production fibre, heat protocol, colours, tolerances and commercial terms remain subject to sample approval and written specification.",
+    "summary": "A long, straight one-piece clip-in reference for professional buyers developing instant-length and volume ranges. The source reference documents a 22-inch length, an 11 \u00d7 6.5-inch base, seven pressure-sensitive clips and a 3.7 oz finished weight. DS HAIR production fibre, heat protocol, colours, tolerances and commercial terms remain subject to sample approval and written specification.",
     "imageStatusNote": "The main image shows the buyer-confirmed product structure. Lifestyle images use newly generated models; the face-free installation reference is retained directly.",
     "images": [
       {
@@ -1289,7 +1915,7 @@
       ],
       [
         "Reference base",
-        "11 × 6.5 in / 28 × 16.5 cm"
+        "11 \u00d7 6.5 in / 28 \u00d7 16.5 cm"
       ],
       [
         "Reference attachment",
@@ -1329,7 +1955,7 @@
         "label": "Base direction",
         "options": [
           {
-            "value": "11 × 6.5 in reference",
+            "value": "11 \u00d7 6.5 in reference",
             "status": "reference"
           },
           {
@@ -1378,7 +2004,7 @@
     "buyerChecks": [
       [
         "Base fit and coverage",
-        "Confirm the 11 × 6.5-inch reference footprint against the target head area, hair density and desired coverage."
+        "Confirm the 11 \u00d7 6.5-inch reference footprint against the target head area, hair density and desired coverage."
       ],
       [
         "Seven-clip layout",
@@ -1513,7 +2139,7 @@
     "knowledge": [
       {
         "title": "What is a one-piece clip-in hairpiece?",
-        "body": "It is a wide hair section designed to add length and back-of-head coverage in one placement. This source reference uses seven pressure-sensitive clips across an 11 × 6.5-inch base."
+        "body": "It is a wide hair section designed to add length and back-of-head coverage in one placement. This source reference uses seven pressure-sensitive clips across an 11 \u00d7 6.5-inch base."
       },
       {
         "title": "What should buyers verify on the base?",
@@ -1525,7 +2151,7 @@
       },
       {
         "title": "Can heat-friendly synthetic hair be styled?",
-        "body": "Only within the tested care protocol for the actual production fibre. The source reference recommends 275–300°F, but DS HAIR must validate its own sample before publishing a maximum temperature."
+        "body": "Only within the tested care protocol for the actual production fibre. The source reference recommends 275\u2013300\u00b0F, but DS HAIR must validate its own sample before publishing a maximum temperature."
       },
       {
         "title": "What supports reliable reorders?",
@@ -1550,11 +2176,11 @@
       ],
       [
         "What are the reference dimensions and weight?",
-        "The source product page states a 22-inch length, an 11 × 6.5-inch base and a 3.7 oz finished weight. Production tolerances are confirmed in writing."
+        "The source product page states a 22-inch length, an 11 \u00d7 6.5-inch base and a 3.7 oz finished weight. Production tolerances are confirmed in writing."
       ],
       [
         "Can this synthetic hairpiece be heat styled?",
-        "The source reference recommends 275–300°F. That range is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
+        "The source reference recommends 275\u2013300\u00b0F. That range is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
       ],
       [
         "Can buyers request custom colours and packaging?",
@@ -1836,7 +2462,7 @@
       },
       {
         "title": "What should buyers verify on the clip?",
-        "body": "Check curve, tooth geometry, spring force, coating, colour, attachment stitching and how the base conceals the wearer’s natural hair."
+        "body": "Check curve, tooth geometry, spring force, coating, colour, attachment stitching and how the base conceals the wearer\u2019s natural hair."
       },
       {
         "title": "How should soft curls be approved?",
@@ -2152,7 +2778,7 @@
       },
       {
         "title": "What should buyers verify on the clip?",
-        "body": "Check curve, tooth geometry, spring force, coating, colour, attachment stitching and how the base conceals the wearer’s natural hair."
+        "body": "Check curve, tooth geometry, spring force, coating, colour, attachment stitching and how the base conceals the wearer\u2019s natural hair."
       },
       {
         "title": "How should a straight finish be approved?",
@@ -2517,7 +3143,7 @@
     "title": "12-Inch Coily Drawstring Synthetic Ponytail",
     "metaTitle": "Wholesale 12-Inch Coily Drawstring Ponytail | DS HAIR",
     "description": "Source a wholesale 12-inch coily synthetic drawstring ponytail with a pocket base, quick cinch attachment, confirmed MOQ, price range and lead time.",
-    "summary": "A compact coily drawstring ponytail for professional buyers developing quick-application synthetic hairpiece ranges. The official source documents a 12-inch coily texture, pocket-style base, drawstring/cinch attachment and heat-friendly synthetic direction. For DS-HPC-SY-006, MOQ is 30 pcs/color, the unit-price range is US$1.98–2.28 and lead time is 3–21 days. Production fibre, weight, base dimensions, colour set, heat protocol, packing and tolerances remain subject to sample approval and written specification.",
+    "summary": "A compact coily drawstring ponytail for professional buyers developing quick-application synthetic hairpiece ranges. The official source documents a 12-inch coily texture, pocket-style base, drawstring/cinch attachment and heat-friendly synthetic direction. For DS-HPC-SY-006, MOQ is 30 pcs/color, the unit-price range is US$1.98\u20132.28 and lead time is 3\u201321 days. Production fibre, weight, base dimensions, colour set, heat protocol, packing and tolerances remain subject to sample approval and written specification.",
     "imageStatusNote": "Three reviewed product-only images: two original DS HAIR catalogue concepts derived from the face-free construction reference, plus one face-free official structure reference. Source model and installation images containing an identifiable face are retained for traceability only and are not published.",
     "images": [
       {
@@ -2563,11 +3189,11 @@
       ],
       [
         "Unit price",
-        "US$1.98–2.28/pc"
+        "US$1.98\u20132.28/pc"
       ],
       [
         "Lead time",
-        "3–21 days"
+        "3\u201321 days"
       ],
       [
         "Sales channel",
@@ -2792,7 +3418,7 @@
       },
       {
         "title": "Are the commercial terms confirmed?",
-        "body": "For DS-HPC-SY-006, MOQ is 30 pcs/color, unit price is US$1.98–2.28/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written order specification."
+        "body": "For DS-HPC-SY-006, MOQ is 30 pcs/color, unit price is US$1.98\u20132.28/pc and lead time is 3\u201321 days. Final order total and delivery schedule still follow the written order specification."
       },
       {
         "title": "What supports reliable reorders?",
@@ -2813,7 +3439,7 @@
       ],
       [
         "What are the MOQ, price and lead time for DS-HPC-SY-006?",
-        "MOQ is 30 pcs/color, the unit-price range is US$1.98–2.28/pc and lead time is 3–21 days. Final totals and schedule are confirmed on the written order specification."
+        "MOQ is 30 pcs/color, the unit-price range is US$1.98\u20132.28/pc and lead time is 3\u201321 days. Final totals and schedule are confirmed on the written order specification."
       ],
       [
         "How does the reference ponytail attach?",
@@ -2840,7 +3466,7 @@
     "title": "Elastic-Band Synthetic Hair Bun Scrunchie",
     "metaTitle": "Wholesale Synthetic Hair Bun Scrunchie | DS HAIR",
     "description": "Source a wholesale synthetic hair bun scrunchie with an elastic-band attachment, 12 source shade references, confirmed MOQ, price range and lead time.",
-    "summary": "A compact synthetic hair bun scrunchie for professional buyers developing quick updo and chignon ranges. The supplied reference images show a smooth wrapped-bun appearance, an elastic-band attachment and 12 numbered source shades. For DS-HPC-SY-007, MOQ is 60 pcs/color, the unit-price range is US$0.98–1.50 and lead time is 3–21 days. Production diameter, fibre, finished weight, shade matching, heat protocol, packing and tolerances remain subject to sample approval and written specification.",
+    "summary": "A compact synthetic hair bun scrunchie for professional buyers developing quick updo and chignon ranges. The supplied reference images show a smooth wrapped-bun appearance, an elastic-band attachment and 12 numbered source shades. For DS-HPC-SY-007, MOQ is 60 pcs/color, the unit-price range is US$0.98\u20131.50 and lead time is 3\u201321 days. Production diameter, fibre, finished weight, shade matching, heat protocol, packing and tolerances remain subject to sample approval and written specification.",
     "imageStatusNote": "Four reviewed images selected from the user-supplied source set: a face-free product view, a cropped elastic-band detail, a back-view styled result and a source-shade overview. Source marketing copy is not reused as a DS HAIR production claim.",
     "images": [
       {
@@ -2895,11 +3521,11 @@
       ],
       [
         "Unit price",
-        "US$0.98–1.50/pc"
+        "US$0.98\u20131.50/pc"
       ],
       [
         "Lead time",
-        "3–21 days"
+        "3\u201321 days"
       ],
       [
         "Sales channel",
@@ -3124,7 +3750,7 @@
       },
       {
         "title": "Are the commercial terms confirmed?",
-        "body": "For DS-HPC-SY-007, MOQ is 60 pcs/color, unit price is US$0.98–1.50/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written specification."
+        "body": "For DS-HPC-SY-007, MOQ is 60 pcs/color, unit price is US$0.98\u20131.50/pc and lead time is 3\u201321 days. Final order total and delivery schedule still follow the written specification."
       },
       {
         "title": "What supports reliable reorders?",
@@ -3141,7 +3767,7 @@
     "faqs": [
       [
         "Is this synthetic hair bun scrunchie available for wholesale and private label?",
-        "Yes. DS-HPC-SY-007 is presented as a B2B development reference with a 60 pcs/color MOQ, US$0.98–1.50 unit-price range and 3–21 day lead time. Final order details follow the approved written specification."
+        "Yes. DS-HPC-SY-007 is presented as a B2B development reference with a 60 pcs/color MOQ, US$0.98\u20131.50 unit-price range and 3\u201321 day lead time. Final order details follow the approved written specification."
       ],
       [
         "How does the reference hair bun attach?",
@@ -3228,7 +3854,7 @@
         "label": "Layered length direction",
         "options": [
           {
-            "value": "8–11.5 in reference",
+            "value": "8\u201311.5 in reference",
             "status": "reference"
           },
           {
@@ -3485,11 +4111,11 @@
       ],
       [
         "Unit price",
-        "US$2.55–2.95"
+        "US$2.55\u20132.95"
       ],
       [
         "Lead time",
-        "3–21 days"
+        "3\u201321 days"
       ]
     ],
     "configuration": [
@@ -3498,7 +4124,7 @@
         "label": "Beach-wave length direction",
         "options": [
           {
-            "value": "4–8.75 in reference",
+            "value": "4\u20138.75 in reference",
             "status": "reference"
           },
           {
@@ -3540,7 +4166,7 @@
       ],
       [
         "Commercial repeatability",
-        "Retain the approved sample and written tolerances with the confirmed US$2.55–2.95 price range, 30 pcs/color MOQ and 3–21 day lead time."
+        "Retain the approved sample and written tolerances with the confirmed US$2.55\u20132.95 price range, 30 pcs/color MOQ and 3\u201321 day lead time."
       ]
     ],
     "customisation": [
@@ -3657,7 +4283,7 @@
       },
       {
         "title": "What are the commercial terms for CI-002?",
-        "body": "The unit-price range is US$2.55–2.95, MOQ is 30 pcs/color and lead time is 3–21 days. Final order totals follow the approved written specification."
+        "body": "The unit-price range is US$2.55\u20132.95, MOQ is 30 pcs/color and lead time is 3\u201321 days. Final order totals follow the approved written specification."
       },
       {
         "title": "What supports a reliable private-label reorder?",
@@ -3673,7 +4299,7 @@
     "faqs": [
       [
         "Is CI-002 available for wholesale and private label?",
-        "Yes. DS-TOP-SY-CI-002 is presented as a B2B development reference with a 30 pcs/color MOQ, US$2.55–2.95 unit-price range and 3–21 day lead time. Final order details follow the approved written specification."
+        "Yes. DS-TOP-SY-CI-002 is presented as a B2B development reference with a 30 pcs/color MOQ, US$2.55\u20132.95 unit-price range and 3\u201321 day lead time. Final order details follow the approved written specification."
       ],
       [
         "What lengths and weight are documented?",

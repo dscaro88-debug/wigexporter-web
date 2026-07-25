@@ -54,6 +54,7 @@ function catalogSection(item) {
     ${groups.map((group) => `<section class="catalog-group" aria-labelledby="${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(group)}">${esc(group)}</h3><span>${products.filter((product) => product.category === group).length} references</span></div><div class="catalog-product-grid">${products.filter((product) => product.category === group).map((product) => {
       const productPages = {
         'DS-EXT-CI': 'clip-in-human-hair-extensions.html',
+        'DS-EXT-TI': 'tape-in-human-hair-extensions.html',
         'DS-EXT-GW': 'genius-weft-human-hair-extensions.html',
         'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
         'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',
