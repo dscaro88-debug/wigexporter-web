@@ -163,7 +163,8 @@
 .service-comparison-table>div>span:last-child{color:rgba(255,255,255,.5)}
 .service-comparison-table .service-comparison-head{font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5)}
 .service-comparison-table .service-comparison-head strong{font:inherit}
-.product-specification{padding:95px 6vw;background:#ddd4c7;display:grid;grid-template-columns:.85fr 1.15fr;gap:10vw}
+.product-specification{padding:95px 6vw;background:#ddd4c7;display:grid;grid-template-columns:.85fr 1.15fr;gap:10vw;align-items:start}
+.product-specification>div:first-child{position:sticky;top:80px}
 .product-specification>div:first-child>p:last-child{color:#5e5953;max-width:520px}
 .product-specification h3{font:400 25px var(--display);margin:0 0 14px}
 .product-specification h3:not(:first-child){margin-top:38px}
@@ -178,7 +179,13 @@
 .product-customisation ul{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
 .product-customisation li{padding:16px 0;border-bottom:1px solid var(--line)}
 .product-customisation .button{grid-column:2;justify-self:start}
-.knowledge-grid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.knowledge-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.knowledge-grid.is-count-5{grid-template-columns:repeat(5,1fr)}
+.knowledge-grid.is-count-4{grid-template-columns:repeat(4,1fr)}
+.knowledge-grid.is-count-3{grid-template-columns:repeat(3,1fr)}
+.knowledge-grid.is-count-2{grid-template-columns:repeat(2,1fr)}
+.knowledge-grid.is-count-1{grid-template-columns:1fr}
+.knowledge-grid.is-count-6{grid-template-columns:repeat(3,1fr)}
 .knowledge-grid article{padding:30px 25px;border-right:1px solid var(--line)}
 .knowledge-grid article:last-child{border-right:0}
 .knowledge-grid article>span{font:400 27px var(--display);color:#9f876c}
@@ -207,7 +214,7 @@
   .spec-summary{position:static}
   .colour-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
   .service-comparison{grid-template-columns:1fr}
-  .knowledge-grid{grid-template-columns:1fr 1fr}
+  .knowledge-grid,.knowledge-grid[class*="is-count-"]{grid-template-columns:1fr 1fr}
   .knowledge-grid article{border-bottom:1px solid var(--line)}
   .knowledge-grid article:nth-child(even){border-right:0}
   .related-product-card img{height:300px}
@@ -262,6 +269,7 @@
   .buyer-checks{grid-template-columns:1fr}
   .buyer-checks article{border-right:0;border-bottom:1px solid var(--line)}
   .product-specification{padding:70px 22px;grid-template-columns:1fr;gap:45px}
+  .product-specification>div:first-child{position:static}
   .product-customisation{padding:70px 22px;grid-template-columns:1fr;gap:35px}
   .product-customisation .button{grid-column:auto}
   .method-comparison,.product-knowledge,.related-products{padding:70px 22px}
@@ -271,7 +279,7 @@
   .service-comparison-table>div>span:before{display:block;margin-bottom:4px;font-size:7px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.42)}
   .service-comparison-table>div>span:nth-child(2):before{content:"DS HAIR WORKFLOW"}
   .service-comparison-table>div>span:nth-child(3):before{content:"UNSTRUCTURED RISK"}
-  .knowledge-grid{grid-template-columns:1fr}
+  .knowledge-grid,.knowledge-grid[class*="is-count-"]{grid-template-columns:1fr}
   .knowledge-grid article{border-right:0}
   .related-product-grid{grid-template-columns:1fr}
   .related-product-card img{height:330px}

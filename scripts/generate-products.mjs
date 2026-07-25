@@ -125,7 +125,9 @@ function serviceComparison(product) {
 }
 
 function knowledgeSection(product) {
-  return `<section class="product-knowledge"><div class="product-section-heading"><p class="eyebrow">PROFESSIONAL PRODUCT KNOWLEDGE</p><h2>Use the page to make a better buying decision.</h2><p>Practical guidance for salons, distributors and private-label teams. Product-specific claims still require sample approval.</p></div><div class="knowledge-grid">${product.knowledge.map((item, index) => `<article><span>0${index + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
+  const count = product.knowledge.length;
+  const gridClass = count <= 5 ? `is-count-${count}` : count === 6 ? 'is-count-6' : 'is-count-many';
+  return `<section class="product-knowledge"><div class="product-section-heading"><p class="eyebrow">PROFESSIONAL PRODUCT KNOWLEDGE</p><h2>Use the page to make a better buying decision.</h2><p>Practical guidance for salons, distributors and private-label teams. Product-specific claims still require sample approval.</p></div><div class="knowledge-grid ${gridClass}">${product.knowledge.map((item, index) => `<article><span>0${index + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
 }
 
 function relatedProducts(product) {
@@ -180,9 +182,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-6">
-  <link rel="stylesheet" href="content.css?v=20260725-6">
-  <link rel="stylesheet" href="product.css?v=20260725-6">
+  <link rel="stylesheet" href="styles.css?v=20260725-7">
+  <link rel="stylesheet" href="content.css?v=20260725-7">
+  <link rel="stylesheet" href="product.css?v=20260725-7">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -241,8 +243,8 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260725-6"></script>
-  <script src="script.js?v=20260725-6"></script>
+  <script src="product-config.js?v=20260725-7"></script>
+  <script src="script.js?v=20260725-7"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
