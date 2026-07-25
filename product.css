@@ -207,7 +207,7 @@
 .knowledge-grid p{font-size:12px;line-height:1.7;color:var(--muted)}
 .related-products{background:#f4f0e9}
 .related-product-grid{display:flex;flex-wrap:wrap;gap:3px;justify-content:center}
-.related-product-card{flex:0 0 calc(33.333% - 2px);min-width:300px;max-width:calc(33.333% - 2px);background:#fff}
+.related-product-card{flex:1 1 0;min-width:0;max-width:calc(25% - 3px);background:#fff}
 .related-product-card img{height:390px;object-fit:cover}
 .related-product-card>div{padding:30px}
 .related-product-card span{font-size:8px;letter-spacing:.12em;color:var(--muted)}

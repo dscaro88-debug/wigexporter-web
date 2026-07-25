@@ -130,8 +130,43 @@ function knowledgeSection(product) {
   return `<section class="product-knowledge"><div class="product-section-heading"><p class="eyebrow">PROFESSIONAL PRODUCT KNOWLEDGE</p><h2>Use the page to make a better buying decision.</h2><p>Practical guidance for salons, distributors and private-label teams. Product-specific claims still require sample approval.</p></div><div class="knowledge-grid ${gridClass}">${product.knowledge.map((item, index) => `<article><span>0${index + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
 }
 
+// Per-product display metadata for the auto-generated related-products cards.
+// Keeps the method-style eyebrow and short titles used across the site.
+const RELATED_META = {
+  'clip-in-human-hair-extensions': { eyebrow: 'CLIP-IN METHOD', title: 'Clip-In Hair Extensions' },
+  'tape-in-human-hair-extensions': { eyebrow: 'TAPE-IN METHOD', title: 'Tape-In Hair Extensions' },
+  'k-tip-human-hair-extensions': { eyebrow: 'KERATIN METHOD', title: 'K-Tip Hair Extensions' },
+  'genius-weft-human-hair-extensions': { eyebrow: 'WEFT METHOD', title: 'Genius Weft Hair Extensions' },
+  'machine-weft-human-hair-extensions': { eyebrow: 'WEFT METHOD', title: 'Machine Weft Hair Extensions' },
+  'nano-ring-human-hair-extensions': { eyebrow: 'NANO RING METHOD', title: 'Nano Ring Hair Extensions' },
+  'synthetic-clip-in-chignon-hairpiece': { eyebrow: 'SYNTHETIC HAIRPIECE', title: 'Clip-In Chignon Hairpiece' },
+  'synthetic-22-inch-straight-clip-in-hairpiece': { eyebrow: 'SYNTHETIC HAIRPIECE', title: 'Straight Clip-In Hairpiece' },
+  'synthetic-21-inch-soft-curls-claw-clip-ponytail': { eyebrow: 'SYNTHETIC PONYTAIL', title: 'Soft-Curls Claw-Clip Ponytail' },
+  'synthetic-21-inch-straight-claw-clip-ponytail': { eyebrow: 'SYNTHETIC PONYTAIL', title: 'Straight Claw-Clip Ponytail' },
+  'synthetic-26-inch-elastic-band-braiding-ponytail': { eyebrow: 'SYNTHETIC PONYTAIL', title: 'Elastic-Band Braiding Ponytail' },
+  'synthetic-12-inch-coily-drawstring-ponytail': { eyebrow: 'SYNTHETIC PONYTAIL', title: 'Coily Drawstring Ponytail' },
+  'synthetic-elastic-band-hair-bun-scrunchie': { eyebrow: 'SYNTHETIC HAIRPIECE', title: 'Elastic-Band Hair Bun' },
+  'synthetic-layered-clip-in-crown-topper': { eyebrow: 'SYNTHETIC TOPPER', title: 'Layered Clip-In Crown Topper' },
+  'synthetic-beach-wave-clip-in-crown-topper': { eyebrow: 'SYNTHETIC TOPPER', title: 'Beach-Wave Clip-In Crown Topper' },
+};
+
+function relatedPool(product) {
+  const sameCat = products.filter((p) => p.category === product.category && p.slug !== product.slug);
+  const selfIndex = products.findIndex((p) => p.slug === product.slug);
+  const start = ((selfIndex % sameCat.length) + sameCat.length) % sameCat.length;
+  const count = Math.min(4, sameCat.length);
+  const picked = [];
+  for (let k = 0; k < count; k++) picked.push(sameCat[(start + k) % sameCat.length]);
+  return picked;
+}
+
 function relatedProducts(product) {
-  return `<section class="related-products"><div class="product-section-heading"><p class="eyebrow">RELATED DEVELOPMENT DIRECTIONS</p><h2>Build a coherent extension range.</h2><p>These are enquiry pathways, not live-stock listings. Each product requires its own specification and sample reference.</p></div><div class="related-product-grid">${product.relatedProducts.map((item) => `<a class="related-product-card" href="${item.href}"><img src="${item.image}" alt="${esc(item.imageAlt)}" loading="lazy"><div><span>${esc(item.eyebrow)}</span><h3>${esc(item.title)}</h3><p>${esc(item.summary)}</p><strong>DISCUSS THIS PRODUCT →</strong></div></a>`).join('')}</div></section>`;
+  const cards = relatedPool(product).map((item) => {
+    const meta = RELATED_META[item.slug] || { eyebrow: item.category, title: item.title };
+    const image = item.images && item.images.length ? item.images[0] : null;
+    return `<a class="related-product-card" href="${item.slug}.html"><img src="${image.src}" alt="${esc(image.alt || meta.title)}" loading="lazy"><div><span>${esc(meta.eyebrow)}</span><h3>${esc(meta.title)}</h3><p>${esc(item.summary)}</p><strong>DISCUSS THIS PRODUCT →</strong></div></a>`;
+  }).join('');
+  return `<section class="related-products"><div class="product-section-heading"><p class="eyebrow">RELATED DEVELOPMENT DIRECTIONS</p><h2>Build a coherent extension range.</h2><p>These are enquiry pathways, not live-stock listings. Each product requires its own specification and sample reference.</p></div><div class="related-product-grid">${cards}</div></section>`;
 }
 
 for (const product of products) {
@@ -182,9 +217,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-14">
-  <link rel="stylesheet" href="content.css?v=20260725-14">
-  <link rel="stylesheet" href="product.css?v=20260725-14">
+  <link rel="stylesheet" href="styles.css?v=20260725-15">
+  <link rel="stylesheet" href="content.css?v=20260725-15">
+  <link rel="stylesheet" href="product.css?v=20260725-15">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -243,8 +278,8 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260725-14"></script>
-  <script src="script.js?v=20260725-14"></script>
+  <script src="product-config.js?v=20260725-15"></script>
+  <script src="script.js?v=20260725-15"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
