@@ -3,7 +3,8 @@
   "outputDirectory": ".",
   "redirects": [
     {
-      "source": "https://www.wigexporter.com/:path*",
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.wigexporter.com"}],
       "destination": "https://wigexporter.com/:path*",
       "permanent": true
     },
