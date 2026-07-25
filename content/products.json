@@ -200,10 +200,10 @@
       {
         "title": "K-Tip Hair Extensions",
         "eyebrow": "KERATIN BOND",
-        "image": "assets/k-tip.jpg",
+        "image": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg",
         "imageAlt": "K-tip human hair extensions for a B2B range brief",
         "summary": "Define bond format, strand weight, colour system and stylist workflow before sampling.",
-        "href": "contact.html?product=K-Tip%20Hair%20Extensions"
+        "href": "k-tip-human-hair-extensions.html"
       },
       {
         "title": "Seam Clip-In Extensions",
@@ -805,10 +805,10 @@
       {
         "title": "K-Tip Hair Extensions",
         "eyebrow": "KERATIN BOND",
-        "image": "assets/k-tip.jpg",
+        "image": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg",
         "imageAlt": "K-tip human hair extensions for a B2B range brief",
         "summary": "Specify strand weight, tip shape, colour system and stylist workflow.",
-        "href": "contact.html?product=K-Tip%20Hair%20Extensions"
+        "href": "k-tip-human-hair-extensions.html"
       },
       {
         "title": "Genius Weft Hair Extensions",
@@ -1407,10 +1407,10 @@
       {
         "title": "K-Tip Hair Extensions",
         "eyebrow": "KERATIN BOND",
-        "image": "assets/k-tip.jpg",
+        "image": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg",
         "imageAlt": "K-tip human hair extensions for a B2B range brief",
         "summary": "Specify strand weight, tip shape, colour system and stylist workflow.",
-        "href": "contact.html?product=K-Tip%20Hair%20Extensions"
+        "href": "k-tip-human-hair-extensions.html"
       },
       {
         "title": "Genius Weft Hair Extensions",
@@ -1551,6 +1551,289 @@
     ],
     "ctaTitle": "Build a Human Hair Tape-In range your customers can trust and reorder.",
     "ctaText": "Tell us whether you need classic sandwich, invisible ultra-thin, re-tapeable or colour/ombre tape-ins, then add the piece count, target grams per piece, length, colour direction, adhesive preference, packaging and estimated quantity."
+  },
+  {
+    "slug": "k-tip-human-hair-extensions",
+    "brand": "DS HAIR",
+    "category": "Human Hair Extensions",
+    "categoryUrl": "human-hair-extensions.html",
+    "title": "Human Hair K-Tip Extensions",
+    "referenceLabel": "100% REMY HUMAN HAIR · KERATIN FUSION · K-TIP / I-TIP / U-TIP / V-TIP",
+    "metaTitle": "Wholesale Human Hair K-Tip Extensions | DS HAIR",
+    "description": "Develop wholesale human hair K-tip keratin fusion extensions in standard, flat/V-tip and textured formats, with strand weight, bond colour, length, texture, colour and private-label packaging confirmed to your B2B brief.",
+    "summary": "The most natural, longest-lasting semi-permanent method. DS HAIR K-tip delivers strand-by-strand keratin fusion bonds in virgin Remy hair, with full control over bond size, colour and packaging for salons, distributors and private-label brands.",
+    "conversion": {
+      "tradeCard": {
+        "title": "Trade Pricing & Samples",
+        "subtitle": "Wholesale pricing and sample support for registered trade partners",
+        "primaryCta": "Apply for Trade Account",
+        "primaryHref": "trade-account.html",
+        "secondaryCta": "Enquire via WhatsApp",
+        "whatsappNumber": "8613516946001",
+        "whatsappMessage": "Hi DS HAIR, I'm interested in wholesale Human Hair K-Tip Extensions. Please send trade pricing, MOQ and sample information."
+      },
+      "trustBadges": [
+        { "label": "MOQ & Samples", "sublabel": "Negotiable" },
+        { "label": "Private Label", "sublabel": "OEM packaging" },
+        { "label": "Global Shipping", "sublabel": "3–5 days express" },
+        { "label": "19 Years", "sublabel": "Industry experience" }
+      ],
+      "serviceBar": [
+        { "label": "Quality Guarantee", "sublabel": "Sample approval before production" },
+        { "label": "Reorder Support", "sublabel": "Return to approved specification" },
+        { "label": "Colour Matching", "sublabel": "Physical references available" },
+        { "label": "Flexible Lead Times", "sublabel": "Express or scheduled" }
+      ]
+    },
+    "images": [
+      { "src": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg", "alt": "Multi-shade K-tip keratin fusion bonds on a white background", "fit": "contain" },
+      { "src": "assets/products/human-hair-extensions/k-tip/rising-flat-vtip.jpg", "alt": "Flat and V-tip K-tip bonds for a discreet, fine-hair finish", "fit": "contain" },
+      { "src": "assets/products/human-hair-extensions/k-tip/niche-blonde.jpg", "alt": "Finished blonde K-tip fusion installation viewed from behind", "fit": "contain" },
+      { "src": "assets/products/human-hair-extensions/k-tip/how-it-works.jpg", "alt": "Four-step K-tip keratin fusion application process", "fit": "contain" },
+      { "src": "assets/products/human-hair-extensions/k-tip/bond-detail.jpg", "alt": "Close-up of V-tip keratin bond colour options", "fit": "contain" },
+      { "src": "assets/products/human-hair-extensions/k-tip/niche-application.jpg", "alt": "K-tip strands applied strand-by-strand in a salon setting", "fit": "contain" },
+      { "src": "assets/products/human-hair-extensions/k-tip/heat-fusion.jpg", "alt": "Keratin bond melted with a professional fusion tool", "fit": "contain" }
+    ],
+    "imageStatusNote": "MARKET REFERENCE IMAGERY · REPLACE WITH DS HAIR PHOTOS BEFORE LIVE TRADING",
+    "confirmedFacts": [
+      ["Product family", "Human hair K-tip (keratin fusion) extensions"],
+      ["Tip formats", "K-Tip (fusion) · I-Tip · U-Tip · V-Tip"],
+      ["Material detail", "100% Remy human hair · virgin available"],
+      ["Bond material", "Italian keratin · clear / white / brown / black"],
+      ["Strand weight", "0.5 g · 0.8 g · 1.0 g (custom)"],
+      ["Pack formats", "25 / 50 / 100 strands per pack"],
+      ["Length range", "12 in – 26 in (request)"],
+      ["Colour system", "31 shades · Colour Chart 2 · custom ombre/balayage"],
+      ["Product code", "Not used for this method family"],
+      ["Sales channel", "B2B wholesale / OEM enquiry"],
+      ["Order basis", "Approved bond type + full specification"]
+    ],
+    "productTypes": [
+      {
+        "tier": "CLASSIC BESTSELLERS",
+        "title": "Standard K-Tip Fusion — 1.0 g Virgin Remy",
+        "body": "The salon staple and highest-volume K-tip format. Each 1.0 g strand uses Italian keratin and virgin Remy hair for a strong, natural-looking bond that lasts 3–6 months. This is the first K-tip product most stylists learn and the safest wholesale volume driver.",
+        "includes": "Standard round-tip K-tip · 1.0 g/strand · Italian keratin bond · virgin Remy hair",
+        "typicalSpec": "16–22 in · 0.5/0.8/1.0 g per strand · 25/50/100 strands per pack · straight & body wave",
+        "guidance": "Fine hair 80–100 strands; medium hair 120–160 strands; thick hair 180–220 strands for full coverage",
+        "whyStock": "Broadest salon audience, strongest reorder pattern, easiest colour-matching conversation",
+        "image": "assets/products/human-hair-extensions/k-tip/classic-k-tip-bonds.jpg",
+        "imageAlt": "Multi-shade K-tip keratin fusion bonds on a white background"
+      },
+      {
+        "tier": "RISING TRENDS",
+        "title": "Flat / V-Tip & Ombre K-Tip",
+        "body": "The fastest-growing segment as fine-hair clients demand a flatter, less visible bond and fashion colour drives margin. Flat/V-tip bonds sit closer to the scalp and hide better in thin hair, while pre-blended ombre and balayage strands command a premium.",
+        "includes": "Flat V-tip K-tip · 0.5/0.8 g lightweight strands · pre-blended ombre/balayage bonds",
+        "typicalSpec": "16–22 in · 0.5–0.8 g per strand · clear/translucent or colour-matched bond · rooted & ombre shades",
+        "guidance": "Confirm bond flatness, translucency, root-to-end colour accuracy and re-tip feasibility",
+        "whyStock": "Premium price positioning, social-media appeal, lower direct competition",
+        "image": "assets/products/human-hair-extensions/k-tip/rising-flat-vtip.jpg",
+        "imageAlt": "Flat and V-tip K-tip bonds for a discreet, fine-hair finish"
+      },
+      {
+        "tier": "NICHE OPPORTUNITIES",
+        "title": "Textured, Curly & Extra-Long K-Tip",
+        "body": "A specialist, high-margin segment covering Yaki, deep-wave, Afro-curl and kinky textures for textured-hair markets, plus 24–26 in extra-long strands for special-occasion and influencer clients. Low competition, high unit value, ideal for made-to-order programmes.",
+        "includes": "Yaki · deep wave · Afro curl · kinky straight · 24–26 in extra-long · #613 platinum",
+        "typicalSpec": "16–26 in · 0.5–1.0 g per strand · textured patterns · custom colour",
+        "guidance": "Confirm texture definition, pattern memory, blend with natural hair and custom lead time",
+        "whyStock": "Higher margin, lower competition, strong bridal / ethnic / social demand",
+        "image": "assets/products/human-hair-extensions/k-tip/niche-blonde.jpg",
+        "imageAlt": "Finished blonde K-tip fusion installation viewed from behind"
+      }
+    ],
+    "decisionFramework": {
+      "title": "Choose the product in the same order your customer does.",
+      "intro": "Start with the natural-hair profile and desired wear time, then choose bond format, strand weight and colour. This prevents a buyer from treating every K-tip strand as the same product.",
+      "items": [
+        { "label": "01 · NATURAL HAIR", "title": "Match the wearer profile", "body": "Fine hair needs a flatter, lighter bond and lighter strand weight; medium and thick hair can carry standard 1.0 g fusion bonds for a lasting blend." },
+        { "label": "02 · WEAR & RESULT", "title": "Choose bond format and length", "body": "Decide whether the client wants 3–6 month fusion wear, a flat invisible bond, or a textured/curly result before locking strand weight." },
+        { "label": "03 · FINISHED PRODUCT", "title": "Lock specification", "body": "Approve the tip format, strand weight, bond colour, length, texture, hair grade, colour and packaging together as one repeatable product." }
+      ]
+    },
+    "specificationAnatomy": [
+      ["01", "Wearer & result", "Fine, medium or thick natural hair; length, volume, texture match or full coverage."],
+      ["02", "Bond format", "K-tip, I-tip, U-tip or V-tip; keratin colour, size and flatness."],
+      ["03", "Strand architecture", "Strand weight, strands per pack, total grams and end-density target."],
+      ["04", "Hair specification", "Length, texture, Remy direction, virgin grade, colour reference, drawing level."],
+      ["05", "Application method", "Heat fusion (K/U/V-tip) or cold micro-link (I-tip); tool and stylist workflow."],
+      ["06", "Commercial presentation", "Quantity, label, backing card, artwork, barcode and market requirements."]
+    ],
+    "configuration": [
+      {
+        "key": "tip",
+        "label": "Tip / bond format",
+        "note": "Choose the bond format first. K-tip, U-tip and V-tip are heat-fused; I-tip is applied cold with a micro-link. This drives the tool, strand weight and wearer profile.",
+        "options": [
+          { "value": "K-Tip (round fusion)", "status": "request" },
+          { "value": "V-Tip (flat fusion)", "status": "request" },
+          { "value": "U-Tip (flat fusion)", "status": "request" },
+          { "value": "I-Tip (cold micro-link)", "status": "request" },
+          { "value": "Match supplied sample", "status": "request" }
+        ]
+      },
+      {
+        "key": "weight",
+        "label": "Strand weight",
+        "note": "Weight refers to the hair weight per individual strand. Total pack weight depends on strand count.",
+        "options": [
+          { "value": "0.5 g", "status": "request" },
+          { "value": "0.8 g", "status": "request" },
+          { "value": "1.0 g", "status": "request" },
+          { "value": "Custom weight", "status": "request" }
+        ]
+      },
+      {
+        "key": "length",
+        "label": "Requested length",
+        "note": "Lengths shown are buying-request options, not live-stock claims. Final availability is confirmed with the selected bond format and hair grade.",
+        "options": [
+          { "value": "12 in / 30 cm", "status": "request" },
+          { "value": "14 in / 36 cm", "status": "request" },
+          { "value": "16 in / 41 cm", "status": "request" },
+          { "value": "18 in / 46 cm", "status": "request" },
+          { "value": "20 in / 51 cm", "status": "request" },
+          { "value": "22 in / 56 cm", "status": "request" },
+          { "value": "24 in / 61 cm", "status": "request" },
+          { "value": "26 in / 66 cm", "status": "request" }
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "Requested texture",
+        "note": "Straight is the most common reference. Wave, curl and textured patterns require a matching physical sample.",
+        "options": [
+          { "value": "Straight", "status": "request" },
+          { "value": "Body Wave", "status": "request" },
+          { "value": "Deep Wave", "status": "request" },
+          { "value": "Yaki / Kinky", "status": "request" },
+          { "value": "Afro Curl", "status": "request" }
+        ]
+      },
+      {
+        "key": "colour",
+        "label": "Colour system",
+        "note": "Solid, rooted, ombre and balayage are separate development references. Use Colour Chart 2 to shortlist, then approve a physical reference.",
+        "options": [
+          { "value": "Solid shades (Chart 2)", "status": "request" },
+          { "value": "Rooted / ombre", "status": "request" },
+          { "value": "Balayage custom", "status": "request" },
+          { "value": "Platinum #613", "status": "request" }
+        ]
+      },
+      {
+        "key": "wearer",
+        "label": "Target wearer / result",
+        "note": "This selection guides strand count and bond choice. It is not a universal suitability guarantee; the final product should be tested on the intended wearer profile.",
+        "options": [
+          { "value": "Fine hair · discreet bond", "status": "request" },
+          { "value": "Medium hair · length + volume", "status": "request" },
+          { "value": "Thick hair · full coverage", "status": "request" },
+          { "value": "Textured / curly hair", "status": "request" }
+        ]
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      ["Bond & keratin", "Review keratin quality, bond size, colour match to root, melt behaviour and residue after removal."],
+      ["Hair retention", "Test shedding before and after controlled washing, styling and re-tip cycles."],
+      ["Strand consistency", "Confirm every strand weight, length and end density across the pack."],
+      ["Application result", "Check scalp comfort, bond visibility, movement and blend with natural hair on the intended wearer."]
+    ],
+    "constructionComparison": {
+      "title": "Standard round K-tip and flat V-tip are two different bond constructions.",
+      "columns": ["Standard Round K-Tip", "Flat / V-Tip"],
+      "rows": [
+        ["Bond shape", "Round keratin tip", "Flattened, lower-profile keratin tip"],
+        ["Profile at the root", "Small rounded bond; strong hold", "Designed to sit flatter with less visible bond"],
+        ["Key development risk", "Bond size consistency, melt control and residue", "Flatness, translucency and edge durability"],
+        ["Colour consideration", "Bond colour should match root shade", "Bond should be translucent or closely matched to scalp"],
+        ["What a buyer must approve", "Physical strand sample plus melt/removal test", "Physical strand sample plus root-seam visibility test"]
+      ],
+      "notice": "Round and flat are bond choices, not automatic quality grades. The correct decision depends on the target wearer, strand weight and approved physical sample."
+    },
+    "methodComparison": {
+      "columns": ["K-Tip (Fusion)", "I-Tip (Micro-link)", "U-Tip (Fusion)", "V-Tip (Flat)"],
+      "rows": [
+        ["Application method", "Heat-fused keratin bond", "Cold micro-link / silicone ring", "Heat-fused flat keratin bond", "Heat-fused flat keratin bond"],
+        ["Tool required", "Fusion heat connector", "Micro-link pliers", "Fusion heat connector", "Fusion heat connector"],
+        ["Best for", "Most natural, longest wear", "No-heat, reusable strand", "Fine hair, flat bond", "Fine hair, most discreet bond"],
+        ["Reusability", "Re-tip after removal", "Reusable with new ring", "Re-tip after removal", "Re-tip after removal"],
+        ["Key buyer risk", "Bond size, melt control", "Ring slip, bead visibility", "Bond flatness, residue", "Flatness, translucency"]
+      ],
+      "notice": "K-tip, I-tip, U-tip and V-tip are different bond formats with different tools and wearer profiles. Select the format by application method, hair density and approved physical sample—not by name alone.",
+      "eyebrow": "TIP FORMAT COMPARISON",
+      "title": "Four keratin tip formats—four different buying briefs.",
+      "intro": "Select the tip format by application method and wearer density. Do not treat every strand as the same product."
+    },
+    "serviceComparison": [
+      ["Starting point", "Written product name and buying brief", "A photo or broad catalogue name"],
+      ["Bond definition", "Tip format, strand weight and bond colour recorded", "Only 'K-tip' named"],
+      ["Colour decision", "Physical colour reference recommended", "Screen colour treated as final"],
+      ["Sample record", "Approval points and changes documented", "No shared repeat-order benchmark"],
+      ["Repeat order", "Return to the approved specification", "Rebuild the requirement from chat history"]
+    ],
+    "customisation": [
+      "K-tip, I-tip, U-tip and V-tip range architecture",
+      "0.5 / 0.8 / 1.0 g strand weights or buyer-defined gram",
+      "25 / 50 / 100 strand packs or buyer-defined count",
+      "Bond colour (clear / white / brown / black) and custom packaging",
+      "Solid, rooted, ombre, balayage and textured colour programmes",
+      "Private-label backing cards, storage boxes and re-tip kits"
+    ],
+    "relatedProducts": [
+      {
+        "title": "Tape-In Hair Extensions",
+        "eyebrow": "TAPE-IN METHOD",
+        "image": "assets/products/human-hair-extensions/tape-in/classic-sandwich-tape-in.jpg",
+        "imageAlt": "Tape-in human hair extensions for a B2B range brief",
+        "summary": "Specify panel size, grams per piece, adhesive system, colour and pack format.",
+        "href": "tape-in-human-hair-extensions.html"
+      },
+      {
+        "title": "Clip-In Hair Extensions",
+        "eyebrow": "CLIP-IN METHOD",
+        "image": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
+        "imageAlt": "Clip-in human hair extension sets for wholesale development",
+        "summary": "Specify set format, construction, length, weight and colour for a no-glue daily-wear range.",
+        "href": "clip-in-human-hair-extensions.html"
+      },
+      {
+        "title": "Genius Weft Hair Extensions",
+        "eyebrow": "WEFT METHOD",
+        "image": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-01.jpg",
+        "imageAlt": "Genius Weft human hair extensions for wholesale development",
+        "summary": "Review seam profile, pack weight, length, colour and private-label presentation.",
+        "href": "genius-weft-human-hair-extensions.html"
+      }
+    ],
+    "knowledge": [
+      { "title": "What types of K-tip extensions are available?", "body": "The range can be developed as K-tip (round fusion), V-tip (flat fusion), U-tip (flat fusion) or I-tip (cold micro-link). Each format serves a different application method, tool and wearer profile." },
+      { "title": "How many K-tip strands does a client need?", "body": "Fine hair may need 80–100 strands for a full look, medium hair 120–160 strands and thick hair 180–220 strands. Two strands are applied per small section; the total depends on desired density and length." },
+      { "title": "How do K-tip and I-tip differ?", "body": "K-tip uses a heat-fused keratin bond applied with a fusion connector. I-tip is a cold method attached with a silicone-lined micro-link ring and pliers. I-tip is reusable; K-tip is re-tipped after removal." },
+      { "title": "Why choose flat V-tip for fine hair?", "body": "A flattened, lower-profile keratin bond sits closer to the scalp and shows less through thin hair. Translucent or scalp-matched bond colour further reduces visibility at the root." },
+      { "title": "How long do K-tip extensions last?", "body": "With professional application and care, K-tip fusion extensions typically wear 3–6 months before move-up or re-tip. Lifespan depends on hair grade, aftercare and the wearer's natural growth." },
+      { "title": "What controls a reliable reorder?", "body": "Keep one approved sample and one written specification covering tip format, strand weight, bond colour, hair details, length, texture, colour reference, tolerances, packaging and QC checkpoints." }
+    ],
+    "unconfirmed": [
+      "Hair grade, origin, Remy direction and drawing level",
+      "Exact strand weight, strand count and total pack grams",
+      "Exact length and tip-format combinations available",
+      "Keratin formulation, bond size, colour and re-tip specifications",
+      "MOQ, price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      ["Do K-Tip Hair Extensions have a product code?", "No. This method family is identified by its bond format and confirmed specification: K-tip, I-tip, U-tip or V-tip, followed by strand weight, length, hair grade, colour and packaging."],
+      ["What is the difference between K-tip, I-tip, U-tip and V-tip?", "K-tip and U-tip are heat-fused keratin bonds (round and flat); V-tip is a flat fusion bond for fine hair; I-tip is a cold micro-link applied with a ring and pliers. Each uses a different tool and suits a different wearer profile."],
+      ["Can I request a K-tip sample?", "Yes. Share the preferred tip format, strand weight, length, hair grade, colour direction and pack count. Sample feasibility, cost and timing are confirmed against that brief."],
+      ["How many strands make a full head?", "Approximately 80–100 strands for fine hair, 120–160 for medium hair and 180–220 for thick hair. Final count depends on density, length and desired result."],
+      ["Can DS HAIR develop flat V-tip or textured K-tip?", "Yes. State the target bond flatness and translucency, or the texture (Yaki, deep wave, Afro curl), so the construction can be evaluated."],
+      ["Are all lengths and weights shown ready to order?", "No. They are buying-request options for preparing a brief. A strand weight and length value is not confirmed until it is tied to the chosen tip format, hair specification and written quotation."],
+      ["Can I request private-label packaging?", "Yes. Label, backing card, storage box, re-tip kit and retail-pack requirements can be reviewed with the product brief. Feasibility and minimum quantities are confirmed separately."]
+    ],
+    "ctaTitle": "Build a Human Hair K-Tip range your salon clients will rebook for.",
+    "ctaText": "Tell us whether you need K-tip, V-tip, U-tip or I-tip, then add the strand weight, length, hair grade, colour direction, bond preference, packaging and estimated quantity."
   },
   {
     "slug": "synthetic-clip-in-chignon-hairpiece",

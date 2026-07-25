@@ -55,6 +55,7 @@ function catalogSection(item) {
       const productPages = {
         'DS-EXT-CI': 'clip-in-human-hair-extensions.html',
         'DS-EXT-TI': 'tape-in-human-hair-extensions.html',
+        'DS-EXT-KT': 'k-tip-human-hair-extensions.html',
         'DS-EXT-GW': 'genius-weft-human-hair-extensions.html',
         'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
         'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',

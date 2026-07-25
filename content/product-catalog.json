@@ -82,11 +82,12 @@
       "section": "Human Hair",
       "group": "Human Hair Extensions",
       "category": "K-tip",
-      "assetFolder": "assets/products/human-hair-extensions/ds-ext-kt-k-tip",
-      "approvedImageCount": 1,
-      "imageStatus": "limited",
+      "assetFolder": "assets/products/human-hair-extensions/k-tip",
+      "approvedImageCount": 7,
+      "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold"
+      "publicationStatus": "draft_ready",
+      "notes": "Seven source images copied from DS HAIR iCloud product-development folder. Standardised method family, no consumer SKU; DS-EXT-KT is an internal method identifier only. K-tip vs I-tip/U-tip/V-tip comparison added on the product page. Replace reference imagery with DS HAIR studio photography before live trading."
     },
     {
       "code": "DS-EXT-GW",
