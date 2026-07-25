@@ -23,8 +23,8 @@ function productVisual(product) {
 function productTypeChooser(product) {
   if (!product.productTypes) return '';
   return `<section class="clip-type-section">
-    <div class="product-section-heading"><p class="eyebrow">CHOOSE YOUR CLIP-IN PRODUCT</p><h2>Four product types. Four different customer needs.</h2><p>Start with the product type before choosing length or colour. Seamless is one option within the complete Human Hair Clip-In range.</p></div>
-    <div class="clip-type-grid">${product.productTypes.map((item) => `<article class="clip-type-card${item.image ? ' has-image' : ''}">${item.image ? `<figure><img src="${item.image}" alt="${esc(item.imageAlt)}" loading="lazy"></figure>` : ''}<div><span>${esc(item.label)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>Best for</dt><dd>${esc(item.bestFor)}</dd></div><div><dt>Specify</dt><dd>${esc(item.brief)}</dd></div></dl><a href="#build-your-brief">BUILD THIS PRODUCT →</a></div></article>`).join('')}</div>
+    <div class="product-section-heading"><p class="eyebrow">CLIP-IN RANGE BY MARKET TIER</p><h2>Three demand tiers. Three different volume and margin profiles.</h2><p>Build a clip-in programme around what actually sells: proven full-set classics, fast-rising seamless constructions, and low-competition halo-wire pieces. Each tier uses the same 100% Remy human hair base; the difference is construction, wearer profile and specification.</p></div>
+    <div class="clip-type-grid is-three-tiers">${product.productTypes.map((item) => `<article class="clip-type-card has-image"><figure><img src="${item.image}" alt="${esc(item.imageAlt)}" loading="lazy"></figure><div><span>${esc(item.tier)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>Includes</dt><dd>${esc(item.includes)}</dd></div><div><dt>Typical spec</dt><dd>${esc(item.typicalSpec)}</dd></div><div><dt>${item.guidanceLabel || 'Weight guidance'}</dt><dd>${esc(item.guidance)}</dd></div><div><dt>Why stock it</dt><dd>${esc(item.whyStock)}</dd></div></dl><a href="#build-your-brief">BUILD THIS PRODUCT →</a></div></article>`).join('')}</div>
   </section>`;
 }
 
@@ -135,9 +135,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260720-5">
-  <link rel="stylesheet" href="content.css?v=20260720-5">
-  <link rel="stylesheet" href="product.css?v=20260722-2">
+  <link rel="stylesheet" href="styles.css?v=20260725-4">
+  <link rel="stylesheet" href="content.css?v=20260725-4">
+  <link rel="stylesheet" href="product.css?v=20260725-4">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -194,7 +194,7 @@ for (const product of products) {
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
   <script src="product-config.js?v=20260719-1"></script>
-  <script src="script.js?v=20260720-5"></script>
+  <script src="script.js?v=20260725-4"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));

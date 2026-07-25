@@ -342,17 +342,28 @@
     "category": "Human Hair Extensions",
     "categoryUrl": "human-hair-extensions.html",
     "title": "Human Hair Clip-In Extensions",
-    "referenceLabel": "CLASSIC · SEAMLESS · ONE-PIECE · SINGLE CLIP-INS",
+    "referenceLabel": "100% REMY HUMAN HAIR · CLASSIC · SEAMLESS · ONE-PIECE · SINGLE CLIP-INS",
     "metaTitle": "Wholesale Human Hair Clip-In Extensions | DS HAIR",
     "description": "Develop wholesale human hair clip-in extensions in classic, seamless, one-piece and single clip-in formats, with 7-piece and 8-piece set maps, length, weight, colour and packaging confirmed to your B2B brief.",
     "summary": "A complete clip-in range for salons, distributors and private-label brands. Choose the construction and product format first, then confirm the set map, length, total grams, colour and packaging as one repeatable specification.",
     "images": [
       {
-        "src": "assets/products/human-hair-extensions/clip-in/one-piece-volumizer-blonde.webp",
-        "alt": "Blonde human hair one-piece clip-in volumizer showing the clip attachment and finished length"
+        "src": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
+        "alt": "Classic 7-piece and 8-piece human hair clip-in extension sets",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/clip-in/trend-invisible-seamless.jpg",
+        "alt": "Seamless invisible clip-in extensions with flat PU base",
+        "fit": "contain"
+      },
+      {
+        "src": "assets/products/human-hair-extensions/clip-in/niche-flip-in-halo.png",
+        "alt": "Flip-in halo wire human hair extension",
+        "fit": "contain"
       }
     ],
-    "imageStatusNote": "REAL PRODUCT REFERENCE · ONE-PIECE CLIP-IN VOLUMIZER",
+    "imageStatusNote": "MARKET REFERENCE IMAGERY · REPLACE WITH DS HAIR PHOTOS BEFORE LIVE TRADING",
     "confirmedFacts": [
       [
         "Product family",
@@ -363,12 +374,20 @@
         "Classic / Seamless / One-piece / Single"
       ],
       [
-        "Material family",
-        "Human hair"
+        "Material detail",
+        "100% Remy human hair"
       ],
       [
         "Set formats",
         "7 pcs / set · 8 pcs / set · single piece"
+      ],
+      [
+        "Colour system",
+        "31 shades · Colour Chart 2"
+      ],
+      [
+        "Length range",
+        "14 in – 24 in (request)"
       ],
       [
         "Product code",
@@ -385,34 +404,37 @@
     ],
     "productTypes": [
       {
-        "label": "FULL SET",
-        "title": "Classic Clip-In Sets",
-        "body": "A traditional sewn-weft construction for buyers who want a structured full set and familiar salon retail format.",
-        "bestFor": "Medium to thick hair; fuller volume programmes",
-        "brief": "Choose 7 pcs or 8 pcs, then confirm each weft width, clip count and grams."
+        "tier": "CLASSIC BESTSELLERS",
+        "title": "Classic Sets, One-Piece Volumizers & Singles",
+        "body": "The workhorse of any salon retail programme. Classic sewn-weft clip-in sets remain the highest-volume format because they deliver a familiar full-head transformation in a recognisable piece-count package. One-piece volumizers and single fill-in pieces extend the same line into fast add-on sales.",
+        "includes": "7 pcs/set · 8 pcs/set · one-piece volumizer · single clip-in/fill-in",
+        "typicalSpec": "14–24 in · 120–220 g total · fabric/stitched weft base · silicone-lined clips",
+        "guidance": "Fine hair 100–140 g; medium hair 160–180 g; thick hair 200 g+",
+        "whyStock": "Broadest client base, strongest repeat order pattern, easiest colour-matching conversation",
+        "image": "assets/products/human-hair-extensions/clip-in/classic-set-7-8pcs.jpg",
+        "imageAlt": "Classic 7-piece and 8-piece human hair clip-in extension sets"
       },
       {
-        "label": "FLAT PROFILE",
-        "title": "Seamless Clip-In Sets",
-        "body": "A thin PU-style top designed to sit flatter at the root. Seamless is one construction inside the range—not the whole Clip-In category.",
-        "bestFor": "Fine to medium hair; discreet root profile",
-        "brief": "Confirm PU thickness, edge finish, clip attachment, set map and weight distribution."
+        "tier": "RISING TRENDS",
+        "title": "Seamless & Invisible Clip-Ins",
+        "body": "The fastest-growing segment as fine-to-medium hair clients move away from bulky seams. Seamless construction replaces the traditional fabric top with a thin PU or silicone-style base, reducing visible bulk at the root and supporting a higher retail price point.",
+        "includes": "Seamless clip-in sets · invisible PU clip-ins · flat-weft clip-ins",
+        "typicalSpec": "14–22 in · 100–180 g · 0.8–1.2 mm PU top · edge-sealed · colour-matched base",
+        "guidance": "PU flexibility, edge finish, hair retention and clip attachment security",
+        "whyStock": "Premium positioning, strong social-media appeal, less price-sensitive buyer",
+        "image": "assets/products/human-hair-extensions/clip-in/trend-invisible-seamless.jpg",
+        "imageAlt": "Seamless invisible clip-in extensions with flat PU base"
       },
       {
-        "label": "FAST VOLUME",
-        "title": "One-Piece / Volumizer",
-        "body": "One wider clip-in weft for fast back-of-head volume and length. The photographed blonde product is a real one-piece reference.",
-        "bestFor": "Quick fitting; targeted back coverage",
-        "brief": "Confirm finished width, clip count, total grams, length and tester-piece requirement.",
-        "image": "assets/products/human-hair-extensions/clip-in/one-piece-volumizer-blonde.webp",
-        "imageAlt": "Blonde one-piece human hair clip-in volumizer"
-      },
-      {
-        "label": "TARGETED FILL",
-        "title": "Single Clip-Ins / Fill-In Pieces",
-        "body": "Individual wefts for side fill, replacement, colour accents or a buyer-defined mix-and-match programme.",
-        "bestFor": "Targeted volume; replacement or add-on pieces",
-        "brief": "Specify placement zone, width, clip count, grams, length and colour for each piece."
+        "tier": "NICHE OPPORTUNITIES",
+        "title": "Flip-In Halo / Wire Crown Extensions",
+        "body": "A one-piece, wire-secured method for clients who want zero clips, zero tension and instant volume. The weft sits on the crown like a halo with the wearer’s own hair pulled over to conceal the wire. Strong opportunity in sensitive-scalp, medical hair-loss and low-manipulation segments.",
+        "includes": "Flip-in halo · wire crown · no-clip volumizer · convertible clip/halo piece",
+        "typicalSpec": "14–24 in · 80–150 g · 25–30 cm weft width · transparent adjustable wire",
+        "guidance": "Wire strength/adjustability, weft weight balance, comfort under the occipital bone",
+        "whyStock": "Lower competition, high margin, clear differentiator for fine or fragile-hair clients",
+        "image": "assets/products/human-hair-extensions/clip-in/niche-flip-in-halo.png",
+        "imageAlt": "Flip-in halo wire human hair extension"
       }
     ],
     "setMaps": [
@@ -825,12 +847,16 @@
         "body": "The range can be developed as classic sewn-weft sets, seamless PU sets, one-piece volumizers or individual fill-in pieces. Each type serves a different wearer profile and coverage goal."
       },
       {
-        "title": "Why is piece count not enough?",
-        "body": "Two seven-piece sets can behave very differently when their widths, clip counts, total grams and grams-by-piece are different. A repeatable product requires a written set map, not only 7 pcs/set on the package."
+        "title": "How do you match gram weight to hair density?",
+        "body": "For fine or thin hair, suggest 100–140 g sets to avoid traction and visible bulk. For medium-density hair, 160–180 g usually blends well. For thick or voluminous hair, 200 g or more is needed for a natural end result."
       },
       {
-        "title": "How should weight be engineered?",
-        "body": "Start with the target wearer and desired result, then set total hair grams and distribute them across the wefts. The same total weight can feel and blend differently depending on where the grams sit in the set."
+        "title": "Where should colour be matched?",
+        "body": "Match clip-ins to the root shade for the attachment points, then layer in a second set for highlights or balayage if needed. For highlighted hair, combining a root-tone set with a lighter-tone set creates the most natural blend."
+      },
+      {
+        "title": "Why is piece count not enough?",
+        "body": "Two seven-piece sets can behave very differently when their widths, clip counts, total grams and grams-by-piece are different. A repeatable product requires a written set map, not only 7 pcs/set on the package."
       },
       {
         "title": "How do classic and seamless clip-ins differ?",
@@ -2173,22 +2199,52 @@
       }
     ],
     "confirmedFacts": [
-      ["Product format", "Elastic-band braiding ponytail reference"],
-      ["Fibre family", "Heat-friendly synthetic hair reference"],
-      ["Reference length", "26 in / 66 cm"],
-      ["Reference attachment", "Elastic band"],
-      ["Concealing detail", "Shorter wrap-around hair section"],
-      ["Reference styling", "Braid with natural hair or twist into a braided updo"],
-      ["Source shade range", "13 reference shades; DS HAIR production colours require confirmation"],
-      ["Sales channel", "B2B wholesale / OEM enquiry"]
+      [
+        "Product format",
+        "Elastic-band braiding ponytail reference"
+      ],
+      [
+        "Fibre family",
+        "Heat-friendly synthetic hair reference"
+      ],
+      [
+        "Reference length",
+        "26 in / 66 cm"
+      ],
+      [
+        "Reference attachment",
+        "Elastic band"
+      ],
+      [
+        "Concealing detail",
+        "Shorter wrap-around hair section"
+      ],
+      [
+        "Reference styling",
+        "Braid with natural hair or twist into a braided updo"
+      ],
+      [
+        "Source shade range",
+        "13 reference shades; DS HAIR production colours require confirmation"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
     ],
     "configuration": [
       {
         "key": "length",
         "label": "Length direction",
         "options": [
-          {"value": "26 in reference", "status": "reference"},
-          {"value": "Buyer-defined", "status": "request"}
+          {
+            "value": "26 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
         ],
         "note": "The source page states 26 inches. Confirm the finished measurement method and tolerance on the approved DS HAIR sample."
       },
@@ -2196,8 +2252,14 @@
         "key": "attachment",
         "label": "Attachment direction",
         "options": [
-          {"value": "Elastic-band reference", "status": "reference"},
-          {"value": "Custom attachment brief", "status": "request"}
+          {
+            "value": "Elastic-band reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom attachment brief",
+            "status": "request"
+          }
         ],
         "note": "Approve the elastic dimensions, recovery, seam, holding performance and wrap-section coverage on the target wearer."
       },
@@ -2205,8 +2267,14 @@
         "key": "finish",
         "label": "Styling direction",
         "options": [
-          {"value": "Braid-ready straight reference", "status": "reference"},
-          {"value": "Custom texture", "status": "request"}
+          {
+            "value": "Braid-ready straight reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom texture",
+            "status": "request"
+          }
         ],
         "note": "Approve fibre alignment, braid handling, end density, shine and recovery after styling and unpacking."
       },
@@ -2214,26 +2282,62 @@
         "key": "packaging",
         "label": "Packaging direction",
         "options": [
-          {"value": "DS HAIR reference", "status": "reference"},
-          {"value": "Private label", "status": "request"},
-          {"value": "Buyer-supplied artwork", "status": "request"}
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
         ],
         "note": "Backing card, storage support, braid instructions, care wording, barcode and carton are reviewed after the quantity and channel brief."
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Elastic-band security", "Test band dimensions, stretch recovery, seam security and hold during braiding and normal movement."],
-      ["Length and usable braid", "Measure the finished 26-inch reference and confirm how much length remains after the intended braid pattern."],
-      ["Wrap-section coverage", "Verify that the shorter section conceals the band and connection point from the intended viewing angles."],
-      ["Fibre and braid response", "Approve hand, shine, tangling, braid grip, end behaviour and the tested care protocol on the production fibre."],
-      ["Colour integration", "Approve the blend with the wearer's hair under neutral light using a physical shade reference."]
+      [
+        "Elastic-band security",
+        "Test band dimensions, stretch recovery, seam security and hold during braiding and normal movement."
+      ],
+      [
+        "Length and usable braid",
+        "Measure the finished 26-inch reference and confirm how much length remains after the intended braid pattern."
+      ],
+      [
+        "Wrap-section coverage",
+        "Verify that the shorter section conceals the band and connection point from the intended viewing angles."
+      ],
+      [
+        "Fibre and braid response",
+        "Approve hand, shine, tangling, braid grip, end behaviour and the tested care protocol on the production fibre."
+      ],
+      [
+        "Colour integration",
+        "Approve the blend with the wearer's hair under neutral light using a physical shade reference."
+      ]
     ],
     "customisation": [
-      ["Length and volume", "Define finished length, total grams, fibre distribution and desired braid fullness."],
-      ["Attachment and wrap", "Confirm band size, recovery, seam, wrap-section length, density and securing method."],
-      ["Fibre and finish", "Specify braid grip, shine, heat-care requirement, end density and post-styling recovery."],
-      ["Private-label packaging", "Develop backing cards, storage supports, braid instructions, care copy, barcodes and retail cartons after quantity review."]
+      [
+        "Length and volume",
+        "Define finished length, total grams, fibre distribution and desired braid fullness."
+      ],
+      [
+        "Attachment and wrap",
+        "Confirm band size, recovery, seam, wrap-section length, density and securing method."
+      ],
+      [
+        "Fibre and finish",
+        "Specify braid grip, shine, heat-care requirement, end density and post-styling recovery."
+      ],
+      [
+        "Private-label packaging",
+        "Develop backing cards, storage supports, braid instructions, care copy, barcodes and retail cartons after quantity review."
+      ]
     ],
     "relatedProducts": [
       {
@@ -2262,28 +2366,92 @@
       }
     ],
     "methodComparison": {
-      "columns": ["Elastic-Band Braiding Ponytail", "Claw-Clip Ponytail", "Drawstring Ponytail", "Clip-In Chignon"],
+      "columns": [
+        "Elastic-Band Braiding Ponytail",
+        "Claw-Clip Ponytail",
+        "Drawstring Ponytail",
+        "Clip-In Chignon"
+      ],
       "rows": [
-        ["Primary result", "Integrated braid length", "Fast loose length", "Adjustable gathered-base length", "Compact updo volume"],
-        ["Reference attachment", "Elastic band plus wrap section", "Claw clip", "Drawstring base", "Contoured claw clip"],
-        ["Natural-hair integration", "Braided together", "Natural ponytail concealed inside clip", "Natural ponytail enclosed in base", "Natural hair secured under updo"],
-        ["Best brief detail", "Braid pattern, usable length and band recovery", "Clip geometry and fall", "Base diameter and drawstring security", "Updo silhouette and clip hold"]
+        [
+          "Primary result",
+          "Integrated braid length",
+          "Fast loose length",
+          "Adjustable gathered-base length",
+          "Compact updo volume"
+        ],
+        [
+          "Reference attachment",
+          "Elastic band plus wrap section",
+          "Claw clip",
+          "Drawstring base",
+          "Contoured claw clip"
+        ],
+        [
+          "Natural-hair integration",
+          "Braided together",
+          "Natural ponytail concealed inside clip",
+          "Natural ponytail enclosed in base",
+          "Natural hair secured under updo"
+        ],
+        [
+          "Best brief detail",
+          "Braid pattern, usable length and band recovery",
+          "Clip geometry and fall",
+          "Base diameter and drawstring security",
+          "Updo silhouette and clip hold"
+        ]
       ],
       "notice": "The formats are development directions, not interchangeable stock claims. Confirm the construction against an approved sample."
     },
     "serviceComparison": [
-      ["Starting point", "Written braid, wearer and channel brief", "Reference photo only"],
-      ["Attachment", "Band dimensions, recovery, seam and wrap recorded", "Elastic band named without measurable details"],
-      ["Fibre claim", "Fibre family and tested care protocol approved", "Heat-friendly wording copied without testing"],
-      ["Colour approval", "Physical reference and blend recorded", "Screen colour treated as final"],
-      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+      [
+        "Starting point",
+        "Written braid, wearer and channel brief",
+        "Reference photo only"
+      ],
+      [
+        "Attachment",
+        "Band dimensions, recovery, seam and wrap recorded",
+        "Elastic band named without measurable details"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly wording copied without testing"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend recorded",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
     ],
     "knowledge": [
-      {"title": "What is an elastic-band braiding ponytail?", "body": "It is a removable length piece attached around a secured natural ponytail with an elastic band, then braided together with the wearer's hair."},
-      {"title": "Why is there a shorter hair section?", "body": "The source reference uses a shorter section to wrap around and conceal the elastic attachment after the main length is secured."},
-      {"title": "What should buyers test on the band?", "body": "Check dimensions, stretch recovery, seam security, comfort, grip and whether the wrapped finish stays concealed during normal movement."},
-      {"title": "Can heat-friendly synthetic hair be restyled?", "body": "Only within the tested protocol for the actual production fibre. Source wording does not establish a DS HAIR temperature limit."},
-      {"title": "What supports reliable reorders?", "body": "Retain an approved sample and written specification covering fibre, length, grams, band, wrap section, colour, care wording, packaging and QC tolerances."}
+      {
+        "title": "What is an elastic-band braiding ponytail?",
+        "body": "It is a removable length piece attached around a secured natural ponytail with an elastic band, then braided together with the wearer's hair."
+      },
+      {
+        "title": "Why is there a shorter hair section?",
+        "body": "The source reference uses a shorter section to wrap around and conceal the elastic attachment after the main length is secured."
+      },
+      {
+        "title": "What should buyers test on the band?",
+        "body": "Check dimensions, stretch recovery, seam security, comfort, grip and whether the wrapped finish stays concealed during normal movement."
+      },
+      {
+        "title": "Can heat-friendly synthetic hair be restyled?",
+        "body": "Only within the tested protocol for the actual production fibre. Source wording does not establish a DS HAIR temperature limit."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, length, grams, band, wrap section, colour, care wording, packaging and QC tolerances."
+      }
     ],
     "unconfirmed": [
       "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
@@ -2293,11 +2461,26 @@
       "MOQ, sample cost, unit price, production lead time and packaging dimensions"
     ],
     "faqs": [
-      ["Is this 26-inch braiding ponytail available for wholesale and private label?", "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."],
-      ["How does the reference ponytail attach?", "The source product wraps an elastic band around a secured natural ponytail, then uses a shorter hair section to conceal the connection point."],
-      ["What length and styling use are documented?", "The source page states a 26-inch length designed to braid with natural hair or twist into a braided updo. Production measurement and tolerance require sample approval."],
-      ["Can this synthetic ponytail be heat styled?", "The source describes heat-friendly synthetic hair. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."],
-      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."]
+      [
+        "Is this 26-inch braiding ponytail available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "How does the reference ponytail attach?",
+        "The source product wraps an elastic band around a secured natural ponytail, then uses a shorter hair section to conceal the connection point."
+      ],
+      [
+        "What length and styling use are documented?",
+        "The source page states a 26-inch length designed to braid with natural hair or twist into a braided updo. Production measurement and tolerance require sample approval."
+      ],
+      [
+        "Can this synthetic ponytail be heat styled?",
+        "The source describes heat-friendly synthetic hair. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."
+      ]
     ],
     "ctaTitle": "Develop an elastic-band braiding ponytail range with a repeatable specification.",
     "ctaText": "Send the target wearer, braid direction, finished length, grams, band requirement, wrap-section detail, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
@@ -2331,23 +2514,56 @@
       }
     ],
     "confirmedFacts": [
-      ["Product format", "Pocket-base drawstring / cinch ponytail reference"],
-      ["Fibre family", "Heat-friendly synthetic hair direction; production fibre to approve"],
-      ["Reference length", "12 in / approx. 30.5 cm"],
-      ["Reference attachment", "Pocket base with drawstring / cinch closure"],
-      ["Reference texture", "Dense coily curls"],
-      ["MOQ", "30 pcs/color"],
-      ["Unit price", "US$1.98–2.28/pc"],
-      ["Lead time", "3–21 days"],
-      ["Sales channel", "B2B wholesale / OEM enquiry"]
+      [
+        "Product format",
+        "Pocket-base drawstring / cinch ponytail reference"
+      ],
+      [
+        "Fibre family",
+        "Heat-friendly synthetic hair direction; production fibre to approve"
+      ],
+      [
+        "Reference length",
+        "12 in / approx. 30.5 cm"
+      ],
+      [
+        "Reference attachment",
+        "Pocket base with drawstring / cinch closure"
+      ],
+      [
+        "Reference texture",
+        "Dense coily curls"
+      ],
+      [
+        "MOQ",
+        "30 pcs/color"
+      ],
+      [
+        "Unit price",
+        "US$1.98–2.28/pc"
+      ],
+      [
+        "Lead time",
+        "3–21 days"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
     ],
     "configuration": [
       {
         "key": "length",
         "label": "Length direction",
         "options": [
-          {"value": "12 in reference", "status": "reference"},
-          {"value": "Buyer-defined", "status": "request"}
+          {
+            "value": "12 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
         ],
         "note": "The source page states 12 inches. Confirm the finished measurement method, stretched length and production tolerance on the approved DS HAIR sample."
       },
@@ -2355,8 +2571,14 @@
         "key": "attachment",
         "label": "Attachment direction",
         "options": [
-          {"value": "Pocket + drawstring reference", "status": "reference"},
-          {"value": "Custom attachment brief", "status": "request"}
+          {
+            "value": "Pocket + drawstring reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom attachment brief",
+            "status": "request"
+          }
         ],
         "note": "Approve pocket dimensions, comb layout, cord, stopper, stitching, concealment and holding performance on the target wearer."
       },
@@ -2364,8 +2586,14 @@
         "key": "texture",
         "label": "Texture direction",
         "options": [
-          {"value": "Dense coily curl reference", "status": "reference"},
-          {"value": "Custom curl pattern", "status": "request"}
+          {
+            "value": "Dense coily curl reference",
+            "status": "reference"
+          },
+          {
+            "value": "Custom curl pattern",
+            "status": "request"
+          }
         ],
         "note": "Approve curl diameter, definition, density, frizz limit, fibre shine and recovery after packing and care."
       },
@@ -2373,27 +2601,66 @@
         "key": "packaging",
         "label": "Packaging direction",
         "options": [
-          {"value": "DS HAIR reference", "status": "reference"},
-          {"value": "Private label", "status": "request"},
-          {"value": "Buyer-supplied artwork", "status": "request"}
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
         ],
         "note": "Backing card, curl protection, attachment instructions, care wording, barcode and carton are reviewed after the quantity and channel brief."
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Pocket and cinch security", "Test pocket dimensions, comb placement, drawstring movement, stopper hold, stitching and concealment during normal wear."],
-      ["Coily texture repeatability", "Approve curl diameter, spring, density distribution, frizz limit and shape recovery after packing, washing and the approved care routine."],
-      ["Length and finished volume", "Measure the 12-inch reference consistently and record stretched length, overall grams, silhouette and production tolerances."],
-      ["Fibre and heat protocol", "Approve hand, shine, tangling and the exact tested care or heat protocol for the selected production fibre."],
-      ["Colour integration", "Approve the blend with the intended wearer under neutral light using a physical shade or representative product sample."]
+      [
+        "Pocket and cinch security",
+        "Test pocket dimensions, comb placement, drawstring movement, stopper hold, stitching and concealment during normal wear."
+      ],
+      [
+        "Coily texture repeatability",
+        "Approve curl diameter, spring, density distribution, frizz limit and shape recovery after packing, washing and the approved care routine."
+      ],
+      [
+        "Length and finished volume",
+        "Measure the 12-inch reference consistently and record stretched length, overall grams, silhouette and production tolerances."
+      ],
+      [
+        "Fibre and heat protocol",
+        "Approve hand, shine, tangling and the exact tested care or heat protocol for the selected production fibre."
+      ],
+      [
+        "Colour integration",
+        "Approve the blend with the intended wearer under neutral light using a physical shade or representative product sample."
+      ]
     ],
     "customisation": [
-      ["Length and volume", "Define finished length, stretched length, total grams, density distribution and desired ponytail silhouette."],
-      ["Pocket and drawstring", "Confirm pocket dimensions, comb map, cord, stopper, stitching, base colour and concealment."],
-      ["Fibre and curl pattern", "Specify curl diameter, definition, shine, frizz limit, hand and tested care protocol."],
-      ["Colour matching", "Approve physical shades, blends and rooted effects against a representative product sample."],
-      ["Private-label packaging", "Develop backing cards, curl protection, instructions, care copy, barcodes and retail cartons after quantity review."]
+      [
+        "Length and volume",
+        "Define finished length, stretched length, total grams, density distribution and desired ponytail silhouette."
+      ],
+      [
+        "Pocket and drawstring",
+        "Confirm pocket dimensions, comb map, cord, stopper, stitching, base colour and concealment."
+      ],
+      [
+        "Fibre and curl pattern",
+        "Specify curl diameter, definition, shine, frizz limit, hand and tested care protocol."
+      ],
+      [
+        "Colour matching",
+        "Approve physical shades, blends and rooted effects against a representative product sample."
+      ],
+      [
+        "Private-label packaging",
+        "Develop backing cards, curl protection, instructions, care copy, barcodes and retail cartons after quantity review."
+      ]
     ],
     "relatedProducts": [
       {
@@ -2422,28 +2689,92 @@
       }
     ],
     "methodComparison": {
-      "columns": ["Coily Drawstring Ponytail", "Claw-Clip Ponytail", "Elastic-Band Braiding Ponytail", "Clip-In Chignon"],
+      "columns": [
+        "Coily Drawstring Ponytail",
+        "Claw-Clip Ponytail",
+        "Elastic-Band Braiding Ponytail",
+        "Clip-In Chignon"
+      ],
       "rows": [
-        ["Primary result", "Compact coily volume", "Fast loose length", "Integrated braid length", "Compact updo volume"],
-        ["Reference attachment", "Pocket base + drawstring", "Claw clip", "Elastic band + wrap section", "Contoured claw clip"],
-        ["Natural-hair integration", "Natural ponytail enclosed in pocket", "Natural ponytail concealed inside clip", "Braided together", "Natural hair secured under updo"],
-        ["Best brief detail", "Pocket size, cinch hold and curl repeatability", "Clip geometry and fall", "Braid pattern and band recovery", "Updo silhouette and clip hold"]
+        [
+          "Primary result",
+          "Compact coily volume",
+          "Fast loose length",
+          "Integrated braid length",
+          "Compact updo volume"
+        ],
+        [
+          "Reference attachment",
+          "Pocket base + drawstring",
+          "Claw clip",
+          "Elastic band + wrap section",
+          "Contoured claw clip"
+        ],
+        [
+          "Natural-hair integration",
+          "Natural ponytail enclosed in pocket",
+          "Natural ponytail concealed inside clip",
+          "Braided together",
+          "Natural hair secured under updo"
+        ],
+        [
+          "Best brief detail",
+          "Pocket size, cinch hold and curl repeatability",
+          "Clip geometry and fall",
+          "Braid pattern and band recovery",
+          "Updo silhouette and clip hold"
+        ]
       ],
       "notice": "These are separate development directions. Confirm the chosen construction against an approved sample; do not treat attachment types as interchangeable."
     },
     "serviceComparison": [
-      ["Starting point", "Written wearer, curl, attachment and channel brief", "Reference photo only"],
-      ["Attachment", "Pocket, comb map, cord, stopper and hold recorded", "Drawstring named without measurable construction"],
-      ["Texture control", "Curl diameter, density, frizz limit and recovery approved", "Coily appearance judged from one screen image"],
-      ["Commercial terms", "MOQ, price range and lead time recorded with the SKU", "Commercial values separated from the product record"],
-      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+      [
+        "Starting point",
+        "Written wearer, curl, attachment and channel brief",
+        "Reference photo only"
+      ],
+      [
+        "Attachment",
+        "Pocket, comb map, cord, stopper and hold recorded",
+        "Drawstring named without measurable construction"
+      ],
+      [
+        "Texture control",
+        "Curl diameter, density, frizz limit and recovery approved",
+        "Coily appearance judged from one screen image"
+      ],
+      [
+        "Commercial terms",
+        "MOQ, price range and lead time recorded with the SKU",
+        "Commercial values separated from the product record"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
     ],
     "knowledge": [
-      {"title": "What is a coily drawstring ponytail?", "body": "It is a removable textured hairpiece with a pocket-style base placed over a secured natural ponytail or bun, then tightened with a drawstring or cinch closure."},
-      {"title": "What should buyers verify on the pocket base?", "body": "Record pocket dimensions, comb count and placement, cord material, stopper, stitching, base colour, concealment and holding performance."},
-      {"title": "How should coily texture be approved?", "body": "Approve curl diameter, definition, density, frizz limit, fibre shine and shape recovery after packing, washing and the selected care routine."},
-      {"title": "Are the commercial terms confirmed?", "body": "For DS-HPC-SY-006, MOQ is 30 pcs/color, unit price is US$1.98–2.28/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written order specification."},
-      {"title": "What supports reliable reorders?", "body": "Retain an approved sample and written specification covering fibre, length, grams, pocket, comb map, drawstring, curl pattern, colour, care wording, packaging and QC tolerances."}
+      {
+        "title": "What is a coily drawstring ponytail?",
+        "body": "It is a removable textured hairpiece with a pocket-style base placed over a secured natural ponytail or bun, then tightened with a drawstring or cinch closure."
+      },
+      {
+        "title": "What should buyers verify on the pocket base?",
+        "body": "Record pocket dimensions, comb count and placement, cord material, stopper, stitching, base colour, concealment and holding performance."
+      },
+      {
+        "title": "How should coily texture be approved?",
+        "body": "Approve curl diameter, definition, density, frizz limit, fibre shine and shape recovery after packing, washing and the selected care routine."
+      },
+      {
+        "title": "Are the commercial terms confirmed?",
+        "body": "For DS-HPC-SY-006, MOQ is 30 pcs/color, unit price is US$1.98–2.28/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written order specification."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, length, grams, pocket, comb map, drawstring, curl pattern, colour, care wording, packaging and QC tolerances."
+      }
     ],
     "unconfirmed": [
       "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
@@ -2453,11 +2784,26 @@
       "Packing method, unit packaging dimensions and carton details"
     ],
     "faqs": [
-      ["Is this 12-inch coily drawstring ponytail available for wholesale and private label?", "Yes, it is presented as a B2B development reference. Share the target market, colour direction, fibre requirement and packaging brief so the confirmed commercial terms can be applied to the correct specification."],
-      ["What are the MOQ, price and lead time for DS-HPC-SY-006?", "MOQ is 30 pcs/color, the unit-price range is US$1.98–2.28/pc and lead time is 3–21 days. Final totals and schedule are confirmed on the written order specification."],
-      ["How does the reference ponytail attach?", "The source product uses a pocket base that fits over a secured natural ponytail or bun, then tightens with a drawstring/cinch closure. Production pocket and hardware details require sample approval."],
-      ["What length and texture are documented?", "The source page states a 12-inch length with a dense coily curl texture. Finished measurement, grams, curl tolerance and production fibre require sample approval."],
-      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available colour options and packaging details require written confirmation."]
+      [
+        "Is this 12-inch coily drawstring ponytail available for wholesale and private label?",
+        "Yes, it is presented as a B2B development reference. Share the target market, colour direction, fibre requirement and packaging brief so the confirmed commercial terms can be applied to the correct specification."
+      ],
+      [
+        "What are the MOQ, price and lead time for DS-HPC-SY-006?",
+        "MOQ is 30 pcs/color, the unit-price range is US$1.98–2.28/pc and lead time is 3–21 days. Final totals and schedule are confirmed on the written order specification."
+      ],
+      [
+        "How does the reference ponytail attach?",
+        "The source product uses a pocket base that fits over a secured natural ponytail or bun, then tightens with a drawstring/cinch closure. Production pocket and hardware details require sample approval."
+      ],
+      [
+        "What length and texture are documented?",
+        "The source page states a 12-inch length with a dense coily curl texture. Finished measurement, grams, curl tolerance and production fibre require sample approval."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available colour options and packaging details require written confirmation."
+      ]
     ],
     "ctaTitle": "Develop a coily drawstring ponytail range with a repeatable specification.",
     "ctaText": "Send the target wearer, finished length, grams, curl pattern, pocket and drawstring requirement, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample and quotation path."
@@ -2496,24 +2842,60 @@
       }
     ],
     "confirmedFacts": [
-      ["Product format", "Synthetic hair bun / scrunchie hairpiece reference"],
-      ["Fibre family", "Synthetic hair direction; exact production fibre to approve"],
-      ["Reference attachment", "Elastic rubber-band / scrunchie attachment"],
-      ["Reference appearance", "Compact smooth wrapped bun / chignon"],
-      ["Reference diameter", "7 cm / 2.75 in source-image text; production size unconfirmed"],
-      ["Source shade references", "12 photographed source shades; physical production match required"],
-      ["MOQ", "60 pcs/color"],
-      ["Unit price", "US$0.98–1.50/pc"],
-      ["Lead time", "3–21 days"],
-      ["Sales channel", "B2B wholesale / OEM enquiry"]
+      [
+        "Product format",
+        "Synthetic hair bun / scrunchie hairpiece reference"
+      ],
+      [
+        "Fibre family",
+        "Synthetic hair direction; exact production fibre to approve"
+      ],
+      [
+        "Reference attachment",
+        "Elastic rubber-band / scrunchie attachment"
+      ],
+      [
+        "Reference appearance",
+        "Compact smooth wrapped bun / chignon"
+      ],
+      [
+        "Reference diameter",
+        "7 cm / 2.75 in source-image text; production size unconfirmed"
+      ],
+      [
+        "Source shade references",
+        "12 photographed source shades; physical production match required"
+      ],
+      [
+        "MOQ",
+        "60 pcs/color"
+      ],
+      [
+        "Unit price",
+        "US$0.98–1.50/pc"
+      ],
+      [
+        "Lead time",
+        "3–21 days"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
     ],
     "configuration": [
       {
         "key": "size",
         "label": "Bun-size direction",
         "options": [
-          {"value": "7 cm source reference", "status": "reference"},
-          {"value": "Buyer-defined finished size", "status": "request"}
+          {
+            "value": "7 cm source reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined finished size",
+            "status": "request"
+          }
         ],
         "note": "The supplied source image displays 7 cm / 2.75 in. Confirm the measurement point, installed silhouette and production tolerance on the approved DS HAIR sample."
       },
@@ -2521,8 +2903,14 @@
         "key": "attachment",
         "label": "Attachment direction",
         "options": [
-          {"value": "Elastic-band reference", "status": "reference"},
-          {"value": "Buyer-defined band specification", "status": "request"}
+          {
+            "value": "Elastic-band reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined band specification",
+            "status": "request"
+          }
         ],
         "note": "Approve band diameter, elasticity, recovery, stitching, concealment and holding performance on the target hairstyle."
       },
@@ -2530,8 +2918,14 @@
         "key": "finish",
         "label": "Finish direction",
         "options": [
-          {"value": "Smooth wrapped bun reference", "status": "reference"},
-          {"value": "Buyer-defined texture and volume", "status": "request"}
+          {
+            "value": "Smooth wrapped bun reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined texture and volume",
+            "status": "request"
+          }
         ],
         "note": "Approve fibre shine, wrap direction, flyaway limit, finished volume and shape recovery after packing."
       },
@@ -2539,27 +2933,66 @@
         "key": "packaging",
         "label": "Packaging direction",
         "options": [
-          {"value": "DS HAIR reference", "status": "reference"},
-          {"value": "Private label", "status": "request"},
-          {"value": "Buyer-supplied artwork", "status": "request"}
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
         ],
         "note": "Support form, hair net, care wording, barcode and carton are reviewed after the product specification and quantity are confirmed."
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Elastic-band performance", "Test band diameter, stretch, recovery, stitching, concealment and secure hold through repeated fitting cycles."],
-      ["Bun shape repeatability", "Approve finished diameter, height, wrap direction, volume, flyaway limit and recovery after packing and wear."],
-      ["Fibre and surface finish", "Approve hand, shine, colour uniformity, tangling and the exact tested care protocol for the selected production fibre."],
-      ["Colour matching", "Treat the 12 supplied shades as source references only and approve production colours against physical samples or DS HAIR Colour Chart 2."],
-      ["Packing protection", "Check that the support form, net and retail pack preserve the bun silhouette without crushing or permanent deformation."]
+      [
+        "Elastic-band performance",
+        "Test band diameter, stretch, recovery, stitching, concealment and secure hold through repeated fitting cycles."
+      ],
+      [
+        "Bun shape repeatability",
+        "Approve finished diameter, height, wrap direction, volume, flyaway limit and recovery after packing and wear."
+      ],
+      [
+        "Fibre and surface finish",
+        "Approve hand, shine, colour uniformity, tangling and the exact tested care protocol for the selected production fibre."
+      ],
+      [
+        "Colour matching",
+        "Treat the 12 supplied shades as source references only and approve production colours against physical samples or DS HAIR Colour Chart 2."
+      ],
+      [
+        "Packing protection",
+        "Check that the support form, net and retail pack preserve the bun silhouette without crushing or permanent deformation."
+      ]
     ],
     "customisation": [
-      ["Bun size and volume", "Define finished diameter, height, grams, wrap direction and desired installed silhouette."],
-      ["Elastic attachment", "Confirm band diameter, material, elasticity, recovery, stitching and concealment."],
-      ["Fibre and finish", "Specify fibre family, hand, shine, flyaway limit and tested care protocol."],
-      ["Colour matching", "Approve physical shades, blends and rooted effects against representative samples or DS HAIR Colour Chart 2."],
-      ["Private-label packaging", "Develop support forms, hair nets, cards, instructions, care copy, barcodes and retail cartons after quantity review."]
+      [
+        "Bun size and volume",
+        "Define finished diameter, height, grams, wrap direction and desired installed silhouette."
+      ],
+      [
+        "Elastic attachment",
+        "Confirm band diameter, material, elasticity, recovery, stitching and concealment."
+      ],
+      [
+        "Fibre and finish",
+        "Specify fibre family, hand, shine, flyaway limit and tested care protocol."
+      ],
+      [
+        "Colour matching",
+        "Approve physical shades, blends and rooted effects against representative samples or DS HAIR Colour Chart 2."
+      ],
+      [
+        "Private-label packaging",
+        "Develop support forms, hair nets, cards, instructions, care copy, barcodes and retail cartons after quantity review."
+      ]
     ],
     "relatedProducts": [
       {
@@ -2588,28 +3021,92 @@
       }
     ],
     "methodComparison": {
-      "columns": ["Hair Bun Scrunchie", "Clip-In Chignon", "Drawstring Ponytail", "Elastic-Band Braiding Ponytail"],
+      "columns": [
+        "Hair Bun Scrunchie",
+        "Clip-In Chignon",
+        "Drawstring Ponytail",
+        "Elastic-Band Braiding Ponytail"
+      ],
       "rows": [
-        ["Primary result", "Compact smooth bun", "Compact shaped updo", "Longer textured volume", "Integrated braid or updo length"],
-        ["Reference attachment", "Elastic band / scrunchie", "Contoured clip", "Pocket base + drawstring", "Elastic band + wrap section"],
-        ["Natural-hair integration", "Wrapped around a secured bun or ponytail", "Natural hair secured under updo", "Natural ponytail enclosed in pocket", "Braided together"],
-        ["Best brief detail", "Band recovery, bun size and shape", "Clip geometry and silhouette", "Pocket size, cinch hold and curl", "Braid pattern and band recovery"]
+        [
+          "Primary result",
+          "Compact smooth bun",
+          "Compact shaped updo",
+          "Longer textured volume",
+          "Integrated braid or updo length"
+        ],
+        [
+          "Reference attachment",
+          "Elastic band / scrunchie",
+          "Contoured clip",
+          "Pocket base + drawstring",
+          "Elastic band + wrap section"
+        ],
+        [
+          "Natural-hair integration",
+          "Wrapped around a secured bun or ponytail",
+          "Natural hair secured under updo",
+          "Natural ponytail enclosed in pocket",
+          "Braided together"
+        ],
+        [
+          "Best brief detail",
+          "Band recovery, bun size and shape",
+          "Clip geometry and silhouette",
+          "Pocket size, cinch hold and curl",
+          "Braid pattern and band recovery"
+        ]
       ],
       "notice": "These are separate development directions. Confirm the attachment and finished silhouette against an approved sample rather than treating the formats as interchangeable."
     },
     "serviceComparison": [
-      ["Starting point", "Written wearer, bun-size, colour and channel brief", "Source image only"],
-      ["Attachment", "Elastic dimensions, recovery, stitching and hold recorded", "Elastic band named without measurable performance"],
-      ["Shape control", "Finished diameter, volume, wrap and recovery approved", "Bun appearance judged from one screen image"],
-      ["Commercial terms", "MOQ, price range and lead time recorded with DS-HPC-SY-007", "Commercial values separated from the product record"],
-      ["Repeat order", "Approved sample, shade and QC points retained", "Requirement rebuilt from messages"]
+      [
+        "Starting point",
+        "Written wearer, bun-size, colour and channel brief",
+        "Source image only"
+      ],
+      [
+        "Attachment",
+        "Elastic dimensions, recovery, stitching and hold recorded",
+        "Elastic band named without measurable performance"
+      ],
+      [
+        "Shape control",
+        "Finished diameter, volume, wrap and recovery approved",
+        "Bun appearance judged from one screen image"
+      ],
+      [
+        "Commercial terms",
+        "MOQ, price range and lead time recorded with DS-HPC-SY-007",
+        "Commercial values separated from the product record"
+      ],
+      [
+        "Repeat order",
+        "Approved sample, shade and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
     ],
     "knowledge": [
-      {"title": "What is a synthetic hair bun scrunchie?", "body": "It is a compact removable synthetic hairpiece built around an elastic attachment and wrapped around a secured natural bun or ponytail to create a fuller updo."},
-      {"title": "What should buyers verify on the elastic attachment?", "body": "Record band diameter, stretch, recovery, stitching, concealment and holding performance through repeated fitting cycles."},
-      {"title": "Are the 12 source shades confirmed DS HAIR colours?", "body": "No. They are photographed source references. Approve production colours against physical samples or DS HAIR Colour Chart 2 before an order is confirmed."},
-      {"title": "Are the commercial terms confirmed?", "body": "For DS-HPC-SY-007, MOQ is 60 pcs/color, unit price is US$0.98–1.50/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written specification."},
-      {"title": "What supports reliable reorders?", "body": "Retain an approved sample and written specification covering fibre, grams, finished diameter, band, wrap, colour, care wording, packaging and QC tolerances."}
+      {
+        "title": "What is a synthetic hair bun scrunchie?",
+        "body": "It is a compact removable synthetic hairpiece built around an elastic attachment and wrapped around a secured natural bun or ponytail to create a fuller updo."
+      },
+      {
+        "title": "What should buyers verify on the elastic attachment?",
+        "body": "Record band diameter, stretch, recovery, stitching, concealment and holding performance through repeated fitting cycles."
+      },
+      {
+        "title": "Are the 12 source shades confirmed DS HAIR colours?",
+        "body": "No. They are photographed source references. Approve production colours against physical samples or DS HAIR Colour Chart 2 before an order is confirmed."
+      },
+      {
+        "title": "Are the commercial terms confirmed?",
+        "body": "For DS-HPC-SY-007, MOQ is 60 pcs/color, unit price is US$0.98–1.50/pc and lead time is 3–21 days. Final order total and delivery schedule still follow the written specification."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, grams, finished diameter, band, wrap, colour, care wording, packaging and QC tolerances."
+      }
     ],
     "unconfirmed": [
       "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
@@ -2619,11 +3116,26 @@
       "Packing method, support form, unit packaging dimensions and carton details"
     ],
     "faqs": [
-      ["Is this synthetic hair bun scrunchie available for wholesale and private label?", "Yes. DS-HPC-SY-007 is presented as a B2B development reference with a 60 pcs/color MOQ, US$0.98–1.50 unit-price range and 3–21 day lead time. Final order details follow the approved written specification."],
-      ["How does the reference hair bun attach?", "The supplied images show an elastic rubber-band / scrunchie attachment. Production band dimensions, material, recovery and stitching require sample approval."],
-      ["Is the 7 cm size confirmed?", "The supplied source image displays 7 cm / 2.75 in as a reference. DS HAIR production diameter, installed silhouette and tolerances remain unconfirmed until sample approval."],
-      ["What colours are available?", "The supplied set contains 12 numbered source-shade photographs, while DS HAIR Colour Chart 2 provides the standard buyer-matching reference. Final production shades require physical approval."],
-      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and packing details require written confirmation."]
+      [
+        "Is this synthetic hair bun scrunchie available for wholesale and private label?",
+        "Yes. DS-HPC-SY-007 is presented as a B2B development reference with a 60 pcs/color MOQ, US$0.98–1.50 unit-price range and 3–21 day lead time. Final order details follow the approved written specification."
+      ],
+      [
+        "How does the reference hair bun attach?",
+        "The supplied images show an elastic rubber-band / scrunchie attachment. Production band dimensions, material, recovery and stitching require sample approval."
+      ],
+      [
+        "Is the 7 cm size confirmed?",
+        "The supplied source image displays 7 cm / 2.75 in as a reference. DS HAIR production diameter, installed silhouette and tolerances remain unconfirmed until sample approval."
+      ],
+      [
+        "What colours are available?",
+        "The supplied set contains 12 numbered source-shade photographs, while DS HAIR Colour Chart 2 provides the standard buyer-matching reference. Final production shades require physical approval."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and packing details require written confirmation."
+      ]
     ],
     "ctaTitle": "Develop a synthetic hair bun scrunchie range with a repeatable specification.",
     "ctaText": "Send the target wearer, finished bun size, grams, elastic-band requirement, colour reference, fibre requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample and quotation path."
@@ -2654,22 +3166,52 @@
       }
     ],
     "confirmedFacts": [
-      ["Product format", "Clip-in crown topper reference"],
-      ["Fibre direction", "Heat-friendly synthetic reference; sample test required"],
-      ["Reference front length", "8 in / 20 cm"],
-      ["Reference crown length", "11.5 in / 29 cm"],
-      ["Reference side length", "9 in / 23 cm"],
-      ["Reference back length", "11.5 in / 29 cm"],
-      ["Primary use", "Top-area coverage and crown volume"],
-      ["Sales channel", "B2B wholesale / OEM enquiry"]
+      [
+        "Product format",
+        "Clip-in crown topper reference"
+      ],
+      [
+        "Fibre direction",
+        "Heat-friendly synthetic reference; sample test required"
+      ],
+      [
+        "Reference front length",
+        "8 in / 20 cm"
+      ],
+      [
+        "Reference crown length",
+        "11.5 in / 29 cm"
+      ],
+      [
+        "Reference side length",
+        "9 in / 23 cm"
+      ],
+      [
+        "Reference back length",
+        "11.5 in / 29 cm"
+      ],
+      [
+        "Primary use",
+        "Top-area coverage and crown volume"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
     ],
     "configuration": [
       {
         "key": "length",
         "label": "Layered length direction",
         "options": [
-          {"value": "8–11.5 in reference", "status": "reference"},
-          {"value": "Buyer-defined layers", "status": "request"}
+          {
+            "value": "8–11.5 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined layers",
+            "status": "request"
+          }
         ],
         "note": "The cited reference states front 8 inches, crown and back 11.5 inches, and sides 9 inches. Confirm production measurement points and tolerances."
       },
@@ -2677,18 +3219,36 @@
         "key": "packaging",
         "label": "Packaging direction",
         "options": [
-          {"value": "DS HAIR reference", "status": "reference"},
-          {"value": "Private label", "status": "request"}
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          }
         ],
         "note": "Retail card, support form, hair net, care language and barcode can be reviewed after the product specification is approved."
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Coverage and blend", "Check the target coverage zone, edge visibility, density transition and blend into the wearer's own layered haircut."],
-      ["Construction evidence", "Approve the actual synthetic-topper underside construction from a physical sample or buyer-confirmed reference before publishing any base or attachment claim."],
-      ["Fibre performance", "Approve shine, hand, tangling, layer memory and a documented heat-care protocol for the selected production fibre."],
-      ["Repeatability", "Retain an approved sample and written tolerances for length map, construction, density, colour and packaging."]
+      [
+        "Coverage and blend",
+        "Check the target coverage zone, edge visibility, density transition and blend into the wearer's own layered haircut."
+      ],
+      [
+        "Construction evidence",
+        "Approve the actual synthetic-topper underside construction from a physical sample or buyer-confirmed reference before publishing any base or attachment claim."
+      ],
+      [
+        "Fibre performance",
+        "Approve shine, hand, tangling, layer memory and a documented heat-care protocol for the selected production fibre."
+      ],
+      [
+        "Repeatability",
+        "Retain an approved sample and written tolerances for length map, construction, density, colour and packaging."
+      ]
     ],
     "customisation": [
       "Layer map, density and finished length profile",
@@ -2724,28 +3284,92 @@
       }
     ],
     "methodComparison": {
-      "columns": ["Clip-In Crown Topper", "One-Piece Clip-In", "Ponytail", "Full Synthetic Wig"],
+      "columns": [
+        "Clip-In Crown Topper",
+        "One-Piece Clip-In",
+        "Ponytail",
+        "Full Synthetic Wig"
+      ],
       "rows": [
-        ["Primary purpose", "Top coverage and crown volume", "Back length and volume", "Gathered-base length", "Full-head coverage"],
-        ["Attachment", "Clip-in; construction to confirm", "Wide weft with multiple clips", "Wrap, claw clip or elastic", "Full cap"],
-        ["Key buyer check", "Coverage and density blend", "Weight distribution and width", "Base security and fall", "Cap fit and hairline"],
-        ["Sample focus", "Coverage, layer map, fibre and comfort", "Blend, clip map and movement", "Attachment and movement", "Cap, hairline and overall fit"]
+        [
+          "Primary purpose",
+          "Top coverage and crown volume",
+          "Back length and volume",
+          "Gathered-base length",
+          "Full-head coverage"
+        ],
+        [
+          "Attachment",
+          "Clip-in; construction to confirm",
+          "Wide weft with multiple clips",
+          "Wrap, claw clip or elastic",
+          "Full cap"
+        ],
+        [
+          "Key buyer check",
+          "Coverage and density blend",
+          "Weight distribution and width",
+          "Base security and fall",
+          "Cap fit and hairline"
+        ],
+        [
+          "Sample focus",
+          "Coverage, layer map, fibre and comfort",
+          "Blend, clip map and movement",
+          "Attachment and movement",
+          "Cap, hairline and overall fit"
+        ]
       ],
       "notice": "These formats solve different wearer needs. Approve the topper as a complete coverage system rather than selecting it from fibre appearance alone."
     },
     "serviceComparison": [
-      ["Starting point", "Written wearer, coverage and channel brief", "Reference image only"],
-      ["Construction", "Buyer-approved synthetic-topper construction recorded", "Unverified base structure inferred from product type"],
-      ["Fibre claim", "Fibre family and tested care protocol approved", "Heat-friendly wording copied without testing"],
-      ["Colour approval", "Physical reference and blend recorded", "Screen colour treated as final"],
-      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+      [
+        "Starting point",
+        "Written wearer, coverage and channel brief",
+        "Reference image only"
+      ],
+      [
+        "Construction",
+        "Buyer-approved synthetic-topper construction recorded",
+        "Unverified base structure inferred from product type"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly wording copied without testing"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend recorded",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
     ],
     "knowledge": [
-      {"title": "What is a synthetic clip-in crown topper?", "body": "It is a partial hairpiece designed to add coverage or volume over the top and crown while leaving the wearer's own perimeter hair visible."},
-      {"title": "Who is a layered topper designed for?", "body": "A layered direction can blend with bob-length or longer layered hair when the coverage, density and finished length map match the intended wearer."},
-      {"title": "What construction evidence is required?", "body": "Use the real synthetic-topper underside photo or a physical sample approved by the buyer. Do not infer the base or attachment layout from the product name."},
-      {"title": "What should be tested after construction is confirmed?", "body": "Evaluate hold, comfort, coverage, fibre behaviour and movement on the intended wearer using the approved production construction."},
-      {"title": "What supports a reliable private-label reorder?", "body": "Retain the approved sample plus written tolerances for fibre, construction, density, length map, colour, care language and packaging."}
+      {
+        "title": "What is a synthetic clip-in crown topper?",
+        "body": "It is a partial hairpiece designed to add coverage or volume over the top and crown while leaving the wearer's own perimeter hair visible."
+      },
+      {
+        "title": "Who is a layered topper designed for?",
+        "body": "A layered direction can blend with bob-length or longer layered hair when the coverage, density and finished length map match the intended wearer."
+      },
+      {
+        "title": "What construction evidence is required?",
+        "body": "Use the real synthetic-topper underside photo or a physical sample approved by the buyer. Do not infer the base or attachment layout from the product name."
+      },
+      {
+        "title": "What should be tested after construction is confirmed?",
+        "body": "Evaluate hold, comfort, coverage, fibre behaviour and movement on the intended wearer using the approved production construction."
+      },
+      {
+        "title": "What supports a reliable private-label reorder?",
+        "body": "Retain the approved sample plus written tolerances for fibre, construction, density, length map, colour, care language and packaging."
+      }
     ],
     "unconfirmed": [
       "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
@@ -2754,11 +3378,26 @@
       "MOQ, sample cost, unit price, production lead time and packaging dimensions"
     ],
     "faqs": [
-      ["Is this synthetic clip-in topper available for wholesale and private label?", "It is presented as a B2B development reference. Share the target wearer, coverage need, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."],
-      ["What lengths are documented on the reference?", "The cited page states front 8 inches, crown and back 11.5 inches, and sides 9 inches. DS HAIR production measurement points and tolerances require sample approval."],
-      ["Is the underside construction confirmed?", "Not yet. Publish the underside only after a real synthetic-topper construction image or physical sample is approved."],
-      ["Can this synthetic topper be heat styled?", "The source describes a heat-styleable synthetic direction. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."],
-      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."]
+      [
+        "Is this synthetic clip-in topper available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target wearer, coverage need, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "What lengths are documented on the reference?",
+        "The cited page states front 8 inches, crown and back 11.5 inches, and sides 9 inches. DS HAIR production measurement points and tolerances require sample approval."
+      ],
+      [
+        "Is the underside construction confirmed?",
+        "Not yet. Publish the underside only after a real synthetic-topper construction image or physical sample is approved."
+      ],
+      [
+        "Can this synthetic topper be heat styled?",
+        "The source describes a heat-styleable synthetic direction. That is not automatically a DS HAIR production claim; the selected fibre and sample must pass a documented heat test first."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."
+      ]
     ],
     "ctaTitle": "Develop a layered clip-in crown topper with a repeatable specification.",
     "ctaText": "Send the target wearer, coverage zone, approved synthetic-topper construction reference, layer map, colour reference, fibre and heat-care requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
@@ -2789,24 +3428,60 @@
       }
     ],
     "confirmedFacts": [
-      ["Product format", "Clip-in crown topper reference"],
-      ["Fibre direction", "Heat-friendly synthetic reference; sample test required"],
-      ["Reference front length", "4 in / 10.2 cm"],
-      ["Reference crown length", "8.75 in / 22.2 cm"],
-      ["Reference side length", "7.5 in / 19.1 cm"],
-      ["Reference back length", "8.5 in / 21.6 cm"],
-      ["Reference weight", "1.9 oz / 53.9 g; sample confirmation required"],
-      ["MOQ", "30 pcs/color"],
-      ["Unit price", "US$2.55–2.95"],
-      ["Lead time", "3–21 days"]
+      [
+        "Product format",
+        "Clip-in crown topper reference"
+      ],
+      [
+        "Fibre direction",
+        "Heat-friendly synthetic reference; sample test required"
+      ],
+      [
+        "Reference front length",
+        "4 in / 10.2 cm"
+      ],
+      [
+        "Reference crown length",
+        "8.75 in / 22.2 cm"
+      ],
+      [
+        "Reference side length",
+        "7.5 in / 19.1 cm"
+      ],
+      [
+        "Reference back length",
+        "8.5 in / 21.6 cm"
+      ],
+      [
+        "Reference weight",
+        "1.9 oz / 53.9 g; sample confirmation required"
+      ],
+      [
+        "MOQ",
+        "30 pcs/color"
+      ],
+      [
+        "Unit price",
+        "US$2.55–2.95"
+      ],
+      [
+        "Lead time",
+        "3–21 days"
+      ]
     ],
     "configuration": [
       {
         "key": "length",
         "label": "Beach-wave length direction",
         "options": [
-          {"value": "4–8.75 in reference", "status": "reference"},
-          {"value": "Buyer-defined layers", "status": "request"}
+          {
+            "value": "4–8.75 in reference",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined layers",
+            "status": "request"
+          }
         ],
         "note": "The cited reference states front 4 inches, crown 8.75 inches, sides 7.5 inches and back 8.5 inches. Confirm DS HAIR production measurement points and tolerances."
       },
@@ -2814,18 +3489,36 @@
         "key": "packaging",
         "label": "Packaging direction",
         "options": [
-          {"value": "DS HAIR reference", "status": "reference"},
-          {"value": "Private label", "status": "request"}
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          }
         ],
         "note": "Retail card, support form, hair net, care language and barcode can be reviewed after the product specification is approved."
       }
     ],
     "colourChart": "ds-hair-colour-chart-2",
     "buyerChecks": [
-      ["Coverage and blend", "Check the intended top-area coverage, edge visibility, density transition and blend into the wearer's short or layered haircut."],
-      ["Construction evidence", "Approve the actual DS HAIR synthetic-topper underside, base and clip layout from a physical sample or buyer-approved construction before publishing those claims."],
-      ["Wave and fibre performance", "Approve wave definition, shine, hand, tangling, style recovery and a documented heat-care protocol for the selected production fibre."],
-      ["Commercial repeatability", "Retain the approved sample and written tolerances with the confirmed US$2.55–2.95 price range, 30 pcs/color MOQ and 3–21 day lead time."]
+      [
+        "Coverage and blend",
+        "Check the intended top-area coverage, edge visibility, density transition and blend into the wearer's short or layered haircut."
+      ],
+      [
+        "Construction evidence",
+        "Approve the actual DS HAIR synthetic-topper underside, base and clip layout from a physical sample or buyer-approved construction before publishing those claims."
+      ],
+      [
+        "Wave and fibre performance",
+        "Approve wave definition, shine, hand, tangling, style recovery and a documented heat-care protocol for the selected production fibre."
+      ],
+      [
+        "Commercial repeatability",
+        "Retain the approved sample and written tolerances with the confirmed US$2.55–2.95 price range, 30 pcs/color MOQ and 3–21 day lead time."
+      ]
     ],
     "customisation": [
       "Beach-wave pattern, density and finished length profile",
@@ -2861,28 +3554,92 @@
       }
     ],
     "methodComparison": {
-      "columns": ["Clip-In Crown Topper", "One-Piece Clip-In", "Ponytail", "Full Synthetic Wig"],
+      "columns": [
+        "Clip-In Crown Topper",
+        "One-Piece Clip-In",
+        "Ponytail",
+        "Full Synthetic Wig"
+      ],
       "rows": [
-        ["Primary purpose", "Top coverage and crown volume", "Back length and volume", "Gathered-base length", "Full-head coverage"],
-        ["Attachment", "Clip-in; DS HAIR construction to confirm", "Wide weft with multiple clips", "Wrap, claw clip or elastic", "Full cap"],
-        ["Key buyer check", "Coverage, wave blend and comfort", "Weight distribution and width", "Base security and fall", "Cap fit and hairline"],
-        ["Sample focus", "Coverage, wave pattern, fibre and comfort", "Blend, clip map and movement", "Attachment and movement", "Cap, hairline and overall fit"]
+        [
+          "Primary purpose",
+          "Top coverage and crown volume",
+          "Back length and volume",
+          "Gathered-base length",
+          "Full-head coverage"
+        ],
+        [
+          "Attachment",
+          "Clip-in; DS HAIR construction to confirm",
+          "Wide weft with multiple clips",
+          "Wrap, claw clip or elastic",
+          "Full cap"
+        ],
+        [
+          "Key buyer check",
+          "Coverage, wave blend and comfort",
+          "Weight distribution and width",
+          "Base security and fall",
+          "Cap fit and hairline"
+        ],
+        [
+          "Sample focus",
+          "Coverage, wave pattern, fibre and comfort",
+          "Blend, clip map and movement",
+          "Attachment and movement",
+          "Cap, hairline and overall fit"
+        ]
       ],
       "notice": "These formats solve different wearer needs. Approve the topper as a complete coverage system rather than selecting it from wave appearance alone."
     },
     "serviceComparison": [
-      ["Starting point", "Written wearer, coverage, wave and channel brief", "Reference image only"],
-      ["Construction", "Buyer-approved DS HAIR synthetic-topper construction recorded", "Unverified base structure inferred from product type"],
-      ["Fibre claim", "Fibre family and tested care protocol approved", "Heat-friendly wording copied without testing"],
-      ["Commercial terms", "Price, MOQ and lead time stored with DS-TOP-SY-CI-002", "Commercial values separated from the SKU record"],
-      ["Repeat order", "Approved sample and QC points retained", "Requirement rebuilt from messages"]
+      [
+        "Starting point",
+        "Written wearer, coverage, wave and channel brief",
+        "Reference image only"
+      ],
+      [
+        "Construction",
+        "Buyer-approved DS HAIR synthetic-topper construction recorded",
+        "Unverified base structure inferred from product type"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly wording copied without testing"
+      ],
+      [
+        "Commercial terms",
+        "Price, MOQ and lead time stored with DS-TOP-SY-CI-002",
+        "Commercial values separated from the SKU record"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
     ],
     "knowledge": [
-      {"title": "What is a beach-wave synthetic clip-in crown topper?", "body": "It is a partial synthetic hairpiece designed to add top-area coverage or crown volume with a short, softly waved finish while leaving the wearer's perimeter hair visible."},
-      {"title": "What reference measurements are documented?", "body": "The cited page states front 4 inches, crown 8.75 inches, sides 7.5 inches, back 8.5 inches and a 1.9 oz reference weight."},
-      {"title": "What construction evidence is required?", "body": "Approve the real DS HAIR synthetic-topper underside, base and clip layout from a physical sample or buyer-approved construction. Do not infer them from the clip-in topper name."},
-      {"title": "What are the commercial terms for CI-002?", "body": "The unit-price range is US$2.55–2.95, MOQ is 30 pcs/color and lead time is 3–21 days. Final order totals follow the approved written specification."},
-      {"title": "What supports a reliable private-label reorder?", "body": "Retain the approved sample plus written tolerances for fibre, construction, wave pattern, density, length map, colour, care language and packaging."}
+      {
+        "title": "What is a beach-wave synthetic clip-in crown topper?",
+        "body": "It is a partial synthetic hairpiece designed to add top-area coverage or crown volume with a short, softly waved finish while leaving the wearer's perimeter hair visible."
+      },
+      {
+        "title": "What reference measurements are documented?",
+        "body": "The cited page states front 4 inches, crown 8.75 inches, sides 7.5 inches, back 8.5 inches and a 1.9 oz reference weight."
+      },
+      {
+        "title": "What construction evidence is required?",
+        "body": "Approve the real DS HAIR synthetic-topper underside, base and clip layout from a physical sample or buyer-approved construction. Do not infer them from the clip-in topper name."
+      },
+      {
+        "title": "What are the commercial terms for CI-002?",
+        "body": "The unit-price range is US$2.55–2.95, MOQ is 30 pcs/color and lead time is 3–21 days. Final order totals follow the approved written specification."
+      },
+      {
+        "title": "What supports a reliable private-label reorder?",
+        "body": "Retain the approved sample plus written tolerances for fibre, construction, wave pattern, density, length map, colour, care language and packaging."
+      }
     ],
     "unconfirmed": [
       "DS HAIR production fibre composition, heat-test method and maximum styling temperature",
@@ -2891,11 +3648,26 @@
       "Packing method, unit packaging dimensions and carton details"
     ],
     "faqs": [
-      ["Is CI-002 available for wholesale and private label?", "Yes. DS-TOP-SY-CI-002 is presented as a B2B development reference with a 30 pcs/color MOQ, US$2.55–2.95 unit-price range and 3–21 day lead time. Final order details follow the approved written specification."],
-      ["What lengths and weight are documented?", "The cited page states front 4 inches, crown 8.75 inches, sides 7.5 inches, back 8.5 inches and a 1.9 oz reference weight. DS HAIR production measurement points and tolerances require sample approval."],
-      ["Is the underside construction confirmed?", "No DS HAIR underside, base, clip count or clip layout is claimed. Approve those details from a physical DS HAIR sample or buyer-approved construction before publication."],
-      ["Can this synthetic topper be heat styled?", "The source describes a heat-friendly synthetic direction. The selected DS HAIR production fibre and sample must pass a documented heat test before a maximum temperature or care claim is issued."],
-      ["Can buyers request custom colours and packaging?", "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and packing details require written confirmation."]
+      [
+        "Is CI-002 available for wholesale and private label?",
+        "Yes. DS-TOP-SY-CI-002 is presented as a B2B development reference with a 30 pcs/color MOQ, US$2.55–2.95 unit-price range and 3–21 day lead time. Final order details follow the approved written specification."
+      ],
+      [
+        "What lengths and weight are documented?",
+        "The cited page states front 4 inches, crown 8.75 inches, sides 7.5 inches, back 8.5 inches and a 1.9 oz reference weight. DS HAIR production measurement points and tolerances require sample approval."
+      ],
+      [
+        "Is the underside construction confirmed?",
+        "No DS HAIR underside, base, clip count or clip layout is claimed. Approve those details from a physical DS HAIR sample or buyer-approved construction before publication."
+      ],
+      [
+        "Can this synthetic topper be heat styled?",
+        "The source describes a heat-friendly synthetic direction. The selected DS HAIR production fibre and sample must pass a documented heat test before a maximum temperature or care claim is issued."
+      ],
+      [
+        "Can buyers request custom colours and packaging?",
+        "Colour matching and private-label presentation can be reviewed against physical references, artwork and quantity requirements. Available options and packing details require written confirmation."
+      ]
     ],
     "ctaTitle": "Develop a beach-wave clip-in crown topper with a repeatable specification.",
     "ctaText": "Send the target wearer, coverage zone, approved synthetic-topper construction reference, wave pattern, colour reference, fibre and heat-care requirement, packaging brief and estimated quantity so DS HAIR can prepare the correct sample and quotation path."

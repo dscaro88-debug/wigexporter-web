@@ -53,6 +53,7 @@ function catalogSection(item) {
     <div class="section-heading"><div><p class="eyebrow">SELECTED PRODUCT REFERENCES</p><h2>Review products with approved local imagery.</h2></div><p>Images have passed visual review. Product specifications, availability, MOQ, price and lead time remain subject to written confirmation.</p></div>
     ${groups.map((group) => `<section class="catalog-group" aria-labelledby="${slugify(group)}"><div class="catalog-group-heading"><h3 id="${slugify(group)}">${esc(group)}</h3><span>${products.filter((product) => product.category === group).length} references</span></div><div class="catalog-product-grid">${products.filter((product) => product.category === group).map((product) => {
       const productPages = {
+        'DS-EXT-CI': 'clip-in-human-hair-extensions.html',
         'DS-EXT-GW': 'genius-weft-human-hair-extensions.html',
         'DS-HPC-SY-001': 'synthetic-clip-in-chignon-hairpiece.html',
         'DS-HPC-SY-002': 'synthetic-22-inch-straight-clip-in-hairpiece.html',
@@ -90,8 +91,8 @@ function head({ title, description, slug, type = 'website', image }) {
   <meta property="og:image" content="https://wigexporter.com/${image}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260720-5">
-  <link rel="stylesheet" href="content.css?v=20260723-2">
+  <link rel="stylesheet" href="styles.css?v=20260725-4">
+  <link rel="stylesheet" href="content.css?v=20260725-4">
 </head>`;
 }
 
@@ -103,7 +104,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260723-2"></script>
+  <script src="script.js?v=20260725-4"></script>
 </body>
 </html>`;
 }

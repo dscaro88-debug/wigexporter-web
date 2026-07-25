@@ -58,11 +58,11 @@
       "section": "Human Hair",
       "group": "Human Hair Extensions",
       "category": "Clip-in",
-      "assetFolder": "assets/products/human-hair-extensions/ds-ext-ci-clip-in",
-      "approvedImageCount": 0,
-      "imageStatus": "assets_needed",
+      "assetFolder": "assets/products/human-hair-extensions/clip-in",
+      "approvedImageCount": 3,
+      "imageStatus": "limited",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold"
+      "publicationStatus": "draft_ready"
     },
     {
       "code": "DS-EXT-TI",
