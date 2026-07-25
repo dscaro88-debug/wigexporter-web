@@ -89,6 +89,10 @@
 .clip-type-section{padding:105px 6vw;background:#171717;color:#fff}
 .clip-type-section .product-section-heading>p:last-child{color:rgba(255,255,255,.6)}
 .clip-type-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.18)}
+.clip-type-grid.is-three-tiers{grid-template-columns:repeat(3,1fr)}
+.clip-type-grid.is-three-tiers .clip-type-card.has-image{flex-direction:column}
+.clip-type-grid.is-three-tiers .clip-type-card.has-image figure{width:100%;height:260px}
+.clip-type-grid.is-three-tiers .clip-type-card h3{font-size:clamp(24px,2.2vw,34px)}
 .clip-type-card{min-height:440px;background:#171717;display:flex}
 .clip-type-card>div{padding:44px;display:flex;flex-direction:column;flex:1}
 .clip-type-card figure{margin:0;width:44%;background:#fff;overflow:hidden}
@@ -194,6 +198,8 @@
   .spec-anatomy{grid-template-columns:1fr;gap:45px}
   .clip-type-card{min-height:400px}
   .clip-type-card.has-image{grid-column:1/-1}
+  .clip-type-grid.is-three-tiers{grid-template-columns:1fr}
+  .clip-type-grid.is-three-tiers .clip-type-card.has-image figure{height:320px}
 }
 @media(max-width:720px){
   .product-gallery{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:2px}

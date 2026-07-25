@@ -47,7 +47,7 @@ document.querySelectorAll('.nav-trigger').forEach(trigger=>trigger.addEventListe
 document.addEventListener('click',event=>{if(!event.target.closest('.nav-dropdown'))document.querySelectorAll('.nav-dropdown.open').forEach(item=>{item.classList.remove('open');item.querySelector('.nav-trigger')?.setAttribute('aria-expanded','false')})});
 const footer=document.querySelector('.site-footer');
 if(footer)footer.innerHTML=`
-  <div><a class="footer-brand" href="index.html"><strong>DS HAIR</strong><span>WigExporter · Global B2B</span></a><div class="social-links" aria-label="Social media">
+  <div class="footer-col"><a class="footer-brand" href="index.html"><strong>DS HAIR</strong><span>WigExporter · Global B2B</span></a><div class="social-links" aria-label="Social media">
     <a href="https://www.facebook.com/D.SHairBeauty" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.3 8.4V6.7c0-.8.5-1 1-1h2.5V2.1L14.4 2C11 2 9.8 4.1 9.8 6.3v2.1H7.5v4h2.3V22h4.5v-9.6h3l.5-4z"/></svg></a>
     <a href="https://www.instagram.com/d.shairbeauty" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle class="social-dot" cx="17.5" cy="6.5" r="1.2"/></svg></a>
     <a href="https://www.tiktok.com/@d.shairbeauty" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.2a3.2 3.2 0 1 1-2.6-3.1V7.5a6.7 6.7 0 1 0 6.4 6.7V9.1c1.2.8 2.6 1.3 4.2 1.3V6.7A4.5 4.5 0 0 1 17.7 3z"/></svg></a>
@@ -55,9 +55,9 @@ if(footer)footer.innerHTML=`
     <a href="https://uk.pinterest.com/dshairbeautyuk" target="_blank" rel="noopener" aria-label="Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><text x="7" y="18">P</text></svg></a>
     <a href="https://linkedin.com/company/dshairbeauty" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.3 8.1H1.7V22h3.6zM3.5 2A2.1 2.1 0 1 0 3.5 6.2 2.1 2.1 0 0 0 3.5 2zM22 14c0-4.2-2.2-6.2-5.2-6.2-2.4 0-3.5 1.3-4.1 2.2V8.1H9.1V22h3.6v-6.9c0-1.8.4-3.6 2.7-3.6s2.3 2.1 2.3 3.7V22H22z"/></svg></a>
   </div></div>
-  <div><h3>Collections</h3><a href="human-hair-extensions.html">Human Hair Extensions</a><a href="human-hair-wigs-toppers.html">Human Hair Wigs & Toppers</a><a href="synthetic-wigs-hairpieces.html">Synthetic Wigs & Hairpieces</a><a href="salon-supplies.html">Salon Supplies</a></div>
-  <div><h3>Trade Services</h3><a href="sample.html">Samples</a><a href="free-color-kits.html">Colour Kits</a><a href="hair-colour-chart-custom-packaging.html">Colour & Packaging Studio</a><a href="customization.html">OEM / Private Label</a><a href="customization.html#custom-packaging">Custom Packaging</a><a href="trade-account.html">Trade Account</a></div>
-  <div><h3>Company</h3><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a><a href="mailto:caro@wigexporter.com">caro@wigexporter.com</a><a href="tel:+8613516946001">+86 135 1694 6001</a></div>
+  <div class="footer-col"><h3>Collections</h3><a href="human-hair-extensions.html">Human Hair Extensions</a><a href="human-hair-wigs-toppers.html">Human Hair Wigs & Toppers</a><a href="synthetic-wigs-hairpieces.html">Synthetic Wigs & Hairpieces</a><a href="salon-supplies.html">Salon Supplies</a></div>
+  <div class="footer-col"><h3>Trade Services</h3><a href="sample.html">Samples</a><a href="free-color-kits.html">Colour Kits</a><a href="hair-colour-chart-custom-packaging.html">Colour & Packaging Studio</a><a href="customization.html">OEM / Private Label</a><a href="customization.html#custom-packaging">Custom Packaging</a><a href="trade-account.html">Trade Account</a></div>
+  <div class="footer-col"><h3>Company</h3><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a><a class="footer-uk" href="https://dshairbeauty.co.uk" target="_blank" rel="noopener">DS HAIR Beauty UK →</a><a href="mailto:caro@wigexporter.com">caro@wigexporter.com</a><a href="tel:+8613516946001">+86 135 1694 6001</a></div>
   <p class="copyright">© 2026 DS HAIR · WigExporter. B2B wholesale, OEM and private-label enquiries.</p>`;
 if(!document.querySelector('.floating-contact')){
   const whatsApp=document.createElement('a');

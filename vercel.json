@@ -3,6 +3,11 @@
   "outputDirectory": ".",
   "redirects": [
     {
+      "source": "https://www.wigexporter.com/:path*",
+      "destination": "https://wigexporter.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/synthetic-toppers.html",
       "destination": "/synthetic-wigs-hairpieces.html#clip-in-toppers",
       "permanent": true

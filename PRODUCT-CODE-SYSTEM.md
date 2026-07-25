@@ -5,10 +5,30 @@ This file defines the shared product-code and asset-folder rules for
 references; colour, length and texture choices are specifications, not new
 styles.
 
+## Standardized vs differentiated (货号规则总纲)
+
+- **Standardized products do NOT get a product SKU.** These are "method /
+  construction" families with no style variation — e.g. the six Human Hair
+  Extension application methods (Clip-in, Tape-in, K-tip, Genius Weft, Machine
+  Weft, Hand-tied Weft). Each method is a category/method page, not a SKU.
+  Colour, length, weight and texture are specifications selected on that page.
+- **Differentiated products DO get a SKU.** Products with a fixed style/model
+  where different models differ in form, construction or use (wigs, toppers,
+  hairpieces, ponytails, and — pending confirmation — salon supplies) carry a
+  three-digit model number.
+- Rule of thumb: if two items differ only by colour/length/weight, they are the
+  same product with different specs. If they differ in style/construction, they
+  are different products and get different codes.
+
+The `DS-EXT-*` codes below are **method / organization identifiers** (used for
+navigation and asset folders) and are NOT customer-facing product SKUs.
+
 ## Human hair extensions
 
-Extensions use one family code per construction method. Do not add a sequential
-style number.
+Extensions are a STANDARDIZED product family. Use one method code per
+construction method; do not add a sequential style number. These codes are
+method/organization identifiers only — the method page itself carries no
+product SKU.
 
 | Product family | Family code |
 | --- | --- |
@@ -51,7 +71,12 @@ selling category only after material verification.
 
 ## Salon supplies
 
-Salon-supply codes distinguish single products from kits:
+> Status: **pending confirmation.** Salon supplies may be treated as
+> differentiated (keep SKUs below) or as standardized accessories (drop SKUs,
+> use type/method pages like the extension family). Awaiting owner decision.
+
+Salon-supply codes (if treated as differentiated) distinguish single products
+from kits:
 
 - Single product: `DS-SAL-S-001`
 - Kit: `DS-SAL-K-001`
