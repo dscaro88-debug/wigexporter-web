@@ -22,6 +22,7 @@ function productScope(item) {
 }
 
 function firstApprovedImage(product) {
+  if (product.thumbnail) return product.thumbnail;
   const folder = path.join(root, product.assetFolder);
   if (!fs.existsSync(folder)) return null;
   const file = fs.readdirSync(folder)
@@ -103,8 +104,8 @@ function head({ title, description, slug, type = 'website', image }) {
   <meta property="og:image" content="https://wigexporter.com/${image}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260725-16">
-  <link rel="stylesheet" href="content.css?v=20260725-16">
+  <link rel="stylesheet" href="styles.css?v=20260726-2">
+  <link rel="stylesheet" href="content.css?v=20260726-2">
 </head>`;
 }
 
@@ -116,7 +117,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260726-1"></script>
+  <script src="script.js?v=20260726-2"></script>
 </body>
 </html>`;
 }
