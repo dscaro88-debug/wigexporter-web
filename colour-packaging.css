@@ -136,8 +136,7 @@
   text-transform: uppercase;
 }
 
-.colour-studio,
-.packaging-studio {
+.colour-studio {
   padding: 110px 6vw;
 }
 
@@ -512,13 +511,19 @@
 }
 
 .packaging-studio {
+  padding: 70px 6vw 90px;
   background: #eee8df;
 }
 
 .packaging-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: start;
   gap: 12px;
+}
+
+.packaging-studio .studio-section-heading {
+  margin-bottom: 28px;
 }
 
 .packaging-card {
@@ -568,8 +573,7 @@
 
 .packaging-card-copy {
   display: block;
-  min-height: 140px;
-  padding: 22px 20px 25px;
+  padding: 18px 18px 22px;
 }
 
 .packaging-card-copy > small {
@@ -848,10 +852,6 @@
 
   .packaging-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .packaging-card-copy {
-    min-height: 168px;
   }
 
   .logo-treatment-section,
