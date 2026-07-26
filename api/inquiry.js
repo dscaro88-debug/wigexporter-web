@@ -96,8 +96,18 @@ export default async function handler(request, response) {
   });
 
   if (!resendResponse.ok) {
-    console.error('Inquiry email provider error', resendResponse.status);
-    return response.status(502).json({ ok: false, error: 'We could not send your enquiry. Please email caro@wigexporter.com.' });
+    let providerMessage = '';
+    try {
+      const providerError = await resendResponse.json();
+      providerMessage = providerError?.message || providerError?.error || JSON.stringify(providerError);
+    } catch {
+      providerMessage = await resendResponse.text().catch(() => '');
+    }
+    console.error('Inquiry email provider error', resendResponse.status, providerMessage);
+    const userMessage = resendResponse.status === 401 || resendResponse.status === 403
+      ? 'Email delivery is not configured. Please ask the site administrator to add a Resend API key in Vercel.'
+      : 'We could not send your enquiry. Please email caro@wigexporter.com or contact us on WhatsApp.';
+    return response.status(502).json({ ok: false, error: userMessage, providerMessage });
   }
 
   return response.status(200).json({ ok: true });

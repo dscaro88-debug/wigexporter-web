@@ -338,7 +338,7 @@ const html = `<!doctype html>
   <script type="application/ld+json">${json(serviceSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
   <script src="colour-packaging.js?v=20260720-1"></script>
-  <script src="script.js?v=20260726-2"></script>
+  <script src="script.js?v=20260726-7"></script>
 </body>
 </html>`;
 

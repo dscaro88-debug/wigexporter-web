@@ -133,7 +133,8 @@ document.querySelectorAll('[data-inquiry-form]').forEach(form=>{
       form.reset();
       if(note){note.textContent='Thank you. Your enquiry has been delivered to our sourcing team.';note.classList.add('form-success')}
     }catch(error){
-      if(note){note.innerHTML='We could not send the form. Please email <a href="mailto:caro@wigexporter.com">caro@wigexporter.com</a> or contact us on WhatsApp.';note.classList.remove('form-success')}
+      const message = error?.message || 'We could not send the form.';
+      if(note){note.innerHTML=`${message} <a href="mailto:caro@wigexporter.com">Email caro@wigexporter.com</a> or contact us on WhatsApp.`;note.classList.remove('form-success')}
     }finally{
       if(button)button.disabled=false;
     }
