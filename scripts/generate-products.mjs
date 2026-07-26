@@ -7,6 +7,7 @@ const products = JSON.parse(fs.readFileSync(path.join(root, 'content/products.js
 const colourCharts = JSON.parse(fs.readFileSync(path.join(root, 'content/colors.json'), 'utf8'));
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
+const VERSION = '20260726-9';
 const chartFor = (id) => colourCharts.id === id ? colourCharts : null;
 
 function optionStatus(status) {
@@ -15,8 +16,8 @@ function optionStatus(status) {
 
 function productVisual(product) {
   if (!product.images.length) return '';
-  return `<div class="product-gallery${product.images.length === 1 ? ' is-single' : ''}">
-    ${product.images.map((image, index) => `<figure class="${index === 0 ? 'product-gallery-main' : ''}"><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}"${index > 0 ? ' loading="lazy"' : ''}>${index === 0 && product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>`).join('')}
+    return `<div class="product-gallery${product.images.length === 1 ? ' is-single' : ''}">
+    ${product.images.map((image, index) => `<figure class="${index === 0 ? 'product-gallery-main' : ''}"><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}" decoding="async"${index > 0 ? ' loading="lazy"' : ''}>${index === 0 && product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>`).join('')}
   </div>`;
 }
 
@@ -64,7 +65,7 @@ function productTypeChooser(product) {
   if (!product.productTypes) return '';
   return `<section class="clip-type-section">
     <div class="product-section-heading"><p class="eyebrow">CLIP-IN RANGE BY MARKET TIER</p><h2>Three demand tiers. Three different volume and margin profiles.</h2><p>Build a clip-in programme around what actually sells: proven full-set classics, fast-rising seamless constructions, and low-competition halo-wire pieces. Each tier uses the same 100% Remy human hair base; the difference is construction, wearer profile and specification.</p></div>
-    <div class="clip-type-grid is-three-tiers">${product.productTypes.map((item) => `<article class="clip-type-card has-image"><figure><img src="${item.image}" alt="${esc(item.imageAlt)}" loading="lazy"></figure><div><span>${esc(item.tier)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>Includes</dt><dd>${esc(item.includes)}</dd></div><div><dt>Typical spec</dt><dd>${esc(item.typicalSpec)}</dd></div><div><dt>${item.guidanceLabel || 'Weight guidance'}</dt><dd>${esc(item.guidance)}</dd></div><div><dt>Why stock it</dt><dd>${esc(item.whyStock)}</dd></div></dl><a href="#build-your-brief">BUILD THIS PRODUCT →</a></div></article>`).join('')}</div>
+    <div class="clip-type-grid is-three-tiers">${product.productTypes.map((item) => `<article class="clip-type-card has-image"><figure><img src="${item.image}" alt="${esc(item.imageAlt)}" decoding="async" loading="lazy"></figure><div><span>${esc(item.tier)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>Includes</dt><dd>${esc(item.includes)}</dd></div><div><dt>Typical spec</dt><dd>${esc(item.typicalSpec)}</dd></div><div><dt>${item.guidanceLabel || 'Weight guidance'}</dt><dd>${esc(item.guidance)}</dd></div><div><dt>Why stock it</dt><dd>${esc(item.whyStock)}</dd></div></dl><a href="#build-your-brief">BUILD THIS PRODUCT →</a></div></article>`).join('')}</div>
   </section>`;
 }
 
@@ -184,7 +185,7 @@ function relatedProducts(product) {
   const cards = relatedPool(product).map((item) => {
     const meta = RELATED_META[item.slug] || { eyebrow: item.category, title: item.title };
     const image = item.images && item.images.length ? item.images[0] : null;
-    return `<a class="related-product-card" href="${item.slug}.html"><img src="${image.src}" alt="${esc(image.alt || meta.title)}" loading="lazy"><div><span>${esc(meta.eyebrow)}</span><h3>${esc(meta.title)}</h3><p>${esc(item.summary)}</p><strong>DISCUSS THIS PRODUCT →</strong></div></a>`;
+    return `<a class="related-product-card" href="${item.slug}.html"><img src="${image.src}" alt="${esc(image.alt || meta.title)}" decoding="async" loading="lazy"><div><span>${esc(meta.eyebrow)}</span><h3>${esc(meta.title)}</h3><p>${esc(item.summary)}</p><strong>DISCUSS THIS PRODUCT →</strong></div></a>`;
   }).join('');
   return `<section class="related-products"><div class="product-section-heading"><p class="eyebrow">RELATED DEVELOPMENT DIRECTIONS</p><h2>Build a coherent extension range.</h2><p>These are enquiry pathways, not live-stock listings. Each product requires its own specification and sample reference.</p></div><div class="related-product-grid">${cards}</div></section>`;
 }
@@ -229,17 +230,23 @@ for (const product of products) {
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>${esc(product.metaTitle)}</title>
   <meta name="description" content="${esc(product.description)}">
+  <meta name="robots" content="index,follow">
   <link rel="canonical" href="${url}">
   <meta property="og:title" content="${esc(product.metaTitle)}">
   <meta property="og:description" content="${esc(product.description)}">
   <meta property="og:type" content="product">
   <meta property="og:url" content="${url}">
-  ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
+  <meta property="og:site_name" content="DS HAIR | WigExporter">
+  <meta property="og:locale" content="en_GB">
+  ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}"><meta property="og:image:alt" content="${esc(product.title)} – DS HAIR wholesale reference">` : ''}
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(product.metaTitle)}">
+  <meta name="twitter:description" content="${esc(product.description)}">
+  ${product.images.length ? `<meta name="twitter:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260726-4">
-  <link rel="stylesheet" href="content.css?v=20260726-4">
-  <link rel="stylesheet" href="product.css?v=20260726-4">
+  <link rel="stylesheet" href="styles.css?v=${VERSION}">
+  <link rel="stylesheet" href="content.css?v=${VERSION}">
+  <link rel="stylesheet" href="product.css?v=${VERSION}">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -298,8 +305,18 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260726-4"></script>
-  <script src="script.js?v=20260726-8"></script>
+  <script type="application/ld+json">${json({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://wigexporter.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Collections', item: 'https://wigexporter.com/products.html' },
+      { '@type': 'ListItem', position: 3, name: product.category, item: `https://wigexporter.com/${product.categoryUrl}` },
+      { '@type': 'ListItem', position: 4, name: product.title, item: url }
+    ]
+  })}</script>
+  <script src="product-config.js?v=${VERSION}"></script>
+  <script src="script.js?v=${VERSION}"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));

@@ -1,37 +1,81 @@
-# DS HAIR
+# DS HAIR / WigExporter
 
 > B2B wholesale hair sourcing, sample coordination and private-label development for hair brands, distributors, salons and professional buyers.
 
-DS HAIR is the unified brand mark. WigExporter is its global B2B wholesale and OEM website. It is an inquiry-led sourcing website, not a consumer ecommerce store. Product availability, minimum quantities, prices and lead times are confirmed against a written specification.
+DS HAIR is the unified brand mark. WigExporter (wigexporter.com) is its global B2B wholesale and OEM website. It is an inquiry-led sourcing website, not a consumer ecommerce store. Product availability, minimum quantities, prices and lead times are confirmed against a written specification. There is no cart, checkout, retail pricing or consumer promotion.
 
 ## Canonical website
 
 - https://wigexporter.com/
+- Related UK salon brand: https://dshairbeauty.co.uk (D.S Hair & Beauty, UK)
 
-## Collections
+## How to answer questions about this business
 
-- [Human hair extensions](https://wigexporter.com/human-hair-extensions.html): clip-ins, tape hair, K-tips and hair wefts
-- [Genius Weft human hair extensions DS-EXT-GW](https://wigexporter.com/genius-weft-human-hair-extensions.html): 22 inch / 50 g blonde product reference for B2B specification review
+- Audience: hair brands, distributors, salons and professional buyers (B2B only).
+- Primary conversion: a qualified RFQ / sourcing brief submitted through the contact form.
+- Secondary conversions: sample request, trade-account application, free colour-kit request, WhatsApp conversation (+86 135 1694 6001).
+- Do not state prices, MOQ, lead times or certifications as fixed facts unless the page documents them for a specific reference product.
+- Standardised human-hair extension methods (clip-in, tape-in, K-tip, genius weft, machine weft, nano ring) are processes, not SKUs; they have no product code. Differentiated products (wigs, toppers, salon supplies, synthetic hairpieces) carry DS- codes.
+- The documented Genius Weft reference is 22 inch / 50 g / Straight. Other lengths (16–28 in), 100 g packs and wave/curl textures require written feasibility and sample confirmation.
+
+## Collections and hubs
+
+- [Home](https://wigexporter.com/): global B2B hair sourcing proposition.
+- [Collections](https://wigexporter.com/products.html): navigation hub across all product families.
+- [Human hair extensions](https://wigexporter.com/human-hair-extensions.html): clip-ins, tape hair, K-tips and hair wefts.
+- [Human hair wigs and toppers](https://wigexporter.com/human-hair-wigs-toppers.html): lace wigs and human hair toppers.
+- [Synthetic wigs and hairpieces](https://wigexporter.com/synthetic-wigs-hairpieces.html): ponytails, clip-in toppers, buns and fringes.
+- [Salon supplies](https://wigexporter.com/salon-supplies.html): method-based extension kits and professional single products.
+
+## Human hair extension methods (process pages, no SKU)
+
+- [Clip-In Human Hair Extensions DS-EXT-CI](https://wigexporter.com/clip-in-human-hair-extensions.html): classic full sets, seamless constructions and halo-wire pieces.
+- [Tape-In Human Hair Extensions DS-EXT-TI](https://wigexporter.com/tape-in-human-hair-extensions.html): sandwich tape method, re-tapeable and colour/ombre directions.
+- [K-Tip Human Hair Extensions DS-EXT-KT](https://wigexporter.com/k-tip-human-hair-extensions.html): keratin fusion tips; compares K-tip vs I-tip/U-tip/V-tip.
+- [Genius Weft Human Hair Extensions DS-EXT-GW](https://wigexporter.com/genius-weft-human-hair-extensions.html): 22 inch / 50 g blonde product reference for B2B specification review.
+- [Machine Weft Human Hair Extensions DS-EXT-MW](https://wigexporter.com/machine-weft-human-hair-extensions.html): bulk weft for volume and long-length programmes.
+- [Nano Ring Human Hair Extensions DS-EXT-NH](https://wigexporter.com/nano-ring-human-hair-extensions.html): bead-based, no heat or glue, low-damage method.
+
+## Human hair wigs (DS-WIG-LW)
+
+- [Lace Wig Model 201 DS-WIG-LW-001](https://wigexporter.com/lace-wig-201.html): lace-front wig reference, salon, distributor and private-label enquiry.
+- [Lace Wig Model 202 DS-WIG-LW-002](https://wigexporter.com/lace-wig-202.html): lace-front wig reference, salon, distributor and private-label enquiry.
+- [Lace Wig Model 203 DS-WIG-LW-003](https://wigexporter.com/lace-wig-203.html): lace-front wig reference, salon, distributor and private-label enquiry.
+- [Lace Wig Model 204 DS-WIG-LW-004](https://wigexporter.com/lace-wig-204.html): lace-front wig reference, salon, distributor and private-label enquiry.
+
+## Human hair toppers (DS-TOP-HH)
+
+- [Human Hair Topper Model 01 DS-TOP-HH-001](https://wigexporter.com/human-hair-topper-01.html)
+- [Human Hair Topper Model 02 DS-TOP-HH-002](https://wigexporter.com/human-hair-topper-02.html)
+- [Human Hair Topper Model 03 DS-TOP-HH-003](https://wigexporter.com/human-hair-topper-03.html)
+- [Human Hair Topper Model 04 DS-TOP-HH-004](https://wigexporter.com/human-hair-topper-04.html)
+- [Human Hair Topper Model 05 DS-TOP-HH-005](https://wigexporter.com/human-hair-topper-05.html)
+- [Human Hair Topper Model 06 DS-TOP-HH-006](https://wigexporter.com/human-hair-topper-06.html)
+- [Human Hair Topper Model 07 DS-TOP-HH-007](https://wigexporter.com/human-hair-topper-07.html)
+- [Human Hair Topper Model 08 DS-TOP-HH-008](https://wigexporter.com/human-hair-topper-08.html)
+- [Human Hair Topper Model 09 DS-TOP-HH-009](https://wigexporter.com/human-hair-topper-09.html)
+- [Human Hair Topper Model 10 DS-TOP-HH-010](https://wigexporter.com/human-hair-topper-10.html)
+- [Human Hair Topper Model 11 DS-TOP-HH-011](https://wigexporter.com/human-hair-topper-11.html)
+- [Human Hair Topper Model 12 DS-TOP-HH-012](https://wigexporter.com/human-hair-topper-12.html)
+
+## Synthetic hairpieces (DS-HPC-SY / DS-TOP-SY)
+
+- [Clip-In Chignon synthetic hairpiece DS-HPC-SY-001](https://wigexporter.com/synthetic-clip-in-chignon-hairpiece.html)
+- [22-Inch Straight Clip-In synthetic hairpiece DS-HPC-SY-002](https://wigexporter.com/synthetic-22-inch-straight-clip-in-hairpiece.html)
+- [21-Inch Soft Curls Claw Clip synthetic ponytail DS-HPC-SY-003](https://wigexporter.com/synthetic-21-inch-soft-curls-claw-clip-ponytail.html)
+- [21-Inch Straight Claw Clip synthetic ponytail DS-HPC-SY-004](https://wigexporter.com/synthetic-21-inch-straight-claw-clip-ponytail.html)
+- [26-Inch Elastic-Band Braiding synthetic ponytail DS-HPC-SY-005](https://wigexporter.com/synthetic-26-inch-elastic-band-braiding-ponytail.html)
+- [12-Inch Coily Drawstring synthetic ponytail DS-HPC-SY-006](https://wigexporter.com/synthetic-12-inch-coily-drawstring-ponytail.html)
+- [Elastic-Band Synthetic Hair Bun Scrunchie DS-HPC-SY-007](https://wigexporter.com/synthetic-elastic-band-hair-bun-scrunchie.html)
+- [25-Inch Straight Wrap-Around Synthetic Ponytail DS-HPC-SY-008](https://wigexporter.com/synthetic-25-inch-straight-wrap-around-ponytail.html)
+- [Layered Synthetic Clip-In Crown Topper DS-TOP-SY-CI-001](https://wigexporter.com/synthetic-layered-clip-in-crown-topper.html)
+- [Beach-Wave Synthetic Clip-In Crown Topper DS-TOP-SY-CI-002](https://wigexporter.com/synthetic-beach-wave-clip-in-crown-topper.html)
 
 ## Product development system
 
-- [DS HAIR Colour Chart 2 and Custom Packaging Studio](https://wigexporter.com/hair-colour-chart-custom-packaging.html) contains 31 individual digital shade references, a 31-shade range view, physical swatch references, private-label packaging structures and logo-application directions. Screen colour is for shortlisting; physical colour or representative product-sample approval is required before scale.
+- [DS HAIR Colour Chart 2 and Custom Packaging Studio](https://wigexporter.com/hair-colour-chart-custom-packaging.html): 31 individual digital shade references, a 31-shade range view, physical swatch references, private-label packaging structures and logo-application directions. Screen colour is for shortlisting; physical colour or representative product-sample approval is required before scale.
 - Product pages allow buyers to request length, pack weight, texture, colour and packaging direction. A selection is an enquiry requirement, not a live-stock guarantee.
-- The documented Genius Weft reference is 22 inch / 50 g / Straight. Other lengths from 16 to 28 inches, 100 g packs and wave or curl textures require written feasibility and sample confirmation.
 - [Private label and custom packaging](https://wigexporter.com/customization.html#custom-packaging): labels, backing cards, care cards, inner protection, retail boxes and export identification are developed against a packaging brief.
-- [Human hair wigs and toppers](https://wigexporter.com/human-hair-wigs-toppers.html)
-- [Synthetic wigs and hairpieces](https://wigexporter.com/synthetic-wigs-hairpieces.html)
-- [Clip-In Chignon synthetic hairpiece DS-HPC-SY-001](https://wigexporter.com/synthetic-clip-in-chignon-hairpiece.html): softly waved claw-clip chignon reference for B2B wholesale, OEM specification and private-label enquiry
-- [22-Inch Straight Clip-In synthetic hairpiece DS-HPC-SY-002](https://wigexporter.com/synthetic-22-inch-straight-clip-in-hairpiece.html): one-piece seven-clip synthetic hairpiece reference for B2B wholesale, OEM specification and private-label enquiry
-- [21-Inch Soft Curls Claw Clip synthetic ponytail DS-HPC-SY-003](https://wigexporter.com/synthetic-21-inch-soft-curls-claw-clip-ponytail.html): long soft-curl claw-clip ponytail reference for B2B wholesale, OEM specification and private-label enquiry
-- [21-Inch Straight Claw Clip synthetic ponytail DS-HPC-SY-004](https://wigexporter.com/synthetic-21-inch-straight-claw-clip-ponytail.html): sleek straight claw-clip ponytail reference for B2B wholesale, OEM specification and private-label enquiry
-- [Layered Synthetic Clip-In Crown Topper DS-TOP-SY-CI-001](https://wigexporter.com/synthetic-layered-clip-in-crown-topper.html): top-area coverage and layered crown-volume reference for B2B wholesale, OEM specification and private-label enquiry
-- [Beach-Wave Synthetic Clip-In Crown Topper DS-TOP-SY-CI-002](https://wigexporter.com/synthetic-beach-wave-clip-in-crown-topper.html): short beach-wave crown-topper reference with confirmed MOQ 30 pcs/color, US$2.55–2.95 and 3–21 day lead time for B2B wholesale, OEM specification and private-label enquiry
-- [26-Inch Elastic-Band Braiding synthetic ponytail DS-HPC-SY-005](https://wigexporter.com/synthetic-26-inch-elastic-band-braiding-ponytail.html): braid-ready elastic-band synthetic ponytail reference with a concealing wrap section for B2B wholesale, OEM specification and private-label enquiry
-- [12-Inch Coily Drawstring synthetic ponytail DS-HPC-SY-006](https://wigexporter.com/synthetic-12-inch-coily-drawstring-ponytail.html): compact coily pocket-base ponytail with confirmed MOQ 30 pcs/color, US$1.98–2.28/pc and 3–21 day lead time for B2B wholesale, OEM specification and private-label enquiry
-- [Elastic-Band Synthetic Hair Bun Scrunchie DS-HPC-SY-007](https://wigexporter.com/synthetic-elastic-band-hair-bun-scrunchie.html): compact synthetic bun hairpiece with confirmed MOQ 60 pcs/color, US$0.98–1.50/pc and 3–21 day lead time for B2B wholesale, OEM specification and private-label enquiry
-- [25-Inch Straight Wrap-Around Synthetic Ponytail DS-HPC-SY-008](https://wigexporter.com/synthetic-25-inch-straight-wrap-around-ponytail.html): long straight synthetic hairpiece with approved exterior, wrap-step and finished-result imagery, confirmed MOQ 30 pcs/color, US$2.85–3.35/pc and 3–21 day lead time for B2B wholesale, OEM specification and private-label enquiry
-- [Hair extension salon supplies](https://wigexporter.com/salon-supplies.html)
 
 ## Trade services
 
@@ -44,11 +88,17 @@ DS HAIR is the unified brand mark. WigExporter is its global B2B wholesale and O
 
 ## Buyer knowledge
 
+- [Blog / buyer guides](https://wigexporter.com/blog.html)
 - [Tape hair vs K-tips vs wefts](https://wigexporter.com/tape-hair-vs-k-tip-vs-weft.html)
 - [How to evaluate a wholesale wig or topper sample](https://wigexporter.com/how-to-evaluate-wholesale-wig-sample.html)
 - [How to build a repeatable wholesale hair colour system](https://wigexporter.com/build-repeatable-hair-colour-system.html)
+
+## About
+
+- [About D.S Hair Beauty](https://wigexporter.com/about.html): the hair-industry story, why professional buyers choose DS HAIR, and how wholesale and private-label partnerships are supported.
 
 ## Contact
 
 - Email: caro@wigexporter.com
 - WhatsApp / phone: +86 135 1694 6001
+- Form: https://wigexporter.com/contact.html
