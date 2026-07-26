@@ -535,10 +535,10 @@
 }
 
 .packaging-card > img {
-  aspect-ratio: 4 / 5;
+  display: block;
+  width: 100%;
   padding: 8px;
   object-fit: contain;
-  box-sizing: border-box;
   background: #f5f3ef;
 }
 
@@ -568,7 +568,7 @@
 
 .packaging-card-copy {
   display: block;
-  min-height: 202px;
+  min-height: 140px;
   padding: 22px 20px 25px;
 }
 

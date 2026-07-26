@@ -220,9 +220,9 @@ const html = `<!doctype html>
   <meta property="og:image" content="https://wigexporter.com/assets/packaging-studio/extension-backing-card-concept.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260726-4">
-  <link rel="stylesheet" href="content.css?v=20260726-4">
-  <link rel="stylesheet" href="colour-packaging.css?v=20260726-4">
+  <link rel="stylesheet" href="styles.css?v=20260726-5">
+  <link rel="stylesheet" href="content.css?v=20260726-5">
+  <link rel="stylesheet" href="colour-packaging.css?v=20260726-5">
 </head>
 <body class="studio-page">
   <a class="skip-link" href="#main">Skip to content</a>
