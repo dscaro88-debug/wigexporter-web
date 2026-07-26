@@ -95,7 +95,7 @@ if(path==='contact.html'){
     const formProduct=product||'';
     const formService=project==='Colour and Packaging Studio'?'Colour & Packaging Studio':'';
     if(select&&formProduct){
-      const matching=[...select.options].find(option=>option.textContent.toLowerCase()===formProduct.toLowerCase());
+      const matching=[...select.options].find(option=>option.value.toLowerCase()===formProduct.toLowerCase() || option.textContent.toLowerCase()===formProduct.toLowerCase());
       if(matching)select.value=matching.value;
       else{const option=new Option(formProduct,formProduct,true,true);select.add(option);}
     }

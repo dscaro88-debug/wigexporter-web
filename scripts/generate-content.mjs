@@ -133,7 +133,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260726-7"></script>
+  <script src="script.js?v=20260726-8"></script>
 </body>
 </html>`;
 }
