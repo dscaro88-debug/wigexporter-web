@@ -542,6 +542,7 @@
 .packaging-card > img {
   display: block;
   width: 100%;
+  height: auto;
   padding: 8px;
   object-fit: contain;
   background: #f5f3ef;

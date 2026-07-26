@@ -189,7 +189,7 @@ const packagingCards = packagingOptions
     (option) => `<button class="packaging-card" type="button" data-choice-group="packaging" data-choice-value="${esc(option.value)}" aria-pressed="false">
       <span class="concept-badge">ORIGINAL CONCEPT PREVIEW</span>
       <span class="choice-marker" aria-hidden="true">SELECTED</span>
-      <img src="${esc(option.image)}" alt="${esc(option.alt)}" loading="lazy" width="1120" height="1400">
+      <img src="${esc(option.image)}" alt="${esc(option.alt)}" loading="lazy">
       <span class="packaging-card-copy"><small>${esc(option.note)}</small><strong>${esc(option.title)}</strong><span>${esc(option.summary)}</span></span>
     </button>`
   )
@@ -220,9 +220,9 @@ const html = `<!doctype html>
   <meta property="og:image" content="https://wigexporter.com/assets/packaging-studio/extension-backing-card-concept.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260726-5">
-  <link rel="stylesheet" href="content.css?v=20260726-5">
-  <link rel="stylesheet" href="colour-packaging.css?v=20260726-5">
+  <link rel="stylesheet" href="styles.css?v=20260726-6">
+  <link rel="stylesheet" href="content.css?v=20260726-6">
+  <link rel="stylesheet" href="colour-packaging.css?v=20260726-6">
 </head>
 <body class="studio-page">
   <a class="skip-link" href="#main">Skip to content</a>
