@@ -149,8 +149,8 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "notes": "Old form contains copied or unverified claims; only the observable lace construction and approved images may be used until verification.",
+      "publicationStatus": "draft_ready",
+      "notes": "Old form contains copied or unverified claims; only the observable lace construction and approved images may be used until verification. Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation.",
       "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-001/ds-wig-lw-001-02.jpg"
     },
     {
@@ -164,8 +164,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-002/ds-wig-lw-002-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-002/ds-wig-lw-002-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-WIG-LW-003",
@@ -178,8 +179,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-003/ds-wig-lw-003-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-003/ds-wig-lw-003-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-WIG-LW-004",
@@ -192,8 +194,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-004/ds-wig-lw-004-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-004/ds-wig-lw-004-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-001",
@@ -206,8 +209,9 @@
       "approvedImageCount": 5,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-001/ds-top-hh-001-04.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-001/ds-top-hh-001-04.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-002",
@@ -220,8 +224,8 @@
       "approvedImageCount": 5,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "notes": "Source form contains a 7x8 versus 5x3 base-size conflict.",
+      "publicationStatus": "draft_ready",
+      "notes": "Source form contains a 7x8 versus 5x3 base-size conflict. Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation.",
       "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-002/ds-top-hh-002-02.jpg"
     },
     {
@@ -235,8 +239,9 @@
       "approvedImageCount": 5,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-003/ds-top-hh-003-03.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-003/ds-top-hh-003-03.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-004",
@@ -249,8 +254,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-004/ds-top-hh-004-03.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-004/ds-top-hh-004-03.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-005",
@@ -263,8 +269,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-005/ds-top-hh-005-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-005/ds-top-hh-005-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-006",
@@ -277,8 +284,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-006/ds-top-hh-006-03.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-006/ds-top-hh-006-03.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-007",
@@ -291,8 +299,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-007/ds-top-hh-007-03.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-007/ds-top-hh-007-03.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-008",
@@ -305,8 +314,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-008/ds-top-hh-008-03.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-008/ds-top-hh-008-03.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-009",
@@ -319,8 +329,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-009/ds-top-hh-009-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-009/ds-top-hh-009-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-010",
@@ -333,8 +344,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-010/ds-top-hh-010-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-010/ds-top-hh-010-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-011",
@@ -347,8 +359,9 @@
       "approvedImageCount": 6,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-011/ds-top-hh-011-03.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-011/ds-top-hh-011-03.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-TOP-HH-012",
@@ -361,8 +374,9 @@
       "approvedImageCount": 4,
       "imageStatus": "approved_set",
       "specificationStatus": "specification_unverified",
-      "publicationStatus": "hold",
-      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-012/ds-top-hh-012-02.jpg"
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-012/ds-top-hh-012-02.jpg",
+      "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
       "code": "DS-PON-001",

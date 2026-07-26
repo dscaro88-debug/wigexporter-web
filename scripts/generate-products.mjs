@@ -74,6 +74,7 @@ function setMapSection(product) {
 }
 
 function configurationBuilder(product) {
+  if (!product.configuration || !product.configuration.length) return '';
   const chart = chartFor(product.colourChart);
   const productIdentity = product.code || product.title;
   return `<section class="spec-builder" id="build-your-brief" data-spec-builder data-product-code="${esc(productIdentity)}">
@@ -100,6 +101,7 @@ function configurationBuilder(product) {
 
 function comparisonTable(product) {
   const comparison = product.methodComparison;
+  if (!comparison) return '';
   return `<section class="method-comparison"><div class="product-section-heading"><p class="eyebrow">${esc(comparison.eyebrow || 'SIMILAR PRODUCT COMPARISON')}</p><h2>${esc(comparison.title || 'Choose the method by the buying decision.')}</h2><p>${esc(comparison.intro || comparison.notice)}</p></div><p class="comparison-scroll-hint">Scroll horizontally to compare methods →</p><div class="comparison-scroll" role="region" aria-label="Hair extension method comparison" tabindex="0"><table><thead><tr><th scope="col">Buyer question</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="comparison-notice">${esc(comparison.notice)}</p></section>`;
 }
 
@@ -121,10 +123,12 @@ function constructionComparison(product) {
 }
 
 function serviceComparison(product) {
+  if (!product.serviceComparison || !product.serviceComparison.length) return '';
   return `<section class="service-comparison"><div><p class="eyebrow">THE DS HAIR DIFFERENCE</p><h2>A structured sourcing process, not an unsupported quality claim.</h2><p>We compare the way a project is managed—not make unverified statements about another supplier’s hair.</p></div><div class="service-comparison-table"><div class="service-comparison-head"><strong>Decision point</strong><strong>DS HAIR structured workflow</strong><strong>Unstructured sourcing risk</strong></div>${product.serviceComparison.map(([label, ours, risk]) => `<div><strong>${esc(label)}</strong><span>${esc(ours)}</span><span>${esc(risk)}</span></div>`).join('')}</div></section>`;
 }
 
 function knowledgeSection(product) {
+  if (!product.knowledge || !product.knowledge.length) return '';
   const count = product.knowledge.length;
   const gridClass = count <= 5 ? `is-count-${count}` : count === 6 ? 'is-count-6' : 'is-count-many';
   return `<section class="product-knowledge"><div class="product-section-heading"><p class="eyebrow">PROFESSIONAL PRODUCT KNOWLEDGE</p><h2>Use the page to make a better buying decision.</h2><p>Practical guidance for salons, distributors and private-label teams. Product-specific claims still require sample approval.</p></div><div class="knowledge-grid ${gridClass}">${product.knowledge.map((item, index) => `<article><span>0${index + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
@@ -148,6 +152,22 @@ const RELATED_META = {
   'synthetic-elastic-band-hair-bun-scrunchie': { eyebrow: 'SYNTHETIC HAIRPIECE', title: 'Elastic-Band Hair Bun' },
   'synthetic-layered-clip-in-crown-topper': { eyebrow: 'SYNTHETIC TOPPER', title: 'Layered Clip-In Crown Topper' },
   'synthetic-beach-wave-clip-in-crown-topper': { eyebrow: 'SYNTHETIC TOPPER', title: 'Beach-Wave Clip-In Crown Topper' },
+  'lace-wig-201': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 201' },
+  'lace-wig-202': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 202' },
+  'lace-wig-203': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 203' },
+  'lace-wig-204': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 204' },
+  'human-hair-topper-01': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 01' },
+  'human-hair-topper-02': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 02' },
+  'human-hair-topper-03': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 03' },
+  'human-hair-topper-04': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 04' },
+  'human-hair-topper-05': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 05' },
+  'human-hair-topper-06': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 06' },
+  'human-hair-topper-07': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 07' },
+  'human-hair-topper-08': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 08' },
+  'human-hair-topper-09': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 09' },
+  'human-hair-topper-10': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 10' },
+  'human-hair-topper-11': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 11' },
+  'human-hair-topper-12': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 12' },
 };
 
 function relatedPool(product) {
@@ -217,9 +237,9 @@ for (const product of products) {
   ${product.images.length ? `<meta property="og:image" content="https://wigexporter.com/${product.images[0].src}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260726-2">
-  <link rel="stylesheet" href="content.css?v=20260726-2">
-  <link rel="stylesheet" href="product.css?v=20260726-2">
+  <link rel="stylesheet" href="styles.css?v=20260726-3">
+  <link rel="stylesheet" href="content.css?v=20260726-3">
+  <link rel="stylesheet" href="product.css?v=20260726-3">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -278,8 +298,8 @@ for (const product of products) {
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="product-config.js?v=20260726-2"></script>
-  <script src="script.js?v=20260726-2"></script>
+  <script src="product-config.js?v=20260726-3"></script>
+  <script src="script.js?v=20260726-3"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));

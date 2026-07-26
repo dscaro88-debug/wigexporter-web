@@ -63,7 +63,23 @@ function catalogProductCard(product) {
     'DS-HPC-SY-007': 'synthetic-elastic-band-hair-bun-scrunchie.html',
     'DS-HPC-SY-008': 'synthetic-25-inch-straight-wrap-around-ponytail.html',
     'DS-TOP-SY-CI-001': 'synthetic-layered-clip-in-crown-topper.html',
-    'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html'
+    'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html',
+    'DS-WIG-LW-001': 'lace-wig-201.html',
+    'DS-WIG-LW-002': 'lace-wig-202.html',
+    'DS-WIG-LW-003': 'lace-wig-203.html',
+    'DS-WIG-LW-004': 'lace-wig-204.html',
+    'DS-TOP-HH-001': 'human-hair-topper-01.html',
+    'DS-TOP-HH-002': 'human-hair-topper-02.html',
+    'DS-TOP-HH-003': 'human-hair-topper-03.html',
+    'DS-TOP-HH-004': 'human-hair-topper-04.html',
+    'DS-TOP-HH-005': 'human-hair-topper-05.html',
+    'DS-TOP-HH-006': 'human-hair-topper-06.html',
+    'DS-TOP-HH-007': 'human-hair-topper-07.html',
+    'DS-TOP-HH-008': 'human-hair-topper-08.html',
+    'DS-TOP-HH-009': 'human-hair-topper-09.html',
+    'DS-TOP-HH-010': 'human-hair-topper-10.html',
+    'DS-TOP-HH-011': 'human-hair-topper-11.html',
+    'DS-TOP-HH-012': 'human-hair-topper-12.html'
   };
   const productPage = productPages[product.code] || `contact.html?product=${encodeURIComponent(product.code)}`;
   const action = productPages[product.code] ? 'VIEW PRODUCT REFERENCE' : 'REQUEST VERIFIED SPECIFICATION';
@@ -104,8 +120,8 @@ function head({ title, description, slug, type = 'website', image }) {
   <meta property="og:image" content="https://wigexporter.com/${image}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260726-2">
-  <link rel="stylesheet" href="content.css?v=20260726-2">
+  <link rel="stylesheet" href="styles.css?v=20260726-3">
+  <link rel="stylesheet" href="content.css?v=20260726-3">
 </head>`;
 }
 
@@ -117,7 +133,7 @@ function shell(main, schemas = []) {
   ${main}
   <footer class="site-footer"></footer>
   ${schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join('\n  ')}
-  <script src="script.js?v=20260726-2"></script>
+  <script src="script.js?v=20260726-3"></script>
 </body>
 </html>`;
 }
