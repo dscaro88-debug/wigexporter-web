@@ -279,7 +279,7 @@ for (const product of products) {
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
   <script src="product-config.js?v=20260725-16"></script>
-  <script src="script.js?v=20260725-16"></script>
+  <script src="script.js?v=20260726-1"></script>
 </body>
 </html>`;
   fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
