@@ -80,7 +80,8 @@ function catalogProductCard(product) {
     'DS-TOP-HH-009': 'human-hair-topper-09.html',
     'DS-TOP-HH-010': 'human-hair-topper-10.html',
     'DS-TOP-HH-011': 'human-hair-topper-11.html',
-    'DS-TOP-HH-012': 'human-hair-topper-12.html'
+    'DS-TOP-HH-012': 'human-hair-topper-12.html',
+    'DS-TOP-HH-013': 'human-hair-topper-13.html'
   };
   const productPage = productPages[product.code] || `contact.html?product=${encodeURIComponent(product.code)}`;
   const action = productPages[product.code] ? 'VIEW PRODUCT REFERENCE' : 'REQUEST VERIFIED SPECIFICATION';
