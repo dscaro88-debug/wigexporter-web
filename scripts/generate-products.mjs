@@ -7,7 +7,7 @@ const products = JSON.parse(fs.readFileSync(path.join(root, 'content/products.js
 const colourCharts = JSON.parse(fs.readFileSync(path.join(root, 'content/colors.json'), 'utf8'));
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
-const VERSION = '20260726-9';
+const VERSION = '20260731-1';
 const chartFor = (id) => colourCharts.id === id ? colourCharts : null;
 
 function optionStatus(status) {
