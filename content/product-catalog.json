@@ -379,6 +379,21 @@
       "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
+      "code": "DS-TOP-HH-013",
+      "legacyCode": "TOP-13",
+      "name": "Human Hair Topper Model 13",
+      "section": "Human Hair",
+      "group": "Human Hair Wigs & Toppers",
+      "category": "Human Hair Toppers",
+      "assetFolder": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-013",
+      "approvedImageCount": 8,
+      "imageStatus": "approved_set",
+      "specificationStatus": "specification_unverified",
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/human-hair-toppers/ds-top-hh-013/ds-top-hh-013-01.jpg",
+      "notes": "Individual product page generated from approved local imagery; 12x13cm full silk base, straight bangs, 5 clips per third-party retail reference; written DS HAIR specification to be confirmed before quotation."
+    },
+    {
       "code": "DS-PON-001",
       "legacyCode": "DSP-01",
       "name": "Ponytail Model 01",
