@@ -65,6 +65,7 @@ function catalogProductCard(product) {
     'DS-HPC-SY-008': 'synthetic-25-inch-straight-wrap-around-ponytail.html',
     'DS-TOP-SY-CI-001': 'synthetic-layered-clip-in-crown-topper.html',
     'DS-TOP-SY-CI-002': 'synthetic-beach-wave-clip-in-crown-topper.html',
+    'DS-B-001': 'synthetic-clip-in-bangs-fringe.html',
     'DS-WIG-LW-001': 'lace-wig-201.html',
     'DS-WIG-LW-002': 'lace-wig-202.html',
     'DS-WIG-LW-003': 'lace-wig-203.html',

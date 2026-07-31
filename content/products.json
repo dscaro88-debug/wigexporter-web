@@ -8173,5 +8173,352 @@
     ],
     "ctaTitle": "Request the Human Hair Topper Model 13 specification and sample.",
     "ctaText": "Include your target market, preferred colour, length, cap/base requirements and estimated quantity so the DS HAIR team can respond with the right next step for DS-TOP-HH-013."
+  },
+  {
+    "slug": "synthetic-clip-in-bangs-fringe",
+    "code": "DS-B-001",
+    "brand": "DS HAIR",
+    "category": "Synthetic Wigs & Hairpieces",
+    "categoryUrl": "synthetic-wigs-hairpieces.html#bangs-fringes",
+    "title": "Clip-In Bangs / Fringe Hairpiece",
+    "metaTitle": "Wholesale Clip-In Bangs Fringe Hairpiece | DS HAIR",
+    "description": "Source a wholesale clip-in bangs / fringe hairpiece in heat-resistant synthetic fibre with a secure clip design, side pieces and private-label support for salons, distributors and wig brands.",
+    "summary": "An instant fringe reference for professional buyers developing no-cut bangs ranges. The source reference documents a clip-in fringe hairpiece in heat-resistant synthetic fibre with a secure clip design and natural side pieces. DS HAIR production fibre, fringe length, clip specification, colours, tolerances and commercial terms remain subject to sample approval and written specification.",
+    "imageStatusNote": "All images are buyer-confirmed product and model references; the face is shown only to demonstrate the fringe placement and blend.",
+    "images": [
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-01.jpg",
+        "alt": "Clip-in bangs fringe hairpiece shown on a model demonstrating the natural fringe placement"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-02.jpg",
+        "alt": "Side view of the clip-in bangs fringe hairpiece blending with natural hair"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-03.jpg",
+        "alt": "Clip-in fringe hairpiece detail showing the fringe shape and side pieces"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-04.jpg",
+        "alt": "Model wearing the synthetic clip-in bangs for a soft fringe look"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-05.jpg",
+        "alt": "Clip-in bangs fringe hairpiece styled with loose hair"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-06.jpg",
+        "alt": "Back view of the clip-in fringe attachment and base"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-07.jpg",
+        "alt": "Clip-in bangs hairpiece worn with a centre-parted style"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-08.jpg",
+        "alt": "Close-up of the fringe edge and synthetic fibre texture"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-09.jpg",
+        "alt": "Model demonstrating the instant fringe without cutting real hair"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-10.jpg",
+        "alt": "Clip-in bangs fringe hairpiece showing side pieces and blend"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-11.jpg",
+        "alt": "Styling option for the synthetic clip-in bangs hairpiece"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-12.jpg",
+        "alt": "Clip-in fringe hairpiece worn with an updo"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-13.jpg",
+        "alt": "Model view of the clip-in bangs with soft side sweep"
+      },
+      {
+        "src": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-14.jpg",
+        "alt": "Full look of the synthetic clip-in bangs fringe hairpiece"
+      }
+    ],
+    "confirmedFacts": [
+      [
+        "Product format",
+        "Clip-in bangs / fringe hairpiece reference"
+      ],
+      [
+        "Fibre family",
+        "Heat-resistant synthetic fibre reference"
+      ],
+      [
+        "Attachment",
+        "Secure clip design"
+      ],
+      [
+        "Style",
+        "Natural fringe with side pieces"
+      ],
+      [
+        "Sales channel",
+        "B2B wholesale / OEM enquiry"
+      ]
+    ],
+    "configuration": [
+      {
+        "key": "fringeLength",
+        "label": "Fringe length direction",
+        "options": [
+          {
+            "value": "Reference fringe length",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined",
+            "status": "request"
+          }
+        ],
+        "note": "The source reference presents a short fringe proportion. Confirm the exact fringe length, shape and side-piece width on the approved DS HAIR sample."
+      },
+      {
+        "key": "fibre",
+        "label": "Fibre direction",
+        "options": [
+          {
+            "value": "Heat-resistant synthetic (reference)",
+            "status": "reference"
+          },
+          {
+            "value": "Buyer-defined fibre",
+            "status": "request"
+          }
+        ],
+        "note": "Heat-friendly fibre requires a tested care protocol. Final fibre family and heat ceiling must be validated on the production sample."
+      },
+      {
+        "key": "attachment",
+        "label": "Attachment direction",
+        "options": [
+          {
+            "value": "Secure clip design",
+            "status": "reference"
+          },
+          {
+            "value": "Custom clip layout",
+            "status": "request"
+          }
+        ],
+        "note": "Confirm clip count, size, coating, opening force and placement so the fringe stays secure without lifting at the temples."
+      },
+      {
+        "key": "packaging",
+        "label": "Packaging direction",
+        "options": [
+          {
+            "value": "DS HAIR reference",
+            "status": "reference"
+          },
+          {
+            "value": "Private label",
+            "status": "request"
+          },
+          {
+            "value": "Buyer-supplied artwork",
+            "status": "request"
+          }
+        ],
+        "note": "Backing card, storage support, barcode, care wording and retail carton can be reviewed with the order brief."
+      }
+    ],
+    "colourChart": "ds-hair-colour-chart-2",
+    "buyerChecks": [
+      [
+        "Fringe shape and blend",
+        "Check the fringe length, cut and side pieces against the target face shape and how it blends with the wearer's own hair."
+      ],
+      [
+        "Clip security and comfort",
+        "Test clip placement, opening force and temple lift during normal movement and with glasses or headwear."
+      ],
+      [
+        "Fibre and heat response",
+        "Approve shine, hand, tangling and a tested heat-care protocol on the actual production fibre."
+      ],
+      [
+        "Colour integration",
+        "Approve root, mid-length and end blending under neutral light using a physical shade reference."
+      ],
+      [
+        "Weight and wear",
+        "Review whether the finished piece feels light and comfortable for daily or event wear."
+      ]
+    ],
+    "customisation": [
+      [
+        "Fringe length and shape",
+        "Define fringe length, cut line, side-piece width and parting option against the intended wearer profile."
+      ],
+      [
+        "Fibre and heat protocol",
+        "Specify synthetic fibre family, finish, heat-care language and colour blend against an approved physical sample."
+      ],
+      [
+        "Clip map",
+        "Specify clip count, clip colour, placement and holding force for secure, comfortable wear."
+      ],
+      [
+        "Private-label packaging",
+        "Develop labels, backing cards, storage supports, care instructions, barcodes and retail-ready cartons after quantity review."
+      ]
+    ],
+    "relatedProducts": [
+      {
+        "eyebrow": "SYNTHETIC TOPPERS",
+        "title": "Clip-In Crown Topper Development",
+        "summary": "Add top-area coverage with a clip-in crown topper in synthetic fibre.",
+        "href": "synthetic-layered-clip-in-crown-topper.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/clip-in-toppers/ds-top-sy-ci-001/ds-top-sy-ci-001-01.jpg",
+        "imageAlt": "Synthetic clip-in crown topper reference"
+      },
+      {
+        "eyebrow": "SYNTHETIC HAIRPIECES",
+        "title": "Clip-In Hairpiece Development",
+        "summary": "Build instant length and volume with a one-piece clip-in hairpiece.",
+        "href": "synthetic-22-inch-straight-clip-in-hairpiece.html",
+        "image": "assets/products/synthetic-wigs-hairpieces/hairpieces/ds-hpc-sy-002/ds-hpc-sy-002-01.png",
+        "imageAlt": "Synthetic clip-in hairpiece reference"
+      },
+      {
+        "eyebrow": "FULL-HEAD PRODUCTS",
+        "title": "Synthetic Wig Development",
+        "summary": "Develop a synthetic wig brief around cap construction, style, fibre, colour and target channel.",
+        "href": "contact.html?product=synthetic-wig",
+        "image": "assets/wig-cap.jpg",
+        "imageAlt": "Synthetic wig development reference"
+      }
+    ],
+    "methodComparison": {
+      "columns": [
+        "Clip-In Bangs",
+        "Clip-In Topper",
+        "Crown Piece",
+        "Full Wig"
+      ],
+      "rows": [
+        [
+          "Primary coverage",
+          "Front hairline and fringe only",
+          "Top and crown coverage",
+          "Mid-scalp volume",
+          "Full head coverage"
+        ],
+        [
+          "Attachment",
+          "One or two secure clips at hairline",
+          "Perimeter clips on a base",
+          "Clips at the crown",
+          "Cap with combs / adjusters"
+        ],
+        [
+          "Key buyer check",
+          "Fringe shape and temple lift",
+          "Base visibility and scalp effect",
+          "Blend at the parting",
+          "Cap fit and hairline"
+        ],
+        [
+          "Sample focus",
+          "Cut, blend and clip hold",
+          "Coverage, parting and attachment",
+          "Volume and root blend",
+          "Construction, style and fibre"
+        ]
+      ],
+      "notice": "A fringe solves only the front hairline. Choose the format by the area that needs coverage, not by fibre appearance alone.",
+      "eyebrow": "FORMAT COMPARISON",
+      "title": "Choose the front-coverage format by need.",
+      "intro": "Clip-in bangs add a fringe without cutting hair, while toppers, crown pieces and wigs solve larger coverage areas."
+    },
+    "serviceComparison": [
+      [
+        "Starting point",
+        "Written wearer, style and channel brief",
+        "Reference photo only"
+      ],
+      [
+        "Construction",
+        "Fringe length, side pieces and clip map recorded",
+        "Bangs named without measurable details"
+      ],
+      [
+        "Fibre claim",
+        "Fibre family and tested care protocol approved",
+        "Heat-friendly claim copied without testing"
+      ],
+      [
+        "Colour approval",
+        "Physical reference and blend recorded",
+        "Screen colour treated as final"
+      ],
+      [
+        "Repeat order",
+        "Approved sample and QC points retained",
+        "Requirement rebuilt from messages"
+      ]
+    ],
+    "knowledge": [
+      {
+        "title": "What is a clip-in bangs hairpiece?",
+        "body": "It is a fringe section attached with one or more clips so the wearer can try bangs without cutting real hair. This source reference uses a secure clip design with natural side pieces."
+      },
+      {
+        "title": "What should buyers verify on the fringe?",
+        "body": "Check fringe length, cut line, side-piece width, parting option and how it blends with the wearer's own hairline and face shape."
+      },
+      {
+        "title": "How should the clip be approved?",
+        "body": "Record clip count, size, coating, opening force and placement, then test security and temple lift during normal movement."
+      },
+      {
+        "title": "Can heat-resistant synthetic fibre be styled?",
+        "body": "Only within the tested care protocol for the actual production fibre. The source reference describes heat-resistant synthetic fibre, but DS HAIR must validate its own sample before publishing a maximum styling temperature."
+      },
+      {
+        "title": "What supports reliable reorders?",
+        "body": "Retain an approved sample and written specification covering fibre, fringe length, clip map, colour, care wording, packaging and QC tolerances."
+      }
+    ],
+    "unconfirmed": [
+      "DS HAIR production fibre composition, heat test method and maximum styling temperature",
+      "Production fringe length, cut shape, side-piece width and parting option",
+      "Production clip count, dimensions and holding specification",
+      "Production shade range, rooted effects and blend availability",
+      "MOQ, sample cost, unit price, production lead time and packaging dimensions"
+    ],
+    "faqs": [
+      [
+        "Is this clip-in bangs available for wholesale and private label?",
+        "It is presented as a B2B development reference. Share the target market, quantity, colour direction, fibre requirement and packaging brief so feasibility and commercial terms can be confirmed."
+      ],
+      [
+        "What is the attachment on the reference product?",
+        "The source reference documents a secure clip design with natural side pieces. DS HAIR production clip count, size and holding performance require sample approval."
+      ],
+      [
+        "What material is the fringe made from?",
+        "The source reference describes heat-resistant synthetic fibre. The exact DS HAIR production fibre and a validated heat-care protocol require sample confirmation."
+      ],
+      [
+        "Can buyers request custom fringe length and colour?",
+        "Fringe length, shape, side-piece width and colour matching can be reviewed against physical references, artwork and quantity requirements. Available options and minimums require written confirmation."
+      ],
+      [
+        "Where do the listed specifications come from?",
+        "The clip-in format, heat-resistant synthetic fibre, secure clip design and natural side pieces are taken from a third-party retail reference (Etsy listing 4505020266) for visual and dimensional guidance only; the written DS HAIR specification must be confirmed before quotation."
+      ]
+    ],
+    "ctaTitle": "Develop a clip-in bangs range with a repeatable specification.",
+    "ctaText": "Send the target wearer, fringe length and shape, fibre requirement, clip map, colour direction, packaging brief and estimated quantity so DS HAIR can prepare the correct sample path."
   }
 ]

@@ -691,6 +691,21 @@
       "specificationStatus": "partially_verified_reference",
       "publicationStatus": "draft_ready",
       "notes": "The 25-inch length, long straight appearance, wrap-around ponytail direction and heat-friendly synthetic direction come from the official source page. The approved publishing set contains four original exterior/rear-view images plus three user-approved source-model images showing the short ponytail, wrap step and long finished result. MOQ 30 pcs/color, US$2.85–3.35/pc and 3–21 day lead time are confirmed for DS-HPC-SY-008. Production fibre, weight, base, hardware, colour set, heat protocol, packing and tolerances require sample and written confirmation."
+    },
+    {
+      "code": "DS-B-001",
+      "legacyCode": "B-001",
+      "name": "Clip-In Bangs / Fringe Hairpiece",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Bangs / Fringes",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001",
+      "approvedImageCount": 14,
+      "imageStatus": "approved_set",
+      "specificationStatus": "specification_unverified",
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/synthetic-wigs-hairpieces/bangs-fringes/ds-b-001/ds-b-001-01.jpg",
+      "notes": "Individual product page generated from approved local imagery; clip-in bangs in heat-resistant synthetic fibre with secure clip design and natural side pieces per third-party retail reference; written DS HAIR specification to be confirmed before quotation."
     }
   ]
 }
