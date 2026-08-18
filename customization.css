@@ -1,23 +1,23 @@
-.custom-hero{display:grid;grid-template-columns:1.35fr .65fr;min-height:690px;background:#ddd4c7}
+.custom-hero{max-width:var(--maxw);margin-inline:auto;display:grid;grid-template-columns:1.35fr .65fr;min-height:690px;background:#ddd4c7}
 .custom-hero>div{padding:8vw 6vw;align-self:center}
 .custom-hero h1{font:400 clamp(54px,6.3vw,92px)/.94 var(--display);margin:20px 0 28px;max-width:980px}
 .custom-hero>div>p:not(.eyebrow){font-size:16px;line-height:1.75;color:#57524c;max-width:720px}
 .custom-hero aside{background:#171717;color:#fff;padding:7vw 4vw;display:grid;grid-template-columns:auto 1fr;gap:30px 25px;align-content:center}
 .custom-hero aside span{font:400 29px var(--display);color:#b9a184}
 .custom-hero aside strong{font:400 23px var(--display);border-bottom:1px solid rgba(255,255,255,.2);padding-bottom:28px}
-.custom-intro{padding:100px 6vw;background:#fff;display:grid;grid-template-columns:.65fr 1.35fr;gap:8vw}
+.custom-intro{max-width:var(--maxw);margin-inline:auto;padding:var(--pad-y) var(--pad-x);background:#fff;display:grid;grid-template-columns:.65fr 1.35fr;gap:var(--gap-lg)}
 .custom-intro h2,.packaging-heading h2,.packaging-programmes h2,.packaging-process h2,.brief-checklist h2{font:400 clamp(42px,4.4vw,65px)/1 var(--display);margin:17px 0 0}
-.custom-pillars{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.custom-pillars{max-width:var(--maxw);margin-inline:auto;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .custom-pillars article{padding:30px 25px;border-right:1px solid var(--line)}
 .custom-pillars article:last-child{border:0}
 .custom-pillars span,.packaging-options article>span{font:400 27px var(--display);color:#9e876e}
 .custom-pillars h3,.packaging-options h3{font:400 27px var(--display);margin:20px 0 10px}
 .custom-pillars p,.packaging-options p{font-size:12px;line-height:1.7;color:var(--muted)}
 .custom-pillars a{display:inline-block;margin-top:8px;padding-bottom:4px;border-bottom:1px solid;font-size:8px;font-weight:700;letter-spacing:.09em}
-.packaging-section{padding:110px 6vw;background:#eee8df;scroll-margin-top:110px}
-.packaging-heading{display:grid;grid-template-columns:1.15fr .85fr;gap:8vw;align-items:end}
+.packaging-section{max-width:var(--maxw);margin-inline:auto;padding:var(--pad-y-lg) var(--pad-x);background:#eee8df;scroll-margin-top:110px}
+.packaging-heading{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--gap-lg);align-items:end}
 .packaging-heading>p{margin:0;color:var(--muted);line-height:1.75}
-.packaging-concepts{display:grid;grid-template-columns:1.1fr .75fr .9fr 1.25fr;gap:14px;align-items:end;margin-top:65px}
+.packaging-concepts{max-width:var(--maxw);margin-inline:auto;display:grid;grid-template-columns:1.1fr .75fr .9fr 1.25fr;gap:14px;align-items:end;margin-top:65px}
 .concept-card{min-height:370px;padding:28px;background:#d6cab9;border:1px solid rgba(20,20,20,.25);display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 25px 45px rgba(30,24,19,.08)}
 .concept-card small{font-size:9px;letter-spacing:.14em}
 .concept-card strong{font:400 38px/.9 var(--display);letter-spacing:.08em}
@@ -25,10 +25,10 @@
 .concept-care{min-height:285px;background:#f8f4ed}.concept-pouch{min-height:330px;background:#b9aa97;border-radius:50% 50% 5px 5px}.concept-box{min-height:440px;background:#171717;color:#fff}
 .concept-note{font-size:10px;color:var(--muted);max-width:850px;margin:24px 0 0}
 .packaging-studio-link{margin-top:24px}
-.packaging-options{display:grid;grid-template-columns:repeat(3,1fr);margin-top:80px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.packaging-options{max-width:var(--maxw);margin-inline:auto;display:grid;grid-template-columns:repeat(3,1fr);margin-top:80px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .packaging-options article{padding:32px 28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
 .packaging-options article:nth-child(3n){border-right:0}.packaging-options article:nth-child(n+4){border-bottom:0}
-.packaging-programmes{padding:105px 6vw;background:#fff;display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw}
+.packaging-programmes{max-width:var(--maxw);margin-inline:auto;padding:var(--pad-y-lg) var(--pad-x);background:#fff;display:grid;grid-template-columns:.7fr 1.3fr;gap:var(--gap-lg)}
 .programme-grid{display:grid;grid-template-columns:repeat(3,1fr)}
 .programme-grid article{padding:35px 28px;border:1px solid var(--line);border-right:0}
 .programme-grid article:last-child{border-right:1px solid var(--line);background:#171717;color:#fff}
@@ -37,11 +37,11 @@
 .programme-grid ul{list-style:none;padding:0;margin:0 0 28px}
 .programme-grid li{padding:10px 0;border-bottom:1px solid var(--line);font-size:11px}
 .programme-grid article>span{font-size:9px;letter-spacing:.07em;color:var(--muted)}
-.packaging-process{padding:105px 6vw;background:#171717;color:#fff;display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw}
+.packaging-process{max-width:var(--maxw);margin-inline:auto;padding:var(--pad-y-lg) var(--pad-x);background:#171717;color:#fff;display:grid;grid-template-columns:.7fr 1.3fr;gap:var(--gap-lg)}
 .packaging-process ol{list-style:none;padding:0;margin:0;border-top:1px solid rgba(255,255,255,.2)}
 .packaging-process li{display:grid;grid-template-columns:60px .75fr 1.25fr;gap:20px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,.2)}
 .packaging-process li>span{font:400 24px var(--display);color:#b9a184}.packaging-process li>strong{font:400 20px var(--display)}.packaging-process li>p{margin:0;font-size:12px;color:rgba(255,255,255,.58)}
-.brief-checklist{padding:100px 6vw;background:#d7cbbb;display:grid;grid-template-columns:.8fr 1.2fr;gap:10vw}
+.brief-checklist{max-width:var(--maxw);margin-inline:auto;padding:var(--pad-y) var(--pad-x);background:#d7cbbb;display:grid;grid-template-columns:.8fr 1.2fr;gap:var(--gap-lg)}
 .brief-checklist .button{margin-top:32px}
 .brief-checklist ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(20,20,20,.2)}
 .brief-checklist li{padding:17px 15px 17px 0;border-bottom:1px solid rgba(20,20,20,.2);font-size:12px}

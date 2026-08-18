@@ -220,9 +220,9 @@ const html = `<!doctype html>
   <meta property="og:image" content="https://wigexporter.com/assets/packaging-studio/extension-backing-card-concept.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20260726-6">
-  <link rel="stylesheet" href="content.css?v=20260726-6">
-  <link rel="stylesheet" href="colour-packaging.css?v=20260726-6">
+  <link rel="stylesheet" href="styles.css?v=20260818-1">
+  <link rel="stylesheet" href="content.css?v=20260818-1">
+  <link rel="stylesheet" href="colour-packaging.css?v=20260818-1">
 </head>
 <body class="studio-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -337,8 +337,8 @@ const html = `<!doctype html>
   <script type="application/ld+json">${json(collectionSchema)}</script>
   <script type="application/ld+json">${json(serviceSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
-  <script src="colour-packaging.js?v=20260720-1"></script>
-  <script src="script.js?v=20260726-8"></script>
+  <script src="colour-packaging.js?v=20260818-1"></script>
+  <script src="script.js?v=20260818-1"></script>
 </body>
 </html>`;
 

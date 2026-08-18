@@ -7,14 +7,14 @@
 .stock-section .sample-strip {
   grid-template-columns: minmax(0, 58fr) minmax(360px, 42fr);
   min-height: 0;
-  aspect-ratio: 2.26 / 1;
+  
   overflow: hidden;
-}
+;max-width:var(--maxw);margin-inline:auto;aspect-ratio:2.1/1}
 
 .stock-section .sample-visual,
 .stock-section .sample-copy {
   min-width: 0;
-}
+;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px)}
 
 .stock-section .sample-visual {
   height: 100%;
@@ -39,29 +39,29 @@
 .stock-section .sample-copy h3 a {
   text-decoration-thickness: 1px;
   text-underline-offset: .13em;
-}
+;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px);font-size:clamp(30px,2.4vw,42px)}
 
 .stock-section .section-heading h2 a:hover,
 .stock-section .sample-copy h3 a:hover {
   text-decoration: underline;
-}
+;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px);font-size:clamp(30px,2.4vw,42px)}
 
 .stock-section .sample-copy {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(48px, 4.4vw, 82px) clamp(34px, 3.8vw, 72px);
-}
+  
+;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px)}
 
 .stock-section .sample-copy h3 {
-  font-size: clamp(36px, 2.7vw, 48px);
+  
   overflow-wrap: break-word;
-}
+;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px);font-size:clamp(30px,2.4vw,42px)}
 
 .stock-section .sample-copy > p:not(.eyebrow) {
   max-width: 36rem;
-}
+;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px)}
 
 .stock-section .tick-list {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -75,8 +75,8 @@
 @media (max-width: 1100px) {
   .stock-section .sample-strip {
     grid-template-columns: 1fr;
-    aspect-ratio: auto;
-  }
+    
+  ;max-width:var(--maxw);margin-inline:auto;aspect-ratio:2.1/1}
 
   .stock-section .sample-visual {
     height: auto;
@@ -88,8 +88,8 @@
   }
 
   .stock-section .sample-copy {
-    padding: 56px 48px 62px;
-  }
+    
+  ;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px)}
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -108,12 +108,12 @@
   }
 
   .stock-section .sample-copy {
-    padding: 45px 24px 50px;
-  }
+    
+  ;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px)}
 
   .stock-section .sample-copy h3 {
-    font-size: 36px;
-  }
+    
+  ;padding:clamp(40px,3.6vw,64px) clamp(28px,3vw,56px);font-size:clamp(30px,2.4vw,42px)}
 
   .stock-section .tick-list {
     grid-template-columns: 1fr;
