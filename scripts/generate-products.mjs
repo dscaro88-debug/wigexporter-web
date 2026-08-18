@@ -390,7 +390,10 @@ for (const product of products) {
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, `${product.slug}.html`), finalHtml.replace(/[ \t]+$/gm, ''));
   } else {
-    fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
+    finalHtml = html
+      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(product.slug, 'en')}</div></header>`)
+      .replace('</head>', hreflangBlock(product.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
+    fs.writeFileSync(path.join(root, `${product.slug}.html`), finalHtml.replace(/[ \t]+$/gm, ''));
   }
 }
 

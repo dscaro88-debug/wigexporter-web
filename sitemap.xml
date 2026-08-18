@@ -6,6 +6,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/about.html"/>
   </url>
   <url>
@@ -14,6 +17,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/blog.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/blog.html"/>
   </url>
   <url>
@@ -38,6 +44,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/contact.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/contact.html"/>
   </url>
   <url>
@@ -54,6 +63,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/free-color-kits.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/free-color-kits.html"/>
   </url>
   <url>
@@ -206,6 +218,9 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/index.html"/>
   </url>
   <url>
@@ -270,6 +285,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/products.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/products.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/products.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/products.html"/>
   </url>
   <url>
@@ -286,6 +304,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/sample.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/sample.html"/>
   </url>
   <url>
@@ -662,7 +683,87 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/trade-account.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/trade-account.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/about.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/blog.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/contact.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/free-color-kits.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/free-color-kits.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/index.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/index.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/products.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/products.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/products.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/products.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/es/sample.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/sample.html"/>
   </url>
   <url>
     <loc>https://wigexporter.com/es/synthetic-wig-dsw-2501.html</loc>
@@ -929,6 +1030,94 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/synthetic-wigs-hairpieces.html"/>
   </url>
   <url>
+    <loc>https://wigexporter.com/es/trade-account.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/trade-account.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/about.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/blog.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/contact.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/free-color-kits.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/free-color-kits.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/index.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/index.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/products.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/products.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/products.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/products.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/de/sample.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/sample.html"/>
+  </url>
+  <url>
     <loc>https://wigexporter.com/de/synthetic-wig-dsw-2501.html</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -1193,6 +1382,94 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/synthetic-wigs-hairpieces.html"/>
   </url>
   <url>
+    <loc>https://wigexporter.com/de/trade-account.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/trade-account.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/about.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/blog.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/contact.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/free-color-kits.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/free-color-kits.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/free-color-kits.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/index.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/index.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/products.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/products.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/products.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/products.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/sample.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/sample.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/sample.html"/>
+  </url>
+  <url>
     <loc>https://wigexporter.com/fr/synthetic-wig-dsw-2501.html</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -1455,5 +1732,16 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/synthetic-wigs-hairpieces.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/synthetic-wigs-hairpieces.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/synthetic-wigs-hairpieces.html"/>
+  </url>
+  <url>
+    <loc>https://wigexporter.com/fr/trade-account.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wigexporter.com/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://wigexporter.com/es/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://wigexporter.com/de/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/trade-account.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/trade-account.html"/>
   </url>
 </urlset>

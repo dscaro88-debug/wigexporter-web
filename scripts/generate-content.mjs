@@ -265,6 +265,9 @@ for (const item of data.collections) {
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, `${item.slug}.html`), finalHtml);
   } else {
+    finalHtml = finalHtml
+      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(item.slug, 'en')}</div></header>`)
+      .replace('</head>', hreflangBlock(item.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
     fs.writeFileSync(path.join(root, `${item.slug}.html`), finalHtml);
   }
 }
@@ -315,6 +318,9 @@ for (const article of data.articles) {
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, `${article.slug}.html`), finalHtml);
   } else {
+    finalHtml = finalHtml
+      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(article.slug, 'en')}</div></header>`)
+      .replace('</head>', hreflangBlock(article.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
     fs.writeFileSync(path.join(root, `${article.slug}.html`), finalHtml);
   }
 }
