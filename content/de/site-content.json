@@ -1,6 +1,114 @@
 {
   "collections": [
     {
+      "slug": "human-hair-extensions",
+      "division": "Human Hair",
+      "title": "Echthaar Extensions Großhandel",
+      "metaTitle": "Echthaar Extensions Großhandelslieferant | WigExporter",
+      "description": "Beziehen Sie Echthaar Extensions im Großhandel für Salons, Distributoren und Private-Label-Marken, einschließlich Clip-in, Tape-in, K-tip, Genius Weft, Machine Weft und Nano Ring.",
+      "image": "assets/genius-weft.jpg",
+      "imageAlt": "Wholesale human hair extension wefts in professional salon shades",
+      "intro": "Entwickeln Sie eine kohärente Extensions-Linie rund um Anwendungsmethode, Zielkunde, Farbsystem und kommerzielle Positionierung.",
+      "products": [
+        "Clip-in",
+        "Tape-in",
+        "K-tip",
+        "Genius Weft",
+        "Machine Weft",
+        "Nano Ring"
+      ],
+      "featuredProducts": [
+        {
+          "slug": "genius-weft-human-hair-extensions",
+          "code": "DS-EXT-GW",
+          "title": "Genius Weft Human Hair Extensions",
+          "image": "assets/products/human-hair-extensions/ds-ext-gw-genius-weft/ds-ext-gw-01.jpg",
+          "imageAlt": "DS HAIR Genius Weft human hair extensions in a blonde blend",
+          "summary": "22 in / 50 g blonde reference for B2B sample, specification and private-label review."
+        }
+      ],
+      "specs": [
+        [
+          "Methode",
+          "Wählen Sie Befestigungs- oder Weft-Konstruktion nach Stylisten-Workflow und Endkunde."
+        ],
+        [
+          "Haarrichtung",
+          "Definieren Sie Qualitätsposition, Textur, Finish und erwartete Nutzung vor Mustersendung."
+        ],
+        [
+          "Farbkonzept",
+          "Planen Sie Basistöne, Ansatzmischungen und physische Referenzen für zuverlässigere Wiederbestellungen."
+        ],
+        [
+          "Markenpräsentation",
+          "Prüfen Sie Gewicht, Packformat, Etiketten und Begleitinformationen für Ihren Vertriebskanal."
+        ]
+      ],
+      "faqs": [
+        [
+          "Welche Extensions-Methoden kann WigExporter liefern?",
+          "Unser Scope umfasst Clip-in, Tape-in, K-tip, Genius Weft, Machine Weft und Nano Ring. Handgebundene Optionen können nach Brief geprüft werden."
+        ],
+        [
+          "Kann ich Private-Label-Haarextensions anfragen?",
+          "Ja. Private-Label-Machbarkeit kann Produktspezifikation, Etiketten, Verpackung und Farbrichtung umfassen."
+        ],
+        [
+          "Kann ich vor einem Großhandelsauftrag Muster prüfen?",
+          "Ja. Wir empfehlen, relevante Konstruktion, Farbnuance und Verpackungsrichtung vor Wiederbestellung zu prüfen."
+        ]
+      ]
+    },
+    {
+      "slug": "human-hair-wigs-toppers",
+      "division": "Human Hair",
+      "title": "Echthaar Perücken & Topper Großhandel",
+      "metaTitle": "Echthaar Perücken & Topper Großhandel | WigExporter",
+      "description": "Entwickeln Sie Echthaar Perücken und Topper im Großhandel mit Support für Kappe, Basis, Farbe, Dichte, Länge, Muster und Eigenmarke.",
+      "image": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-004/ds-wig-lw-004-02.jpg",
+      "imageAlt": "Lace wig human hair finished style on mannequin",
+      "intro": "Bauen Sie ein Perücken- oder Topper-Angebot um Trägerin, Deckungsbedarf, Kappen-Konstruktion und Finish herum.",
+      "products": [
+        "Human Hair Wigs",
+        "Lace Wigs",
+        "Human Hair Toppers",
+        "Ponytails"
+      ],
+      "specs": [
+        [
+          "Kappen-Konstruktion",
+          "Prüfen Sie Spitze, Monofilament, Scheitel, Perimeter und Befestigungsanforderungen."
+        ],
+        [
+          "Deckung & Dichte",
+          "Definieren Sie die voraussichtige Trägerin, Deckungsbereich und visuelles Ergebnis vor Produktauswahl."
+        ],
+        [
+          "Haar & Farbe",
+          "Stimmen Sie Textur, Länge, Farbarchitektur und Finish auf Ihren Käufermarkt ab."
+        ],
+        [
+          "Wiederholbare Referenz",
+          "Dokumentieren Sie das freigegebene Muster, damit zukünftige Kommunikation von einem klaren Maßstab ausgeht."
+        ]
+      ],
+      "faqs": [
+        [
+          "Was sollte ein professioneller Käufer bei einer Perücken- oder Topper-Musterprüfung kontrollieren?",
+          "Prüfen Sie Kappen-Konstruktion, Maße, Haarrichtung, Dichte, Farbe, Befestigung, Komfort und Finish."
+        ],
+        [
+          "Unterstützen Sie kundenspezifische Perücken- und Topper-Entwicklung?",
+          "Wir können individuelle Produkt-, Farb-, Etiketten- und Verpackungsanforderungen prüfen. Machbarkeit wird nach Brief bestätigt."
+        ],
+        [
+          "Sind diese Produkte für Endverbraucher gedacht?",
+          "WigExporter ist eine B2B-Sourcing-Website für professionelle Käufer, Marken, Distributoren und Salons. Wir verkaufen nicht direkt an Endverbraucher."
+        ]
+      ]
+    },
+    {
       "slug": "synthetic-wigs-hairpieces",
       "division": "Synthetic Hair",
       "title": "Synthetische Perücken & Haarteile Großhandel",
@@ -17,37 +125,246 @@
       ],
       "specs": [
         [
-          "Style brief",
-          "Start with wearer, silhouette, length and intended everyday or fashion use."
+          "Style-Brief",
+          "Beginnen Sie mit Trägerin, Silhouette, Länge und vorgesehenem Alltags- oder Modeeinsatz."
         ],
         [
-          "Fibre direction",
-          "Confirm fibre characteristics and care expectations through the product brief and sample."
+          "Faserrichtung",
+          "Bestätigen Sie Fasereigenschaften und Pflegeerwartungen über Brief und Muster."
         ],
         [
-          "Construction",
-          "Review cap or attachment details, fit, coverage and finishing requirements."
+          "Konstruktion",
+          "Prüfen Sie Kappen- oder Befestigungsdetails, Passform, Deckung und Finish-Anforderungen."
         ],
         [
-          "Range planning",
-          "Coordinate colour, packaging and product information across the intended collection."
+          "Range-Planung",
+          "Koordinieren Sie Farbe, Verpackung und Produktinformationen über die geplante Kollektion."
         ]
       ],
       "faqs": [
         [
-          "What synthetic hair products are available for wholesale?",
-          "The sourcing scope includes Synthetic Wigs, Hairpieces (including ponytails), Bangs / Fringes and Clip-in Toppers. Availability is confirmed against the requested style and specification."
+          "Welche synthetischen Haarprodukte sind im Großhandel verfügbar?",
+          "Der Sourcing-Scope umfasst synthetische Perücken, Haarteile (einschließlich Pferdeschwänze), Pony/Bangs und Clip-in-Topper. Verfügbarkeit wird nach Stil und Spezifikation bestätigt."
         ],
         [
-          "Can the colour and packaging be customised?",
-          "Potential colour, label and packaging development can be reviewed for private-label programmes. Commercial terms depend on the final brief."
+          "Können Farbe und Verpackung individualisiert werden?",
+          "Mögliche Farb-, Etiketten- und Verpackungsentwicklung kann für Private-Label-Programme geprüft werden. Geschäftsbedingungen hängen vom finalen Brief ab."
         ],
         [
-          "How do we begin?",
-          "Send the target market, product reference, expected quantity range and quality position. We will identify the information needed for sampling or quotation."
+          "Wie beginnen wir?",
+          "Senden Sie Zielmarkt, Produktreferenz, erwarteten Mengenbereich und Qualitätsposition. Wir ermitteln die für Muster oder Angebot nötigen Informationen."
+        ]
+      ]
+    },
+    {
+      "slug": "salon-supplies",
+      "division": "Salon Supplies",
+      "title": "Professional Salon Supplies für Haarextensions Großhandel",
+      "metaTitle": "Werkzeuge & Salon Supplies für Haarextensions Großhandel | WigExporter",
+      "description": "Beziehen Sie dieselbe professionelle Produktstruktur wie D.S Hair Beauty: fünf methodenbasierte Kits plus acht professionelle Einzelprodukte.",
+      "image": "assets/salon-supplies.jpg",
+      "imageAlt": "Professional hair extension tools and salon supply kit",
+      "intro": "Unterstützen Sie Extension-Profis mit Installationswerkzeugen, Verbrauchsmaterialien und praktischen Bundles. Kompatibilität, Größen und Mengen werden nach Brief bestätigt.",
+      "products": [
+        "Extension Starter Kit",
+        "Monthly Restock Pack",
+        "Nano Newbie Bundle",
+        "Dual Method Bundle",
+        "Pro Upgrade Bundle",
+        "Nano Rings (Non-Silicone)",
+        "Nano Rings (Silicone-Lined)",
+        "Tape Tabs",
+        "Sectioning Clips",
+        "Keratin Glue Sticks",
+        "Heat Protector Discs",
+        "Loop Tool",
+        "Tint Brush"
+      ],
+      "productGroups": [
+        {
+          "title": "Kits",
+          "items": [
+            "Extension Starter Kit",
+            "Monthly Restock Pack",
+            "Nano Newbie Bundle",
+            "Dual Method Bundle",
+            "Pro Upgrade Bundle"
+          ]
+        },
+        {
+          "title": "Single Products",
+          "items": [
+            "Nano Rings (Non-Silicone)",
+            "Nano Rings (Silicone-Lined)",
+            "Tape Tabs",
+            "Sectioning Clips",
+            "Keratin Glue Sticks",
+            "Heat Protector Discs",
+            "Loop Tool",
+            "Tint Brush"
+          ]
+        }
+      ],
+      "specs": [
+        [
+          "Kompatibilität",
+          "Passen Sie Werkzeuge und Verbrauchsmaterial an die Installationsmethoden an, die Ihre Kunden tatsächlich nutzen."
+        ],
+        [
+          "Packformat",
+          "Definieren Sie Stückzahlen, professionelle Gebrauchspacks und Nachbestellmengen für den Kanal."
+        ],
+        [
+          "Bundle-Logik",
+          "Erstellen Sie Starter-, Dual-Method- oder Profi-Kits um einen klaren Stylisten-Anwendungsfall."
+        ],
+        [
+          "Eigenmarke",
+          "Prüfen Sie Etiketten, Anleitungen und Verpackung, wo das Programm Anpassung ermöglicht."
+        ]
+      ],
+      "faqs": [
+        [
+          "Welche Salon Supplies können bezogen werden?",
+          "Die Range spiegelt die D.S Hair Beauty Salon-Supply-Struktur wider: fünf methodenbasierte Kits plus acht professionelle Einzelprodukte."
+        ],
+        [
+          "Können Sie Salon-Starter-Kits erstellen?",
+          "Ja. Ein Kit sollte um Installationsmethode, Nutzerlevel und vorgesehenen Vertriebskanal herum aufgebaut werden. Machbarkeit wird nach Brief bestätigt."
+        ],
+        [
+          "Können Supplies zusammen mit Haarextensions bestellt werden?",
+          "Ein kombinierter Sourcing-Brief kann geprüft werden, damit Zubehör und Verbrauchsmaterial zu den Extensions passen."
         ]
       ]
     }
   ],
-  "articles": []
+  "articles": [
+    {
+      "slug": "tape-hair-vs-k-tip-vs-weft",
+      "category": "Vergleich",
+      "title": "Tape-In vs K-Tip vs Weft",
+      "metaTitle": "Tape-In vs K-Tip vs Weft: Käuferleitfaden | WigExporter",
+      "description": "Vergleichen Sie Tape-In, K-Tip und Weft aus Sicht professioneller Käufer: Anwendung, Pflege, MOQ und Marge.",
+      "image": "assets/tape-in.jpg",
+      "imageAlt": "Tape-in hair extensions used for wholesale method comparison",
+      "dek": "Wählen Sie die richtige Extensions-Methode für Ihren Markt.",
+      "sections": [
+        [
+          "Start with the professional using the product",
+          "A method should not be selected only because it is popular. Map the training level, application time, maintenance cycle and removal workflow of the salons or stylists you serve. A product that does not fit their working method creates support problems even when the hair itself is good."
+        ],
+        [
+          "Tape hair: efficient application and a system-led reorder",
+          "Tape systems can suit buyers who want a relatively fast salon application and a clear consumables cycle. The commercial brief should cover panel construction, weight, tape compatibility, shade system and replacement tabs—not just length and colour."
+        ],
+        [
+          "K-tips: detailed application and strand-level flexibility",
+          "K-tip ranges are often evaluated around bond construction, strand consistency, application tools and stylist technique. Buyers should compare how the bond behaves during installation and wear, then document the approved reference for future orders."
+        ],
+        [
+          "Wefts: construction choice changes the offer",
+          "Machine, hand-tied and thinner weft constructions can serve different installation approaches and price positions. Compare seam profile, shedding control, flexibility, density and how the weft will be cut or installed."
+        ],
+        [
+          "Build the sample around a decision",
+          "Avoid requesting random samples. Choose representative shades and specifications that answer a real range decision. Record what your team approved, what needs correction and which details must remain consistent on reorder."
+        ]
+      ],
+      "faqs": [
+        [
+          "Welche Extensions-Methode ist am besten für eine neue Großhandelsrange?",
+          "Es gibt keine universell beste Methode. Der richtige Ausgangspunkt hängt von Ihrer Stylistenbasis, Kundenmodell, Servicefähigkeit und Preisposition ab."
+        ],
+        [
+          "Sollte jede Methode dieselbe Farbpalette verwenden?",
+          "Eine gemeinsame Basis-Farbarchitektur kann das Angebot vereinfachen, aber Verfügbarkeit und visuelle Ergebnisse sollten pro Konstruktion geprüft werden."
+        ]
+      ]
+    },
+    {
+      "slug": "how-to-evaluate-wholesale-wig-sample",
+      "category": "Qualitätskontrolle",
+      "title": "Perückenmuster im Großhandel bewerten",
+      "metaTitle": "Perückenmuster im Großhandel bewerten | WigExporter",
+      "description": "Praktische Checkliste zur Bewertung von Perückenmustern: Faser, Konstruktion, Farbe, Dichte und Finish.",
+      "image": "assets/wig-cap.jpg",
+      "imageAlt": "Wig cap construction being reviewed for a wholesale sample",
+      "dek": "Reduzieren Sie Einkaufsrisiken mit einer systematischen Musterbewertung.",
+      "sections": [
+        [
+          "Define the intended wearer first",
+          "Record the wearer profile, coverage need, target price position and sales channel. Without this context, feedback such as “too dense” or “not natural enough” is difficult to translate into a repeatable product decision."
+        ],
+        [
+          "Inspect the base before the hairstyle",
+          "Review base dimensions, lace or monofilament areas, parting, perimeter, clips and comfort. Photograph measurements and construction details so later discussions refer to the same points."
+        ],
+        [
+          "Review density and hair direction in real conditions",
+          "Check the product from several angles and under neutral light. Look at parting behaviour, front and crown density, movement and how the hair or fibre sits after normal handling."
+        ],
+        [
+          "Treat colour as a physical reference",
+          "Screen colours are not sufficient for repeat buying. Compare the sample against an agreed colour ring or physical shade reference, noting roots, highlights, undertone and lighting conditions."
+        ],
+        [
+          "Create an approval record",
+          "The approved sample should have a product code, dated photos, specification notes and a clear list of accepted or corrected details. This record becomes more valuable than a verbal approval when the range grows."
+        ]
+      ],
+      "faqs": [
+        [
+          "Was ist beim Perücken-Muster-Review am wichtigsten?",
+          "Der wichtigste Schritt ist der Vergleich des Musters mit einem schriftlichen Träger- und Produktbrief. Qualität wird an Passform, Konstruktion, Finish und Wiederholbarkeit gemessen."
+        ],
+        [
+          "Warum sollten Käufer ein freigegebenes Muster aufbewahren?",
+          "Ein freigegebenes physisches Muster und schriftlicher Datensatz bieten eine gemeinsame Referenz für zukünftige Produktion, QC und Wiederbestellungen."
+        ]
+      ]
+    },
+    {
+      "slug": "build-repeatable-hair-colour-system",
+      "category": "Farbe",
+      "title": "Ein wiederholbares Haarfarbsystem aufbauen",
+      "metaTitle": "Wiederholbares Haarfarbsystem aufbauen | WigExporter",
+      "description": "Erstellen Sie ein professionelles Farbsystem basierend auf physischen Referenzen, Farbkarten-Nummerierung und Musterfreigabe.",
+      "image": "assets/colour-chart.jpg",
+      "imageAlt": "Professional physical hair colour chart for wholesale range planning",
+      "dek": "Standardisieren Sie die Farbe in Ihrer Extensions- oder Perücken-Linie.",
+      "sections": [
+        [
+          "Begin with the market, not the largest possible shade list",
+          "Review what your salons, distributors or consumers actually request. A disciplined core range is easier to explain, stock and reorder than a broad list with weak shade distinction."
+        ],
+        [
+          "Use physical references",
+          "Photography and screens change colour. Establish physical references for core shades and record the lighting and product construction used during approval. The same named shade can appear different across fibres, hair directions and densities."
+        ],
+        [
+          "Separate roots, blends and highlights",
+          "A shade name should communicate its construction. Record root depth, blend balance, highlight placement and undertone instead of relying only on a short code that different teams may interpret differently."
+        ],
+        [
+          "Test representative constructions",
+          "Review colour on the products that matter commercially. A shade on a colour ring does not automatically predict the result on a dense topper, a fine tape panel or a finished synthetic wig."
+        ],
+        [
+          "Control changes through records",
+          "When a shade is corrected, date the change and replace the old reference deliberately. Product codes, photos, physical swatches and written approval notes reduce confusion across repeat orders."
+        ]
+      ],
+      "faqs": [
+        [
+          "Warum sind physische Farbreferenzen für Großhandelshaar wichtig?",
+          "Bildschirme und Fotografie variieren. Eine physische Referenz bietet Käufern und Lieferanten eine konsistentere Basis für Freigaben."
+        ],
+        [
+          "Sollte ein Farbsystem über jedes Produkt identisch sein?",
+          "Kernbenennung kann geteilt werden, aber das visuelle Ergebnis sollte an repräsentativen Konstruktionen geprüft werden, bevor es freigegeben wird."
+        ]
+      ]
+    }
+  ]
 }

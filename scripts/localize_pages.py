@@ -46,8 +46,13 @@ META_TRANSLATABLE = (
 # Root-relative files that must be loaded from / when the page sits in /<lang>/.
 ABS_TARGETS = (
     "styles.css",
+    "content.css",
     "homepage-layout.css",
     "product.css",
+    "category-layout.css",
+    "colour-packaging.css",
+    "colour-packaging.js",
+    "customization.css",
     "script.js",
     "product-config.js",
     "favicon.svg",

@@ -36,11 +36,171 @@ function langSwitch(pageFile, currentLang) {
 const LANG_SWITCH_STYLE = `<style>.lang-switch{display:flex;align-items:center;gap:.3rem;margin-left:1rem;font:600 10px/1 var(--sans);letter-spacing:.08em}.lang-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:24px;padding:0 .4rem;border:1px solid rgba(17,17,17,.25);border-radius:999px;color:#171513;text-decoration:none}.lang-switch a:hover{border-color:#171513;background:rgba(17,17,17,.05)}.lang-switch a[aria-current="true"]{background:#171513;color:#fff;border-color:#171513}@media(max-width:1100px){.lang-switch{margin:0}.lang-switch a{min-width:22px;height:20px;font-size:9px}}</style>`;
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
+
+const UI = {
+  en: {
+    skipToContent: 'Skip to content', openNavigation: 'Open navigation', tradeAccount: 'TRADE ACCOUNT',
+    requestQuote: 'REQUEST QUOTE', home: 'Home', collections: 'Collections', discussRequirement: 'Discuss your requirement →',
+    productCode: 'PRODUCT CODE · ', specBasedNoSku: 'SPECIFICATION-BASED PRODUCT · NO SKU',
+    discussSample: 'DISCUSS A SAMPLE', enquireWhatsApp: 'Enquire via WhatsApp',
+    accuracyNote: 'Commercial terms and unconfirmed technical details are provided only after specification review.',
+    buyerAnswer: 'BUYER ANSWER', whatIsThisFor: 'What is this product for?',
+    evaluationPoints: 'EVALUATION POINTS', whatVerify: 'What your team should verify.',
+    evaluateHint: 'Use a representative sample to turn visual impressions into an approved, repeatable product reference.',
+    specificationStatus: 'SPECIFICATION STATUS', specStatusDesc: 'Confirmed facts, clearly separated from open items.',
+    specStatusNote: 'DS HAIR does not publish assumptions as product specifications. Open items are confirmed against the selected supply batch and quotation.',
+    confirmedOnReference: 'Confirmed on this reference', toConfirmBeforeOrder: 'To confirm before order',
+    oemPrivateLabel: 'OEM / PRIVATE LABEL', oemHeading: 'Build the specification around your market.',
+    exploreCustomPackaging: 'EXPLORE CUSTOM PACKAGING', buyerQuestions: 'BUYER QUESTIONS', beforeYouRequest: 'Before you request a quote',
+    reference: 'REFERENCE · ', productBrief: 'PRODUCT BRIEF · NO SKU', sendBuyingBrief: 'SEND YOUR BUYING BRIEF',
+    referenceShown: 'REFERENCE SHOWN', requestToConfirm: 'REQUEST TO CONFIRM',
+    clipInRangeTier: 'CLIP-IN RANGE BY MARKET TIER', clipInHeading: 'Three demand tiers. Three different volume and margin profiles.',
+    clipInIntro: 'Build a clip-in programme around what actually sells: proven full-set classics, fast-rising seamless constructions, and low-competition halo-wire pieces. Each tier uses the same 100% Remy human hair base; the difference is construction, wearer profile and specification.',
+    includes: 'Includes', typicalSpec: 'Typical spec', weightGuidance: 'Weight guidance', whyStock: 'Why stock it', buildThisProduct: 'BUILD THIS PRODUCT →',
+    verifiedSetMaps: 'VERIFIED SET MAPS', setMapHeading: 'Know exactly what is inside each full set.',
+    setMapIntro: 'These piece maps come from the existing DS HAIR product record. Final grams, construction, length and colour are confirmed with the selected sample.',
+    quantity: 'Quantity', weftWidth: 'Weft width', clipLayout: 'Clip layout',
+    buildBrief: 'BUILD YOUR BUYING BRIEF', buildBriefHeading: 'Select the specification you want us to review.',
+    buildBriefIntro: 'These controls prepare an enquiry; they do not indicate live stock. Final feasibility, MOQ, price and lead time are confirmed in writing.',
+    yourSpec: 'YOUR REQUESTED SPECIFICATION', colour: 'Colour', selectShade: 'Select a Colour Chart 2 shade',
+    specSummaryStatus: 'Reference selections are photographed or documented. Other selections remain requests until confirmed.',
+    sendThisSpec: 'SEND THIS SPECIFICATION', primaryColourSystem: 'PRIMARY COLOUR SYSTEM', requestColourKit: 'REQUEST A PHYSICAL COLOUR KIT →',
+    allThirtyOne: 'All 31', scrollHint: 'Scroll horizontally to compare methods →',
+    similarComparison: 'SIMILAR PRODUCT COMPARISON', buyerQuestion: 'Buyer question',
+    productSelectionLogic: 'PRODUCT SELECTION LOGIC', completeDefinition: 'THE COMPLETE PRODUCT DEFINITION',
+    sixLayers: 'Six layers make one repeatable specification.', sixLayersIntro: 'A catalogue name is not enough. These six layers must agree before sample approval and quotation.',
+    constructionKnowledge: 'CONSTRUCTION KNOWLEDGE', decisionPoint: 'Decision point',
+    dsHairDifference: 'THE DS HAIR DIFFERENCE', dsHairHeading: 'A structured sourcing process, not an unsupported quality claim.',
+    dsHairIntro: 'We compare the way a project is managed—not make unverified statements about another supplier’s hair.',
+    structuredWorkflow: 'DS HAIR structured workflow', unstructuredRisk: 'Unstructured sourcing risk',
+    proKnowledge: 'PROFESSIONAL PRODUCT KNOWLEDGE', proKnowledgeHeading: 'Use the page to make a better buying decision.',
+    proKnowledgeIntro: 'Practical guidance for salons, distributors and private-label teams. Product-specific claims still require sample approval.',
+    relatedDirections: 'RELATED DEVELOPMENT DIRECTIONS', discussThisProduct: 'DISCUSS THIS PRODUCT →', relatedHeading: 'Build a coherent extension range.', relatedIntro: 'These are enquiry pathways, not live-stock listings. Each product requires its own specification and sample reference.'
+  },
+  es: {
+    skipToContent: 'Saltar al contenido', openNavigation: 'Abrir navegación', tradeAccount: 'CUENTA PROFESIONAL',
+    requestQuote: 'SOLICITAR COTIZACIÓN', home: 'Inicio', collections: 'Colecciones', discussRequirement: 'Comente su requisito →',
+    productCode: 'CÓDIGO DE PRODUCTO · ', specBasedNoSku: 'PRODUCTO SEGÚN ESPECIFICACIÓN · SIN SKU',
+    discussSample: 'CONSULTAR UNA MUESTRA', enquireWhatsApp: 'Consultar por WhatsApp',
+    accuracyNote: 'Los términos comerciales y los detalles técnicos sin confirmar se facilitan solo tras la revisión de la especificación.',
+    buyerAnswer: 'RESPUESTA DEL COMPRADOR', whatIsThisFor: '¿Para qué sirve este producto?',
+    evaluationPoints: 'PUNTOS DE EVALUACIÓN', whatVerify: 'Qué debe verificar su equipo.',
+    evaluateHint: 'Use una muestra representativa para convertir las impresiones visuales en una referencia de producto aprobada y repetible.',
+    specificationStatus: 'ESTADO DE LA ESPECIFICACIÓN', specStatusDesc: 'Hechos confirmados, claramente separados de los puntos abiertos.',
+    specStatusNote: 'DS HAIR no publica suposiciones como especificaciones de producto. Los puntos abiertos se confirman con el lote de suministro seleccionado y la cotización.',
+    confirmedOnReference: 'Confirmado en esta referencia', toConfirmBeforeOrder: 'Por confirmar antes del pedido',
+    oemPrivateLabel: 'OEM / MARCA PRIVADA', oemHeading: 'Construya la especificación según su mercado.',
+    exploreCustomPackaging: 'EXPLORAR EMBALAJE PERSONALIZADO', buyerQuestions: 'PREGUNTAS DEL COMPRADOR', beforeYouRequest: 'Antes de solicitar una cotización',
+    reference: 'REFERENCIA · ', productBrief: 'FICHA DE PRODUCTO · SIN SKU', sendBuyingBrief: 'ENVIAR SU FICHA DE COMPRA',
+    referenceShown: 'REFERENCIA MOSTRADA', requestToConfirm: 'SOLICITAR CONFIRMACIÓN',
+    clipInRangeTier: 'GAMA CLIP-IN POR NIVEL DE MERCADO', clipInHeading: 'Tres niveles de demanda. Tres perfiles distintos de volumen y margen.',
+    clipInIntro: 'Construya un programa clip-in en torno a lo que realmente se vende: clásicos de juego completo probados, construcciones seamless en auge y piezas halo-wire de baja competencia. Cada nivel usa la misma base de cabello humano Remy 100%; la diferencia está en la construcción, el perfil de quien lo usa y la especificación.',
+    includes: 'Incluye', typicalSpec: 'Especificación típica', weightGuidance: 'Guía de peso', whyStock: 'Por qué stockarlo', buildThisProduct: 'ARMAR ESTE PRODUCTO →',
+    verifiedSetMaps: 'MAPAS DE JUEGO VERIFICADOS', setMapHeading: 'Sepa exactamente qué hay dentro de cada juego completo.',
+    setMapIntro: 'Estos mapas de piezas provienen del registro de producto DS HAIR existente. Los gramos, la construcción, la longitud y el color finales se confirman con la muestra seleccionada.',
+    quantity: 'Cantidad', weftWidth: 'Ancho de la trena', clipLayout: 'Distribución de clips',
+    buildBrief: 'ARMAR SU FICHA DE COMPRA', buildBriefHeading: 'Seleccione la especificación que quiere que revisemos.',
+    buildBriefIntro: 'Estos controles preparan una consulta; no indican stock en vivo. La viabilidad, el MOQ, el precio y el plazo se confirman por escrito.',
+    yourSpec: 'SU ESPECIFICACIÓN SOLICITADA', colour: 'Color', selectShade: 'Seleccione un tono del Colour Chart 2',
+    specSummaryStatus: 'Las selecciones de referencia se fotografían o documentan. Las demás selecciones siguen como solicitudes hasta confirmarse.',
+    sendThisSpec: 'ENVIAR ESTA ESPECIFICACIÓN', primaryColourSystem: 'SISTEMA DE COLOR PRINCIPAL', requestColourKit: 'SOLICITAR UN KIT DE COLOR FÍSICO →',
+    allThirtyOne: 'Todos los 31', scrollHint: 'Desplácese horizontalmente para comparar métodos →',
+    similarComparison: 'COMPARACIÓN DE PRODUCTOS SIMILARES', buyerQuestion: 'Pregunta del comprador',
+    productSelectionLogic: 'LÓGICA DE SELECCIÓN DE PRODUCTO', completeDefinition: 'LA DEFINICIÓN COMPLETA DEL PRODUCTO',
+    sixLayers: 'Seis capas conforman una especificación repetible.', sixLayersIntro: 'Un nombre de catálogo no basta. Estas seis capas deben coincidir antes de la aprobación de la muestra y la cotización.',
+    constructionKnowledge: 'CONOCIMIENTO DE CONSTRUCCIÓN', decisionPoint: 'Punto de decisión',
+    dsHairDifference: 'LA DIFERENCIA DS HAIR', dsHairHeading: 'Un proceso de abastecimiento estructurado, no una afirmación de calidad sin respaldo.',
+    dsHairIntro: 'Comparamos la forma en que se gestiona un proyecto, no hacemos afirmaciones sin verificar sobre el cabello de otro proveedor.',
+    structuredWorkflow: 'Flujo de trabajo estructurado de DS HAIR', unstructuredRisk: 'Riesgo de abastecimiento no estructurado',
+    proKnowledge: 'CONOCIMIENTO PROFESIONAL DEL PRODUCTO', proKnowledgeHeading: 'Use la página para tomar una mejor decisión de compra.',
+    proKnowledgeIntro: 'Orientación práctica para salones, distribuidores y equipos de marca privada. Las afirmaciones específicas del producto requieren la aprobación de la muestra.',
+    relatedDirections: 'LÍNEAS DE DESARROLLO RELACIONADAS', discussThisProduct: 'COMENTE ESTE PRODUCTO →', relatedHeading: 'Construya una gama de extensiones coherente.', relatedIntro: 'Estas son vías de consulta, no listados de stock en vivo. Cada producto requiere su propia especificación y referencia de muestra.'
+  },
+  de: {
+    skipToContent: 'Zum Inhalt springen', openNavigation: 'Navigation öffnen', tradeAccount: 'HANDELSKONTO',
+    requestQuote: 'ANGEBOT ANFRAGEN', home: 'Startseite', collections: 'Kollektionen', discussRequirement: 'Besprechen Sie Ihr Anliegen →',
+    productCode: 'PRODUKTCODE · ', specBasedNoSku: 'PRODUKT NACH SPEZIFIKATION · OHNE SKU',
+    discussSample: 'MUSTER BESPRECHEN', enquireWhatsApp: 'Über WhatsApp anfragen',
+    accuracyNote: 'Handelsbedingungen und nicht bestätigte technische Details werden erst nach Prüfung der Spezifikation mitgeteilt.',
+    buyerAnswer: 'KÄUFERANTWORT', whatIsThisFor: 'Wofür ist dieses Produkt?',
+    evaluationPoints: 'BEWERTUNGSPUNKTE', whatVerify: 'Was Ihr Team prüfen sollte.',
+    evaluateHint: 'Nutzen Sie eine repräsentative Probe, um visuelle Eindrücke in eine genehmigte, wiederholbare Produktreferenz zu verwandeln.',
+    specificationStatus: 'SPECIFIKATIONSSTATUS', specStatusDesc: 'Bestätigte Fakten, klar von offenen Punkten getrennt.',
+    specStatusNote: 'DS HAIR veröffentlicht keine Annahmen als Produktspezifikationen. Offene Punkte werden mit der ausgewählten Liefercharge und dem Angebot bestätigt.',
+    confirmedOnReference: 'Bestätigt in dieser Referenz', toConfirmBeforeOrder: 'Vor Bestellung zu bestätigen',
+    oemPrivateLabel: 'OEM / PRIVATE LABEL', oemHeading: 'Erstellen Sie die Spezifikation passend zu Ihrem Markt.',
+    exploreCustomPackaging: 'INDIVIDUELLES VERPACKEN ENTDECKEN', buyerQuestions: 'KÄUFERFRAGEN', beforeYouRequest: 'Bevor Sie ein Angebot anfordern',
+    reference: 'REFERENZ · ', productBrief: 'PRODUKTBRIEF · OHNE SKU', sendBuyingBrief: 'KAUFBRIEF SENDEN',
+    referenceShown: 'REFERENZ ANGEZEIGT', requestToConfirm: 'BESTÄTIGUNG ANFORDERN',
+    clipInRangeTier: 'CLIP-IN-SORTIMENT NACH MARKTSEGMENT', clipInHeading: 'Drei Nachfragestufen. Drei unterschiedliche Volumen- und Margenprofile.',
+    clipInIntro: 'Bauen Sie ein Clip-in-Programm um das, was sich wirklich verkauft: bewährte Klassiker im vollen Satz, schnell wachsende nahtlose Konstruktionen und Stücke mit Halo-Draht bei geringer Konkurrenz. Jede Stufe verwendet dieselbe 100 % Remy Echthaarbasis; der Unterschied liegt in Konstruktion, Trägerprofil und Spezifikation.',
+    includes: 'Enthält', typicalSpec: 'Typische Spezifikation', weightGuidance: 'Gewichtsleitfaden', whyStock: 'Warum führen', buildThisProduct: 'DIESES PRODUKT ERSTELLEN →',
+    verifiedSetMaps: 'VERIFIZIERTE SET-KARTEN', setMapHeading: 'Wissen Sie genau, was in jedem vollen Satz enthalten ist.',
+    setMapIntro: 'Diese Stückkarten stammen aus dem bestehenden DS HAIR Produktdatensatz. Endgültige Gramm, Konstruktion, Länge und Farbe werden mit der ausgewählten Probe bestätigt.',
+    quantity: 'Menge', weftWidth: 'Webbreite', clipLayout: 'Clip-Anordnung',
+    buildBrief: 'KAUFBRIEF ERSTELLEN', buildBriefHeading: 'Wählen Sie die Spezifikation, die wir prüfen sollen.',
+    buildBriefIntro: 'Diese Steuerelemente bereiten eine Anfrage vor; sie bedeuten keinen Live-Bestand. Machbarkeit, MOQ, Preis und Lieferzeit werden schriftlich bestätigt.',
+    yourSpec: 'IHRE ANGEFRAGTE SPEZIFIKATION', colour: 'Farbe', selectShade: 'Wählen Sie einen Ton der Colour Chart 2',
+    specSummaryStatus: 'Referenzauswahlen werden fotografiert oder dokumentiert. Andere Auswahlen bleiben bis zur Bestätigung Anfragen.',
+    sendThisSpec: 'DIESE SPEZIFIKATION SENDEN', primaryColourSystem: 'PRIMÄRES FARBSYSTEM', requestColourKit: 'PHYSISCHES FARBKIT ANFORDERN →',
+    allThirtyOne: 'Alle 31', scrollHint: 'Horizontal scrollen, um Methoden zu vergleichen →',
+    similarComparison: 'VERGLEICH ÄHNLICHER PRODUKTE', buyerQuestion: 'Käuferfrage',
+    productSelectionLogic: 'PRODUKTAUSWAHL-LOGIK', completeDefinition: 'DIE VOLLSTÄNDIGE PRODUKTDEFINITION',
+    sixLayers: 'Sechs Schichten ergeben eine wiederholbare Spezifikation.', sixLayersIntro: 'Ein Katalogname reicht nicht. Diese sechs Schichten müssen vor Mustergenehmigung und Angebot übereinstimmen.',
+    constructionKnowledge: 'KONSTRUKTIONSWISSEN', decisionPoint: 'Entscheidungspunkt',
+    dsHairDifference: 'DER DS HAIR UNTERSCHIED', dsHairHeading: 'Ein strukturierter Beschaffungsprozess, keine unbelegte Qualitätsbehauptung.',
+    dsHairIntro: 'Wir vergleichen, wie ein Projekt gemanagt wird – nicht unbestätigte Aussagen über das Haar eines anderen Lieferanten.',
+    structuredWorkflow: 'Strukturierter DS HAIR Arbeitsablauf', unstructuredRisk: 'Risiko unstrukturierter Beschaffung',
+    proKnowledge: 'FACHWISSEN ZUM PRODUKT', proKnowledgeHeading: 'Nutzen Sie die Seite für eine bessere Kaufentscheidung.',
+    proKnowledgeIntro: 'Praktische Hinweise für Salons, Distributoren und Private-Label-Teams. Produktspezifische Behauptungen erfordern die Mustergenehmigung.',
+    relatedDirections: 'VERWANDTE ENTWICKLUNGSRICHTUNGEN', discussThisProduct: 'DIESES PRODUKT BESPRECHEN →', relatedHeading: 'Bauen Sie eine kohärente Extensions-Reihe auf.', relatedIntro: 'Dies sind Anfragewege, keine Live-Bestandslisten. Jedes Produkt benötigt eine eigene Spezifikation und Mustereferenz.'
+  },
+  fr: {
+    skipToContent: 'Aller au contenu', openNavigation: 'Ouvrir la navigation', tradeAccount: 'COMPTE PROFESSIONNEL',
+    requestQuote: 'DEMANDER UN DEVIS', home: 'Accueil', collections: 'Collections', discussRequirement: 'Discuter de votre besoin →',
+    productCode: 'CODE PRODUIT · ', specBasedNoSku: 'PRODUIT SELON SPÉCIFICATION · SANS SKU',
+    discussSample: 'ÉCHANGER SUR UN ÉCHANTILLON', enquireWhatsApp: 'Nous contacter sur WhatsApp',
+    accuracyNote: 'Les conditions commerciales et les détails techniques non confirmés sont communiqués uniquement après examen de la spécification.',
+    buyerAnswer: 'RÉPONSE DE L’ACTEUR'.replace('ACTEUR', 'ACHETEUR'), whatIsThisFor: 'À quoi sert ce produit ?',
+    evaluationPoints: 'POINTS D’ÉVALUATION', whatVerify: 'Ce que votre équipe doit vérifier.',
+    evaluateHint: 'Utilisez un échantillon représentatif pour transformer les impressions visuelles en une référence produit approuvée et reproductible.',
+    specificationStatus: 'STATUT DE LA SPÉCIFICATION', specStatusDesc: 'Faits confirmés, clairement séparés des points ouverts.',
+    specStatusNote: 'DS HAIR ne publie pas d’hypothèses comme spécifications produit. Les points ouverts sont confirmés avec le lot d’approvisionnement sélectionné et le devis.',
+    confirmedOnReference: 'Confirmé sur cette référence', toConfirmBeforeOrder: 'À confirmer avant commande',
+    oemPrivateLabel: 'OEM / MARQUE PRIVÉE', oemHeading: 'Construisez la spécification autour de votre marché.',
+    exploreCustomPackaging: 'DÉCOUVRIR L’EMBALLAGE PERSONNALISÉ', buyerQuestions: 'QUESTIONS DE L’ACHETEUR', beforeYouRequest: 'Avant de demander un devis',
+    reference: 'RÉFÉRENCE · ', productBrief: 'FICHE PRODUIT · SANS SKU', sendBuyingBrief: 'ENVOYER VOTRE FICHE D’ACHAT',
+    referenceShown: 'RÉFÉRENCE AFFICHÉE', requestToConfirm: 'DEMANDER À CONFIRMER',
+    clipInRangeTier: 'GAMME CLIP-IN PAR NIVEAU DE MARCHÉ', clipInHeading: 'Trois niveaux de demande. Trois profils de volume et de marge différents.',
+    clipInIntro: 'Construisez un programme clip-in autour de ce qui se vend vraiment : classiques plein jeu éprouvés, constructions seamless en forte croissance et pièces halo-wire à faible concurrence. Chaque niveau utilise la même base 100 % cheveux humains Remy ; la différence tient à la construction, au profil de la porteuse et à la spécification.',
+    includes: 'Comprend', typicalSpec: 'Spécification typique', weightGuidance: 'Guide de poids', whyStock: 'Pourquoi le stocker', buildThisProduct: 'CRÉER CE PRODUIT →',
+    verifiedSetMaps: 'PLANS DE JEU VÉRIFIÉS', setMapHeading: 'Sachez exactement ce qui se trouve dans chaque jeu complet.',
+    setMapIntro: 'Ces cartes de pièces proviennent de la fiche produit DS HAIR existante. Les grammes, la construction, la longueur et la couleur finaux sont confirmés avec l’échantillon sélectionné.',
+    quantity: 'Quantité', weftWidth: 'Largeur de la tresse', clipLayout: 'Disposition des clips',
+    buildBrief: 'CRÉER VOTRE FICHE D’ACHAT', buildBriefHeading: 'Sélectionnez la spécification que vous souhaitez nous faire examiner.',
+    buildBriefIntro: 'Ces contrôles préparent une demande ; ils n’indiquent pas de stock en direct. Faisabilité, MOQ, prix et délai sont confirmés par écrit.',
+    yourSpec: 'VOTRE SPÉCIFICATION DEMANDÉE', colour: 'Couleur', selectShade: 'Sélectionnez une teinte du Colour Chart 2',
+    specSummaryStatus: 'Les sélections de référence sont photographiées ou documentées. Les autres sélections restent des demandes jusqu’à confirmation.',
+    sendThisSpec: 'ENVOYER CETTE SPÉCIFICATION', primaryColourSystem: 'SYSTÈME DE COULEUR PRINCIPAL', requestColourKit: 'DEMANDER UN KIT DE COULEUR PHYSIQUE →',
+    allThirtyOne: 'Tous les 31', scrollHint: 'Faites défiler horizontalement pour comparer les méthodes →',
+    similarComparison: 'COMPARAISON DE PRODUITS SIMILAIRES', buyerQuestion: 'Question de l’acheteur',
+    productSelectionLogic: 'LOGIQUE DE SÉLECTION DE PRODUIT', completeDefinition: 'LA DÉFINITION COMPLÈTE DU PRODUIT',
+    sixLayers: 'Six couches forment une spécification reproductible.', sixLayersIntro: 'Un nom de catalogue ne suffit pas. Ces six couches doivent concorder avant l’approbation de l’échantillon et le devis.',
+    constructionKnowledge: 'CONNAISSANCE DE LA CONSTRUCTION', decisionPoint: 'Point de décision',
+    dsHairDifference: 'LA DIFFÉRENCE DS HAIR', dsHairHeading: 'Un processus d’approvisionnement structuré, pas une affirmation de qualité sans fondement.',
+    dsHairIntro: 'Nous comparons la façon dont un projet est géré — et ne faisons pas d’affirmations non vérifiées sur le cheveu d’un autre fournisseur.',
+    structuredWorkflow: 'Processus structuré DS HAIR', unstructuredRisk: 'Risque d’approvisionnement non structuré',
+    proKnowledge: 'CONNAISSANCE PROFESSIONNELLE DU PRODUIT', proKnowledgeHeading: 'Utilisez la page pour prendre une meilleure décision d’achat.',
+    proKnowledgeIntro: 'Conseils pratiques pour les salons, distributeurs et équipes private label. Les affirmations spécifiques au produit nécessitent l’approbation de l’échantillon.',
+    relatedDirections: 'AXES DE DÉVELOPPEMENT LIÉS', discussThisProduct: 'DISCUTER DE CE PRODUIT →', relatedHeading: 'Construisez une gamme d’extensions cohérente.', relatedIntro: 'Ce sont des voies de demande, pas des listes de stock en direct. Chaque produit nécessite sa propre spécification et référence d’échantillon.'
+  }
+};
+const _ = (key) => UI[lang] ? (UI[lang][key] || UI.en[key]) : UI.en[key];
 const VERSION = '20260731-2';
 const chartFor = (id) => colourCharts.id === id ? colourCharts : null;
 
 function optionStatus(status) {
-  return status === 'reference' ? 'REFERENCE SHOWN' : 'REQUEST TO CONFIRM';
+  return status === 'reference' ? _('referenceShown') : _('requestToConfirm');
 }
 
 function productVisual(product) {
@@ -93,14 +253,14 @@ function conversionModule(product) {
 function productTypeChooser(product) {
   if (!product.productTypes) return '';
   return `<section class="clip-type-section">
-    <div class="product-section-heading"><p class="eyebrow">CLIP-IN RANGE BY MARKET TIER</p><h2>Three demand tiers. Three different volume and margin profiles.</h2><p>Build a clip-in programme around what actually sells: proven full-set classics, fast-rising seamless constructions, and low-competition halo-wire pieces. Each tier uses the same 100% Remy human hair base; the difference is construction, wearer profile and specification.</p></div>
-    <div class="clip-type-grid is-three-tiers">${product.productTypes.map((item) => `<article class="clip-type-card has-image"><figure><img src="${item.image}" alt="${esc(item.imageAlt)}" decoding="async" loading="lazy"></figure><div><span>${esc(item.tier)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>Includes</dt><dd>${esc(item.includes)}</dd></div><div><dt>Typical spec</dt><dd>${esc(item.typicalSpec)}</dd></div><div><dt>${item.guidanceLabel || 'Weight guidance'}</dt><dd>${esc(item.guidance)}</dd></div><div><dt>Why stock it</dt><dd>${esc(item.whyStock)}</dd></div></dl><a href="#build-your-brief">BUILD THIS PRODUCT →</a></div></article>`).join('')}</div>
+    <div class="product-section-heading"><p class="eyebrow">${_('clipInRangeTier')}</p><h2>${_('clipInHeading')}</h2><p>${_('clipInIntro')}</p></div>
+    <div class="clip-type-grid is-three-tiers">${product.productTypes.map((item) => `<article class="clip-type-card has-image"><figure><img src="${item.image}" alt="${esc(item.imageAlt)}" decoding="async" loading="lazy"></figure><div><span>${esc(item.tier)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p><dl><div><dt>${_('includes')}</dt><dd>${esc(item.includes)}</dd></div><div><dt>${_('typicalSpec')}</dt><dd>${esc(item.typicalSpec)}</dd></div><div><dt>${item.guidanceLabel || _('weightGuidance')}</dt><dd>${esc(item.guidance)}</dd></div><div><dt>${_('whyStock')}</dt><dd>${esc(item.whyStock)}</dd></div></dl><a href="#build-your-brief">${_('buildThisProduct')}</a></div></article>`).join('')}</div>
   </section>`;
 }
 
 function setMapSection(product) {
   if (!product.setMaps) return '';
-  return `<section class="set-map-section"><div class="product-section-heading"><p class="eyebrow">VERIFIED SET MAPS</p><h2>Know exactly what is inside each full set.</h2><p>These piece maps come from the existing DS HAIR product record. Final grams, construction, length and colour are confirmed with the selected sample.</p></div><div class="set-map-grid is-count-${product.setMaps.length}">${product.setMaps.map((set) => `<article><div><span>${esc(set.title)}</span><p>${esc(set.summary)}</p></div><table><thead><tr><th>Quantity</th><th>Weft width</th><th>Clip layout</th></tr></thead><tbody>${set.rows.map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></article>`).join('')}</div></section>`;
+  return `<section class="set-map-section"><div class="product-section-heading"><p class="eyebrow">${_('verifiedSetMaps')}</p><h2>${_('setMapHeading')}</h2><p>${_('setMapIntro')}</p></div><div class="set-map-grid is-count-${product.setMaps.length}">${product.setMaps.map((set) => `<article><div><span>${esc(set.title)}</span><p>${esc(set.summary)}</p></div><table><thead><tr><th>${_('quantity')}</th><th>${_('weftWidth')}</th><th>${_('clipLayout')}</th></tr></thead><tbody>${set.rows.map((row) => `<tr>${row.map((cell) => `<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></article>`).join('')}</div></section>`;
 }
 
 function configurationBuilder(product) {
@@ -108,22 +268,22 @@ function configurationBuilder(product) {
   const chart = chartFor(product.colourChart);
   const productIdentity = product.code || product.title;
   return `<section class="spec-builder" id="build-your-brief" data-spec-builder data-product-code="${esc(productIdentity)}">
-    <div class="spec-builder-heading"><div><p class="eyebrow">BUILD YOUR BUYING BRIEF</p><h2>Select the specification you want us to review.</h2></div><p>These controls prepare an enquiry; they do not indicate live stock. Final feasibility, MOQ, price and lead time are confirmed in writing.</p></div>
+    <div class="spec-builder-heading"><div><p class="eyebrow">${_('buildBrief')}</p><h2>${_('buildBriefHeading')}</h2></div><p>${_('buildBriefIntro')}</p></div>
     <div class="spec-builder-layout">
       <div class="spec-fields">
         ${product.configuration.map((group) => `<fieldset class="spec-field" data-spec-field="${esc(group.key)}"><legend>${esc(group.label)}</legend><div class="spec-options">${group.options.map((option) => `<button class="spec-option${option.status === 'reference' ? ' is-selected' : ''}" type="button" data-value="${esc(option.value)}" data-status="${esc(option.status)}" aria-pressed="${option.status === 'reference' ? 'true' : 'false'}"><span>${esc(option.value)}</span><small>${optionStatus(option.status)}</small></button>`).join('')}</div><p>${esc(group.note)}</p></fieldset>`).join('')}
       </div>
       <aside class="spec-summary" aria-live="polite">
-        <p class="eyebrow">YOUR REQUESTED SPECIFICATION</p>
+        <p class="eyebrow">${_('yourSpec')}</p>
         <h3>${esc(product.referenceLabel || product.title)}</h3>
-        <dl>${product.configuration.map((group) => `<div><dt>${esc(group.label)}</dt><dd data-summary="${esc(group.key)}">${esc(group.options.find((option) => option.status === 'reference')?.value || 'Select an option')}</dd></div>`).join('')}<div><dt>Colour</dt><dd data-summary="colour">Select a Colour Chart 2 shade</dd></div></dl>
-        <p class="spec-summary-status">Reference selections are photographed or documented. Other selections remain requests until confirmed.</p>
-        <a class="button button-dark" data-spec-enquiry href="contact.html?product=${encodeURIComponent(productIdentity)}">SEND THIS SPECIFICATION</a>
+        <dl>${product.configuration.map((group) => `<div><dt>${esc(group.label)}</dt><dd data-summary="${esc(group.key)}">${esc(group.options.find((option) => option.status === 'reference')?.value || 'Select an option')}</dd></div>`).join('')}<div><dt>${_('colour')}</dt><dd data-summary="colour">${_('selectShade')}</dd></div></dl>
+        <p class="spec-summary-status">${_('specSummaryStatus')}</p>
+        <a class="button button-dark" data-spec-enquiry href="contact.html?product=${encodeURIComponent(productIdentity)}">${_('sendThisSpec')}</a>
       </aside>
     </div>
     ${chart ? `<div class="colour-chart" data-colour-chart>
-      <div class="colour-chart-heading"><div><p class="eyebrow">PRIMARY COLOUR SYSTEM</p><h2>${esc(chart.name)}</h2></div><div><p>${esc(chart.notice)}</p><a href="free-color-kits.html">REQUEST A PHYSICAL COLOUR KIT →</a></div></div>
-      <div class="colour-filters" aria-label="Colour families"><button class="is-active" type="button" data-colour-filter="all" aria-pressed="true">All 31</button>${chart.groups.map((group) => `<button type="button" data-colour-filter="${esc(group.name)}" aria-pressed="false">${esc(group.name)}</button>`).join('')}</div>
+      <div class="colour-chart-heading"><div><p class="eyebrow">${_('primaryColourSystem')}</p><h2>${esc(chart.name)}</h2></div><div><p>${esc(chart.notice)}</p><a href="free-color-kits.html">${_('requestColourKit')}</a></div></div>
+      <div class="colour-filters" aria-label="Colour families"><button class="is-active" type="button" data-colour-filter="all" aria-pressed="true">${_('allThirtyOne')}</button>${chart.groups.map((group) => `<button type="button" data-colour-filter="${esc(group.name)}" aria-pressed="false">${esc(group.name)}</button>`).join('')}</div>
       <div class="colour-grid">${chart.groups.flatMap((group) => group.colours.map((colour) => `<button class="colour-card" type="button" data-colour-group="${esc(group.name)}" data-colour-code="${esc(colour.code)}" data-colour-name="${esc(colour.name)}" aria-pressed="false"><img src="${colour.image}" alt="" loading="lazy"><span><strong>${esc(colour.code)}</strong>${esc(colour.name)}</span></button>`)).join('')}</div>
     </div>` : ''}
   </section>`;
@@ -132,36 +292,36 @@ function configurationBuilder(product) {
 function comparisonTable(product) {
   const comparison = product.methodComparison;
   if (!comparison) return '';
-  return `<section class="method-comparison"><div class="product-section-heading"><p class="eyebrow">${esc(comparison.eyebrow || 'SIMILAR PRODUCT COMPARISON')}</p><h2>${esc(comparison.title || 'Choose the method by the buying decision.')}</h2><p>${esc(comparison.intro || comparison.notice)}</p></div><p class="comparison-scroll-hint">Scroll horizontally to compare methods →</p><div class="comparison-scroll" role="region" aria-label="Hair extension method comparison" tabindex="0"><table><thead><tr><th scope="col">Buyer question</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="comparison-notice">${esc(comparison.notice)}</p></section>`;
+  return `<section class="method-comparison"><div class="product-section-heading"><p class="eyebrow">${esc(comparison.eyebrow || _('similarComparison'))}</p><h2>${esc(comparison.title || 'Choose the method by the buying decision.')}</h2><p>${esc(comparison.intro || comparison.notice)}</p></div><p class="comparison-scroll-hint">${_('scrollHint')}</p><div class="comparison-scroll" role="region" aria-label="Hair extension method comparison" tabindex="0"><table><thead><tr><th scope="col">${_('buyerQuestion')}</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="comparison-notice">${esc(comparison.notice)}</p></section>`;
 }
 
 function decisionFramework(product) {
   const section = product.decisionFramework;
   if (!section) return '';
-  return `<section class="product-decisions"><div class="product-section-heading"><p class="eyebrow">PRODUCT SELECTION LOGIC</p><h2>${esc(section.title)}</h2><p>${esc(section.intro)}</p></div><div class="decision-grid">${section.items.map((item) => `<article><span>${esc(item.label)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
+  return `<section class="product-decisions"><div class="product-section-heading"><p class="eyebrow">${_('productSelectionLogic')}</p><h2>${esc(section.title)}</h2><p>${esc(section.intro)}</p></div><div class="decision-grid">${section.items.map((item) => `<article><span>${esc(item.label)}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
 }
 
 function specificationAnatomy(product) {
   if (!product.specificationAnatomy) return '';
-  return `<section class="spec-anatomy"><div><p class="eyebrow">THE COMPLETE PRODUCT DEFINITION</p><h2>Six layers make one repeatable specification.</h2><p>A catalogue name is not enough. These six layers must agree before sample approval and quotation.</p></div><ol>${product.specificationAnatomy.map(([number, title, body]) => `<li><span>${esc(number)}</span><div><h3>${esc(title)}</h3><p>${esc(body)}</p></div></li>`).join('')}</ol></section>`;
+  return `<section class="spec-anatomy"><div><p class="eyebrow">${_('completeDefinition')}</p><h2>${_('sixLayers')}</h2><p>${_('sixLayersIntro')}</p></div><ol>${product.specificationAnatomy.map(([number, title, body]) => `<li><span>${esc(number)}</span><div><h3>${esc(title)}</h3><p>${esc(body)}</p></div></li>`).join('')}</ol></section>`;
 }
 
 function constructionComparison(product) {
   const comparison = product.constructionComparison;
   if (!comparison) return '';
-  return `<section class="construction-comparison"><div class="product-section-heading"><p class="eyebrow">CONSTRUCTION KNOWLEDGE</p><h2>${esc(comparison.title || 'Compare constructions before approving a sample.')}</h2><p>${esc(comparison.notice)}</p></div><div class="comparison-scroll" role="region" aria-label="Clip-in construction comparison" tabindex="0"><table><thead><tr><th scope="col">Decision point</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
+  return `<section class="construction-comparison"><div class="product-section-heading"><p class="eyebrow">${_('constructionKnowledge')}</p><h2>${esc(comparison.title || 'Compare constructions before approving a sample.')}</h2><p>${esc(comparison.notice)}</p></div><div class="comparison-scroll" role="region" aria-label="Clip-in construction comparison" tabindex="0"><table><thead><tr><th scope="col">${_('decisionPoint')}</th>${comparison.columns.map((column) => `<th scope="col">${esc(column)}</th>`).join('')}</tr></thead><tbody>${comparison.rows.map(([label, ...values]) => `<tr><th scope="row">${esc(label)}</th>${values.map((value) => `<td>${esc(value)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></section>`;
 }
 
 function serviceComparison(product) {
   if (!product.serviceComparison || !product.serviceComparison.length) return '';
-  return `<section class="service-comparison"><div><p class="eyebrow">THE DS HAIR DIFFERENCE</p><h2>A structured sourcing process, not an unsupported quality claim.</h2><p>We compare the way a project is managed—not make unverified statements about another supplier’s hair.</p></div><div class="service-comparison-table"><div class="service-comparison-head"><strong>Decision point</strong><strong>DS HAIR structured workflow</strong><strong>Unstructured sourcing risk</strong></div>${product.serviceComparison.map(([label, ours, risk]) => `<div><strong>${esc(label)}</strong><span>${esc(ours)}</span><span>${esc(risk)}</span></div>`).join('')}</div></section>`;
+  return `<section class="service-comparison"><div><p class="eyebrow">${_('dsHairDifference')}</p><h2>${_('dsHairHeading')}</h2><p>${_('dsHairIntro')}</p></div><div class="service-comparison-table"><div class="service-comparison-head"><strong>${_('decisionPoint')}</strong><strong>${_('structuredWorkflow')}</strong><strong>${_('unstructuredRisk')}</strong></div>${product.serviceComparison.map(([label, ours, risk]) => `<div><strong>${esc(label)}</strong><span>${esc(ours)}</span><span>${esc(risk)}</span></div>`).join('')}</div></section>`;
 }
 
 function knowledgeSection(product) {
   if (!product.knowledge || !product.knowledge.length) return '';
   const count = product.knowledge.length;
   const gridClass = count <= 5 ? `is-count-${count}` : count === 6 ? 'is-count-6' : 'is-count-many';
-  return `<section class="product-knowledge"><div class="product-section-heading"><p class="eyebrow">PROFESSIONAL PRODUCT KNOWLEDGE</p><h2>Use the page to make a better buying decision.</h2><p>Practical guidance for salons, distributors and private-label teams. Product-specific claims still require sample approval.</p></div><div class="knowledge-grid ${gridClass}">${product.knowledge.map((item, index) => `<article><span>0${index + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
+  return `<section class="product-knowledge"><div class="product-section-heading"><p class="eyebrow">${_('proKnowledge')}</p><h2>${_('proKnowledgeHeading')}</h2><p>${_('proKnowledgeIntro')}</p></div><div class="knowledge-grid ${gridClass}">${product.knowledge.map((item, index) => `<article><span>0${index + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join('')}</div></section>`;
 }
 
 // Per-product display metadata for the auto-generated related-products cards.
@@ -223,6 +383,14 @@ const RELATED_META = {
   'synthetic-wig-dsw-2523': { eyebrow: 'SYNTHETIC WIG', title: 'Synthetic Full Wig' },
 };
 
+// Method/segment eyebrow labels, translated per locale. English keys map to themselves.
+const METHOD_EYEBROW = {
+  en: { 'CLIP-IN METHOD': 'CLIP-IN METHOD', 'TAPE-IN METHOD': 'TAPE-IN METHOD', 'KERATIN METHOD': 'KERATIN METHOD', 'WEFT METHOD': 'WEFT METHOD', 'NANO RING METHOD': 'NANO RING METHOD', 'SYNTHETIC HAIRPIECE': 'SYNTHETIC HAIRPIECE', 'SYNTHETIC PONYTAIL': 'SYNTHETIC PONYTAIL', 'SYNTHETIC TOPPER': 'SYNTHETIC TOPPER', 'LACE WIG': 'LACE WIG', 'HUMAN HAIR TOPPER': 'HUMAN HAIR TOPPER', 'SYNTHETIC WIG': 'SYNTHETIC WIG' },
+  es: { 'CLIP-IN METHOD': 'MÉTODO CLIP-IN', 'TAPE-IN METHOD': 'MÉTODO TAPE-IN', 'KERATIN METHOD': 'MÉTODO QUERATINA', 'WEFT METHOD': 'MÉTODO WEFT', 'NANO RING METHOD': 'MÉTODO NANO RING', 'SYNTHETIC HAIRPIECE': 'PIEZA SINTÉTICA', 'SYNTHETIC PONYTAIL': 'COLA SINTÉTICA', 'SYNTHETIC TOPPER': 'TOPPER SINTÉTICO', 'LACE WIG': 'PELUCA LACE', 'HUMAN HAIR TOPPER': 'TOPPER DE CABELLO HUMANO', 'SYNTHETIC WIG': 'PELUCA SINTÉTICA' },
+  de: { 'CLIP-IN METHOD': 'CLIP-IN-METHODE', 'TAPE-IN METHOD': 'TAPE-IN-METHODE', 'KERATIN METHOD': 'KERATIN-METHODE', 'WEFT METHOD': 'WEFT-METHODE', 'NANO RING METHOD': 'NANO-RING-METHODE', 'SYNTHETIC HAIRPIECE': 'SYNTHETISCHES HAARTEIL', 'SYNTHETIC PONYTAIL': 'SYNTHETISCHER ZOPF', 'SYNTHETIC TOPPER': 'SYNTHETISCHER TOPPER', 'LACE WIG': 'LACE-PERÜCKE', 'HUMAN HAIR TOPPER': 'ECHTHAAR-TOPPER', 'SYNTHETIC WIG': 'SYNTHETISCHE PERÜCKE' },
+  fr: { 'CLIP-IN METHOD': 'MÉTHODE CLIP-IN', 'TAPE-IN METHOD': 'MÉTHODE TAPE-IN', 'KERATIN METHOD': 'MÉTHODE KÉRATINE', 'WEFT METHOD': 'MÉTHODE WEFT', 'NANO RING METHOD': 'MÉTHODE NANO RING', 'SYNTHETIC HAIRPIECE': 'ACCESSOIRE SYNTHÉTIQUE', 'SYNTHETIC PONYTAIL': 'QUEUE-DE-CHEVAL SYNTHÉTIQUE', 'SYNTHETIC TOPPER': 'TOPPER SYNTHÉTIQUE', 'LACE WIG': 'PERUQUE LACE', 'HUMAN HAIR TOPPER': 'TOPPER EN CHEVEUX NATURELS', 'SYNTHETIC WIG': 'PERUQUE SYNTHÉTIQUE' },
+};
+
 function relatedPool(product) {
   const sameCat = products.filter((p) => p.category === product.category && p.slug !== product.slug);
   const selfIndex = products.findIndex((p) => p.slug === product.slug);
@@ -235,11 +403,13 @@ function relatedPool(product) {
 
 function relatedProducts(product) {
   const cards = relatedPool(product).map((item) => {
-    const meta = RELATED_META[item.slug] || { eyebrow: item.category, title: item.title };
+    const meta = RELATED_META[item.slug] || {};
+    const eyebrow = (METHOD_EYEBROW[lang] && METHOD_EYEBROW[lang][meta.eyebrow || item.category]) || meta.eyebrow || item.category;
+    const title = item.title;
     const image = item.images && item.images.length ? item.images[0] : null;
-    return `<a class="related-product-card" href="${item.slug}.html"><img src="${image.src}" alt="${esc(image.alt || meta.title)}" decoding="async" loading="lazy"><div><span>${esc(meta.eyebrow)}</span><h3>${esc(meta.title)}</h3><p>${esc(item.summary)}</p><strong>DISCUSS THIS PRODUCT →</strong></div></a>`;
+    return `<a class="related-product-card" href="${item.slug}.html"><img src="${image.src}" alt="${esc(image.alt || title)}" decoding="async" loading="lazy"><div><span>${esc(eyebrow)}</span><h3>${esc(title)}</h3><p>${esc(item.summary)}</p><strong>${_('discussThisProduct')}</strong></div></a>`;
   }).join('');
-  return `<section class="related-products"><div class="product-section-heading"><p class="eyebrow">RELATED DEVELOPMENT DIRECTIONS</p><h2>Build a coherent extension range.</h2><p>These are enquiry pathways, not live-stock listings. Each product requires its own specification and sample reference.</p></div><div class="related-product-grid">${cards}</div></section>`;
+  return `<section class="related-products"><div class="product-section-heading"><p class="eyebrow">${_('relatedDirections')}</p><h2>${_('relatedHeading')}</h2><p>${_('relatedIntro')}</p></div><div class="related-product-grid">${cards}</div></section>`;
 }
 
 for (const product of products) {
@@ -301,24 +471,24 @@ for (const product of products) {
   <link rel="stylesheet" href="product.css?v=${VERSION}">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="notice">DS HAIR · B2B samples · OEM & private label <a href="contact.html">Discuss your requirement →</a></div>
-  <header class="site-header"><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button><nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"></nav><a class="wordmark" href="index.html" aria-label="DS HAIR home"><strong>DS HAIR</strong><span>WIGEXPORTER · GLOBAL B2B</span></a><div class="header-tools"><a class="trade-link" href="trade-account.html">TRADE ACCOUNT</a><a class="quote-link" href="contact.html">REQUEST QUOTE</a></div></header>
+  <a class="skip-link" href="#main">${_('skipToContent')}</a>
+  <div class="notice">DS HAIR · B2B samples · OEM & private label <a href="contact.html">${_('discussRequirement')}</a></div>
+  <header class="site-header"><button class="menu-toggle" type="button" aria-label="${_('openNavigation')}" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button><nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"></nav><a class="wordmark" href="index.html" aria-label="DS HAIR home"><strong>DS HAIR</strong><span>WIGEXPORTER · GLOBAL B2B</span></a><div class="header-tools"><a class="trade-link" href="trade-account.html">${_('tradeAccount')}</a><a class="quote-link" href="contact.html">${_('requestQuote')}</a></div></header>
   <main id="main">
-    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><a href="products.html">Collections</a><span>›</span><a href="${product.categoryUrl}">${esc(product.category)}</a><span>›</span><span>${esc(product.title)}</span></nav>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">${_('home')}</a><span>›</span><a href="products.html">${_('collections')}</a><span>›</span><a href="${product.categoryUrl}">${esc(product.category)}</a><span>›</span><span>${esc(product.title)}</span></nav>
     <section class="product-hero${product.images.length ? '' : ' product-hero-text-only'}">
       ${productVisual(product)}
       <div class="product-summary">
         ${product.draftNotice ? `<p class="draft-notice">${esc(product.draftNotice)}</p>` : ''}
         <p class="eyebrow">${esc(product.brand)} · ${esc(product.category)}</p>
         <h1>${esc(product.title)}</h1>
-        <p class="product-code">${product.code ? `PRODUCT CODE · ${esc(product.code)}` : esc(product.referenceLabel || 'SPECIFICATION-BASED PRODUCT · NO SKU')}</p>
+        <p class="product-code">${product.code ? `${_('productCode')}${esc(product.code)}` : esc(product.referenceLabel || _('specBasedNoSku'))}</p>
         ${conversion.tradeCard}
         <p class="product-dek">${esc(product.summary)}</p>
         <dl class="quick-specs">${product.confirmedFacts.map(([name, value]) => `<div><dt>${esc(name)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>
         ${conversion.trustBadges}
-        <div class="product-actions"><a class="button button-dark" href="contact.html?product=${encodeURIComponent(productIdentity)}">REQUEST QUOTE</a><a class="button button-light" href="sample.html?product=${encodeURIComponent(productIdentity)}">DISCUSS A SAMPLE</a>${wa ? `<a class="button button-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener">Enquire via WhatsApp</a>` : ''}</div>
-        <p class="accuracy-note">Commercial terms and unconfirmed technical details are provided only after specification review.</p>
+        <div class="product-actions"><a class="button button-dark" href="contact.html?product=${encodeURIComponent(productIdentity)}">${_('requestQuote')}</a><a class="button button-light" href="sample.html?product=${encodeURIComponent(productIdentity)}">${_('discussSample')}</a>${wa ? `<a class="button button-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener">${_('enquireWhatsApp')}</a>` : ''}</div>
+        <p class="accuracy-note">${_('accuracyNote')}</p>
       </div>
     </section>
     ${conversion.serviceBar}
@@ -327,32 +497,32 @@ for (const product of products) {
     ${setMapSection(product)}
     ${specificationAnatomy(product)}
     ${configurationBuilder(product)}
-    <section class="product-answer"><p class="eyebrow">BUYER ANSWER</p><h2>What is this product for?</h2><p>${esc(product.summary)}</p></section>
+    <section class="product-answer"><p class="eyebrow">${_('buyerAnswer')}</p><h2>${_('whatIsThisFor')}</h2><p>${esc(product.summary)}</p></section>
     <section class="product-section">
-      <div class="product-section-heading"><p class="eyebrow">EVALUATION POINTS</p><h2>What your team should verify.</h2><p>Use a representative sample to turn visual impressions into an approved, repeatable product reference.</p></div>
+      <div class="product-section-heading"><p class="eyebrow">${_('evaluationPoints')}</p><h2>${_('whatVerify')}</h2><p>${_('evaluateHint')}</p></div>
       <div class="buyer-checks">${product.buyerChecks.map(([name, text], index) => `<article><span>0${index + 1}</span><h3>${esc(name)}</h3><p>${esc(text)}</p></article>`).join('')}</div>
     </section>
     ${constructionComparison(product)}
     ${comparisonTable(product)}
     ${serviceComparison(product)}
     <section class="product-specification">
-      <div><p class="eyebrow">SPECIFICATION STATUS</p><h2>Confirmed facts, clearly separated from open items.</h2><p>DS HAIR does not publish assumptions as product specifications. Open items are confirmed against the selected supply batch and quotation.</p></div>
+      <div><p class="eyebrow">${_('specificationStatus')}</p><h2>${_('specStatusDesc')}</h2><p>${_('specStatusNote')}</p></div>
       <div>
-        <h3>Confirmed on this reference</h3>
+        <h3>${_('confirmedOnReference')}</h3>
         <dl>${product.confirmedFacts.map(([name, value]) => `<div><dt>${esc(name)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl>
-        <h3>To confirm before order</h3>
+        <h3>${_('toConfirmBeforeOrder')}</h3>
         <ul>${product.unconfirmed.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
       </div>
     </section>
     <section class="product-customisation">
-      <div><p class="eyebrow">OEM / PRIVATE LABEL</p><h2>Build the specification around your market.</h2></div>
+      <div><p class="eyebrow">${_('oemPrivateLabel')}</p><h2>${_('oemHeading')}</h2></div>
       <ul>${product.customisation.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
-      <a class="button button-dark" href="customization.html#custom-packaging">EXPLORE CUSTOM PACKAGING</a>
+      <a class="button button-dark" href="customization.html#custom-packaging">${_('exploreCustomPackaging')}</a>
     </section>
     ${knowledgeSection(product)}
     ${relatedProducts(product)}
-    <section class="faq-section"><div><p class="eyebrow">BUYER QUESTIONS</p><h2>Before you request a quote</h2></div><div class="faq-list">${product.faqs.map(([name, text]) => `<details><summary>${esc(name)}</summary><p>${esc(text)}</p></details>`).join('')}</div></section>
-    <section class="final-cta"><p class="eyebrow">${product.code ? `REFERENCE · ${esc(product.code)}` : 'PRODUCT BRIEF · NO SKU'}</p><h2>${esc(product.ctaTitle || `Request the DS HAIR ${product.title} specification.`)}</h2><p>${esc(product.ctaText || 'Include your target market, preferred construction, length, weight, colour direction and estimated quantity so the sourcing team can respond with the right next step.')}</p><a class="button button-light" href="contact.html?product=${encodeURIComponent(productIdentity)}">SEND YOUR BUYING BRIEF</a></section>
+    <section class="faq-section"><div><p class="eyebrow">${_('buyerQuestions')}</p><h2>${_('beforeYouRequest')}</h2></div><div class="faq-list">${product.faqs.map(([name, text]) => `<details><summary>${esc(name)}</summary><p>${esc(text)}</p></details>`).join('')}</div></section>
+    <section class="final-cta"><p class="eyebrow">${product.code ? `${_('reference')}${esc(product.code)}` : _('productBrief')}</p><h2>${esc(product.ctaTitle || `Request the DS HAIR ${product.title} specification.`)}</h2><p>${esc(product.ctaText || 'Include your target market, preferred construction, length, weight, colour direction and estimated quantity so the sourcing team can respond with the right next step.')}</p><a class="button button-light" href="contact.html?product=${encodeURIComponent(productIdentity)}">${_('sendBuyingBrief')}</a></section>
   </main>
   <footer class="site-footer"></footer>
   <script type="application/ld+json">${json(productSchema)}</script>
@@ -383,15 +553,20 @@ for (const product of products) {
       .replace(/"product-config\.js/g, '"/product-config.js')
       .replace(/"script\.js/g, '"/script.js')
       .replace(/"favicon\.svg/g, '"/favicon.svg')
+      .replace(/"category-layout\.css/g, '"/category-layout.css')
+      .replace(/"homepage-layout\.css/g, '"/homepage-layout.css')
+      .replace(/"colour-packaging\.css/g, '"/colour-packaging.css')
+      .replace(/"colour-packaging\.js/g, '"/colour-packaging.js')
+      .replace(/"customization\.css/g, '"/customization.css')
       .replace(/"assets\//g, '"/assets/')
       .replace(/href="(index|products|trade-account|contact|synthetic-wigs-hairpieces)\.html"/g, 'href="/$1.html"')
-      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(product.slug, lang)}</div></header>`)
+      .replace('<div class="header-tools">', '<div class="header-tools">' + langSwitch(product.slug, lang))
       .replace('</head>', hreflangBlock(product.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, `${product.slug}.html`), finalHtml.replace(/[ \t]+$/gm, ''));
   } else {
     finalHtml = html
-      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(product.slug, 'en')}</div></header>`)
+      .replace('<div class="header-tools">', '<div class="header-tools">' + langSwitch(product.slug, 'en'))
       .replace('</head>', hreflangBlock(product.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
     fs.writeFileSync(path.join(root, `${product.slug}.html`), finalHtml.replace(/[ \t]+$/gm, ''));
   }
