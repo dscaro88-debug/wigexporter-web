@@ -3,8 +3,37 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const products = JSON.parse(fs.readFileSync(path.join(root, 'content/products.json'), 'utf8'));
-const colourCharts = JSON.parse(fs.readFileSync(path.join(root, 'content/colors.json'), 'utf8'));
+const localeIdx = process.argv.indexOf('--locale');
+const lang = localeIdx !== -1 ? process.argv[localeIdx + 1] : null;
+const contentDir = lang ? path.join(root, 'content', lang) : path.join(root, 'content');
+let products;
+try {
+  products = JSON.parse(fs.readFileSync(path.join(contentDir, 'products.json'), 'utf8'));
+} catch {
+  products = JSON.parse(fs.readFileSync(path.join(root, 'content', 'products.json'), 'utf8'));
+}
+const colourCharts = JSON.parse(fs.readFileSync(path.join(root, 'content', 'colors.json'), 'utf8'));
+const LANGS = ['en', 'es', 'de', 'fr'];
+const OG_LOCALE = { en: 'en_GB', es: 'es_ES', de: 'de_DE', fr: 'fr_FR' };
+const outDir = lang ? path.join(root, lang) : root;
+function hreflangBlock(slug) {
+  const links = LANGS.map((l) => {
+    const href = l === 'en' ? `https://wigexporter.com/${slug}.html` : `https://wigexporter.com/${l}/${slug}.html`;
+    return `  <link rel="alternate" hreflang="${l}" href="${href}">`;
+  }).join('\n');
+  return links + `\n  <link rel="alternate" hreflang="x-default" href="https://wigexporter.com/${slug}.html">`;
+}
+const LANG_LABELS = { en: 'EN', es: 'ES', de: 'DE', fr: 'FR' };
+function langSwitch(pageFile, currentLang) {
+  const file = `${pageFile}.html`;
+  const links = LANGS.map((l) => {
+    const href = l === 'en' ? `/${file}` : `/${l}/${file}`;
+    const current = l === currentLang ? ' aria-current="true"' : '';
+    return `<a href="${href}"${current}>${LANG_LABELS[l]}</a>`;
+  }).join('');
+  return `<div class="lang-switch" role="navigation" aria-label="Language / Idioma / Sprache / Langue">${links}</div>`;
+}
+const LANG_SWITCH_STYLE = `<style>.lang-switch{display:flex;align-items:center;gap:.3rem;margin-left:1rem;font:600 10px/1 var(--sans);letter-spacing:.08em}.lang-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:24px;padding:0 .4rem;border:1px solid rgba(17,17,17,.25);border-radius:999px;color:#171513;text-decoration:none}.lang-switch a:hover{border-color:#171513;background:rgba(17,17,17,.05)}.lang-switch a[aria-current="true"]{background:#171513;color:#fff;border-color:#171513}@media(max-width:1100px){.lang-switch{margin:0}.lang-switch a{min-width:22px;height:20px;font-size:9px}}</style>`;
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
 const VERSION = '20260731-2';
@@ -342,7 +371,27 @@ for (const product of products) {
   <script src="script.js?v=${VERSION}"></script>
 </body>
 </html>`;
-  fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
+  let finalHtml = html;
+  if (lang) {
+    finalHtml = finalHtml
+      .replace('<html lang="en">', `<html lang="${lang}">`)
+      .replace('og:locale" content="en_GB"', `og:locale" content="${OG_LOCALE[lang]}"`)
+      .replace(new RegExp('https://wigexporter.com/' + product.slug + '.html', 'g'), `https://wigexporter.com/${lang}/${product.slug}.html`)
+      .replace(/"styles\.css/g, '"/styles.css')
+      .replace(/"content\.css/g, '"/content.css')
+      .replace(/"product\.css/g, '"/product.css')
+      .replace(/"product-config\.js/g, '"/product-config.js')
+      .replace(/"script\.js/g, '"/script.js')
+      .replace(/"favicon\.svg/g, '"/favicon.svg')
+      .replace(/"assets\//g, '"/assets/')
+      .replace(/href="(index|products|trade-account|contact|synthetic-wigs-hairpieces)\.html"/g, 'href="/$1.html"')
+      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(product.slug, lang)}</div></header>`)
+      .replace('</head>', hreflangBlock(product.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, `${product.slug}.html`), finalHtml.replace(/[ \t]+$/gm, ''));
+  } else {
+    fs.writeFileSync(path.join(root, `${product.slug}.html`), html.replace(/[ \t]+$/gm, ''));
+  }
 }
 
 console.log(`Generated ${products.length} product page.`);

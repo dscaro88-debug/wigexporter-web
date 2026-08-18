@@ -1,4 +1,18 @@
 const path=location.pathname.split('/').pop()||'index.html';
+const _pathSegs=location.pathname.split('/').filter(Boolean);
+const LOCALES=['es','de','fr'];
+const locale=LOCALES.includes(_pathSegs[0])?_pathSegs[0]:'';
+const LOCALIZED_PAGES={'synthetic-wigs-hairpieces.html':true};
+const localizeLinks=(root)=>{
+  if(!locale||!root)return;
+  root.querySelectorAll('a[href]').forEach((a)=>{
+    const href=a.getAttribute('href')||'';
+    if(/^(https?:|mailto:|tel:|#|\/\/)/.test(href))return;
+    const [file,hash]=href.split('#');
+    if(LOCALIZED_PAGES[file])a.setAttribute('href',`/${locale}/${file}${hash?('#'+hash):''}`);
+    else a.setAttribute('href',`/${file}${hash?('#'+hash):''}`);
+  });
+};
 document.querySelectorAll('.wordmark').forEach(wordmark=>{
   wordmark.setAttribute('aria-label','DS HAIR home');
   wordmark.innerHTML='<strong>DS HAIR</strong><span>WIGEXPORTER · GLOBAL B2B</span>';
@@ -28,6 +42,7 @@ if(nav){
     <a class="nav-link${active('blog.html','tape-hair-vs-k-tip-vs-weft.html','how-to-evaluate-wholesale-wig-sample.html','build-repeatable-hair-colour-system.html')}" href="blog.html">Blog</a>
     <a class="nav-link${active('about.html')}" href="about.html">About Us</a>
     <a class="nav-link${active('contact.html')}" href="contact.html">Contact</a>`;
+  localizeLinks(nav);
 }
 const scrollToHashTarget=()=>{
   if(!location.hash)return;
@@ -59,6 +74,7 @@ if(footer)footer.innerHTML=`
   <div class="footer-col"><h3>Trade Services</h3><a href="sample.html">Samples</a><a href="free-color-kits.html">Colour Kits</a><a href="hair-colour-chart-custom-packaging.html">Colour & Packaging Studio</a><a href="customization.html">OEM / Private Label</a><a href="customization.html#custom-packaging">Custom Packaging</a><a href="trade-account.html">Trade Account</a></div>
   <div class="footer-col"><h3>Company</h3><a href="about.html">About Us</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a><a class="footer-uk" href="https://dshairbeauty.co.uk" target="_blank" rel="noopener">DS HAIR Beauty UK →</a><a href="mailto:caro@wigexporter.com">caro@wigexporter.com</a><a href="tel:+8613516946001">+86 135 1694 6001</a></div>
   <p class="copyright">© 2026 DS HAIR · WigExporter. B2B wholesale, OEM and private-label enquiries.</p>`;
+if(footer)localizeLinks(footer);
 if(!document.querySelector('.floating-contact')){
   const whatsApp=document.createElement('a');
   whatsApp.className='floating-contact';

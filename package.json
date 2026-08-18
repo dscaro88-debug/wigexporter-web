@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/generate-content.mjs && node scripts/generate-products.mjs && node scripts/generate-colour-packaging.mjs && node scripts/generate-sitemap.mjs",
+    "build": "node scripts/generate-content.mjs && node scripts/generate-products.mjs && node scripts/generate-content.mjs --locale es && node scripts/generate-products.mjs --locale es && node scripts/generate-content.mjs --locale de && node scripts/generate-products.mjs --locale de && node scripts/generate-content.mjs --locale fr && node scripts/generate-products.mjs --locale fr && node scripts/generate-colour-packaging.mjs && node scripts/generate-sitemap.mjs",
     "preview": "python3 -m http.server 4199",
     "verify": "node scripts/verify-site.mjs"
   }

@@ -3,8 +3,42 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const data = JSON.parse(fs.readFileSync(path.join(root, 'content/site-content.json'), 'utf8'));
-const productCatalog = JSON.parse(fs.readFileSync(path.join(root, 'content/product-catalog.json'), 'utf8'));
+const localeIdx = process.argv.indexOf('--locale');
+const lang = localeIdx !== -1 ? process.argv[localeIdx + 1] : null;
+const contentDir = lang ? path.join(root, 'content', lang) : path.join(root, 'content');
+let data;
+try {
+  data = JSON.parse(fs.readFileSync(path.join(contentDir, 'site-content.json'), 'utf8'));
+} catch {
+  data = JSON.parse(fs.readFileSync(path.join(root, 'content', 'site-content.json'), 'utf8'));
+}
+let productCatalog;
+try {
+  productCatalog = JSON.parse(fs.readFileSync(path.join(contentDir, 'product-catalog.json'), 'utf8'));
+} catch {
+  productCatalog = JSON.parse(fs.readFileSync(path.join(root, 'content', 'product-catalog.json'), 'utf8'));
+}
+const LANGS = ['en', 'es', 'de', 'fr'];
+const OG_LOCALE = { en: 'en_GB', es: 'es_ES', de: 'de_DE', fr: 'fr_FR' };
+const outDir = lang ? path.join(root, lang) : root;
+function hreflangBlock(slug) {
+  const links = LANGS.map((l) => {
+    const href = l === 'en' ? `https://wigexporter.com/${slug}.html` : `https://wigexporter.com/${l}/${slug}.html`;
+    return `  <link rel="alternate" hreflang="${l}" href="${href}">`;
+  }).join('\n');
+  return links + `\n  <link rel="alternate" hreflang="x-default" href="https://wigexporter.com/${slug}.html">`;
+}
+const LANG_LABELS = { en: 'EN', es: 'ES', de: 'DE', fr: 'FR' };
+function langSwitch(pageFile, currentLang) {
+  const file = `${pageFile}.html`;
+  const links = LANGS.map((l) => {
+    const href = l === 'en' ? `/${file}` : `/${l}/${file}`;
+    const current = l === currentLang ? ' aria-current="true"' : '';
+    return `<a href="${href}"${current}>${LANG_LABELS[l]}</a>`;
+  }).join('');
+  return `<div class="lang-switch" role="navigation" aria-label="Language / Idioma / Sprache / Langue">${links}</div>`;
+}
+const LANG_SWITCH_STYLE = `<style>.lang-switch{display:flex;align-items:center;gap:.3rem;margin-left:1rem;font:600 10px/1 var(--sans);letter-spacing:.08em}.lang-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:24px;padding:0 .4rem;border:1px solid rgba(17,17,17,.25);border-radius:999px;color:#171513;text-decoration:none}.lang-switch a:hover{border-color:#171513;background:rgba(17,17,17,.05)}.lang-switch a[aria-current="true"]{background:#171513;color:#fff;border-color:#171513}@media(max-width:1100px){.lang-switch{margin:0}.lang-switch a{min-width:22px;height:20px;font-size:9px}}</style>`;
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
 const VERSION = '20260726-9';
@@ -215,7 +249,24 @@ for (const item of data.collections) {
     { name: 'Collections', url: 'https://wigexporter.com/products.html' },
     { name: item.title, url: `https://wigexporter.com/${item.slug}.html` }
   ]);
-  fs.writeFileSync(path.join(root, `${item.slug}.html`), head({ title: item.metaTitle, description: item.description, slug: item.slug, image: item.image }) + shell(main, [serviceSchema, faqSchema, collectionBreadcrumb]));
+  let finalHtml = head({ title: item.metaTitle, description: item.description, slug: item.slug, image: item.image }) + shell(main, [serviceSchema, faqSchema, collectionBreadcrumb]);
+  if (lang) {
+    finalHtml = finalHtml
+      .replace('<html lang="en">', `<html lang="${lang}">`)
+      .replace('og:locale" content="en_GB"', `og:locale" content="${OG_LOCALE[lang]}"`)
+      .replace(new RegExp('https://wigexporter.com/' + item.slug + '.html', 'g'), `https://wigexporter.com/${lang}/${item.slug}.html`)
+      .replace(/"styles\.css/g, '"/styles.css')
+      .replace(/"content\.css/g, '"/content.css')
+      .replace(/"product\.css/g, '"/product.css')
+      .replace(/"assets\//g, '"/assets/')
+      .replace(/href="(index|products|trade-account|contact|synthetic-wigs-hairpieces)\.html"/g, 'href="/$1.html"')
+      .replace('REQUEST QUOTE</a></div></header>', `REQUEST QUOTE</a>${langSwitch(item.slug, lang)}</div></header>`)
+      .replace('</head>', hreflangBlock(item.slug) + '\n' + LANG_SWITCH_STYLE + '\n</head>');
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, `${item.slug}.html`), finalHtml);
+  } else {
+    fs.writeFileSync(path.join(root, `${item.slug}.html`), finalHtml);
+  }
 }
 
 for (const article of data.articles) {
@@ -249,7 +300,23 @@ for (const article of data.articles) {
     { name: 'Blog', url: 'https://wigexporter.com/blog.html' },
     { name: article.category, url: `https://wigexporter.com/${article.slug}.html` }
   ]);
-  fs.writeFileSync(path.join(root, `${article.slug}.html`), head({ title: article.metaTitle, description: article.description, slug: article.slug, type: 'article', image: article.image }) + shell(main, [articleSchema, faqSchema, articleBreadcrumb]));
+  let finalHtml = head({ title: article.metaTitle, description: article.description, slug: article.slug, type: 'article', image: article.image }) + shell(main, [articleSchema, faqSchema, articleBreadcrumb]);
+  if (lang) {
+    finalHtml = finalHtml
+      .replace('<html lang="en">', `<html lang="${lang}">`)
+      .replace('og:locale" content="en_GB"', `og:locale" content="${OG_LOCALE[lang]}"`)
+      .replace(new RegExp('https://wigexporter.com/' + article.slug + '.html', 'g'), `https://wigexporter.com/${lang}/${article.slug}.html`)
+      .replace(/"styles\.css/g, '"/styles.css')
+      .replace(/"content\.css/g, '"/content.css')
+      .replace(/"product\.css/g, '"/product.css')
+      .replace(/"assets\//g, '"/assets/')
+      .replace(/href="(index|products|trade-account|contact|synthetic-wigs-hairpieces)\.html"/g, 'href="/$1.html"')
+      .replace('</head>', hreflangBlock(article.slug) + '\n</head>');
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, `${article.slug}.html`), finalHtml);
+  } else {
+    fs.writeFileSync(path.join(root, `${article.slug}.html`), finalHtml);
+  }
 }
 
 console.log(`Generated ${data.collections.length} collection pages and ${data.articles.length} buyer guides.`);

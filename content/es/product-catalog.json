@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-07-21",
+  "purpose": "Shared product-code and approved-image registry for wigexporter.com and Alibaba International.",
+  "taxonomy": [
+    {
+      "section": "Human Hair",
+      "groups": {
+        "Human Hair Extensions": [
+          "Clip-in",
+          "Tape-in",
+          "K-tip",
+          "Genius Weft",
+          "Machine Weft",
+          "Hand-tied Weft"
+        ],
+        "Human Hair Wigs & Toppers": [
+          "Human Hair Wigs",
+          "Lace Wigs",
+          "Human Hair Toppers",
+          "Ponytails"
+        ]
+      }
+    },
+    {
+      "section": "Synthetic Hair",
+      "groups": {
+        "Synthetic Wigs & Hairpieces": [
+          "Synthetic Wigs",
+          "Hairpieces",
+          "Bangs / Fringes",
+          "Clip-in Toppers"
+        ]
+      }
+    },
+    {
+      "section": "Salon Supplies",
+      "groups": {
+        "Salon Supplies": [
+          "Single Products",
+          "Kits"
+        ]
+      }
+    }
+  ],
+  "statusDefinitions": {
+    "approved_set": "The copied images passed visual review and form a usable multi-image set.",
+    "limited": "One or too few approved images; do not build a full product page yet.",
+    "assets_needed": "No approved source image was found.",
+    "specification_unverified": "Do not publish copied or inferred product claims; confirm the specification first.",
+    "hold": "Not approved for public upload.",
+    "draft_ready": "Approved to enter professional page drafting, subject to specification verification."
+  },
+  "products": [
+    {
+      "code": "DSW-2501",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2501",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2501",
+      "approvedImageCount": 1,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2502",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2502",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2502",
+      "approvedImageCount": 1,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2503",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2503",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2503",
+      "approvedImageCount": 5,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2504",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2504",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2504",
+      "approvedImageCount": 2,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2505",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2505",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2505",
+      "approvedImageCount": 8,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2506",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2506",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2506",
+      "approvedImageCount": 1,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2507",
+      "legacyCode": "",
+      "name": "Peluca sintética con frente de encaje DSW-2507",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2507",
+      "approvedImageCount": 7,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2508",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2508",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2508",
+      "approvedImageCount": 1,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2509",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2509",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2509",
+      "approvedImageCount": 1,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2510",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2510",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2510",
+      "approvedImageCount": 6,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2511",
+      "legacyCode": "",
+      "name": "Peluca sintética ondulada con flequillo lateral larga DSW-2511",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2511",
+      "approvedImageCount": 1,
+      "imageStatus": "limited",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2512",
+      "legacyCode": "",
+      "name": "Peluca sintética bob DSW-2512",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2512",
+      "approvedImageCount": 7,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2513",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2513",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2513",
+      "approvedImageCount": 7,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2514",
+      "legacyCode": "",
+      "name": "Peluca sintética ondulada larga DSW-2514",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2514",
+      "approvedImageCount": 4,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2515",
+      "legacyCode": "",
+      "name": "Peluca sintética con frente de encaje bob lisa corta DSW-2515",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2515",
+      "approvedImageCount": 5,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2516",
+      "legacyCode": "",
+      "name": "Peluca sintética con frente de encaje lisa larga DSW-2516",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2516",
+      "approvedImageCount": 7,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2517",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2517",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2517",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2518",
+      "legacyCode": "",
+      "name": "Peluca sintética ondulada con flequillo lateral DSW-2518",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2518",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2519",
+      "legacyCode": "",
+      "name": "Peluca sintética con flequillo lateral DSW-2519",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2519",
+      "approvedImageCount": 30,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2520",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2520",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2520",
+      "approvedImageCount": 6,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2521",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2521",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2521",
+      "approvedImageCount": 9,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2522",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2522",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2522",
+      "approvedImageCount": 7,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2523",
+      "legacyCode": "",
+      "name": "Peluca sintética completa DSW-2523",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2523",
+      "approvedImageCount": 9,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    }
+  ]
+}
