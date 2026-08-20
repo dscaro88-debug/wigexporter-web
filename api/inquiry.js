@@ -110,7 +110,7 @@ export default async function handler(request, response) {
     return response.status(502).json({ ok: false, error: userMessage, providerMessage });
   }
 
-  // —— 转发到 agent-intake：自动建档 + LLM 起草回信（不阻塞主流程）——
+  // —— 转发到 agent-intake：自动建档 + LLM 起草回信（await + 超时保护，不阻塞邮件结果）——
   const agentUrl = process.env.AGENT_INTAKE_URL || 'https://agent-intake-theta.vercel.app/api/intake';
   const agentSecret = process.env.AGENT_WEBHOOK_SECRET || 'agent-intake-2026';
   const agentRaw = [
@@ -118,11 +118,19 @@ export default async function handler(request, response) {
     ...details.map(([key, value]) => `${key}: ${value}`),
     `Page: ${clean(body.page_url, 500) || origin || 'Unknown'}`
   ].join('\n');
-  fetch(agentUrl, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'X-Webhook-Secret': agentSecret },
-    body: JSON.stringify({ project: 'wigexporter', channel: formType, raw_text: agentRaw })
-  }).catch((err) => console.error('Agent forward failed', err));
+  try {
+    await Promise.race([
+      fetch(agentUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Webhook-Secret': agentSecret },
+        body: JSON.stringify({ project: 'wigexporter', channel: formType, raw_text: agentRaw })
+      }),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('agent forward timeout')), 8000))
+    ]);
+    console.log('Agent forward ok');
+  } catch (err) {
+    console.error('Agent forward failed', err);
+  }
 
   return response.status(200).json({ ok: true });
 }
