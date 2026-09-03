@@ -110,27 +110,7 @@ export default async function handler(request, response) {
     return response.status(502).json({ ok: false, error: userMessage, providerMessage });
   }
 
-  // —— 转发到 agent-intake：自动建档 + LLM 起草回信（await + 超时保护，不阻塞邮件结果）——
-  const agentUrl = process.env.AGENT_INTAKE_URL || 'https://agent-intake-theta.vercel.app/api/intake';
-  const agentSecret = process.env.AGENT_WEBHOOK_SECRET || 'agent-intake-2026';
-  const agentRaw = [
-    `Form: ${formLabels[formType]}`,
-    ...details.map(([key, value]) => `${key}: ${value}`),
-    `Page: ${clean(body.page_url, 500) || origin || 'Unknown'}`
-  ].join('\n');
-  try {
-    await Promise.race([
-      fetch(agentUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'X-Webhook-Secret': agentSecret },
-        body: JSON.stringify({ project: 'wigexporter', channel: formType, raw_text: agentRaw })
-      }),
-      new Promise((_, reject) => setTimeout(() => reject(new Error('agent forward timeout')), 8000))
-    ]);
-    console.log('Agent forward ok');
-  } catch (err) {
-    console.error('Agent forward failed', err);
-  }
-
+  // 自动回信 agent 已停用（2026-09-03）：线索只发到 caro@wigexporter.com，不再转发到外部 agent。
+  // 所有对客户的外发（邮件 / WhatsApp）必须由 CARO 手动审过才能发送，代理只保留"起草建议"权限，发送动作 100% 在 CARO 手上。
   return response.status(200).json({ ok: true });
 }
