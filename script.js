@@ -2,6 +2,8 @@ const path=location.pathname.split('/').pop()||'index.html';
 const _pathSegs=location.pathname.split('/').filter(Boolean);
 const LOCALES=['es','de','fr'];
 const locale=LOCALES.includes(_pathSegs[0])?_pathSegs[0]:(LOCALES.includes(document.documentElement.lang)?document.documentElement.lang:'');
+// First-touch landing capture (closed-loop attribution): store the entry URL once per session.
+try{ if(!sessionStorage.getItem('we_landing')) sessionStorage.setItem('we_landing', location.href); }catch(e){}
 const LOCALIZED_PAGES=/*__LOCALIZED_PAGES_START__*/{"synthetic-wigs-hairpieces.html":true}/*__LOCALIZED_PAGES_END__*/;
 const UI_EN={
   home:'Home',collections:'Collections',hhe:'Human Hair Extensions',clipin:'Clip-in',tapein:'Tape-in',ktip:'K-tip',
@@ -246,6 +248,15 @@ document.querySelectorAll('[data-inquiry-form]').forEach(form=>{
     const payload=Object.fromEntries(new FormData(form).entries());
     payload.form_type=form.dataset.inquiryForm;
     payload.page_url=location.href;
+    // Attribution: last-touch source + first-touch landing, so each enquiry email shows where it came from.
+    try{
+      const sp=new URLSearchParams(location.search);
+      let ref='';
+      if(document.referrer){ try{ ref=new URL(document.referrer).hostname; }catch(e){ ref=document.referrer; } }
+      payload.source = sp.get('utm_source') || sp.get('ref') || sp.get('source') || ref || 'direct';
+      payload.utm_campaign = sp.get('utm_campaign') || '';
+      payload.landing_url = sessionStorage.getItem('we_landing') || '';
+    }catch(e){}
     try{
       const response=await fetch('/api/inquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
       const result=await response.json().catch(()=>({}));

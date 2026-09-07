@@ -412,6 +412,10 @@ function relatedProducts(product) {
   return `<section class="related-products"><div class="product-section-heading"><p class="eyebrow">${_('relatedDirections')}</p><h2>${_('relatedHeading')}</h2><p>${_('relatedIntro')}</p></div><div class="related-product-grid">${cards}</div></section>`;
 }
 
+function tradeTermsBlock() {
+  return `<section class="trade-terms"><div class="product-section-heading"><p class="eyebrow">TRADE TERMS AT A GLANCE</p><h2>What is confirmed before you order.</h2><p>We publish facts per reference and confirm commercial terms against your specification. Typical ranges and examples are in our <a href="trade-account.html#faq">Trade Account FAQ</a>.</p></div><ul class="tick-list"><li>MOQ — confirmed per product, construction and market</li><li>Lead time — sampling and production windows confirmed in writing</li><li>Certification — material and compliance documents provided on request</li><li>Packaging — private-label and retail pack options reviewed per project</li><li>Shipping — DHL/UPS express samples; air or sea for bulk</li></ul></section>`;
+}
+
 for (const product of products) {
   const url = `https://wigexporter.com/${product.slug}.html`;
   const productIdentity = product.code || product.title;
@@ -519,6 +523,7 @@ for (const product of products) {
       <ul>${product.customisation.map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
       <a class="button button-dark" href="customization.html#custom-packaging">${_('exploreCustomPackaging')}</a>
     </section>
+    ${tradeTermsBlock()}
     ${knowledgeSection(product)}
     ${relatedProducts(product)}
     <section class="faq-section"><div><p class="eyebrow">${_('buyerQuestions')}</p><h2>${_('beforeYouRequest')}</h2></div><div class="faq-list">${product.faqs.map(([name, text]) => `<details><summary>${esc(name)}</summary><p>${esc(text)}</p></details>`).join('')}</div></section>
