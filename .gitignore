@@ -10,3 +10,5 @@ assets/colour-ring/physical-swatch-loop.jpg
 assets/factory-video.mp4
 assets/factory-video-03s-120s.mp4
 assets/packaging-studio/*.png
+.vercel
+.env*
