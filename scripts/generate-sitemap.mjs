@@ -8,9 +8,11 @@ const today = new Date().toISOString().slice(0, 10);
 const LANGS = ['en', 'es', 'de', 'fr'];
 
 // Collect every HTML page: root .html files + each locale subdirectory.
+// Exclude 404/error pages from the sitemap.
+const EXCLUDED = new Set(['404.html']);
 const pages = []; // { file, lang, slug }
 for (const file of fs.readdirSync(root)) {
-  if (file.endsWith('.html') && !file.startsWith('.')) {
+  if (file.endsWith('.html') && !file.startsWith('.') && !EXCLUDED.has(file)) {
     pages.push({ file, lang: 'en', slug: file.replace(/\.html$/, '') });
   }
 }
@@ -18,7 +20,7 @@ for (const lang of ['es', 'de', 'fr']) {
   const dir = path.join(root, lang);
   if (!fs.existsSync(dir)) continue;
   for (const file of fs.readdirSync(dir)) {
-    if (file.endsWith('.html') && !file.startsWith('.')) {
+    if (file.endsWith('.html') && !file.startsWith('.') && !EXCLUDED.has(file)) {
       pages.push({ file, lang, slug: file.replace(/\.html$/, '') });
     }
   }

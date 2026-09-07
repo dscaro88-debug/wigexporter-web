@@ -7,14 +7,14 @@
 .product-gallery-main img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
 .product-gallery figure{position:relative}
 .product-gallery figcaption{position:absolute;left:18px;bottom:18px;background:rgba(20,20,20,.86);color:#fff;padding:9px 12px;font-size:8px;letter-spacing:.11em;line-height:1.4}
-.product-gallery.is-single{display:grid;place-items:center;position:relative;overflow:hidden;background:#f6f2ec;padding:clamp(42px,6vw,90px)}
+.product-gallery.is-single{display:grid;place-items:center;position:relative;overflow:hidden;background:#f6f2ec;padding:48px var(--pad-x)}
 .product-gallery.is-single figure{width:min(88%,620px);aspect-ratio:1/1!important;background:#fff;border:1px solid rgba(30,25,20,.1)}
 .product-gallery.is-single img{object-fit:contain}
 .product-hero-text-only{display:block;padding:72px var(--pad-x);background:#ece7df;max-width:var(--maxw);margin-inline:auto}
 .product-hero-text-only .product-summary{max-width:980px;padding:0;position:static}
 .product-hero-text-only .product-summary h1{max-width:900px;font-size:clamp(44px,6vw,92px)}
 .draft-notice{display:inline-block;margin:0 0 38px;padding:11px 14px;border:1px solid #9b3b31;color:#7b2b24;font-size:8px;font-weight:700;letter-spacing:.12em;line-height:1.5}
-.product-summary{padding:3vw var(--pad-x);align-self:start;position:sticky;top:0}
+.product-summary{padding:42px var(--pad-x);align-self:start;position:sticky;top:0}
 .product-summary h1{font:400 clamp(38px,3.8vw,58px)/1 var(--display);margin:14px 0}
 .product-code{font-size:9px;font-weight:700;letter-spacing:.16em;color:var(--muted)}
 .product-dek{font-size:16px;line-height:1.65;color:#56524d;margin:20px 0}
@@ -114,7 +114,7 @@
 .decision-grid p{font-size:13px;line-height:1.72;color:var(--muted)}
 .clip-type-section{padding:60px var(--pad-x);background:#171717;color:#fff;max-width:var(--maxw);margin-inline:auto}
 .clip-type-section .product-section-heading>p:last-child{color:rgba(255,255,255,.6)}
-.clip-type-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.18)}
+.clip-type-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-lg);background:transparent}
 .clip-type-grid.is-three-tiers{grid-template-columns:repeat(3,1fr)}
 .clip-type-grid.is-three-tiers .clip-type-card.has-image{flex-direction:column}
 .clip-type-grid.is-three-tiers .clip-type-card.has-image figure{width:100%;height:260px}

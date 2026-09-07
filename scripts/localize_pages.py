@@ -232,6 +232,13 @@ def localize(page: str, lang: str) -> str:
 
     html = absolutize(html)
 
+    # Remove existing hreflang alternates (English source already has them) before re-adding
+    html = re.sub(r'\s*<link rel="alternate" hreflang="[^"]*" href="[^"]*">', '', html)
+    # Remove existing lang-switch inline style block (will be re-added below)
+    html = re.sub(r'\s*<style>\s*\.lang-switch\{[^}]*\}[\s\S]*?</style>', '', html)
+    # Remove existing lang-switch div(s) from header
+    html = re.sub(r'<div class="lang-switch"[^>]*>.*?</div>', '', html, flags=re.S)
+
     # hreflang + switcher styles
     html = html.replace("</head>", hreflang_block(page) + "\n" + LANG_SWITCH_CSS + "\n</head>", 1)
 

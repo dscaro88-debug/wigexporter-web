@@ -1,7 +1,7 @@
 const path=location.pathname.split('/').pop()||'index.html';
 const _pathSegs=location.pathname.split('/').filter(Boolean);
 const LOCALES=['es','de','fr'];
-const locale=LOCALES.includes(_pathSegs[0])?_pathSegs[0]:'';
+const locale=LOCALES.includes(_pathSegs[0])?_pathSegs[0]:(LOCALES.includes(document.documentElement.lang)?document.documentElement.lang:'');
 const LOCALIZED_PAGES=/*__LOCALIZED_PAGES_START__*/{"synthetic-wigs-hairpieces.html":true}/*__LOCALIZED_PAGES_END__*/;
 const UI_EN={
   home:'Home',collections:'Collections',hhe:'Human Hair Extensions',clipin:'Clip-in',tapein:'Tape-in',ktip:'K-tip',
@@ -22,7 +22,11 @@ const UI_EN={
   failGeneric:'We could not send the form.',failDelivery:'Delivery failed',
   emailLink:'Email caro@wigexporter.com',orWa:'or contact us on WhatsApp.',
   prefillNote:'Your selected product specification has been carried into this brief. Review it before submitting.',
-  sampleRef:'Sample reference carried forward:'
+  sampleRef:'Sample reference carried forward:',
+  addEnquiry:'Add to enquiry',addedEnquiry:'✓ Added to enquiry',enquiryLabel:'ENQUIRY',
+  enquiryShortlist:'Your enquiry shortlist',reviewSend:'REVIEW & SEND',clearList:'Clear list',removeItem:'Remove',closePanel:'Close',
+  emptyBasket:'Your shortlist is empty. Use "Add to enquiry" on any product to build a wholesale enquiry.',
+  emptyEnquiry:'Your shortlist is empty. Browse the {{collections}} and use "Add to enquiry" on the products you want to source.'
 };
 const UI={
   es:{
@@ -44,7 +48,11 @@ const UI={
     failGeneric:'No hemos podido enviar el formulario.',failDelivery:'Error de envío',
     emailLink:'Escribe a caro@wigexporter.com',orWa:'o contáctanos por WhatsApp.',
     prefillNote:'La especificación de producto seleccionada se ha incorporado a este briefing. Revísala antes de enviar.',
-    sampleRef:'Referencia de muestra transferida:'
+    sampleRef:'Referencia de muestra transferida:',
+    addEnquiry:'Añadir a la consulta',addedEnquiry:'✓ Añadido a la consulta',enquiryLabel:'CONSULTA',
+    enquiryShortlist:'Tu lista de consulta',reviewSend:'REVISAR Y ENVIAR',clearList:'Vaciar lista',removeItem:'Quitar',closePanel:'Cerrar',
+    emptyBasket:'Tu lista está vacía. Usa "Añadir a la consulta" en cualquier producto para crear una consulta de mayorista.',
+    emptyEnquiry:'Tu lista está vacía. Explora {{collections}} y usa "Añadir a la consulta" en los productos que quieras comprar.'
   },
   de:{
     home:'Startseite',collections:'Kollektionen',hhe:'Echthaar-Extensions',clipin:'Clip-in',tapein:'Tape-in',ktip:'K-Tip',
@@ -65,7 +73,11 @@ const UI={
     failGeneric:'Das Formular konnte nicht gesendet werden.',failDelivery:'Übermittlung fehlgeschlagen',
     emailLink:'E-Mail an caro@wigexporter.com',orWa:'oder kontaktieren Sie uns über WhatsApp.',
     prefillNote:'Die ausgewählte Produktspezifikation wurde in dieses Briefing übernommen. Bitte prüfen Sie sie vor dem Absenden.',
-    sampleRef:'Übernommene Musterreferenz:'
+    sampleRef:'Übernommene Musterreferenz:',
+    addEnquiry:'Zur Anfrage hinzufügen',addedEnquiry:'✓ Zur Anfrage hinzugefügt',enquiryLabel:'ANFRAGE',
+    enquiryShortlist:'Ihre Anfrageliste',reviewSend:'PRÜFEN & SENDEN',clearList:'Liste löschen',removeItem:'Entfernen',closePanel:'Schließen',
+    emptyBasket:'Ihre Liste ist leer. Nutzen Sie "Zur Anfrage hinzufügen" bei einem Produkt, um eine Großhandelsanfrage zu erstellen.',
+    emptyEnquiry:'Ihre Liste ist leer. Stöbern Sie in {{collections}} und nutzen Sie "Zur Anfrage hinzufügen" bei den Produkten, die Sie beziehen möchten.'
   },
   fr:{
     home:'Accueil',collections:'Collections',hhe:'Extensions de cheveux naturels',clipin:'Clip-in',tapein:'Tape-in',ktip:'K-tip',
@@ -86,7 +98,11 @@ const UI={
     failGeneric:"Nous n'avons pas pu envoyer le formulaire.",failDelivery:"Échec de l'envoi",
     emailLink:'Écrivez à caro@wigexporter.com',orWa:'ou contactez-nous sur WhatsApp.',
     prefillNote:'La spécification produit sélectionnée a été reportée dans ce brief. Vérifiez-la avant envoi.',
-    sampleRef:"Référence d'échantillon reportée :"
+    sampleRef:"Référence d'échantillon reportée :",
+    addEnquiry:'Ajouter à la demande',addedEnquiry:'✓ Ajouté à la demande',enquiryLabel:'DEMANDE',
+    enquiryShortlist:'Votre sélection de demande',reviewSend:'VÉRIFIER & ENVOYER',clearList:'Vider la liste',removeItem:'Retirer',closePanel:'Fermer',
+    emptyBasket:'Votre sélection est vide. Utilisez "Ajouter à la demande" sur un produit pour constituer une demande de gros.',
+    emptyEnquiry:'Votre sélection est vide. Parcourez {{collections}} et utilisez "Ajouter à la demande" sur les produits que vous souhaitez sourcer.'
   }
 };
 const t=(k)=>((locale&&UI[locale]&&UI[locale][k])||UI_EN[k]||'');
@@ -244,3 +260,92 @@ document.querySelectorAll('[data-inquiry-form]').forEach(form=>{
     }
   });
 });
+/* ===== ENQUIRY SHORTLIST (borrowed from Prime Human Hair "Add to enquiry") ===== */
+(function(){
+  const STORE='we_enquiry_v1';
+  const getList=()=>{try{return JSON.parse(localStorage.getItem(STORE))||[]}catch(e){return[]}};
+  const saveList=(list)=>{try{localStorage.setItem(STORE,JSON.stringify(list))}catch(e){}};
+  const idOf=(it)=>{const s=(it.url||'')+'|'+(it.name||'');let h=0;for(let i=0;i<s.length;i++){h=(h<<5)-h+s.charCodeAt(i);h|=0}return 'e'+(h>>>0)};
+  const has=(list,it)=>list.some(x=>x.id===idOf(it));
+  const add=(it)=>{const l=getList();if(!l.some(x=>x.id===idOf(it))){l.push({id:idOf(it),name:it.name,category:it.category,url:it.url,img:it.img,code:it.code});saveList(l)}refresh()};
+  const remove=(id)=>{saveList(getList().filter(x=>x.id!==id));refresh()};
+  const clear=()=>{saveList([]);refresh()};
+  function buildBtn(it){
+    const b=document.createElement('button');
+    b.type='button';b.className='add-enquiry';
+    const sync=()=>{const on=has(getList(),it);b.classList.toggle('added',on);b.textContent=on?t('addedEnquiry'):('＋ '+t('addEnquiry'));b.setAttribute('aria-pressed',String(on))};
+    b.addEventListener('click',(e)=>{e.preventDefault();e.stopPropagation();if(has(getList(),it))remove(idOf(it));else add(it);sync()});
+    sync();return b;
+  }
+  function inject(){
+    document.querySelectorAll('.catalog-product-card').forEach(card=>{
+      if(card.dataset.enq)return;card.dataset.enq='1';
+      const name=(card.querySelector('h4')?.textContent||'').trim();
+      const code=(card.querySelector('span')?.textContent||'').trim();
+      const group=card.closest('.catalog-method-card')?.querySelector('.catalog-group-heading h3')?.textContent.trim()||'';
+      const item={name:name||code,category:group,url:card.getAttribute('href')||'',img:card.querySelector('img')?.getAttribute('src')||'',code};
+      const holder=card.querySelector('div')||card;
+      holder.appendChild(buildBtn(item));
+    });
+    document.querySelectorAll('.product-card').forEach(card=>{
+      if(card.dataset.enq)return;card.dataset.enq='1';
+      const link=card.querySelector('a');
+      const name=(card.querySelector('h2')?.textContent||'').trim();
+      const cat=(card.querySelector('p')?.textContent||'').trim();
+      const item={name,category:cat,url:link?link.getAttribute('href')||'':'',img:card.querySelector('img')?.getAttribute('src')||''};
+      const holder=card.querySelector('div')||card;
+      const a=holder.querySelector('a');
+      if(a)a.insertAdjacentElement('afterend',buildBtn(item));else holder.appendChild(buildBtn(item));
+    });
+  }
+  function buildBasket(){
+    if(document.querySelector('.enquiry-basket'))return;
+    const w=document.createElement('div');w.className='enquiry-basket';
+    w.innerHTML='<button class="enquiry-toggle" type="button" aria-expanded="false"><span class="enquiry-icon" aria-hidden="true">▣</span><span class="enquiry-count">0</span><span class="enquiry-label">'+t('enquiryLabel')+'</span></button><div class="enquiry-panel" hidden><div class="enquiry-panel-head"><strong>'+t('enquiryShortlist')+'</strong><button class="enquiry-close" type="button" aria-label="'+t('closePanel')+'">×</button></div><div class="enquiry-items"></div><div class="enquiry-panel-foot"><a class="enquiry-view button button-dark" href="/enquiry.html">'+t('reviewSend')+'</a><button class="enquiry-clear" type="button">'+t('clearList')+'</button></div></div>';
+    document.body.appendChild(w);
+    const tog=w.querySelector('.enquiry-toggle'),panel=w.querySelector('.enquiry-panel');
+    tog.addEventListener('click',()=>{const open=panel.hasAttribute('hidden');panel.toggleAttribute('hidden',!open);tog.setAttribute('aria-expanded',String(open))});
+    w.querySelector('.enquiry-close').addEventListener('click',()=>{panel.setAttribute('hidden','');tog.setAttribute('aria-expanded','false')});
+    w.querySelector('.enquiry-clear').addEventListener('click',clear);
+  }
+  function renderPanel(){
+    const w=document.querySelector('.enquiry-basket');if(!w)return;
+    const l=getList();
+    w.querySelector('.enquiry-count').textContent=l.length;
+    w.querySelector('.enquiry-toggle').classList.toggle('has-items',l.length>0);
+    const box=w.querySelector('.enquiry-items');
+    if(!l.length){box.innerHTML='<p class="enquiry-empty">'+t('emptyBasket')+'</p>';return}
+    box.innerHTML=l.map(it=>'<div class="enquiry-row"><img src="'+(it.img||'')+'" alt=""><div><span class="er-cat">'+(it.category||'')+'</span><strong>'+(it.name||'')+'</strong></div><button class="er-remove" type="button" data-id="'+it.id+'" aria-label="'+t('removeItem')+'">×</button></div>').join('');
+    box.querySelectorAll('.er-remove').forEach(b=>b.addEventListener('click',()=>remove(b.dataset.id)));
+  }
+  function renderPage(){
+    const host=document.getElementById('enquiry-items');if(!host)return;
+    const l=getList();const field=document.getElementById('enquiry-shortlist');
+    const form=document.querySelector('[data-inquiry-form]');
+    if(!l.length){
+      host.innerHTML='<p class="enquiry-empty">'+t('emptyEnquiry').replace('{{collections}}','<a href="products.html">'+t('collections')+'</a>')+'</p>';
+      if(field)field.value='';
+      if(form)form.querySelectorAll('input,textarea,button[type=submit]').forEach(el=>el.disabled=true);
+      return;
+    }
+    host.innerHTML=l.map(it=>'<div class="enquiry-row"><img src="'+(it.img||'')+'" alt=""><div><span class="er-cat">'+(it.category||'')+'</span><strong>'+(it.name||'')+'</strong></div><button class="er-remove" type="button" data-id="'+it.id+'" aria-label="'+t('removeItem')+'">×</button></div>').join('');
+    host.querySelectorAll('.er-remove').forEach(b=>b.addEventListener('click',()=>remove(b.dataset.id)));
+    if(field)field.value=l.map(it=>'- '+(it.name||'')+(it.category?(' ('+it.category+')'):'')+(it.url?(' '+it.url):'')).join('\n');
+    if(form)form.querySelectorAll('input,textarea,button[type=submit]').forEach(el=>el.disabled=false);
+  }
+  function refresh(){renderPanel();if(location.pathname.split('/').pop()==='enquiry.html')renderPage()}
+  function renderEnquiryLangSwitch(){
+    const host=document.querySelector('.header-tools');
+    if(!host||host.querySelector('.lang-switch'))return;
+    host.innerHTML='<div class="lang-switch" aria-label="Language"><a class="lang-opt current" href="/enquiry.html" hreflang="en" lang="en" aria-current="true">EN</a><a class="lang-opt" href="/enquiry.html" hreflang="es" lang="es">ES</a><a class="lang-opt" href="/enquiry.html" hreflang="de" lang="de">DE</a><a class="lang-opt" href="/enquiry.html" hreflang="fr" lang="fr">FR</a></div>';
+  }
+  function init(){
+    inject();
+    buildBasket();
+    renderPanel();
+    if(location.pathname.split('/').pop()==='enquiry.html'){renderPage();renderEnquiryLangSwitch();}
+    const ef=document.querySelector('[data-inquiry-form]');
+    if(ef)ef.addEventListener('reset',()=>clear(),true);
+  }
+  if(document.readyState!=='loading')init();else document.addEventListener('DOMContentLoaded',init);
+})();
