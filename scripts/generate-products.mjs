@@ -196,7 +196,7 @@ const UI = {
   }
 };
 const _ = (key) => UI[lang] ? (UI[lang][key] || UI.en[key]) : UI.en[key];
-const VERSION = '20260917-5';
+const VERSION = '20260917-6';
 const chartFor = (id) => colourCharts.id === id ? colourCharts : null;
 
 function optionStatus(status) {
@@ -351,6 +351,7 @@ const RELATED_META = {
   'lace-wig-203': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 203' },
   'lace-wig-204': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 204' },
   'ddbone-straight-human-hair-wig': { eyebrow: 'LACE WIG', title: 'DDBoneStraight Human Hair Wig' },
+  '12a-straight-human-hair-lace-wig': { eyebrow: 'LACE WIG', title: 'Straight 12A Lace Wig' },
   'human-hair-topper-01': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 01' },
   'human-hair-topper-02': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 02' },
   'human-hair-topper-03': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 03' },

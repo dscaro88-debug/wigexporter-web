@@ -177,7 +177,7 @@ const UI = {
 const _ = (key) => UI[UI_LANG][key] || UI.en[key];
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
-const VERSION = '20260917-5';
+const VERSION = '20260917-6';
 const slugify = (value) => String(value).toLowerCase().replaceAll('&', 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function productScope(item) {
@@ -244,6 +244,7 @@ function catalogProductCard(product) {
     'DS-WIG-LW-003': 'lace-wig-203.html',
     'DS-WIG-LW-004': 'lace-wig-204.html',
     'DS-WIG-LW-005': 'ddbone-straight-human-hair-wig.html',
+    'DS-WIG-LW-006': '12a-straight-human-hair-lace-wig.html',
     'DS-TOP-HH-001': 'human-hair-topper-01.html',
     'DS-TOP-HH-002': 'human-hair-topper-02.html',
     'DS-TOP-HH-003': 'human-hair-topper-03.html',

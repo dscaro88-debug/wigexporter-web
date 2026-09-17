@@ -1042,6 +1042,21 @@
       "specificationStatus": "partially_verified_reference",
       "publicationStatus": "draft_ready",
       "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DS-WIG-LW-006",
+      "legacyCode": "13x4 stw 12a 180",
+      "name": "12A Straight Human Hair Lace Wig",
+      "section": "Human Hair",
+      "group": "Human Hair Wigs & Toppers",
+      "category": "Lace Wigs",
+      "assetFolder": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-006",
+      "approvedImageCount": 4,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-006/ds-wig-lw-006-01.jpg",
+      "notes": "Straight human-hair lace wig reference (13x4 / 13x6 / 5x5 / 4x4) with one approved reference video copied from incoming-products. The 12A grade label is supplier terminology and is not certified by DS HAIR; written specification requires buyer confirmation before quotation."
     }
   ]
 }
