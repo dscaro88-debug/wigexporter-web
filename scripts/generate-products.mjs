@@ -196,7 +196,7 @@ const UI = {
   }
 };
 const _ = (key) => UI[lang] ? (UI[lang][key] || UI.en[key]) : UI.en[key];
-const VERSION = '20260917-3';
+const VERSION = '20260917-4';
 const chartFor = (id) => colourCharts.id === id ? colourCharts : null;
 
 function optionStatus(status) {
