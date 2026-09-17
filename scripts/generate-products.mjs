@@ -196,7 +196,7 @@ const UI = {
   }
 };
 const _ = (key) => UI[lang] ? (UI[lang][key] || UI.en[key]) : UI.en[key];
-const VERSION = '20260917-2';
+const VERSION = '20260917-3';
 const chartFor = (id) => colourCharts.id === id ? colourCharts : null;
 
 function optionStatus(status) {
@@ -205,14 +205,12 @@ function optionStatus(status) {
 
 function productVisual(product) {
   const hasVideo = !!product.video;
-  // When a video is present, the first image becomes the video poster and is not repeated as a gallery thumb.
-  const galleryImages = hasVideo ? product.images.slice(1) : product.images;
-  if (!galleryImages.length && !hasVideo) return '';
-  const videoHtml = hasVideo ? `<figure class="product-gallery-main product-gallery-video"><video controls poster="${product.images[0]?.src || ''}" src="${product.video.src}" aria-label="${esc(product.video.alt)}"></video>${product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>` : '';
-  const singleClass = galleryImages.length === 1 && !hasVideo ? ' is-single' : '';
+  if (!product.images.length && !hasVideo) return '';
+  const videoHtml = hasVideo ? `<figure class="product-gallery-main product-gallery-video"><video controls src="${product.video.src}" aria-label="${esc(product.video.alt)}"></video></figure>` : '';
+  const singleClass = product.images.length === 1 && !hasVideo ? ' is-single' : '';
   return `<div class="product-gallery${singleClass}">
+    ${product.images.map((image, index) => `<figure class="${index === 0 ? 'product-gallery-main' : ''}"><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}" decoding="async"${index > 0 ? ' loading="lazy"' : ''}>${index === 0 && product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>`).join('')}
     ${videoHtml}
-    ${galleryImages.map((image, index) => `<figure><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}" decoding="async"${index > 0 ? ' loading="lazy"' : ''}></figure>`).join('')}
   </div>`;
 }
 
