@@ -204,9 +204,11 @@ function optionStatus(status) {
 }
 
 function productVisual(product) {
-  if (!product.images.length) return '';
-    return `<div class="product-gallery${product.images.length === 1 ? ' is-single' : ''}">
-    ${product.images.map((image, index) => `<figure class="${index === 0 ? 'product-gallery-main' : ''}"><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}" decoding="async"${index > 0 ? ' loading="lazy"' : ''}>${index === 0 && product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>`).join('')}
+  if (!product.images.length && !product.video) return '';
+  const videoHtml = product.video ? `<figure class="product-gallery-main product-gallery-video"><video controls poster="${product.images[0]?.src || ''}" src="${product.video.src}" aria-label="${esc(product.video.alt)}"></video>${product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>` : '';
+  return `<div class="product-gallery${product.images.length === 1 && !product.video ? ' is-single' : ''}">
+    ${videoHtml}
+    ${product.images.map((image, index) => `<figure class="${index === 0 && !product.video ? 'product-gallery-main' : ''}"><img${image.fit === 'contain' ? ' class="is-contain"' : ''} src="${image.src}" alt="${esc(image.alt)}" decoding="async"${index > 0 ? ' loading="lazy"' : ''}>${index === 0 && !product.video && product.imageStatusNote ? `<figcaption>${esc(product.imageStatusNote)}</figcaption>` : ''}</figure>`).join('')}
   </div>`;
 }
 
@@ -346,6 +348,7 @@ const RELATED_META = {
   'lace-wig-202': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 202' },
   'lace-wig-203': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 203' },
   'lace-wig-204': { eyebrow: 'LACE WIG', title: 'Lace Wig Model 204' },
+  'ddbone-straight-human-hair-wig': { eyebrow: 'LACE WIG', title: 'DDBoneStraight Human Hair Wig' },
   'human-hair-topper-01': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 01' },
   'human-hair-topper-02': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 02' },
   'human-hair-topper-03': { eyebrow: 'HUMAN HAIR TOPPER', title: 'Human Hair Topper Model 03' },

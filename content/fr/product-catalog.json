@@ -1028,6 +1028,20 @@
       "specificationStatus": "partially_verified_reference",
       "publicationStatus": "draft_ready",
       "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
+    },
+    {
+      "code": "DSW-2523",
+      "legacyCode": "",
+      "name": "Synthetic Full Wig DSW-2523",
+      "section": "Synthetic Hair",
+      "group": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Wigs",
+      "assetFolder": "assets/products/synthetic-wigs-hairpieces/synthetic-wigs/dsw-2523",
+      "approvedImageCount": 9,
+      "imageStatus": "approved_set",
+      "specificationStatus": "partially_verified_reference",
+      "publicationStatus": "draft_ready",
+      "notes": "Synthetic fibre full wig. Synthetic colours matched from physical references; human-hair Colour Chart 2 not applied."
     }
   ]
 }

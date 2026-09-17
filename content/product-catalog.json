@@ -199,6 +199,20 @@
       "notes": "Individual product page now generated from approved local imagery; written specification still requires buyer confirmation before quotation."
     },
     {
+      "code": "DS-WIG-LW-005",
+      "name": "DDBoneStraight Human Hair Wig",
+      "section": "Human Hair",
+      "group": "Human Hair Wigs & Toppers",
+      "category": "Lace Wigs",
+      "assetFolder": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-005",
+      "approvedImageCount": 3,
+      "imageStatus": "approved_set",
+      "specificationStatus": "specification_unverified",
+      "publicationStatus": "draft_ready",
+      "thumbnail": "assets/products/human-hair-wigs-toppers/lace-wigs/ds-wig-lw-005/ds-wig-lw-005-01.jpg",
+      "notes": "Three approved source images plus one reference video copied from incoming-products. 5x5 lace closure bone-straight human-hair wig; written specification requires buyer confirmation before quotation."
+    },
+    {
       "code": "DS-TOP-HH-001",
       "legacyCode": "TOP-01",
       "name": "Human Hair Topper Model 01",

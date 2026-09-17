@@ -243,6 +243,7 @@ function catalogProductCard(product) {
     'DS-WIG-LW-002': 'lace-wig-202.html',
     'DS-WIG-LW-003': 'lace-wig-203.html',
     'DS-WIG-LW-004': 'lace-wig-204.html',
+    'DS-WIG-LW-005': 'ddbone-straight-human-hair-wig.html',
     'DS-TOP-HH-001': 'human-hair-topper-01.html',
     'DS-TOP-HH-002': 'human-hair-topper-02.html',
     'DS-TOP-HH-003': 'human-hair-topper-03.html',
