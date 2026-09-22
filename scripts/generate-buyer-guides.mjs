@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { SITE, FRESHNESS, AUTHOR, PUBLISHER, BYLINE } from './site-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const base = 'https://wigexporter.com';
@@ -18,6 +19,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Wholesale hair extensions MOQ, explained.',
     intro: 'Minimum order quantity is not one number across a catalogue. It is set per construction, material and whether the item is private-label. Here is what moves it.',
+    answer: 'Wholesale hair extension MOQ is set per construction, material and whether the item is private-label, so there is no site-wide number. Piece count per style, colour spread and custom packaging all raise the minimum. New brands can often start with a smaller development run and scale afterwards.',
     sections: [
       ['Why MOQ is not one number', 'Extensions are made in very different ways — clip-in, tape-in, weft, nano-ring — and in human or synthetic fibre. A single site-wide MOQ would misrepresent how the product is actually built. Suppliers that quote one number for everything are usually quoting a stock line, not your specification.'],
       ['What typically moves your MOQ', 'Piece count per style, how many colour codes you spread across the range, custom packaging, and whether the item is made-to-order versus kept in stock. More shades and bespoke packs raise the minimum because each adds setup.'],
@@ -38,6 +40,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Briefing an OEM hair topper manufacturer.',
     intro: 'With OEM, you supply the specification and the factory builds to it. The brief — not the catalogue photo — defines the product. Here is how to write one that works.',
+    answer: 'An OEM hair topper manufacturer builds to your written specification rather than to a catalogue style. The brief must cover base material, construction, size, density, colour reference and the target wearer. A representative sample is then approved and documented as the repeatable reference before bulk.',
     sections: [
       ['What "OEM" means for toppers', 'You own the specification: base material, construction, size, density, colour reference and target wearer. The factory executes it and documents the result as a reference.'],
       ['The brief that actually works', 'Cover base material (human or synthetic), construction (mono, silk or lace base), size, density, colour reference, and the wearer profile. Vague briefs produce vague samples.'],
@@ -58,6 +61,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Choosing a private-label wig supplier in the UK.',
     intro: 'UK salons and emerging brands can launch a wig range without owning a factory — but the supplier must build to your brief and keep it repeatable. Check these points.',
+    answer: 'A UK private-label wig supplier should build to your brief, keep the reference repeatable across batches, and support logo, shade labels, care cards and retail packaging. Check sample approval, MOQ, lead time and packaging cost before ordering. You do not need your own factory to launch a range.',
     sections: [
       ['Start from your market, not a catalogue', 'Define the wearer, price tier and sales channel before comparing suppliers. The right partner fits your segment, not a generic list.'],
       ['Specification control', 'Can the supplier build to your brief — cap construction, fibre, density, colour — and keep it repeatable across batches? If not, your "brand" drifts.'],
@@ -78,6 +82,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Certifications that matter for UK/EU buyers.',
     intro: 'Certification is market-specific. Ask for documents relevant to your destination, not a generic certificate list, and line them up at the brief stage.',
+    answer: 'Certification requirements depend on your product and destination, not on a generic list. For UK and EU sales, ask the supplier which composition statements, REACH-related documents and test reports they hold and can issue. Request them at brief stage, and never treat a certificate as a substitute for a physical sample.',
     sections: [
       ['Certifications are market-specific', 'The documents you need depend on where you sell. A supplier should tell you what it can actually provide for your market, not hand over an unrelated certificate.'],
       ['Material and composition', 'Composition statements, and where relevant fibre identification for synthetic lines, are the baseline. They support, but do not replace, a physical reference.'],
@@ -98,6 +103,17 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Choosing a wig manufacturer for your brand.',
     intro: 'Price is the easiest thing to compare and the worst thing to decide on. Compare manufacturers on the same written brief and approved reference instead.',
+    answer: 'Choose a wig manufacturer on specification control, sampling discipline, batch-to-batch repeatability and written commercial terms, not on price alone. Compare suppliers against the same written brief and the same approved reference. Ambiguity in MOQ, lead time or open items is where margin leaks after reorder.',
+    howTo: {
+      name: 'How to choose a wig manufacturer for your brand',
+      steps: [
+        ['Write one comparable brief', 'Describe construction, material, size, density and colour reference so every supplier answers the same question.'],
+        ['Test specification control', 'Ask whether the manufacturer builds to your brief and documents it. A showroom photo is not a contract.'],
+        ['Check the sample-approval step', 'Ask how an approved sample is recorded, so reordering cannot drift into looks-like-the-photo ambiguity.'],
+        ['Test repeatability', 'Ask how the reference is held stable across batches: material source, construction checks and documented deviations.'],
+        ['Confirm commercial terms', 'Get MOQ, lead time, price and open items in writing before production begins.'],
+      ]
+    },
     sections: [
       ['Specification, not showroom', 'Choose a manufacturer who builds to your brief and documents it. A showroom photo is not a contract.'],
       ['Sampling discipline', 'A clear sample-approval step prevents "looks like the photo" ambiguity at reorder. Ask how approval is recorded.'],
@@ -118,6 +134,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Human hair vs synthetic extensions.',
     intro: 'This is not "one is better". It is two different value propositions. Choose by wearer profile, margin and care, and stock both tiers with clear guidance.',
+    answer: 'Human hair and synthetic extensions are different value propositions, not better and worse. Human hair suits clients who heat-style, colour and expect long wear; synthetic suits entry price points, colour consistency and low maintenance. Most wholesale ranges carry both tiers with clear care guidance so buyers self-select correctly.',
     sections: [
       ['The real difference', 'Human hair behaves like natural hair and can be heat-styled within limits. Synthetic holds its style, costs less, but reacts to heat differently.'],
       ['Wearer profile fit', 'Daily wear and styling flexibility favour human hair. Fashion and occasional wear favour synthetic for price and style-hold.'],
@@ -138,6 +155,17 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'The wig sampling process, step by step.',
     intro: 'A representative sample converts a visual impression into an approved standard. Run this workflow before any bulk commitment.',
+    answer: 'The wig sampling process runs one sequence: share a written brief, receive a representative sample, inspect it against that brief, record corrections, then approve the sample as the reference. Bulk is measured against that approved reference. Expect a few working days to a couple of weeks, depending on construction.',
+    howTo: {
+      name: 'How to approve a wig or hair sample reference before bulk',
+      steps: [
+        ['Write the brief', 'Set construction, fibre, density, colour and any packaging direction before sampling starts.'],
+        ['Receive a representative sample', 'Samples are supplied at sample price plus shipping at the buyer cost.'],
+        ['Review it against the brief', 'Check construction, fibre, density and colour against what you specified, not against a listing photo.'],
+        ['Request corrections', 'Document every deviation from the brief and ask for a corrected sample rather than approving and hoping.'],
+        ['Approve the reference', 'Record the approved sample in writing. Bulk is then measured against that reference.'],
+      ]
+    },
     sections: [
       ['Why sample first', 'A sample is the only way to agree on construction, fibre, density and colour before money is tied up in production.'],
       ['The sampling steps', 'Brief, representative sample, documented review, corrections, approved reference. Each step is recorded against the brief.'],
@@ -158,6 +186,17 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Private-label packaging requirements.',
     intro: 'Packaging is approved as its own reference. Give the supplier the right inputs early and the pack matches your brand, not a generic box.',
+    answer: 'Private-label packaging is approved as its own reference, separately from the product. Give the supplier your vector logo files, shade or SKU naming, care content, barcode or labelling needs and retail format early. Minimums and cost are confirmed per packaging brief, and changing artwork after approval restarts that approval.',
+    howTo: {
+      name: 'How to prepare private-label hair packaging requirements',
+      steps: [
+        ['Define the packaging brief', 'Set product, market, channel, quantity and packaging level, right-sized to launch rather than to a wish list.'],
+        ['Send vector artwork', 'Supply AI, EPS, SVG or print-ready PDF logo files with brand colours, language and dimensions.'],
+        ['Choose the pack format', 'Decide between labels, backing cards, care cards, pouches and retail boxes, since each adds structure and print decisions.'],
+        ['Confirm market requirements', 'Check UK and EU language, barcode and mandatory pack information for each destination.'],
+        ['Approve the pack reference', 'Approve packaging as its own reference, alongside the product specification.'],
+      ]
+    },
     sections: [
       ['Start with the brief', 'Product, market, channel, quantity and packaging level. Right-size the pack to launch, not to a maximalist wish list.'],
       ['Artwork inputs', 'Vector logo, brand colours, language, barcode or QR, legal text and dimensions. Raster logos are checked for quality before artwork begins.'],
@@ -178,6 +217,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Hair extensions lead time, two clocks.',
     intro: 'Sampling and production are different windows. Treat them as two separate clocks and put both in writing.',
+    answer: 'Sampling and production are two separate clocks. Sampling typically takes a few working days to a couple of weeks depending on construction, while production lead time is confirmed per order volume and stated in writing. Express sample shipments to the UK and EU usually arrive in three to five working days.',
     sections: [
       ['Two clocks', 'Sampling and production do not run on the same timeline. Assuming they match is how launches slip.'],
       ['Sampling window', 'Driven by construction complexity and colour matching. Simple stock lines are faster than bespoke builds.'],
@@ -198,6 +238,17 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Starting a hair brand, checklist.',
     intro: 'You do not need your own factory to launch a hair brand. You need a coherent brief, approved references and written commercial terms.',
+    answer: 'To start a hair brand you need a coherent product brief, an approved sample reference, a packaging and shade system, and written commercial terms. You do not need your own factory. Work with a supplier that builds to your brief and keeps it repeatable, then scale volume once the reference holds.',
+    howTo: {
+      name: 'How to start a hair brand without your own factory',
+      steps: [
+        ['Define the brand brief', 'Set the wearer, price tier, sales channel and range shape before approaching suppliers.'],
+        ['Pick a development pathway', 'Choose private label or bespoke, right-sized to what you can launch.'],
+        ['Approve both references', 'Product and packaging each get an approved sample, not one vague approval.'],
+        ['Confirm commercial terms', 'MOQ, lead time, price and shipping confirmed in writing before you scale beyond the first run.'],
+        ['Scale after the reference holds', 'Move to repeat volume only once the approved reference proves repeatable.'],
+      ]
+    },
     sections: [
       ['Define the brand before the product', 'Wearer, price tier, channel and range shape. A clear brand brief makes supplier answers useful.'],
       ['Pick a development pathway', 'Private label versus bespoke. Right-size to launch; you can deepen the programme later.'],
@@ -218,6 +269,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'What "Remy" should mean when you source.',
     intro: 'Remy is one of the most loosely used words in hair. A sample and a reference are the only real check.',
+    answer: 'Remy describes hair where the cuticle is kept aligned and running in one direction, which reduces tangling and matting. The term is used loosely at wholesale, so the only reliable check is a physical sample: inspect cuticle alignment, strand direction and behaviour after washing before accepting the claim.',
     sections: [
       ['The claim', 'Remy means cuticle-aligned human hair. Properly done, it tangles less and behaves more like natural hair.'],
       ['Why verification matters', 'The term is used loosely across the trade. A supplier’s label is not proof; a sample is.'],
@@ -238,6 +290,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Hair topper vs wig: which to stock.',
     intro: 'Toppers and wigs solve different problems. Stocking both tiers — with a clear reason for each — usually converts better than guessing.',
+    answer: 'A hair topper covers thinning at the crown or part line and blends with the wearer’s own hair; a wig covers the whole scalp. Toppers suit early-stage thinning and a lower price point, while wigs suit fuller coverage. Stocking both tiers with clear fitting guidance usually converts better than committing to one.',
     sections: [
       ['Coverage difference', 'Toppers target partial coverage (crown or thinning areas). Wigs cover the full head.'],
       ['Wearer profile', 'Toppers suit thinning or top-of-head concerns. Wigs suit full-coverage needs.'],
@@ -258,6 +311,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Wholesale wig shipping to the UK & EU.',
     intro: 'Shipping is two routes — sample and bulk — with different speed and cost. Confirm the terms, not the assumption.',
+    answer: 'Wholesale wig shipping runs on two routes: express samples by DHL or UPS, usually three to five working days to the UK and EU, and bulk by air or sea. Terms are set by Incoterms and confirmed per order. Confirm the delivery terms in writing rather than assuming a window.',
     sections: [
       ['Sample shipping', 'DHL/UPS express, China to UK/EU in about 3–5 working days. Fast enough to keep development moving.'],
       ['Bulk shipping', 'Air or sea to optimise cost. Timing and cost are confirmed per order volume.'],
@@ -278,6 +332,7 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'Custom hair colour matching.',
     intro: 'Colour is where private-label ranges win or drift. Start from a physical reference and keep an approved shade as the standard.',
+    answer: 'Custom colour matching starts from a physical reference, not from a screen. Submit the target shade or swatch, agree the hair quality and colour standard, and approve a physical sample as the shade reference. Every reorder is then checked against that approved reference, while screen colour is only for shortlisting.',
     sections: [
       ['Start from a reference', 'A physical shade reference beats a screen colour. Screens lie about hair tone and depth.'],
       ['Colour systems', 'Structured charts — for example a 31-shade system — make repeats consistent across batches and seasons.'],
@@ -298,6 +353,17 @@ const guides = [
     eyebrow: 'BUYER GUIDE',
     h1: 'A pre-reorder quality checklist.',
     intro: 'Before bulk, run these checks on the sample and document the result. That document is what bulk is measured against.',
+    answer: 'Before reordering, check construction and how the piece wears, then fibre behaviour — cuticle alignment for human hair, heat tolerance or style hold for synthetic — then colour against your approved physical shade reference. Document the approved sample and judge bulk against that document rather than a listing photo.',
+    howTo: {
+      name: 'How to check a hair extensions sample before you reorder',
+      steps: [
+        ['Check construction first', 'Inspect weft or seam quality, clip or tape security, and how the piece lies against the head.'],
+        ['Check the fibre', 'For human hair look at cuticle alignment and behaviour; for synthetic look at heat tolerance and style hold.'],
+        ['Check the colour', 'Match against your approved physical shade reference, never against a screen.'],
+        ['Document the sample', 'Record construction, fibre, density and colour so bulk is judged against the document, not a listing photo.'],
+        ['Re-check bulk against the reference', 'Compare production against the approved reference to catch tone or construction drift early.'],
+      ]
+    },
     sections: [
       ['Construction check', 'Weft or seam quality, clip or tape security, and how the piece lies against the head. Poor construction fails first.'],
       ['Fibre check', 'For human hair, cuticle alignment and behaviour. For synthetic, heat tolerance and style-hold.'],
@@ -320,6 +386,52 @@ function faqSchema(g) {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: g.faqs.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } }))
+  };
+}
+
+// Answer engines need a dated, attributed document — not just a Q&A list.
+// Every guide is therefore declared as an Article with a named author and a real
+// review date, so an engine can tell how current and how sourced the page is.
+function articleSchema(g) {
+  const url = `${base}/${g.slug}.html`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${url}#article`,
+    headline: g.title,
+    description: g.description,
+    url,
+    mainEntityOfPage: url,
+    articleSection: 'Buyer guides',
+    ...FRESHNESS,
+    author: AUTHOR,
+    publisher: PUBLISHER,
+    inLanguage: 'en-GB',
+    isAccessibleForFree: true,
+    about: { '@type': 'Thing', name: g.h1 }
+  };
+}
+
+// Only the guides that document a real sequence get HowTo markup. Steps are
+// taken from the page's own section content so the markup cannot drift from the text.
+function howToSchema(g) {
+  if (!g.howTo) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    '@id': `${base}/${g.slug}.html#howto`,
+    name: g.howTo.name,
+    description: g.description,
+    ...FRESHNESS,
+    author: AUTHOR,
+    publisher: PUBLISHER,
+    inLanguage: 'en-GB',
+    step: g.howTo.steps.map(([name, text], index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name,
+      text
+    }))
   };
 }
 
@@ -359,12 +471,15 @@ function buildGuide(g) {
   <header class="site-header"><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button><nav id="primary-nav" class="primary-nav" aria-label="Primary navigation"></nav><a class="wordmark" href="index.html" aria-label="DS HAIR home"><strong>DS HAIR</strong><span>WIGEXPORTER · GLOBAL B2B</span></a><div class="header-tools"><a class="trade-link" href="trade-account.html">TRADE ACCOUNT</a><a class="quote-link" href="contact.html">REQUEST QUOTE</a></div></header>
   <main>
     <section class="page-hero"><div><p class="eyebrow">${esc(g.eyebrow)}</p><h1>${esc(g.h1)}</h1></div><p>${esc(g.intro)}</p></section>
+    <section class="answer-block"><p class="eyebrow">SHORT ANSWER</p><h2>The short answer.</h2><p>${esc(g.answer)}</p></section>
+    <p class="form-note full">Reviewed by ${esc(BYLINE)} &middot; Last reviewed ${esc(SITE.reviewedLabel)}</p>
 ${sections}
     <section class="content-section"><div class="section-heading"><div><p class="eyebrow">QUESTIONS BUYERS ASK</p><h2>Before you shortlist a supplier.</h2></div></div><div class="faq-list">${faqs}</div></section>
     <section class="content-section"><div class="section-heading"><div><p class="eyebrow">RELATED BUYER GUIDES</p><h2>Keep reading.</h2></div></div><ul class="tick-list">${relatedLinks}</ul><p class="form-note full">Ready to discuss a specification? <a href="trade-account.html">Apply for a trade account</a> or <a href="contact.html">contact the sourcing team</a>. See our <a href="trade-account.html#faq">Trade Account FAQ</a> for MOQ, lead time, certification and shipping.</p></section>
   </main>
   <footer class="site-footer"></footer>
-  <script type="application/ld+json">${JSON.stringify(faqSchema(g))}</script>
+  <script type="application/ld+json">${JSON.stringify(articleSchema(g))}</script>
+  <script type="application/ld+json">${JSON.stringify(faqSchema(g))}</script>${g.howTo ? `\n  <script type="application/ld+json">${JSON.stringify(howToSchema(g))}</script>` : ''}
   <script src="script.js?v=${VERSION}"></script>
 </body>
 </html>`;

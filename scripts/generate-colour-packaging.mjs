@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { FRESHNESS, AUTHOR } from './site-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const colourChart = JSON.parse(fs.readFileSync(path.join(root, 'content/colors.json'), 'utf8'));
@@ -107,6 +108,8 @@ const collectionSchema = {
     'Browse 31 DS HAIR colour references, review physical colour confirmation and prepare a custom hair packaging brief.',
   url,
   isPartOf: { '@type': 'WebSite', '@id': 'https://wigexporter.com/#website', name: 'WigExporter' },
+  ...FRESHNESS,
+  author: AUTHOR,
   about: [
     { '@type': 'Thing', name: 'Wholesale hair colour development' },
     { '@type': 'Thing', name: 'Private-label hair packaging' }

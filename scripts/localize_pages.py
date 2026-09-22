@@ -58,6 +58,23 @@ ABS_TARGETS = (
     "favicon.svg",
 )
 
+# Root pages with no localised counterpart (the English-only buyer guides, for example).
+# A locale page lives one directory deeper, so a relative link to one of these resolves
+# to /<lang>/<page> and 404s. Detected from disk at run time rather than hard-coded, so a
+# newly generated guide is handled without editing this file.
+EN_ONLY = ()
+
+
+def english_only_pages():
+    es_dir = os.path.join(ROOT, "es")
+    if not os.path.isdir(es_dir):
+        return ()
+    return tuple(sorted(
+        name for name in os.listdir(ROOT)
+        if name.endswith(".html") and not os.path.exists(os.path.join(es_dir, name))
+    ))
+
+
 missing_counter = Counter()
 
 
@@ -192,6 +209,10 @@ def absolutize(html: str) -> str:
     for target in ABS_TARGETS:
         html = html.replace(f'href="{target}', f'href="/{target}')
         html = html.replace(f'src="{target}', f'src="/{target}')
+    # Links to English-only pages must also point back to the site root, otherwise they
+    # resolve to a locale directory where no such page exists.
+    for target in EN_ONLY:
+        html = html.replace(f'href="{target}', f'href="/{target}')
     html = html.replace('src="assets/', 'src="/assets/')
     html = html.replace('href="assets/', 'href="/assets/')
     html = html.replace('srcset="assets/', 'srcset="/assets/')
@@ -254,8 +275,16 @@ def localize(page: str, lang: str) -> str:
 
 
 def main():
+    global EN_ONLY
     pages = sys.argv[1:] or PAGES
     written = 0
+    # Must run after /es exists, otherwise every root page looks English-only.
+    os.makedirs(os.path.join(ROOT, "es"), exist_ok=True)
+    EN_ONLY = english_only_pages()
+    if EN_ONLY:
+        print(f"-- {len(EN_ONLY)} English-only page(s); their links will point back to /:")
+        for name in EN_ONLY:
+            print(f"     {name}")
     for lang in LOCALES:
         out_dir = os.path.join(ROOT, lang)
         os.makedirs(out_dir, exist_ok=True)

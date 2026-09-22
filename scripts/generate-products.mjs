@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { FRESHNESS, AUTHOR, PUBLISHER } from './site-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const localeIdx = process.argv.indexOf('--locale');
@@ -455,6 +456,21 @@ for (const product of products) {
       acceptedAnswer: { '@type': 'Answer', text }
     }))
   };
+  // Date and attribute the reference page itself, so an answer engine can tell
+  // how current the published specification is and who stands behind it.
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `https://wigexporter.com/${product.slug}.html#webpage`,
+    url: `https://wigexporter.com/${product.slug}.html`,
+    name: product.metaTitle,
+    description: product.description,
+    isPartOf: { '@id': 'https://wigexporter.com/#website' },
+    ...FRESHNESS,
+    author: AUTHOR,
+    publisher: PUBLISHER,
+    inLanguage: 'en-GB'
+  };
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -536,6 +552,7 @@ for (const product of products) {
     <section class="final-cta"><p class="eyebrow">${product.code ? `${_('reference')}${esc(product.code)}` : _('productBrief')}</p><h2>${esc(product.ctaTitle || `Request the DS HAIR ${product.title} specification.`)}</h2><p>${esc(product.ctaText || 'Include your target market, preferred construction, length, weight, colour direction and estimated quantity so the sourcing team can respond with the right next step.')}</p><a class="button button-light" href="contact.html?product=${encodeURIComponent(productIdentity)}">${_('sendBuyingBrief')}</a></section>
   </main>
   <footer class="site-footer"></footer>
+  <script type="application/ld+json">${json(webPageSchema)}</script>
   <script type="application/ld+json">${json(productSchema)}</script>
   <script type="application/ld+json">${json(faqSchema)}</script>
   <script type="application/ld+json">${json({

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { SITE, FRESHNESS, AUTHOR, PUBLISHER } from './site-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const localeIdx = process.argv.indexOf('--locale');
@@ -72,7 +73,7 @@ const UI = {
     guidePrompt: 'Share the target market, product direction and quantity range. We will identify what should be clarified before samples or quotation.',
     contactSourcingTeam: 'CONTACT THE SOURCING TEAM', inThisGuide: 'IN THIS GUIDE',
     buyerSummary: 'Buyer summary:', questionsBuyersAsk: 'Questions buyers ask',
-    editorialTeam: 'DS HAIR Editorial Team · Updated 18 July 2026', buyerGuide: 'BUYER GUIDE'
+    editorialTeam: 'Caro, Founder, DS HAIR · Reviewed 22 September 2026', buyerGuide: 'BUYER GUIDE'
   },
   es: {
     home: 'Inicio', collections: 'Colecciones', b2bWholesale: 'VENTA AL POR MAYOR B2B',
@@ -105,7 +106,7 @@ const UI = {
     guidePrompt: 'Comparta mercado objetivo, dirección del producto y rango de cantidad. Identificaremos qué aclarar antes de muestras o cotización.',
     contactSourcingTeam: 'CONTACTAR AL EQUIPO DE COMPRAS', inThisGuide: 'EN ESTA GUÍA',
     buyerSummary: 'Resumen para comprador:', questionsBuyersAsk: 'Preguntas frecuentes',
-    editorialTeam: 'Equipo editorial DS HAIR · Actualizado el 18 de julio de 2026', buyerGuide: 'GUÍA DEL COMPRADOR'
+    editorialTeam: 'Caro, fundadora de DS HAIR · Revisado el 22 de septiembre de 2026', buyerGuide: 'GUÍA DEL COMPRADOR'
   },
   de: {
     home: 'Startseite', collections: 'Kollektionen', b2bWholesale: 'B2B-GROßHANDEL',
@@ -138,7 +139,7 @@ const UI = {
     guidePrompt: 'Teilen Sie Zielmarkt, Produktausrichtung und Mengenbereich mit. Wir klären, was vor Muster oder Angebot geklärt werden muss.',
     contactSourcingTeam: 'SOURCING-TEAM KONTAKTIEREN', inThisGuide: 'IN DIESEM LEITFADEN',
     buyerSummary: 'Käuferzusammenfassung:', questionsBuyersAsk: 'Häufige Käuferfragen',
-    editorialTeam: 'DS HAIR Redaktion · Aktualisiert am 18. Juli 2026', buyerGuide: 'KÄUFERLEITFADEN'
+    editorialTeam: 'Caro, Gründerin von DS HAIR · Geprüft am 22. September 2026', buyerGuide: 'KÄUFERLEITFADEN'
   },
   fr: {
     home: 'Accueil', collections: 'Collections', b2bWholesale: 'VENTE EN GROS B2B',
@@ -171,7 +172,7 @@ const UI = {
     guidePrompt: 'Partagez marché cible, direction produit et plage de quantité. Nous préciserons ce qui doit être clarifié avant échantillons ou devis.',
     contactSourcingTeam: 'CONTACTER L’ÉQUIPE SOURCING', inThisGuide: 'DANS CE GUIDE',
     buyerSummary: 'Résumé acheteur :', questionsBuyersAsk: 'Questions fréquentes',
-    editorialTeam: 'Équipe éditoriale DS HAIR · Mis à jour le 18 juillet 2026', buyerGuide: 'GUIDE ACHETEUR'
+    editorialTeam: 'Caro, fondatrice de DS HAIR · Révisé le 22 septembre 2026', buyerGuide: 'GUIDE ACHETEUR'
   }
 };
 const _ = (key) => UI[UI_LANG][key] || UI.en[key];
@@ -374,6 +375,21 @@ for (const item of data.collections) {
     audience: { '@type': 'BusinessAudience', audienceType: 'Hair brands, distributors, salons and professional buyers' },
     description: item.description
   };
+  // Collection hubs carry the same freshness + author signals as the guides, so an
+  // answer engine can date and attribute the page it is quoting from.
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `https://wigexporter.com/${item.slug}.html#webpage`,
+    url: `https://wigexporter.com/${item.slug}.html`,
+    name: item.metaTitle,
+    description: item.description,
+    isPartOf: { '@id': 'https://wigexporter.com/#website' },
+    ...FRESHNESS,
+    author: AUTHOR,
+    publisher: PUBLISHER,
+    inLanguage: 'en-GB'
+  };
   const processSteps = _('processSteps').map(([ strong, span ]) => `<li><strong>${esc(strong)}</strong><span>${esc(span)}</span></li>`).join('');
   const main = `<main id="main">
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">${_('home')}</a><span>›</span><a href="products.html">${_('collections')}</a><span>›</span><span>${esc(item.title)}</span></nav>
@@ -391,7 +407,7 @@ for (const item of data.collections) {
     { name: 'Collections', url: 'https://wigexporter.com/products.html' },
     { name: item.title, url: `https://wigexporter.com/${item.slug}.html` }
   ]);
-  let finalHtml = head({ title: item.metaTitle, description: item.description, slug: item.slug, image: item.image }) + shell(main, [serviceSchema, faqSchema, collectionBreadcrumb]);
+  let finalHtml = head({ title: item.metaTitle, description: item.description, slug: item.slug, image: item.image }) + shell(main, [webPageSchema, serviceSchema, faqSchema, collectionBreadcrumb]);
   if (lang) {
     finalHtml = finalHtml
       .replace('<html lang="en">', `<html lang="${lang}">`)
@@ -425,13 +441,17 @@ for (const article of data.articles) {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `https://wigexporter.com/${article.slug}.html#article`,
     headline: article.title,
     description: article.description,
     image: `https://wigexporter.com/${article.image}`,
-    datePublished: '2026-07-18',
-    dateModified: '2026-07-18',
-    author: { '@type': 'Organization', name: 'DS HAIR', alternateName: 'WigExporter' },
-    publisher: { '@type': 'Organization', name: 'DS HAIR', alternateName: 'WigExporter', url: 'https://wigexporter.com/' },
+    url: `https://wigexporter.com/${article.slug}.html`,
+    articleSection: 'Buyer guides',
+    ...FRESHNESS,
+    author: AUTHOR,
+    publisher: PUBLISHER,
+    inLanguage: 'en-GB',
+    isAccessibleForFree: true,
     mainEntityOfPage: `https://wigexporter.com/${article.slug}.html`
   };
   const faqSchema = {
