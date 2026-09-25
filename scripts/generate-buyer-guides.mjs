@@ -5,7 +5,7 @@ import { SITE, FRESHNESS, AUTHOR, PUBLISHER, BYLINE } from './site-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const base = 'https://wigexporter.com';
-const VERSION = '20260917-7';
+const VERSION = '20260925-1';
 
 // Buyer-guide pages: problem-led SEO pages around procurement questions.
 // English only (no es/de/fr variants) on purpose — they carry a self-ref canonical

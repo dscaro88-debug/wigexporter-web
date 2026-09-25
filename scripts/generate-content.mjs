@@ -178,7 +178,7 @@ const UI = {
 const _ = (key) => UI[UI_LANG][key] || UI.en[key];
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const json = (value) => JSON.stringify(value).replaceAll('<', '\\u003c');
-const VERSION = '20260917-7';
+const VERSION = '20260925-1';
 const slugify = (value) => String(value).toLowerCase().replaceAll('&', 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function productScope(item) {
