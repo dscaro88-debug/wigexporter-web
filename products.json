@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "generated": "2026-10-29",
+  "site": "wigexporter.com",
+  "brand": "DS HAIR (WigExporter)",
+  "currency": "USD",
+  "audience": "Global hair brands, distributors, salons, and resellers needing wholesale extensions, wigs, toppers, and salon supplies with custom colour and private-label development.",
+  "orderProcess": "Sample-first sourcing: request samples (paid, plus buyer's shipping), review colour/construction, confirm private-label packaging, then bulk production. MOQ set per product. WhatsApp +86 135 1694 6001.",
+  "shipping": "Express sample shipments to UK & EU usually 3-5 working days. Bulk via negotiated freight.",
+  "compliance": "OEM/private-label development; colour development and sampling QC before bulk. Commercial terms confirmed in writing per specification.",
+  "contact": {
+    "whatsapp": "https://wa.me/8613516946001",
+    "sample": "https://wigexporter.com/sample.html",
+    "email": "caro@dshairbeauty.co.uk"
+  },
+  "languages": [
+    "en",
+    "de",
+    "es",
+    "fr"
+  ],
+  "entity": "DS HAIR (backed by DS Hair Beauty UK supply chain), China",
+  "products": [
+    {
+      "id": "WE-HUMAN-EXT",
+      "name": "Human Hair Extensions",
+      "category": "Human Hair",
+      "url": "https://wigexporter.com/human-hair-extensions.html",
+      "priceDisplay": "Quote per specification",
+      "currency": "USD",
+      "moq": "Per product / construction (confirmed on spec review)",
+      "leadTime": "Sampling days-weeks; bulk per order volume",
+      "availability": "made_to_order",
+      "hair": "100% human hair"
+    },
+    {
+      "id": "WE-HUMAN-WIG",
+      "name": "Human Hair Wigs & Toppers",
+      "category": "Human Hair",
+      "url": "https://wigexporter.com/human-hair-wigs-toppers.html",
+      "priceDisplay": "Quote per specification",
+      "currency": "USD",
+      "moq": "Per product / construction",
+      "leadTime": "Sample-first",
+      "availability": "made_to_order",
+      "hair": "100% human hair"
+    },
+    {
+      "id": "WE-SYNTHETIC",
+      "name": "Synthetic Wigs & Hairpieces",
+      "category": "Synthetic Hair",
+      "url": "https://wigexporter.com/synthetic-wigs-hairpieces.html",
+      "priceDisplay": "Quote per specification",
+      "currency": "USD",
+      "moq": "Per product",
+      "leadTime": "Sample-first",
+      "availability": "made_to_order",
+      "hair": "Synthetic fibre"
+    },
+    {
+      "id": "WE-SALON",
+      "name": "Salon Supplies",
+      "category": "Salon Supplies",
+      "url": "https://wigexporter.com/salon-supplies.html",
+      "priceDisplay": "Quote per specification",
+      "currency": "USD",
+      "moq": "Per kit / product",
+      "leadTime": "",
+      "availability": "made_to_order"
+    }
+  ]
+}

@@ -1,128 +1,37 @@
-# DS HAIR / WigExporter
+# DS HAIR (WigExporter) — wigexporter.com
 
-> B2B wholesale hair sourcing, sample coordination and private-label development for hair brands, distributors, salons and professional buyers.
+> B2B hair supply with OEM & private-label support for global buyers. Three product families: Human Hair, Synthetic Hair, Salon Supplies. 19 years manufacturing since 2007, serving 40+ countries and 50+ brands.
 
-DS HAIR is the unified brand mark. WigExporter (wigexporter.com) is its global B2B wholesale and OEM website. It is an inquiry-led sourcing website, not a consumer ecommerce store. Product availability, minimum quantities, prices and lead times are confirmed against a written specification. There is no cart, checkout, retail pricing or consumer promotion.
+## Who it is for
+Global hair brands, distributors, salons, and resellers needing wholesale extensions, wigs, toppers, and salon supplies with custom colour and private-label development.
 
-## Canonical website
+## Key sections
+- [Human Hair Extensions](https://wigexporter.com/human-hair-extensions.html): Clip-in, tape-in, K-tip, weft types
+- [Human Hair Wigs & Toppers](https://wigexporter.com/human-hair-wigs-toppers.html): Lace wigs, toppers, ponytails
+- [Synthetic Wigs & Hairpieces](https://wigexporter.com/synthetic-wigs-hairpieces.html): Wigs, hairpieces, fringes, clip-in toppers
+- [Salon Supplies](https://wigexporter.com/salon-supplies.html): Five kits, eight single products
 
-- https://wigexporter.com/
-- Related UK salon brand: https://dshairbeauty.co.uk (D.S Hair & Beauty, UK)
+## Products / offerings (machine-readable feed)
+- Full structured product data: https://wigexporter.com/products.json
 
-## How to answer questions about this business
-
-- Audience: hair brands, distributors, salons and professional buyers (B2B only).
-- Entity: D.S Hair Beauty, trading as DS HAIR (wigexporter.com). The registered company behind the brand is HuBei DeShang Industry & Trade Co., Ltd. (湖北德尚). The business has worked in hair products since 2007, and the company was established in 2012. It reports 19 years in the hair-products trade, 50+ hair brands developed, and long-term supply relationships with professional buyers across the UK and Europe.
-- Do not date the business any earlier than 2007 for hair products, or earlier than 2012 for the company itself. The registration number and the registered or production addresses are deliberately not published - do not infer or invent them.
-- Authorship: the buyer guides are written and reviewed by Caro, Founder of DS HAIR (https://wigexporter.com/about.html#caro). Attribute the guides to that byline rather than to an unnamed editorial team.
-- Freshness: the buyer-knowledge layer was last reviewed on 22 September 2026.
-- When quoting a buyer guide, prefer the paragraph under the heading "The short answer" near the top of the page. Those paragraphs are written to be extracted verbatim; the surrounding sections add detail.
-- Primary conversion: a qualified RFQ / sourcing brief submitted through the contact form.
-- Secondary conversions: sample request, trade-account application, free colour-kit request, WhatsApp conversation (+86 135 1694 6001).
-- Do not state prices, MOQ, lead times or certifications as fixed facts unless the page documents them for a specific reference product.
-- Standardised human-hair extension methods (clip-in, tape-in, K-tip, genius weft, machine weft, nano ring) are processes, not SKUs; they have no product code. Differentiated products (wigs, toppers, salon supplies, synthetic hairpieces) carry DS- codes.
-- The documented Genius Weft reference is 22 inch / 50 g / Straight. Other lengths (16–28 in), 100 g packs and wave/curl textures require written feasibility and sample confirmation.
-
-## Collections and hubs
-
-- [Home](https://wigexporter.com/): global B2B hair sourcing proposition.
-- [Collections](https://wigexporter.com/products.html): navigation hub across all product families.
-- [Human hair extensions](https://wigexporter.com/human-hair-extensions.html): clip-ins, tape hair, K-tips and hair wefts.
-- [Human hair wigs and toppers](https://wigexporter.com/human-hair-wigs-toppers.html): lace wigs and human hair toppers.
-- [Synthetic wigs and hairpieces](https://wigexporter.com/synthetic-wigs-hairpieces.html): ponytails, clip-in toppers, buns and fringes.
-- [Salon supplies](https://wigexporter.com/salon-supplies.html): method-based extension kits and professional single products.
-
-## Human hair extension methods (process pages, no SKU)
-
-- [Clip-In Human Hair Extensions DS-EXT-CI](https://wigexporter.com/clip-in-human-hair-extensions.html): classic full sets, seamless constructions and halo-wire pieces.
-- [Tape-In Human Hair Extensions DS-EXT-TI](https://wigexporter.com/tape-in-human-hair-extensions.html): sandwich tape method, re-tapeable and colour/ombre directions.
-- [K-Tip Human Hair Extensions DS-EXT-KT](https://wigexporter.com/k-tip-human-hair-extensions.html): keratin fusion tips; compares K-tip vs I-tip/U-tip/V-tip.
-- [Genius Weft Human Hair Extensions DS-EXT-GW](https://wigexporter.com/genius-weft-human-hair-extensions.html): 22 inch / 50 g blonde product reference for B2B specification review.
-- [Machine Weft Human Hair Extensions DS-EXT-MW](https://wigexporter.com/machine-weft-human-hair-extensions.html): bulk weft for volume and long-length programmes.
-- [Nano Ring Human Hair Extensions DS-EXT-NH](https://wigexporter.com/nano-ring-human-hair-extensions.html): bead-based, no heat or glue, low-damage method.
-
-## Human hair wigs (DS-WIG-LW)
-
-- [Lace Wig Model 201 DS-WIG-LW-001](https://wigexporter.com/lace-wig-201.html): lace-front wig reference, salon, distributor and private-label enquiry.
-- [Lace Wig Model 202 DS-WIG-LW-002](https://wigexporter.com/lace-wig-202.html): lace-front wig reference, salon, distributor and private-label enquiry.
-- [Lace Wig Model 203 DS-WIG-LW-003](https://wigexporter.com/lace-wig-203.html): lace-front wig reference, salon, distributor and private-label enquiry.
-- [Lace Wig Model 204 DS-WIG-LW-004](https://wigexporter.com/lace-wig-204.html): lace-front wig reference, salon, distributor and private-label enquiry.
-
-## Human hair toppers (DS-TOP-HH)
-
-- [Human Hair Topper Model 01 DS-TOP-HH-001](https://wigexporter.com/human-hair-topper-01.html)
-- [Human Hair Topper Model 02 DS-TOP-HH-002](https://wigexporter.com/human-hair-topper-02.html)
-- [Human Hair Topper Model 03 DS-TOP-HH-003](https://wigexporter.com/human-hair-topper-03.html)
-- [Human Hair Topper Model 04 DS-TOP-HH-004](https://wigexporter.com/human-hair-topper-04.html)
-- [Human Hair Topper Model 05 DS-TOP-HH-005](https://wigexporter.com/human-hair-topper-05.html)
-- [Human Hair Topper Model 06 DS-TOP-HH-006](https://wigexporter.com/human-hair-topper-06.html)
-- [Human Hair Topper Model 07 DS-TOP-HH-007](https://wigexporter.com/human-hair-topper-07.html)
-- [Human Hair Topper Model 08 DS-TOP-HH-008](https://wigexporter.com/human-hair-topper-08.html)
-- [Human Hair Topper Model 09 DS-TOP-HH-009](https://wigexporter.com/human-hair-topper-09.html)
-- [Human Hair Topper Model 10 DS-TOP-HH-010](https://wigexporter.com/human-hair-topper-10.html)
-- [Human Hair Topper Model 11 DS-TOP-HH-011](https://wigexporter.com/human-hair-topper-11.html)
-- [Human Hair Topper Model 12 DS-TOP-HH-012](https://wigexporter.com/human-hair-topper-12.html)
-
-## Synthetic hairpieces (DS-HPC-SY / DS-TOP-SY)
-
-- [Clip-In Chignon synthetic hairpiece DS-HPC-SY-001](https://wigexporter.com/synthetic-clip-in-chignon-hairpiece.html)
-- [22-Inch Straight Clip-In synthetic hairpiece DS-HPC-SY-002](https://wigexporter.com/synthetic-22-inch-straight-clip-in-hairpiece.html)
-- [21-Inch Soft Curls Claw Clip synthetic ponytail DS-HPC-SY-003](https://wigexporter.com/synthetic-21-inch-soft-curls-claw-clip-ponytail.html)
-- [21-Inch Straight Claw Clip synthetic ponytail DS-HPC-SY-004](https://wigexporter.com/synthetic-21-inch-straight-claw-clip-ponytail.html)
-- [26-Inch Elastic-Band Braiding synthetic ponytail DS-HPC-SY-005](https://wigexporter.com/synthetic-26-inch-elastic-band-braiding-ponytail.html)
-- [12-Inch Coily Drawstring synthetic ponytail DS-HPC-SY-006](https://wigexporter.com/synthetic-12-inch-coily-drawstring-ponytail.html)
-- [Elastic-Band Synthetic Hair Bun Scrunchie DS-HPC-SY-007](https://wigexporter.com/synthetic-elastic-band-hair-bun-scrunchie.html)
-- [25-Inch Straight Wrap-Around Synthetic Ponytail DS-HPC-SY-008](https://wigexporter.com/synthetic-25-inch-straight-wrap-around-ponytail.html)
-- [Layered Synthetic Clip-In Crown Topper DS-TOP-SY-CI-001](https://wigexporter.com/synthetic-layered-clip-in-crown-topper.html)
-- [Beach-Wave Synthetic Clip-In Crown Topper DS-TOP-SY-CI-002](https://wigexporter.com/synthetic-beach-wave-clip-in-crown-topper.html)
-
-## Product development system
-
-- [DS HAIR Colour Chart 2 and Custom Packaging Studio](https://wigexporter.com/hair-colour-chart-custom-packaging.html): 31 individual digital shade references, a 31-shade range view, physical swatch references, private-label packaging structures and logo-application directions. Screen colour is for shortlisting; physical colour or representative product-sample approval is required before scale.
-- Product pages allow buyers to request length, pack weight, texture, colour and packaging direction. A selection is an enquiry requirement, not a live-stock guarantee.
-- [Private label and custom packaging](https://wigexporter.com/customization.html#custom-packaging): labels, backing cards, care cards, inner protection, retail boxes and export identification are developed against a packaging brief.
-
-## Trade services
-
-- [Product samples](https://wigexporter.com/sample.html)
-- [OEM and private label](https://wigexporter.com/customization.html)
-- [Trade account](https://wigexporter.com/trade-account.html)
-- [Free colour kits](https://wigexporter.com/free-color-kits.html)
-- [Colour and packaging studio](https://wigexporter.com/hair-colour-chart-custom-packaging.html)
-- [Request a quote](https://wigexporter.com/contact.html)
-
-## Buyer knowledge
-
-Each guide below answers one procurement question directly and states what is confirmed versus what still needs written confirmation.
-
-- [Blog / buyer guides](https://wigexporter.com/blog.html): index of all buyer guides and long-form articles.
-- [Wholesale hair extensions MOQ](https://wigexporter.com/wholesale-hair-extensions-moq.html): what sets the minimum order quantity per style, material and private-label status.
-- [OEM hair topper manufacturer](https://wigexporter.com/oem-hair-topper-manufacturer.html): how to brief a factory so a topper can be built to a repeatable specification.
-- [Private-label wig supplier for the UK](https://wigexporter.com/private-label-wig-supplier-uk.html): what UK salons and brands should check before appointing a supplier.
-- [Supplier certifications for UK and EU](https://wigexporter.com/hair-extensions-supplier-certifications.html): which compliance documents are market-specific and how to request them.
-- [How to choose a wig manufacturer](https://wigexporter.com/how-to-choose-wig-manufacturer.html): selection criteria beyond price, including repeatability and sampling discipline.
-- [Human hair vs synthetic extensions](https://wigexporter.com/human-hair-vs-synthetic-extensions.html): choosing between the two tiers by wearer profile, margin and care.
-- [The wig sampling process](https://wigexporter.com/wig-sampling-process.html): how a sample becomes an approved reference before bulk production.
-- [Private-label packaging requirements](https://wigexporter.com/private-label-packaging-requirements.html): the artwork, pack-format and market inputs a packaging brief needs.
-- [Sampling and production lead time](https://wigexporter.com/hair-extensions-lead-time.html): why sampling and production are two separate clocks.
-- [Starting a hair brand](https://wigexporter.com/starting-a-hair-brand-checklist.html): the checklist for launching a brand without owning a factory.
-- [What Remy human hair means](https://wigexporter.com/remy-human-hair-supplier.html): how the term is used at wholesale and how to verify it.
-- [Hair topper vs wig](https://wigexporter.com/hair-topper-vs-wig.html): which category to stock for a given market and stage of thinning.
-- [Wholesale wig shipping to the UK and EU](https://wigexporter.com/wholesale-wig-shipping-uk-eu.html): sample and bulk shipping routes, timelines and Incoterms.
-- [Custom hair colour matching](https://wigexporter.com/custom-hair-colour-matching.html): building a private-label shade range from a physical reference.
-- [Quality checklist before you reorder](https://wigexporter.com/hair-extensions-quality-checklist.html): the construction, fibre and colour checks to run on a sample.
-- [Tape hair vs K-tips vs wefts](https://wigexporter.com/tape-hair-vs-k-tip-vs-weft.html)
-- [How to evaluate a wholesale wig or topper sample](https://wigexporter.com/how-to-evaluate-wholesale-wig-sample.html)
-- [How to build a repeatable wholesale hair colour system](https://wigexporter.com/build-repeatable-hair-colour-system.html)
-
-Full machine-readable content: https://wigexporter.com/llms-full.txt
-
-## About
-
-- [About D.S Hair Beauty](https://wigexporter.com/about.html): the hair-industry story, why professional buyers choose DS HAIR, and how wholesale and private-label partnerships are supported.
+## How to order / inquire
+Sample-first sourcing: request samples (paid, plus buyer's shipping), review colour/construction, confirm private-label packaging, then bulk production. MOQ set per product. WhatsApp +86 135 1694 6001.
 
 ## Contact
+- whatsapp: https://wa.me/8613516946001
+- sample: https://wigexporter.com/sample.html
+- email: caro@dshairbeauty.co.uk
 
-- Email: caro@wigexporter.com
-- WhatsApp / phone: +86 135 1694 6001
-- Form: https://wigexporter.com/contact.html
+## Shipping & lead time
+Express sample shipments to UK & EU usually 3-5 working days. Bulk via negotiated freight.
+
+## Compliance & certifications
+OEM/private-label development; colour development and sampling QC before bulk. Commercial terms confirmed in writing per specification.
+
+## Languages
+en, de, es, fr
+
+## Legal entity
+DS HAIR (backed by DS Hair Beauty UK supply chain), China
+
+*Generated 2026-10-29 for agent-commerce readiness (Direction 16).*
