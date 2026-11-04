@@ -3524,4 +3524,28 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://wigexporter.com/fr/trade-account.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://wigexporter.com/trade-account.html"/>
   </url>
+  <url>
+      <loc>https://wigexporter.com/</loc>
+      <lastmod>2026-11-04</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  <url>
+      <loc>https://wigexporter.com/es/</loc>
+      <lastmod>2026-11-04</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  <url>
+      <loc>https://wigexporter.com/de/</loc>
+      <lastmod>2026-11-04</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  <url>
+      <loc>https://wigexporter.com/fr/</loc>
+      <lastmod>2026-11-04</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+    </url>
 </urlset>
